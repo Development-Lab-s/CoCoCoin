@@ -10,4 +10,6 @@ public class InventoryManager : MonoBehaviour
     {
         instance = this;
     }
+
+    
 }
