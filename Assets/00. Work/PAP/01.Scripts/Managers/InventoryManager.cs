@@ -1,15 +1,22 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class InventoryManager : MonoBehaviour
 {
-    public static InventoryManager instance;
+    static public InventoryManager instance;
 
-    
-    
+    public List<Chip> items;
+
     private void Awake()
     {
-        instance = this;
+        if (instance == null)
+        {
+            instance = new InventoryManager();
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
-
-    
 }
