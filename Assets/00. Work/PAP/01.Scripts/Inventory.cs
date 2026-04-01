@@ -3,12 +3,12 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-    static public List<Chip> instance;
-    private void Awake()
+    //static public List<Chip> instance;
+   /* private void Awake()
     {
         if (instance == null)
         {
-            instance = 
+            //instance = 
         }
-    }
+    }*/
 }
