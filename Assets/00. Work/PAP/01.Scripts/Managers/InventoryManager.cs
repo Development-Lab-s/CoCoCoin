@@ -19,4 +19,23 @@ public class InventoryManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    public void AddChip(Chip item, int amount)
+    {
+        for (int i = 0; i < amount; i++)
+        {
+            items.Add(item);
+        }
+    }
+
+    public void RemoveChip(Chip item, int amount)
+    {
+        if (items.Contains(item))
+        {
+            for (int i = 0; i < amount; i++)
+            {
+                items.Remove(item);
+            }
+        }
+    }
 }
