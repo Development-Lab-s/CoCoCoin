@@ -4,16 +4,17 @@ using UnityEngine;
 public class GetChip : MonoBehaviour
 {
     [SerializeField] private InventoryItemSO item;
+    [SerializeField] private Inventory inventory;
 
     public void AddChip()
     {
-        InventoryManager.instance.AddItem(item);
+        inventory.AddItem(item);
     }
 
 
     public void RemoveChip()
     {
-        InventoryManager.instance.RemoveItem(item);
+        inventory.RemoveItem(item);
     }
 
 }
