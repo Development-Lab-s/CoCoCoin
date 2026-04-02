@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class Player : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI hpText;
+    [SerializeField] private HealthBar healthbar;
 
     private void Start()
     {
@@ -34,7 +35,9 @@ public class Player : MonoBehaviour
     {
         if (hpText != null)
         {
-            hpText.text = $"HP: {GameData.playerCurrentHp} / {GameData.playerMaxHp}";
+            //hpText.text = $"HP: {GameData.playerCurrentHp} / {GameData.playerMaxHp}";
+            healthbar.SetHealth(GameData.playerCurrentHp);
+            
         }
     }
 }
