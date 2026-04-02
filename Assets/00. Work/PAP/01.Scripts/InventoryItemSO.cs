@@ -7,6 +7,7 @@ public class InventoryItemSO : ScriptableObject
     public string Name;
     public string Description;
     public Sprite Sprite;
+    public Sprite SpriteOnInventory;
     public event Action Ability;
     public void Test(Action ee)
     {
