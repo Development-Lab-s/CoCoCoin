@@ -10,10 +10,12 @@ public class SlotMachene : MonoBehaviour
     public Button _button;
     private Rigidbody2D _rigid;
     private float _timer;
-    [SerializeField] private Transform _spawn;
+    public Transform[] _spawn;
     public Transform[] _symbol;
-    bool _isSpawn = false;
-    int _spawnedIcon = 0;
+    public GameObject basePrefab;
+    public Sprite _sprite1;
+    public Sprite _sprite2;
+    public Sprite _sprite3;
 
 
     private void Awake()
@@ -22,29 +24,38 @@ public class SlotMachene : MonoBehaviour
     }
     private void Start()
     {
-        _timer = 0;
+        _timer = 0; 
+        _button.onClick.AddListener(ButtonClick);
     }
     private void Update()
     {
-        _timer += Time.deltaTime;
-        _button.onClick.AddListener(ButtonClick);
-        if (_timer > 1) {
-            if (_isSpawn == true) {
-                //Destroy(_symbol[_spawnedIcon]);
-            }
-            ButtonClick();
-            _timer = 0;
-            
-        }
+        //_timer += Time.deltaTime;
+        //if (_timer > 1)
+        //{
+        //    if (_isSpawn == true)
+        //    {
+        //        //Destroy(_symbol[_spawnedIcon]);
+        //    }
+        //    ButtonClick();
+        //    _timer = 0;
+
+        //}
     }
     void ButtonClick()
     {
-        _isSpawn = true;
-        int range = Random.Range(0, 3);
-        _spawnedIcon = range;
-        Debug.Log(range);
-        Instantiate(_symbol[range], _spawn);
+        //GameObject spawnedObj = Instantiate(basePrefab);
+        //spawnedObj.GetComponent<SpriteRenderer>().sprite = _sprite1;
+        //for (int i = 0; i < _spawn.Length; i++)
+        //{
+            foreach (Transform child in _spawn[0])
+            {
+                Destroy(child.gameObject);
+            }
+            int range = Random.Range(0, 3);
+            Debug.Log(range);
+            Instantiate(_symbol[range], _spawn[0]);
 
+        //}
     }
 
 }
