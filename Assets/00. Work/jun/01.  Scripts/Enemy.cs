@@ -10,6 +10,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] private int maxHp = 50;
     [SerializeField] private int attackPower = 10;
     [SerializeField] private TextMeshProUGUI hpText;
+    [SerializeField] private HealthBar healthbar;
 
     public int EnemyCurrentHP()
     {
@@ -42,7 +43,8 @@ public class Enemy : MonoBehaviour
     {
         if (hpText != null)
         {
-            hpText.text = $"HP: {hp} / {maxHp}";
+            //hpText.text = $"HP: {hp} / {maxHp}";
+            healthbar.SetHealth(hp);
         }
     }
 }
