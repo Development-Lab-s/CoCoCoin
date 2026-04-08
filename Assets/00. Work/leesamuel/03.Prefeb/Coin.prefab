@@ -137,6 +137,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 576253e419d132f4ba6443507b686887, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Coin_Name: Normal_Coin
-  _Size_Change_Scale: 0.001
-  CoinManager: {fileID: 0}
+  so: {fileID: 11400000, guid: d55e1ed61c39a474998195d5409c54a4, type: 2}

@@ -101,7 +101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9a7221013544ba4b95dda1fddd00c4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Coin_Name: Red_Coin
+  so: {fileID: 11400000, guid: c4f98d4a6b9b497489f9fa11a29ccac1, type: 2}
 --- !u!58 &5058923554517448264
 CircleCollider2D:
   m_ObjectHideFlags: 0
