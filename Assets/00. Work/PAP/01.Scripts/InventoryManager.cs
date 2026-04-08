@@ -8,9 +8,6 @@ public class InventoryManager : MonoBehaviour
 
     [SerializeField] private InventorySO inventorySO;
 
-
-    
-
     public void AddItem(InventoryItemSO item)
     {
         inventorySO.inventoryItemList.Add(item);
