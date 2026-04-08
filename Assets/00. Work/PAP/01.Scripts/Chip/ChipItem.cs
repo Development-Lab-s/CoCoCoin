@@ -3,7 +3,6 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
-using LitMotion;
 
 public class ChipItem : MonoBehaviour
 {
@@ -55,7 +54,7 @@ public class ChipItem : MonoBehaviour
         while (timeElasped < duration)
         {
             float t = timeElasped / duration;
-            MotionHandle handle = LMotion.Create(0f, 1f, 0.25f).Bind(v => Debug.Log(v));
+            //MotionHandle handle = LMotion.Create(0f, 1f, 0.25f).Bind(v => Debug.Log(v));
 
             transform.position = Vector3.Lerp(startPosition, targetPosition, t);
 
