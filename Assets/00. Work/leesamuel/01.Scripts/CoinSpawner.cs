@@ -11,7 +11,7 @@ public class CoinSpawner : MonoBehaviour
     private int _Number_of_coins;
     private float X = 0;
     private float Y = 0;
-    [SerializeField] private GameObject NormarCoinPrefeb;//
+    [SerializeField] private GameObject NormarCoinPrefeb;//생성할 코인 프레펩
     [SerializeField] private GameObject RedCoinPrefeb;
     [SerializeField] private GameObject Coin_Spown_point;
     private int Rarity_probability;
@@ -19,19 +19,19 @@ public class CoinSpawner : MonoBehaviour
     private GameObject _CoinName;
 
 
-    public int Common_probability=100;//등급 갯수=변수갯수,변수값 1올라갈때마다 100분율 확률로 1%올라감,등급 확률이 "모두 합쳐서" 100이 되게 하기 
-    public int Rare_probability=0;//등급갯수 추가하고 싶으면 변수하나 새로 만들고 만든 변수에 전 등급 더하는 코드 메서드 안에 적기,가장 및 elseif의 등급이름들참고해서 만들어오기
+    public int Common_probability=100;//확률 설정 무조건 총합"100"이어야함
+    public int Rare_probability=0;
     public int Epic_probability=0;
 
 
-    public void CoinSpawn(string CoinPrefeb)
+    public void CoinSpawn()//랜덤 희귀도의 랜덤코인을 "생성"까지 해줌
     {
         Rare_probability += Common_probability;
         Epic_probability += Rare_probability;
         Rarity_probability =Random.Range(1,101);
         if(0< Rarity_probability && Common_probability >=Rarity_probability)
         {
-            CoinType = Random.Range(0, 2);  
+            CoinType = Random.Range(0, 2);  //common등급 코인 
             if (CoinType == 0)
             {
                 _CoinName = NormarCoinPrefeb;
@@ -41,11 +41,11 @@ public class CoinSpawner : MonoBehaviour
                 _CoinName =RedCoinPrefeb;
             }
         }
-        else if(Common_probability < Rarity_probability&& Rare_probability >= Rarity_probability)
+        else if(Common_probability < Rarity_probability&& Rare_probability >= Rarity_probability)//Rare등급 코인 
         {
 
         }
-        else if(Rare_probability < Rarity_probability&& Epic_probability >= Rarity_probability)
+        else if(Rare_probability < Rarity_probability&& Epic_probability >= Rarity_probability)//Epic등급 코인 
         {
 
         }
@@ -54,37 +54,71 @@ public class CoinSpawner : MonoBehaviour
     }
     private void Start()
     {
-        _Number_of_coins = Random.Range(4,7);
+        _Number_of_coins = Random.Range(4,8);
         if(_Number_of_coins ==4)
         {
-
+           
+            X = -6;
+            for (int i = 0; i < _Number_of_coins; i++)
+            {
+                Y = 0;
+                transform.position = new Vector3(X, Y, 0);//좌표 수정
+                X += 4;
+                CoinSpawn();
+            }
         }
-        else if(_Number_of_coins == 5)//떨구는 코인량 랜덤되면 복붙할것
+        else if(_Number_of_coins == 5)
         {
             X = -7;
 
             for (int i = 0; i < _Number_of_coins; i++)
             {
-                Y = -1;
-                if (i >= 1 && i <= 3)
                 {
-                    Y = 1;
+                    Y = -1;
+                    if (i >= 1 && i <= 3)
+                    {
+                        Y = 1;
+                    }
+
+                    transform.position = new Vector3(X, Y, 0);//좌표 수정
+                    X += 3.5f;
+                    CoinSpawn();
                 }
-                
-                transform.position = new Vector3(X, Y, 0);//좌표 수정
-                X += 3.5f;
-                
             }
         }
         else if (_Number_of_coins == 6)
         {
+            X = -4;
+            Y = -2;
 
-           //
+            for (int i = 0; i < (_Number_of_coins/2); i++)
+            {
+                for(int j = 0;j < 2;j++)
+                {
+                    Y *= -1;
+                    transform.position = new Vector3(X, Y, 0);//좌표 수정
+                    CoinSpawn();
+                }
+                X += 4;
+            }
         }
 
-        else if (_Number_of_coins < 7)
+        else if (_Number_of_coins == 7)
         {
+            X = -6;
 
+            for (int i = 0; i < _Number_of_coins; i++)
+            {
+                Y = -1;
+                if (i % 2 == 1)
+                {
+                    Y = 1;
+                }
+
+                transform.position = new Vector3(X, Y, 0);//좌표 수정
+                X += 2;
+                CoinSpawn();
+            }
         }
     }
 }

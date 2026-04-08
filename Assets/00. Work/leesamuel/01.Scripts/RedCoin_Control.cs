@@ -1,12 +1,11 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class NormalCoin_Control : MonoBehaviour
+public class RedCoin_Control : MonoBehaviour
 {
-    public string _Coin_Name = "Normal_Coin";
+    public string _Coin_Name = "Red_Coin";
 
     private float _Size_Change_Scale = 0.001f;//크기 변환 속도
-    private bool _Select=false;//선택되지 않음으로 시작
+    private bool _Select = false;//선택되지 않음으로 시작
     private CoinManager CoinManager;
     private void Start()
     {
@@ -22,14 +21,14 @@ public class NormalCoin_Control : MonoBehaviour
     }
     private void OnMouseOver()
     {
-        if( transform.localScale.x < 1.2f)// 최소크기,최대 크기
+        if (transform.localScale.x < 1.2f)// 최소크기,최대 크기
         {
             transform.localScale += new Vector3(_Size_Change_Scale, _Size_Change_Scale, 0);
         }
     }
     private void OnMouseExit()
     {
-        if (_Select==false)
+        if (_Select == false)
         {
             transform.localScale = new Vector3(1, 1, 0);
         }

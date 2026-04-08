@@ -148,9 +148,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b79f2d55d751c044822f87155260143, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoinPrefeb: {fileID: 2001689316861808664, guid: cfc31c3ad07261d4ebd4ac3e6662b8db, type: 3}
+  NormarCoinPrefeb: {fileID: 2001689316861808664, guid: cfc31c3ad07261d4ebd4ac3e6662b8db, type: 3}
+  RedCoinPrefeb: {fileID: 9051150441579577480, guid: 22252c9352aff8d41ae0c6df16728490, type: 3}
   Coin_Spown_point: {fileID: 756834156}
-  Rarity: 0
+  Common_probability: 100
+  Rare_probability: 0
+  Epic_probability: 0
 --- !u!4 &756834158
 Transform:
   m_ObjectHideFlags: 0
@@ -160,7 +163,7 @@ Transform:
   m_GameObject: {fileID: 756834156}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.34000123, y: -0.23325723, z: -3.472821}
+  m_LocalPosition: {x: 0, y: 0, z: -3.472821}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
