@@ -40,11 +40,7 @@ public class ChipItem : MonoBehaviour
         StartCoroutine(MoveObject(originalPosition, 0.1f));
         toolTip.HideToolTip();
     }
-
-    public void OnMouseDown()
-    {
-        item.ChipEncounter.FlipCoin();
-    }
+    
 
     IEnumerator MoveObject(Vector3 targetPosition, float duration)
     {
