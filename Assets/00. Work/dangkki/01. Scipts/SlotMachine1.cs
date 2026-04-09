@@ -6,7 +6,8 @@ public class SlotMachine1 : MonoBehaviour
 {
     public RectTransform _contentRect;
     public float _symbolHeight = 250f;
-    public float _spinSpeed = 1000f;
+    public float _spinSpeed = 3000f;
+    string _symbolName;
 
 
     public void StartSpin()
@@ -30,7 +31,6 @@ public class SlotMachine1 : MonoBehaviour
             _contentRect.anchoredPosition = new Vector2(_contentRect.anchoredPosition.x, targetY);
 
             Transform bottomSymbol = _contentRect.GetChild(_contentRect.childCount - 1);
-            //bottomSymbol.SetAsFirstSibling();
 
             ////랜덤 지울라면 지울부분
             //int randomIndex = Random.Range(0, allSymbols.Length);
@@ -40,7 +40,9 @@ public class SlotMachine1 : MonoBehaviour
             bottomSymbol.SetAsFirstSibling();
 
             _contentRect.anchoredPosition += new Vector2(0, _symbolHeight);
+            _symbolName = bottomSymbol.name;
         }
+
+       // Debug.Log(_symbolName);
     }
-    
 }
