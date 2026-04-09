@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/00. Work/kimjinsoo/00. Scene/StartScene.unity
     guid: 1973abbdffe90dc42bfb7ebc4aa19cfe
   - enabled: 1
-    path: Assets/00. Work/kimjinsoo/00. Scene/UI.unity
+    path: Assets/00. Work/kimjinsoo/00. Scene/InGame.unity
     guid: fcc151321e7744242900bc6a349a3c22
   - enabled: 1
     path: Assets/00. Work/kimjinsoo/00. Scene/Loading.unity
