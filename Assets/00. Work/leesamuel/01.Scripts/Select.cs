@@ -7,7 +7,7 @@ public class Select : MonoBehaviour
     {
         coinManager = GameObject.Find("CoinManager").GetComponent<CoinManager>();
     }
-    private void OnMouseDown()
+    private void OnMouseDown()//셀렉트누르면 인벤토리에 넣어줌
     {
         if (coinManager.select_a != null)
             coinManager.Select(coinManager.select_a);

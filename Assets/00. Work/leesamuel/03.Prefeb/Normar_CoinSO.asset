@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: 
   Description: 
-  Sprite: {fileID: 0}
-  SpriteOnInventory: {fileID: 0}
+  Sprite: {fileID: -3647211631376388965, guid: 79bcefe47550727459e22ca51b7ddcb5, type: 3}
+  SpriteOnInventory: {fileID: -3647211631376388965, guid: 79bcefe47550727459e22ca51b7ddcb5, type: 3}
   ChipEncounter: {fileID: 0}
