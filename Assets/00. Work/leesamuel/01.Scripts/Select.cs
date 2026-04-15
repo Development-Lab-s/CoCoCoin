@@ -9,11 +9,14 @@ public class Select : MonoBehaviour
     }
     private void OnMouseDown()//셀렉트누르면 인벤토리에 넣어줌
     {
-        if (coinManager.select_a != null)
+        if (coinManager.select_a != null&& coinManager.select_b != null&& coinManager.select_c != null)//3개 모두 선택돼야만 작동
+        {
             coinManager.Select(coinManager.select_a);
-        if(coinManager.select_b != null)
+
             coinManager.Select(coinManager.select_b);
-        if(coinManager.select_c != null)
+
             coinManager.Select(coinManager.select_c);
+        }
+            
     }
 }
