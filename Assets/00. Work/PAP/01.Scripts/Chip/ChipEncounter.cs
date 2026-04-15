@@ -9,22 +9,22 @@ public abstract class ChipEncounter : ScriptableObject
 
     public virtual void Initialize() { }
 
-    public virtual void FlipCoin(Flip flipScript) 
+    public virtual void FlipCoin() 
     {
         int randomValue = UnityEngine.Random.Range(0, 100);
         if (randomValue < headChance)
         {
-            HeadChip(flipScript);
+            HeadChip();
         }
         else
         {
-            TailChip(flipScript);
+            TailChip();
         }
     }
 
     
 
-    public abstract void HeadChip(Flip flipScript);
+    public abstract void HeadChip();
 
-    public abstract void TailChip(Flip flipScript);
+    public abstract void TailChip();
 }

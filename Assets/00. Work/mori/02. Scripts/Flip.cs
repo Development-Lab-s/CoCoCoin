@@ -11,19 +11,10 @@ public class Flip : MonoBehaviour
     [SerializeField] private InventoryItemSO chipModel;
     [SerializeField] private GameObject enemy;
 
-    public AudioSource audio;
-    public AudioClip Spinning;
-    public AudioClip Failed;
-    public AudioClip Success;
-
-    public void SpinFailed()
-    {
-        audio.clip = Failed;
-    }
-    public void SpinSuccess()
-    {
-        audio.clip = Success;
-    }
+    //public AudioSource audio;
+    //public AudioClip Spinning;
+    //public AudioClip Failed;
+    //public AudioClip Success;
     void Start()
     {
         anim = GetComponentInChildren<Animator>();
@@ -32,26 +23,26 @@ public class Flip : MonoBehaviour
     
     void OnMouseDown()
     {
-        audio.loop = true;
-        audio.clip = Spinning;
+        //audio.loop = true;
+        //audio.clip = Spinning;
+        //audio.Play();
         rb.gravityScale = 3;
         HandAnim.SetBool("isFlipping", true);
         anim.SetBool("isFlip", true);
-        audio.Play();
         rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         nowFlip = true;
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
-        audio.Stop();
         if (!nowFlip)
             return;
-        audio.loop = false;
-        chipModel.ChipEncounter.FlipCoin(this);
+        //audio.Stop();
+        //audio.loop = false;
+        //audio.Play();
+        chipModel.ChipEncounter.FlipCoin();
         nowFlip = false;
         HandAnim.SetBool("isFlipping", false);
         anim.SetBool("isFlip", false);
-        audio.Play();
         rb.gravityScale = 0;
     }
 }

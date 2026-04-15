@@ -7,15 +7,13 @@ public class DefaultChip : ChipEncounter
     {
         headChance = 50;
     }
-    public override void HeadChip(Flip flipScript)
+    public override void HeadChip()
     {
         Debug.Log("Deal 10 damage to the enemy.");
-        flipScript.SpinSuccess();
     }
 
-    public override void TailChip(Flip flipScript)
+    public override void TailChip()
     {
         Debug.Log("Defensed 10 damage for this turn");
-        flipScript.SpinFailed();
     }
 }
