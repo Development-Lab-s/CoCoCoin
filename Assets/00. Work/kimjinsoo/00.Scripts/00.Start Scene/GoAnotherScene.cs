@@ -5,6 +5,6 @@ public class GoAnotherScene : MonoBehaviour
 {
     public void Change()
     {
-        SceneManager.LoadScene("Loading");
+        SceneManager.LoadScene("01.Loading");
     }
 }

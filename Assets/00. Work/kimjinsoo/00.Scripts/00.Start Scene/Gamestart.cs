@@ -32,6 +32,6 @@ public class Gamestart : MonoBehaviour
     }
     public void StartGameYeah()
     {
-        SceneManager.LoadScene("Loading");
+        SceneManager.LoadScene("01.Loading");
     }
 }
