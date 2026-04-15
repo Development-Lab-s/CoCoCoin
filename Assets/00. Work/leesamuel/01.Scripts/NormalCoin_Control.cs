@@ -8,7 +8,7 @@ public class NormalCoin_Control : MonoBehaviour
     private float _Size_Change_Scale = 0.01f;//크기 변환 속도
     private bool _Select=false;//선택되지 않음으로 시작
     private CoinManager CoinManager;
-    bool _stopMakeBigger=false;
+    bool _MakeBigger= true;
     private void Start()
     {
 
@@ -23,7 +23,7 @@ public class NormalCoin_Control : MonoBehaviour
     }
     private void OnMouseOver()
     {
-        if( transform.localScale.x < 1.2f&&_stopMakeBigger==false)// 최소크기,최대 크기
+        if( transform.localScale.x < 1.2f&&_MakeBigger==true)// 최소크기,최대 크기
         {
             transform.localScale += new Vector3(_Size_Change_Scale, _Size_Change_Scale, 0);
         }
@@ -34,29 +34,14 @@ public class NormalCoin_Control : MonoBehaviour
         {
             transform.localScale = new Vector3(1, 1, 0);
         }
-        _stopMakeBigger = false;
+        _MakeBigger = true;
     }
     private void OnMouseDown()
     {
-        if (_Select == true)
+        _MakeBigger = _Select = CoinManager.SelectCodeinCoin(_Select, so);
+        if (_Select == false)
         {
-            _Select = false;
-            CoinManager.Cansle_Select(so);
-            //선택한 코인갯수 줄이는 메서드 작동
-            _stopMakeBigger = true;
-            transform.localScale = new Vector3(1, 1, 0);
-        }
-        else
-        {
-            bool A = CoinManager.Coin_Select(so);//최대 선택갯수가 아니라 선택이 가능하면 true반환 아니면false반환
-            if (A == false)
-            {
-                //나아아아중에 UI로 선택 최대치입니다 띄우기.
-            }
-            else
-            {
-                _Select = true;//선택된 상태로 전환
-            }
+            transform.localScale = new Vector3(1, 1, 0);//취소시 벡터 리셋
         }
     }
 }

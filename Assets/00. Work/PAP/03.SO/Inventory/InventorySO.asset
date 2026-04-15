@@ -12,13 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f1fa7bab04b85d459f373b3f1f92b08, type: 3}
   m_Name: InventorySO
   m_EditorClassIdentifier: 
-  inventoryItemList:
-  - {fileID: 11400000, guid: d55e1ed61c39a474998195d5409c54a4, type: 2}
-  - {fileID: 11400000, guid: d55e1ed61c39a474998195d5409c54a4, type: 2}
-  - {fileID: 11400000, guid: c4f98d4a6b9b497489f9fa11a29ccac1, type: 2}
-  - {fileID: 11400000, guid: d55e1ed61c39a474998195d5409c54a4, type: 2}
-  - {fileID: 11400000, guid: d55e1ed61c39a474998195d5409c54a4, type: 2}
-  - {fileID: 11400000, guid: c4f98d4a6b9b497489f9fa11a29ccac1, type: 2}
-  - {fileID: 11400000, guid: c4f98d4a6b9b497489f9fa11a29ccac1, type: 2}
-  - {fileID: 11400000, guid: d55e1ed61c39a474998195d5409c54a4, type: 2}
-  - {fileID: 11400000, guid: c4f98d4a6b9b497489f9fa11a29ccac1, type: 2}
+  inventoryItemList: []
