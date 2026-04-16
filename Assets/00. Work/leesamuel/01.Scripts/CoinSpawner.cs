@@ -15,7 +15,7 @@ public class CoinSpawner : MonoBehaviour
     [SerializeField] private GameObject Coin_Spown_point;
     private int Rarity_probability;
     private int CoinType;
-    private GameObject _CoinName;
+    private GameObject _CoinPrefeb;
     private float _spawnTime =0.3f;
 
 
@@ -34,11 +34,11 @@ public class CoinSpawner : MonoBehaviour
             CoinType = Random.Range(0, 2);  //common등급 코인 
             if (CoinType == 0)
             {
-                _CoinName = NormarCoinPrefeb;
+                _CoinPrefeb = NormarCoinPrefeb;
             }
             else if (CoinType == 1)
             {
-                _CoinName = RedCoinPrefeb;
+                _CoinPrefeb = RedCoinPrefeb;
             }
         }
         else if (Common_probability < Rarity_probability && Rare_probability >= Rarity_probability)//Rare등급 코인 
@@ -49,7 +49,7 @@ public class CoinSpawner : MonoBehaviour
         {
 
         }
-        GameObject Coin = Instantiate(_CoinName); //코인 생성
+        GameObject Coin = Instantiate(_CoinPrefeb); //코인 생성
         Coin.transform.position = Coin_Spown_point.transform.position;
     }
     private IEnumerator Start()
