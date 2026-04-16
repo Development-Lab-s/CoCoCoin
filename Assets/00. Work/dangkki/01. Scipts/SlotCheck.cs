@@ -2,17 +2,30 @@ using UnityEngine;
 
 public class SlotCheck : MonoBehaviour
 {
-    public GameObject slotMachine1;
-    public GameObject slotMachine2;
-    public GameObject slotMachine3;
+    SlotMachine1 _slotMachine;
+
+    [SerializeField] Transform _slot0;
+    [SerializeField] Transform _slot1;
+    [SerializeField] Transform _slot2;
+
+
+
     private void Awake()
     {
-        slotMachine1 = GetComponent<GameObject>();
-        slotMachine2 = GetComponent<GameObject>();
-        slotMachine3 = GetComponent<GameObject>();
+        _slotMachine = GetComponent<SlotMachine1>();
     }
     private void Update()
     {
-        //slotMachine3.GetComponentsInChildren<
+        _slot0.GetChild(_slot0.childCount - 1);
     }
+
+    public void CheckSlot()
+    {
+        if (_slot0.GetChild(_slot0.childCount - 2).name == _slot1.GetChild(_slot1.childCount - 2).name &&
+         _slot0.GetChild(_slot0.childCount - 2).name == _slot2.GetChild(_slot2.childCount - 2).name)
+        {
+            Debug.Log("성공");
+        }
+    }
+
 }

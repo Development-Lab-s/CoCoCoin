@@ -7,9 +7,13 @@ public class SlotMachine1 : MonoBehaviour
     public RectTransform _contentRect;
     public float _symbolHeight = 250f;
     public float _spinSpeed = 3000f;
-    string _symbolName;
+    public string _symbolName;
+    public SlotCheck _slotCheck;
 
-
+    private void Awake()
+    {
+        _slotCheck = GetComponent<SlotCheck>();
+    }
     public void StartSpin()
     {
         StartCoroutine(SpinCoroutine());
@@ -17,6 +21,7 @@ public class SlotMachine1 : MonoBehaviour
 
     private IEnumerator SpinCoroutine()
     {
+        
         int SpinCount = Random.Range(10, 20);
         for (int i = 0; i < SpinCount; i++)
         {
@@ -42,7 +47,7 @@ public class SlotMachine1 : MonoBehaviour
             _contentRect.anchoredPosition += new Vector2(0, _symbolHeight);
             _symbolName = bottomSymbol.name;
         }
-
-       // Debug.Log(_symbolName);
+      //_slotCheck.CheckSlot(_symbolName);
     }
+
 }
