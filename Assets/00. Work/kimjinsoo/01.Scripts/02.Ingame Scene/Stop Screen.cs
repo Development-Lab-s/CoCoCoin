@@ -5,8 +5,9 @@ using UnityEngine.UI;
 
 public class ScreenManager : MonoBehaviour
 {
-    [SerializeField] private GameObject esc;
+    public GameObject esc;
     [SerializeField] private GameObject Settingframe;
+    public static ScreenManager instance;
     private bool isActive;
 
     private void Update()
@@ -19,13 +20,14 @@ public class ScreenManager : MonoBehaviour
 
     private void Start()
     {
+        instance = this;
         esc.SetActive(false);
         Settingframe.SetActive(false);
     }
 
     public void Backtogame()
     {
-        esc.SetActive(false);
+        esc.SetActive(!esc.activeSelf);
     }
 
     public void setting()
