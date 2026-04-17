@@ -25,7 +25,7 @@ public class InventoryToolTip : MonoBehaviour
         itemDescriptionUI.text = $"{itemDescription}";
         itemSprite.sprite = sprite;
         toolTipUI.SetActive(true);
-        rectTrm.position = (Vector3)chipTrm - new Vector3(0,toolTipUI.GetComponent<RectTransform>().rect.height,0) - new Vector3(0,100,0);
+        rectTrm.position = chipTrm;
     }
 
     public void HideToolTip()
