@@ -1,5 +1,6 @@
 using DG.Tweening;
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -67,6 +68,7 @@ public class ChipDraw : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         canvasGroup.blocksRaycasts = false;
     }
 
+
     public void OnEndDrag(PointerEventData eventData)
     {
         canvasGroup.blocksRaycasts = true;
@@ -85,6 +87,8 @@ public class ChipDraw : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     private void OnDestroy()
     {
         DOTween.Kill(image);
+        canvasGroup.blocksRaycasts = true;
+        toolTip.HideToolTip();
     }
 
     public void OnBeginDrag(PointerEventData eventData)

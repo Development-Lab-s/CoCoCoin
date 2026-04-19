@@ -12,7 +12,7 @@ using UnityEngine.SceneManagement;
 public class BattleManager : MonoBehaviour
 {
     // 현재 전투의 상태 정의
-    private enum State { Start, PlayerTurn, EnemyTurn, Wait, End }
+    private enum State { Start, PlayerTurn, PlayerPlaying, EnemyTurn, Wait, End }
     [SerializeField] private State currentState;
 
     [SerializeField] private Player player;
@@ -36,6 +36,8 @@ public class BattleManager : MonoBehaviour
     [SerializeField] CinemachineImpulseSource shaker;
 
     [SerializeField] CinemachineCamera cineCamera;
+
+    [SerializeField] CheckChipList chipList;
 
     Vector3 originPos;
 
@@ -65,6 +67,7 @@ public class BattleManager : MonoBehaviour
         foreach (InventoryItemSO item in inventory.inventoryItemList)
         {
             drawChips.Add(item);
+            chipList.AddChip(item);
         }
         StartPlayerTurn();
     }
@@ -119,6 +122,7 @@ public class BattleManager : MonoBehaviour
     {
         if (chipsOrder.Count > 0 && isActive)
         {
+            currentState = State.PlayerPlaying;
             shaker.GenerateImpulseWithForce(0.5f);
 
             coinSprite.DOColor(Color.white, 0.1f);
@@ -152,6 +156,7 @@ public class BattleManager : MonoBehaviour
                 void RotateEnded()
                 {
                     isActive = true;
+                    currentState = State.PlayerTurn;
                 }
             }
         }
@@ -174,8 +179,10 @@ public class BattleManager : MonoBehaviour
         chipModels.Remove(chipModel);
         Destroy(chipModel);
     }
-
-
+    public List<InventoryItemSO>[] ReturnChipLists()
+    {
+        return new List<InventoryItemSO>[] { drawChips, nowChips, discardChips};
+    }
     private void StartPlayerTurn()
     {
         currentState = State.PlayerTurn;

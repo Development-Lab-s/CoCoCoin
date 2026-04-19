@@ -1,4 +1,5 @@
 using DG.Tweening;
+using System.Collections;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -33,7 +34,8 @@ public class Player : MonoBehaviour
         }
         bloodImage.color = new Color(1,1,1, Mathf.Clamp(damage/100f,0,1));
         bloodImage.DOFade(0f,1f).SetEase(Ease.OutQuad);
-        UpdateUI(); 
+        UpdateUI();
+        StartCoroutine(ScreenEffect(damage));
     }
 
     public void UpdateUI()
@@ -43,5 +45,12 @@ public class Player : MonoBehaviour
             hpText.SetText(GameData.instance.playerCurrentHp.ToString());
 
         }
+    }
+
+    IEnumerator ScreenEffect(int damage)
+    {
+        Time.timeScale = 0.5f;
+        yield return new WaitForSeconds(damage/20);
+        Time.timeScale = 1f;
     }
 }

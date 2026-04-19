@@ -15,7 +15,12 @@ public class InventoryToolTip : MonoBehaviour
         itemNameUI = toolTipUI.transform.Find("ItemName").GetComponent<TextMeshProUGUI>();
         itemDescriptionUI = toolTipUI.transform.Find("ItemDescription").GetComponent<TextMeshProUGUI>();
         itemSprite = toolTipUI.transform.Find("ItemImage").GetComponent<Image>();
+        
+    }
 
+    private void Start()
+    {
+        toolTipUI.SetActive(false);
     }
 
     public void ShowToolTip(string itemName, string itemDescription, Vector2 chipTrm, Sprite sprite)
@@ -25,7 +30,10 @@ public class InventoryToolTip : MonoBehaviour
         itemDescriptionUI.text = $"{itemDescription}";
         itemSprite.sprite = sprite;
         toolTipUI.SetActive(true);
-        rectTrm.position = chipTrm;
+        if (chipTrm != Vector2.zero)
+        {
+            rectTrm.position = chipTrm;
+        }
     }
 
     public void HideToolTip()
