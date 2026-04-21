@@ -1,4 +1,7 @@
+using DG.Tweening;
+using System.Collections;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -6,6 +9,7 @@ public class Player : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI hpText;
     [SerializeField] private HealthBar healthbar;
+    [SerializeField] private Image bloodImage;
 
     private void Start()
     {
@@ -13,31 +17,40 @@ public class Player : MonoBehaviour
     }
 
     // 공격 실행
-    public void ExecuteAttack(Enemy target)
-    {
-        int damage = GameData.playerAttackPower;
-        target.TakeDamage(damage);
-    }
+    //public void ExecuteAttack(Enemy target)
+    //{
+    //    int damage = GameData.instance.playerCurrentHp;
+    //    target.TakeDamage(damage);
+    //}
 
     // 데미지 입음
     public void TakeDamage(int damage)
     {
-        GameData.playerCurrentHp -= damage;
+        GameData.instance.playerCurrentHp -= damage;
 
-        if (GameData.playerCurrentHp < 0)
+        if (GameData.instance.playerCurrentHp < 0)
         {
-            GameData.playerCurrentHp = 0;
+            GameData.instance.playerCurrentHp = 0;
         }
+        bloodImage.color = new Color(1,1,1, Mathf.Clamp(damage/100f,0,1));
+        bloodImage.DOFade(0f,1f).SetEase(Ease.OutQuad);
         UpdateUI();
+        StartCoroutine(ScreenEffect(damage));
     }
 
     public void UpdateUI()
     {
         if (hpText != null)
         {
-            //hpText.text = $"HP: {GameData.playerCurrentHp} / {GameData.playerMaxHp}";
-            healthbar.SetHealth(GameData.playerCurrentHp);
-            
+            hpText.SetText(GameData.instance.playerCurrentHp.ToString());
+
         }
+    }
+
+    IEnumerator ScreenEffect(int damage)
+    {
+        Time.timeScale = 0.5f;
+        yield return new WaitForSeconds(damage/20);
+        Time.timeScale = 1f;
     }
 }

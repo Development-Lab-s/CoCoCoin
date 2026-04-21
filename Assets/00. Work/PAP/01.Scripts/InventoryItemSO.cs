@@ -8,6 +8,7 @@ public class InventoryItemSO : ScriptableObject
     [TextArea] public string Description;
     public Sprite Sprite;
     public Sprite SpriteOnInventory;
+    public Sprite SpriteOnStack;
     public ChipEncounter ChipEncounter;
 
 }

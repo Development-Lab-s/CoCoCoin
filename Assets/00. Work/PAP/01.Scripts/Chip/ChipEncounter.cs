@@ -5,6 +5,7 @@ using UnityEngine;
 public abstract class ChipEncounter : ScriptableObject
 {
     public int headChance = 50;
+    public Flip Flip;
 
     public virtual void Initialize() { }
 
@@ -21,7 +22,7 @@ public abstract class ChipEncounter : ScriptableObject
         }
     }
 
-
+    
 
     public abstract void HeadChip();
 

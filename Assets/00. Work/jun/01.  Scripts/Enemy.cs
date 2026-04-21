@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using TMPro;
+using Unity.Cinemachine;
 
 public class Enemy : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class Enemy : MonoBehaviour
     [SerializeField] private int attackPower = 10;
     [SerializeField] private TextMeshProUGUI hpText;
     [SerializeField] private HealthBar healthbar;
+
+    [SerializeField] private CinemachineImpulseSource impulseSource;
 
     public int EnemyCurrentHP()
     {
@@ -26,7 +29,9 @@ public class Enemy : MonoBehaviour
     public IEnumerator DoTurn(Player player)
     {
         yield return new WaitForSeconds(1.0f);
+        impulseSource.GenerateImpulseWithForce(attackPower / 10f);
         player.TakeDamage(attackPower);
+        
     }
 
     public void TakeDamage(int damage)
@@ -43,8 +48,7 @@ public class Enemy : MonoBehaviour
     {
         if (hpText != null)
         {
-            //hpText.text = $"HP: {hp} / {maxHp}";
-            healthbar.SetHealth(hp);
+            //hp = hp;
         }
     }
 }
