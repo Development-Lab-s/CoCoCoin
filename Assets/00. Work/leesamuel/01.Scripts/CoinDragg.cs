@@ -6,7 +6,7 @@ public class CoinDragg : MonoBehaviour
     [SerializeField] private InventoryItemSO so;
     private SpriteRenderer _sr;
     [Header("Settings")]
-    [SerializeField] private float _maxScale = 1.5f;
+    [SerializeField] private float _maxScale = 1.3f;
     [SerializeField] private float _scaleSpeed = 10f;
     [SerializeField] private float _returnSpeed = 15f;
      private LayerMask _targetLayer; // 목표 지점의 레이어
