@@ -13,6 +13,6 @@ public class FxSoundSliderValueChange : MonoBehaviour
 
     void Update()
     {
-        slider.value = DataSingleTon.Instance.fxSliderValue;
+        slider.value = DataSingleTon.instance.fxSliderValue;
     }
 }

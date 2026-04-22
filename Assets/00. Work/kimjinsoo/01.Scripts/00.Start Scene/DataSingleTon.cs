@@ -5,18 +5,26 @@ using UnityEngine.UI;
 
 public class DataSingleTon : MonoBehaviour
 {
-    public static DataSingleTon Instance;
+    public static DataSingleTon instance;
     private GameObject musicSliderOrigin;
     private GameObject fxSliderOrigin;
     private Slider musicSlider;
     private Slider fxSlider;
-    public float musicSliderValue;
-    public float fxSliderValue;
-    private bool inFirstScene;
+    public float musicSliderValue = 10f;
+    public float fxSliderValue = 10f;
+
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }        
+    }
 
     private void Start()
     {
-        Instance = this;
+        
         fxSliderOrigin = GameObject.Find("FXSound Slider");
         musicSliderOrigin = GameObject.Find("Sound Slider");
         musicSlider = musicSliderOrigin.GetComponent<Slider>();
@@ -26,22 +34,8 @@ public class DataSingleTon : MonoBehaviour
 
     private void Update()
     {
-        /*if(inFirstScene == false)
-        {
-            fxSliderOrigin = GameObject.Find("FXSound Slider");
-            musicSliderOrigin = GameObject.Find("Sound Slider");
-            musicSlider = musicSliderOrigin.GetComponent<Slider>();
-            fxSlider = fxSliderOrigin.GetComponent<Slider>();
-            inFirstScene = true;        }*/
-        
         fxSliderValue = fxSlider.value;
         musicSliderValue = musicSlider.value;
-    }
-
-    public void MoveOnNextScene()
-    {
-        DontDestroyOnLoad(gameObject);
-        inFirstScene = false;
     }
 
 }

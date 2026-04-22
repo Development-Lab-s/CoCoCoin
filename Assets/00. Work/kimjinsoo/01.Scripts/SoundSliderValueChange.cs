@@ -13,6 +13,6 @@ public class SoundSliderValueChange : MonoBehaviour
 
     void Update()
     {
-        slider.value = DataSingleTon.Instance.musicSliderValue;
+        slider.value = DataSingleTon.instance.musicSliderValue;
     }
 }
