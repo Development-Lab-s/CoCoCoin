@@ -685,18 +685,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 263876762}
-  m_LocalRotation: {x: -0, y: -0, z: 0.13702203, w: -0.990568}
+  m_LocalRotation: {x: -0.00095447496, y: 0.004624838, z: -0.08647834, w: -0.9962426}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1028291214}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1095.751}
+  m_LocalEulerAnglesHint: {x: 0.155, y: -0.519, z: -1790.079}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -23, y: -218}
+  m_AnchoredPosition: {x: 100, y: -194}
   m_SizeDelta: {x: 304.2524, y: 453.2892}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.5000001, y: 0.50000006}
 --- !u!114 &263876764
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -711,7 +711,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1202,7 +1202,6 @@ GameObject:
   - component: {fileID: 729811749}
   - component: {fileID: 729811748}
   - component: {fileID: 729811751}
-  - component: {fileID: 729811752}
   m_Layer: 5
   m_Name: Exit
   m_TagString: Untagged
@@ -1274,13 +1273,25 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 729811751}
+        m_TargetAssemblyTypeName: GameQuit, Assembly-CSharp
+        m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1028291215}
+        m_TargetAssemblyTypeName: UIController, Assembly-CSharp
+        m_MethodName: MouseClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1336,20 +1347,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 995987badb007fc43a73e46c0090ed7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &729811752
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 729811746}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2dc0188c4258a74ea9450bc6951a427, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  finger: {fileID: 1028291214}
-  originPoint: {fileID: 1382412282}
 --- !u!1 &810354682
 GameObject:
   m_ObjectHideFlags: 0
@@ -1440,7 +1437,6 @@ GameObject:
   - component: {fileID: 865138576}
   - component: {fileID: 865138575}
   - component: {fileID: 865138578}
-  - component: {fileID: 865138579}
   m_Layer: 5
   m_Name: Setting
   m_TagString: Untagged
@@ -1524,6 +1520,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1028291215}
+        m_TargetAssemblyTypeName: UIController, Assembly-CSharp
+        m_MethodName: MouseClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &865138576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1574,20 +1582,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8157c6dab0283d469b410d192968773, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &865138579
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 865138573}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2dc0188c4258a74ea9450bc6951a427, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  finger: {fileID: 1028291214}
-  originPoint: {fileID: 1382412282}
 --- !u!1 &1028291213
 GameObject:
   m_ObjectHideFlags: 0
@@ -1597,6 +1591,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1028291214}
+  - component: {fileID: 1028291215}
   m_Layer: 5
   m_Name: Finger
   m_TagString: Untagged
@@ -1613,7 +1608,7 @@ RectTransform:
   m_GameObject: {fileID: 1028291213}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 263876763}
@@ -1621,9 +1616,21 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -706}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1028291215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028291213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2dc0188c4258a74ea9450bc6951a427, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1041127376
 GameObject:
   m_ObjectHideFlags: 0
@@ -2589,6 +2596,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1028291215}
+        m_TargetAssemblyTypeName: UIController, Assembly-CSharp
+        m_MethodName: MouseClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1574527426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3181,7 +3200,6 @@ GameObject:
   - component: {fileID: 2032059981}
   - component: {fileID: 2032059980}
   - component: {fileID: 2032059983}
-  - component: {fileID: 2032059984}
   m_Layer: 5
   m_Name: Gamestart
   m_TagString: Untagged
@@ -3265,6 +3283,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1028291213}
+        m_TargetAssemblyTypeName: GoAnotherScene, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 0
 --- !u!114 &2032059981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3315,20 +3345,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b27d44034e7391d46a8bb123ec5e91ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2032059984
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2032059977}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2dc0188c4258a74ea9450bc6951a427, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  finger: {fileID: 1028291214}
-  originPoint: {fileID: 1382412282}
 --- !u!1 &2096976418
 GameObject:
   m_ObjectHideFlags: 0

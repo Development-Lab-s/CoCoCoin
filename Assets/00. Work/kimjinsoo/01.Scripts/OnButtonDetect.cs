@@ -1,21 +1,34 @@
-using Unity.VisualScripting;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
-public class OnButtonDetect : MonoBehaviour
+public class UIController : MonoBehaviour
 {
-    [SerializeField] private RectTransform finger;
-    [SerializeField] private RectTransform originPoint;
+    private float delayTime = 0.1f;
+    private Vector3 currentPos;
 
-    private void OnMouseExit()
+    private void Start()
     {
-        finger.position = transform.position;
-        Debug.Log(finger.transform.position);
+        currentPos = transform.localScale;
+        Cursor.visible = false;
     }
 
-
-    private void OnMouseDown()
+    private void Update()
     {
-        finger.position = originPoint.position;
-        Debug.Log(finger.transform.position);
+        transform.position = Input.mousePosition;
+
+    }
+
+    public void MouseClicked()
+    {
+        transform.localScale = new Vector3(0.12f, 0.12f, 0);
+        StartCoroutine(DelayCorutine());
+    }
+
+    private IEnumerator DelayCorutine()
+    {
+        yield return new WaitForSeconds(delayTime);
+        transform.localScale = currentPos;
     }
 }
