@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: DefaultChip
   m_EditorClassIdentifier: 
   Name: "\uBE68\uAC04\uC0C9 10\uCE69"
-  Description: "[50%|50%]\n\uC55E\uBA74 \uC801\uC911\uC2DC \uC801\uC5D0\uAC8C <color=#FF0000>10\uC758
+  Description: "[50%|50%]\n\uC55E\uBA74 \uC801\uC911\uC2DC \uC801\uC5D0\uAC8C <color=#FF0000>5\uC758
     \uD53C\uD574</color>\uB97C \uC90D\uB2C8\uB2E4.\n\uB4B7\uBA74 \uC801\uC911\uC2DC
-    \uC790\uC2E0\uC5D0\uAC8C <color=#7EEDFF>10\uC758 \uD53C\uD574\uB97C \uB9C9\uC744
+    \uC790\uC2E0\uC5D0\uAC8C <color=#7EEDFF>5\uC758 \uD53C\uD574\uB97C \uB9C9\uC744
     \uBC18\uD07C\uC758 \uBC29\uC5B4\uB3C4</color>\uB97C \uC5BB\uC2B5\uB2C8\uB2E4."
   Sprite: {fileID: -7502710690579546915, guid: 88cd6d10308574c4696760c23c213124, type: 3}
   SpriteOnInventory: {fileID: 3426827930244345985, guid: 79f3433df6a2cc34281ed26d4dd13288, type: 3}

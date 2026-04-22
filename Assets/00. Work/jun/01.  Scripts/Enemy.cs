@@ -1,19 +1,28 @@
-using UnityEngine;
-using UnityEngine.UI;
+using DG.Tweening;
 using System.Collections;
 using TMPro;
 using Unity.Cinemachine;
+using UnityEngine;
+using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
 {
-    [SerializeField] private string enemyName = "몬스터";
+    //[SerializeField] private string enemyName = "몬스터";
     [SerializeField] private int hp = 50;
-    [SerializeField] private int maxHp = 50;
-    [SerializeField] private int attackPower = 10;
+    [SerializeField] private TextMeshProUGUI shieldText;
+    private int displayHP;
+    public int displayShield;
+    public int shieldHP = 0;
+    public int attackPower = 10;
     [SerializeField] private TextMeshProUGUI hpText;
-    [SerializeField] private HealthBar healthbar;
+    [SerializeField] EnemyMotionHandler motionHandler;
+
+    private Vector3 originScale;
 
     [SerializeField] private CinemachineImpulseSource impulseSource;
+    [SerializeField] DamageEncounter damageEncounter;
+    private Color shieldTextColor;
+
 
     public int EnemyCurrentHP()
     {
@@ -22,33 +31,104 @@ public class Enemy : MonoBehaviour
 
     private void Start()
     {
+        displayHP = hp;
+        shieldTextColor = shieldText.color;
+        originScale = transform.localScale;
         UpdateUI();
     }
 
     // 적의 턴 행동
     public IEnumerator DoTurn(Player player)
     {
-        yield return new WaitForSeconds(1.0f);
-        impulseSource.GenerateImpulseWithForce(attackPower / 10f);
-        player.TakeDamage(attackPower);
-        
+        yield return motionHandler.PlayMotion("Normal",attackPower);
     }
 
     public void TakeDamage(int damage)
     {
-        hp -= damage;
-        if (hp < 0)
-        {
-            hp = 0;
-        }
-        UpdateUI();
+        damageEncounter.MarkDamageEncounter(gameObject.GetComponent<Enemy>(), damage);
+        int dealDamage = damage;
+        dealDamage -= shieldHP;
+        shieldHP = Mathf.Clamp(-dealDamage, 0, int.MaxValue);
+        dealDamage = Mathf.Clamp(dealDamage, 0, int.MaxValue);
+        hpText.transform.DOShakeScale(2f, Mathf.Clamp(damage / 50f,0,10));
+        hp -= dealDamage;
+        // 적의 HP를 Get함수로 확인
+        StartCoroutine(DecreaseHPAnimation(damage));
+        StartCoroutine(DecreaseShieldAnimation(damage));
+    }
+
+    public void GetShield(int shield)
+    {
+        shieldHP = Mathf.Clamp(shieldHP + shield, 0, int.MaxValue);
+        StartCoroutine(IncreaseShieldAnimation(shieldHP));
     }
 
     private void UpdateUI()
     {
         if (hpText != null)
         {
-            //hp = hp;
+            hpText.SetText(displayHP.ToString());
+        }
+        if (displayHP <= 0)
+        {
+            Debug.Log("승리!");
+            BattleManager.instance.currentState = BattleManager.State.End;
+            Time.timeScale = 0f;
+        }
+    }
+
+    private void UpdateShieldUI()
+    {
+        if (shieldText != null)
+        {
+            shieldText.SetText($"+{displayShield.ToString()}");
+            if (shieldHP > 0)
+            {
+                shieldText.DOFade(1f, 1f).SetEase(Ease.OutQuad);
+            }
+            else
+            {
+                shieldText.DOFade(0f, 1f).SetEase(Ease.OutQuad);
+            }
+        }
+    }
+    bool isDecreaseHp = false;
+    IEnumerator DecreaseHPAnimation(int damage)
+    {
+        if (!isDecreaseHp)
+        {
+            isDecreaseHp = true;
+            // 1씩 감소하는 모션
+            while (displayHP > hp)
+            {
+                displayHP--;
+                UpdateUI();
+                yield return new WaitForSeconds(0.6f / damage); // 1초에 20번 업데이트
+            }
+            hpText.transform.DOKill();
+            hpText.transform.DOScale(Vector3.one,0.2f);
+            isDecreaseHp = false;
+        }
+    }
+
+    IEnumerator DecreaseShieldAnimation(int damage)
+    {
+        // 1씩 감소하는 모션
+        while (displayShield > shieldHP)
+        {
+            displayShield--;
+            UpdateShieldUI();
+            yield return new WaitForSeconds(0.6f / damage); // 1초에 20번 업데이트
+        }
+    }
+
+    IEnumerator IncreaseShieldAnimation(int damage)
+    {
+        while (displayShield < shieldHP)
+        {
+            displayShield++;
+            UpdateShieldUI();
+            yield return new WaitForSeconds(0.6f / damage); // 1초에 20번 업데이트
         }
     }
 }

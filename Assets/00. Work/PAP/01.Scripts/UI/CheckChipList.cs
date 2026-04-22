@@ -1,11 +1,11 @@
 using DG.Tweening;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.UIElements;
 
 public class CheckChipList : MonoBehaviour
 {
-    [SerializeField] CanvasGroup listUIGroup;
     [SerializeField] Transform currentChips;
     [SerializeField] GameObject itemChipPrefab;
     [SerializeField] InventoryToolTip toolTip;
@@ -20,19 +20,16 @@ public class CheckChipList : MonoBehaviour
 
     private bool nowOpened = false;
 
-    private Dictionary<InventoryItemSO, GameObject> inventoryItems;
-
-    public enum chipStatus { Draw, Now, Discard }
-
 
     private void Start()
     {
+        
         moveModelOriginPos = moveModelRTrm.position;
-        moveModelNewPos = moveModelRTrm.position + Camera.main.ViewportToScreenPoint(Vector3.up);
+        moveModelNewPos = moveModelRTrm.position + Camera.main.ViewportToWorldPoint(new Vector3(0.5f,2f,0f));
         moveModelRTrm.gameObject.SetActive(false);
     }
 
-    public void AddChip(InventoryItemSO item)
+    public void AddChip(InventoryItemSO item,bool isTransparency)
     {
         GameObject itemChip = Instantiate(itemChipPrefab,currentChips);
         Vector2 targetPos = startPos;
@@ -61,16 +58,22 @@ public class CheckChipList : MonoBehaviour
         targetPos += new Vector2(addX * ((currentChips.childCount - 1) % 14), -28.5f * ((currentChips.childCount - 1) % 14));
         itemChip.GetComponent<RectTransform>().anchoredPosition = targetPos;
         itemChip.GetComponent<ChipItem>().Init(item, toolTip);
-    }
-
-    public void ChangeStatus(InventoryItemSO item,chipStatus status)
-    {
-        if (status == chipStatus.Draw)
+        if (isTransparency)
         {
-
+            itemChip.GetComponent<UnityEngine.UI.Image>().color = new Color(0.5f, 0.5f, 0.5f, 0.9f);
         }
     }
 
+    public void ClearChip()
+    {
+        foreach (Transform item in currentChips.GetComponentsInChildren<Transform>())
+        {
+            if (item.CompareTag("ChipItem"))
+            {
+                Destroy(item.gameObject);
+            }
+        }
+    }
 
     public void OpenClose()
     {
@@ -80,10 +83,24 @@ public class CheckChipList : MonoBehaviour
         if (nowOpened)
         {
             nowOpened = false;
-            moveModelRTrm.DOMove(moveModelNewPos, 0.5f).OnComplete(() => { openActive = true; moveModelRTrm.gameObject.SetActive(false); moveModelRTrm.position = moveModelOriginPos;  });
+            moveModelRTrm.DOMove(moveModelNewPos, 0.5f).OnComplete(() => { openActive = true; moveModelRTrm.gameObject.SetActive(false); moveModelRTrm.position = moveModelOriginPos; ClearChip(); });
         }
         else
         {
+            foreach (InventoryItemSO item in BattleManager.instance.drawChips)
+            {
+                AddChip(item, false);
+            }
+
+            foreach (InventoryItemSO item in BattleManager.instance.discardChips)
+            {
+                AddChip(item, transform);
+            }
+
+            foreach (InventoryItemSO item in BattleManager.instance.nowChips)
+            {
+                AddChip(item, transform);
+            }
             moveModelRTrm.position = moveModelNewPos;
             moveModelRTrm.gameObject.SetActive(true);
             nowOpened = true;

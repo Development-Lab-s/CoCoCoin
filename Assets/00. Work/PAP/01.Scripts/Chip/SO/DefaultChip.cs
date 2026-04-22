@@ -1,19 +1,17 @@
+using System;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "DefaultChip", menuName = "Scriptable Objects/DefaultChip")]
 public class DefaultChip : ChipEncounter
 {
-    public override void Initialize()
+
+    public override void HeadChip(Player player, Enemy enemy)
     {
-        headChance = 50;
-    }
-    public override void HeadChip()
-    {
-        Debug.Log("Deal 10 damage to the enemy.");
+        DamageHandler.CalculateDamage(player, enemy, 5);
     }
 
-    public override void TailChip()
+    public override void TailChip(Player player, Enemy enemy)
     {
-        Debug.Log("Defensed 10 damage for this turn");
+        player.GetShield(5);
     }
 }

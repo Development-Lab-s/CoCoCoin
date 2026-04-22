@@ -21,7 +21,7 @@ public class ChipItem : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         this.item = item;
         this.toolTip = toolTip;
         originalPosition = rectTransform.position;
-        newPosition = rectTransform.position + new Vector3(0,15f);
+        newPosition = rectTransform.position + new Vector3(0,0.15f);
         image = GetComponent<Image>();
         image.sprite = item.SpriteOnInventory;
         gameObject.name = item.Name;
