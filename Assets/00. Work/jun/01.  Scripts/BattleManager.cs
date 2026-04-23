@@ -3,6 +3,7 @@ using NUnit.Framework;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using Unity.Cinemachine;
 using Unity.VisualScripting;
     using UnityEngine;
@@ -12,10 +13,11 @@ using UnityEngine.SceneManagement;
 public class BattleManager : MonoBehaviour
 {
     // 현재 전투의 상태 정의
-    private enum State { Start, PlayerTurn, PlayerPlaying, EnemyTurn, Wait, End }
-    [SerializeField] private State currentState;
+    public enum State { Start, PlayerTurn, PlayerPlaying, EnemyTurn, Wait, End }
+    public State currentState;
 
     [SerializeField] private Player player;
+    
     [SerializeField] private Enemy enemy;
 
     [SerializeField] private InventorySO inventory;
@@ -25,10 +27,13 @@ public class BattleManager : MonoBehaviour
     [SerializeField] private Transform chipUI;
     [SerializeField] private InventoryToolTip inventoryToolTipUI;
 
-    [SerializeField]Rigidbody2D coinRigid;
-    [SerializeField]Animator handAnimator;
-    [SerializeField]Animator coinAnimator;
+    public int amountDrawMax;
+
+    [SerializeField] Rigidbody2D coinRigid;
+    [SerializeField] Animator handAnimator;
+    [SerializeField] Animator coinAnimator;
     [SerializeField] Transform coinTrm;
+    [SerializeField] ParticleSystem coinParticle;
     [SerializeField] SpriteRenderer coinSprite;
     [SerializeField] Transform handTrm;
     [SerializeField] SpriteRenderer handSprite;
@@ -39,19 +44,32 @@ public class BattleManager : MonoBehaviour
 
     [SerializeField] CheckChipList chipList;
 
+    [SerializeField] ComboSystem comboSystem;
+
+    [SerializeField] TextMeshProUGUI maxChipText;
+
+    [SerializeField] TextMeshProUGUI drawChipText;
+
     Vector3 originPos;
 
-    private List<InventoryItemSO> drawChips = new List<InventoryItemSO>();
-    private List<InventoryItemSO> nowChips = new List<InventoryItemSO>();
-    private List<InventoryItemSO> discardChips = new List<InventoryItemSO>();
+    public List<InventoryItemSO> drawChips = new List<InventoryItemSO>();
+    public List<InventoryItemSO> nowChips =  new List<InventoryItemSO>();
+    public List<InventoryItemSO> discardChips = new List<InventoryItemSO>();
 
     private List<GameObject> chipModels = new List<GameObject>();
 
     private List<InventoryItemSO> chipsOrder = new List<InventoryItemSO>();
 
-    private bool isActive = true;
+    public bool isActive = true;
 
     public static BattleManager instance;
+
+    [SerializeField] MotionHandler motion;
+
+    private void ChangeNowChips()
+    {
+        drawChipText.SetText(nowChips.Count.ToString());
+    }
 
     private void Awake()
     {
@@ -63,11 +81,12 @@ public class BattleManager : MonoBehaviour
 
     private void Start()
     {
+        amountDrawMax = GameData.instance.amountDrawMax;
+        maxChipText.SetText(amountDrawMax.ToString());
         currentState = State.Start;
         foreach (InventoryItemSO item in inventory.inventoryItemList)
         {
             drawChips.Add(item);
-            chipList.AddChip(item);
         }
         StartPlayerTurn();
     }
@@ -85,37 +104,32 @@ public class BattleManager : MonoBehaviour
     public InventoryItemSO DrawChip()
     {
         InventoryItemSO targetChip = null;
-        if (drawChips.Count <= 0) ShuffleChips();
-        targetChip = drawChips[Random.Range(0, drawChips.Count)];
-        drawChips.Remove(targetChip);
-        nowChips.Add(targetChip);
-        GameObject chipModel = Instantiate(chipModelPrerfab, chipUI);
-        chipModel.GetComponent<ChipDraw>().Init(inventoryToolTipUI, targetChip, chipUI,coinRigid,handAnimator,coinAnimator);
-        chipModels.Add(chipModel);
+        if (GameData.instance.amountDrawMax > nowChips.Count)
+        {
+            if (drawChips.Count <= 0) ShuffleChips();
+            targetChip = drawChips[Random.Range(0, drawChips.Count)];
+            drawChips.Remove(targetChip);
+            nowChips.Add(targetChip);
+            ChangeNowChips();
+            GameObject chipModel = Instantiate(chipModelPrerfab, chipUI);
+            chipModel.GetComponent<ChipDraw>().Init(inventoryToolTipUI, targetChip, chipUI, coinRigid, handAnimator, coinAnimator);
+            chipModels.Add(chipModel);
+
+        }
         return targetChip;
     }
 
-    public void DiscardChip(InventoryItemSO item)
+    public void DiscardChip(InventoryItemSO chip)
     {
-        nowChips.Remove(item);
-        discardChips.Add(item);
+        discardChips.Add(chip);
+        nowChips.Remove(chip);
+        ChangeNowChips();
     }
-
     private void PassTurn()
     {
         if (currentState != State.PlayerTurn)
             return;
         currentState = State.Wait;
-        foreach (InventoryItemSO item in nowChips)
-        {
-            discardChips.Add(item);
-        }
-        foreach (GameObject obj in chipModels)
-        {
-            Destroy(obj);
-        }
-        nowChips.Clear();
-        chipModels.Clear();
         CheckBattleStatus();
     }
     private void Update()
@@ -130,7 +144,9 @@ public class BattleManager : MonoBehaviour
             isActive = false;
             InventoryItemSO chip = chipsOrder[0];
             chipsOrder.Remove(chip);
-
+            coinParticle.transform.position = coinTrm.position;
+            coinParticle.Stop();
+            coinParticle.Play();
             handAnimator.SetBool("isFlipping", true);
             coinAnimator.SetBool("isFlip", true);
             coinRigid.DOMove(Vector3.up * 5, 0.5f).SetEase(Ease.OutQuad).OnComplete(JumpEnded);
@@ -140,7 +156,6 @@ public class BattleManager : MonoBehaviour
                 handAnimator.SetTrigger("Grab");
                 coinRigid.DOMove(Vector3.down * 5, 0.4f).SetEase(Ease.InQuad);
                 handTrm.DORotate(new Vector3(0, 0, -80), 0.3f).OnComplete(() => handTrm.DORotate(new Vector3(0, 0, 30), 0.1f).OnComplete(SkillChipUse));
-
             }
 
             void SkillChipUse()
@@ -149,15 +164,18 @@ public class BattleManager : MonoBehaviour
                 coinRigid.position = originPos;
                 handAnimator.SetBool("isFlipping", false);
                 coinAnimator.SetBool("isFlip", false);
-                handTrm.DORotate(Vector3.zero, 0.2f).OnComplete(RotateEnded);
-                chip.ChipEncounter.FlipCoin();
+                handTrm.DORotate(Vector3.zero, 0.2f);
+                bool isHead = chip.ChipEncounter.FlipCoin(player, enemy,motion);
+                if (isHead) 
+                {
+                    comboSystem.SetCombo(1);
+                }
+                else
+                {
+                    comboSystem.ResetCombo();
+                }
                 shaker.GenerateImpulse();
                 cineCamera.Follow = enemy.transform;
-                void RotateEnded()
-                {
-                    isActive = true;
-                    currentState = State.PlayerTurn;
-                }
             }
         }
         if (chipsOrder.Count >= 3)
@@ -194,17 +212,7 @@ public class BattleManager : MonoBehaviour
 
     private void CheckBattleStatus()
     {
-        // 적의 HP를 Get함수로 확인
-        if (enemy.EnemyCurrentHP() <= 0)
-        {
-            currentState = State.End;
-            Debug.Log("승리!");
-            Invoke("RestartBattle", 2.0f);
-        }
-        else
-        {
-            StartCoroutine(EnemyTurnRoutine());
-        }
+        StartCoroutine(EnemyTurnRoutine());
     }
 
     private IEnumerator EnemyTurnRoutine()
@@ -221,6 +229,7 @@ public class BattleManager : MonoBehaviour
         }
         else
         {
+            player.DiscardShield(player.shieldHP);
             StartPlayerTurn();
         }
     }

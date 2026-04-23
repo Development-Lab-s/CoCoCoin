@@ -13,3 +13,5 @@ MonoBehaviour:
   m_Name: DefaultChip
   m_EditorClassIdentifier: 
   headChance: 50
+  headChipMotion: 0
+  tailChipMotion: 1

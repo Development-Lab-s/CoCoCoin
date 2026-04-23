@@ -5,26 +5,22 @@ using UnityEngine;
 public abstract class ChipEncounter : ScriptableObject
 {
     public int headChance = 50;
-    public Flip Flip;
+    public int headChipMotion = 0;
+    public int tailChipMotion = 0;
+
 
     public virtual void Initialize() { }
 
-    public virtual void FlipCoin() 
+    public virtual bool FlipCoin(Player player, Enemy enemy, MotionHandler motion) 
     {
         int randomValue = UnityEngine.Random.Range(0, 100);
-        if (randomValue < headChance)
-        {
-            HeadChip();
-        }
-        else
-        {
-            TailChip();
-        }
+        motion.PlayMotion(randomValue < headChance, player,enemy, this, headChipMotion, tailChipMotion);
+        return randomValue < headChance;
     }
 
-    
+    public abstract void HeadChip(Player player, Enemy enemy);
 
-    public abstract void HeadChip();
+    public abstract void TailChip(Player player, Enemy enemy);
 
-    public abstract void TailChip();
+
 }

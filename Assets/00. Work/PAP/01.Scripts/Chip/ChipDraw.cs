@@ -13,6 +13,7 @@ public class ChipDraw : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     private Image image;
     private Vector3 startPosition;
     private CanvasGroup canvasGroup;
+    private Canvas canvas;
 
     private Vector2 minRange;
     private Vector2 maxRange;
