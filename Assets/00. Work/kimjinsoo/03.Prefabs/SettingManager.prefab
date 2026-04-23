@@ -44,5 +44,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 270a644d4df3819498dbf9384027cec6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicSliderValue: 0
-  fxSliderValue: 0
+  musicSliderValue: 10
+  fxSliderValue: 10

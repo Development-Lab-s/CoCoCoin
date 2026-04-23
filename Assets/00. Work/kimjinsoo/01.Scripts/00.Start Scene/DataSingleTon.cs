@@ -24,14 +24,13 @@ public class DataSingleTon : MonoBehaviour
 
     private void Start()
     {
-        
         fxSliderOrigin = GameObject.Find("FXSound Slider");
         musicSliderOrigin = GameObject.Find("Sound Slider");
         musicSlider = musicSliderOrigin.GetComponent<Slider>();
         fxSlider = fxSliderOrigin.GetComponent<Slider>();
-        
     }
 
+    
     private void Update()
     {
         fxSliderValue = fxSlider.value;

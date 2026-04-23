@@ -8,7 +8,7 @@ public class InGameFxSliderChange : MonoBehaviour
 
     void Update()
     {
-        //slider.value = DataLoadManager.instance.fxSoundValue;
+        //slider.value = DataSingleTon.instance.fxSliderValue;
     }
 
     private void OnEnable()

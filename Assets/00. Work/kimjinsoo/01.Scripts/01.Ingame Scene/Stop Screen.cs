@@ -1,6 +1,8 @@
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.XR.Haptics;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ScreenManager : MonoBehaviour
@@ -33,5 +35,11 @@ public class ScreenManager : MonoBehaviour
     public void setting()
     {
         Settingframe.SetActive(!Settingframe.activeSelf);
+    }
+
+    public void Restart()
+    {
+        SceneManager.LoadScene(1);
+       
     }
 }

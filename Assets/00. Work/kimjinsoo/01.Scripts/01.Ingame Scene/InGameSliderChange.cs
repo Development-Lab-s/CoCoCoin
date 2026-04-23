@@ -10,7 +10,7 @@ public class InGameSliderChange : MonoBehaviour
     {
         //slider.value = DataSingleTon.instance.musicSliderValue;
     }
-
+    
     private void OnEnable()
     {
         
