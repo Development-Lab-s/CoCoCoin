@@ -1,6 +1,5 @@
 using UnityEngine;
 using DG.Tweening;
-using Highlighters;
 
 public class ShopPopup : MonoBehaviour
 {
