@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MapManager : MonoBehaviour
 {
+    public static List<string> clearedNodeIDs = new List<string>();
 
     private int currentMapShapeIndex;
     private int currentMapType;
@@ -21,20 +22,21 @@ public class MapManager : MonoBehaviour
 
     void Start()
     {
-        currentMapShapeIndex = 0; //Random.Range(0,0);
-        currentMapType = 0;//Random.Range(0,0);
-
         InitializeMapSettings();
+        currentMapType = savedMapType;
+        currentMapShapeIndex = savedShapeIndex;
         SetupMapData();
         GenerateMapVisuals();
-        
+
     }
     void InitializeMapSettings()
     {
+        // static 변수는 게임이 꺼질 때까지 유지되므로, 처음 한 번만 실행되게 합니다.
         if (!isInitialized)
         {
-            savedMapType = 0;//Random.Range(0, 0);
-            savedShapeIndex = 0;// Random.Range(0,0);
+            savedMapType = Random.Range(0, 3); // 0 또는 1
+            savedShapeIndex = 0;
+            isInitialized = true; // 이 변수를 true로 바꿔야 다음 씬 로드 때 랜덤이 안 돌아갑니다.
         }
     }
 
@@ -47,6 +49,7 @@ public class MapManager : MonoBehaviour
         {
             case 0: GenerateTypeAMap(); break; 
             case 1: GenerateTypeBMap(); break; 
+            case 2: GenerateTypeCMap(); break; 
         }
     }
     void GenerateTypeAMap()
@@ -78,7 +81,102 @@ public class MapManager : MonoBehaviour
     }
     void GenerateTypeBMap()
     {
-        Debug.Log("BMap");
+        // 1. 노드 생성 (이미지 구도 기준 좌표 설정)
+        MapNode boss = CreateNode("Boss", 0f, 5f, RoomType.Boss);
+        MapNode shop = CreateNode("Shop", 0f, 3f, RoomType.Shop); // 상단 중앙 상점
+
+        // 중앙 거대 방
+        MapNode huge = CreateNode("Huge", 0f, 0f, RoomType.Huge);
+
+        // 중간층 전투 방 (좌, 우)
+        MapNode fightML = CreateNode("FML", -4f, 0f, RoomType.Fight);
+        MapNode fightMR = CreateNode("FMR", 4f, 0f, RoomType.Fight);
+
+        // 상층 전투 방 (좌, 우)
+        MapNode fightTL = CreateNode("FTL", -3.5f, 3f, RoomType.Fight);
+        MapNode fightTR = CreateNode("FTR", 3.5f, 3f, RoomType.Fight);
+
+        // 하단 방사형 배치 (상호작용 2개 + 스폰)
+        MapNode interactL = CreateNode("InteractL", -4f, -3f, RoomType.Interaction);
+        MapNode interactR = CreateNode("InteractR", 4f, -3f, RoomType.Interaction);
+        MapNode spawn = CreateNode("Spawn", 0f, -4f, RoomType.Spawn);
+
+        // 2. 연결 관계 설정 (이미지의 선 참조)
+
+        // 보스 - 상점 연결
+        Connect(boss, shop);
+
+        // 상점 - 상단 전투방들 연결
+        Connect(shop, fightTL);
+        Connect(shop, fightTR);
+
+        // 상단 전투방 - 중간 전투방 연결 (세로선)
+        Connect(fightTL, fightML);
+        Connect(fightTR, fightMR);
+
+        // 중간 전투방 - 중앙 거대 방 연결 (가로선)
+        Connect(fightML, huge);
+        Connect(fightMR, huge);
+
+        // 중앙 거대 방 - 하단 3개 방 방사형 연결
+        Connect(huge, interactL);
+        Connect(huge, interactR);
+        Connect(huge, spawn);
+
+        // 하단 스폰 - 상호작용 연결 (이미지 하단 가로줄이 있다면 추가)
+        // Connect(spawn, interactL);
+        // Connect(spawn, interactR);
+    }
+    void GenerateTypeCMap()
+    {
+        // 1. 노드 생성 (이미지 C 구도 기준)
+        MapNode boss = CreateNode("Boss", 0f, 5f, RoomType.Boss);
+
+        // 상단 전투방 2개
+        MapNode fightTL = CreateNode("FTL", -3f, 2.5f, RoomType.Fight);
+        MapNode fightTR = CreateNode("FTR", 3f, 2.5f, RoomType.Fight);
+
+        // 상점 (중앙 상단)
+        MapNode shop = CreateNode("Shop", 0f, 1.5f, RoomType.Shop);
+
+        // 중앙 거대 방 (육각형)
+        MapNode huge = CreateNode("Huge", 0f, -1f, RoomType.Huge);
+
+        // 좌우 상호작용 방 (!)
+        MapNode interactL = CreateNode("InteractL", -6f, -1f, RoomType.Interaction);
+        MapNode interactR = CreateNode("InteractR", 6f, -1f, RoomType.Interaction);
+
+        // 하단 전투방 2개
+        MapNode fightBL = CreateNode("FBL", -3f, -3f, RoomType.Fight);
+        MapNode fightBR = CreateNode("FBR", 3f, -3f, RoomType.Fight);
+
+        // 하단 스폰 방 (원형)
+        MapNode spawn = CreateNode("Spawn", 0f, -4f, RoomType.Spawn);
+
+        // 2. 연결 관계 설정 (이미지 선 참조)
+
+        // 보스 - 상단 전투방들
+        Connect(boss, fightTL);
+        Connect(boss, fightTR);
+
+        // 상단 전투방들 - 상점
+        Connect(fightTL, shop);
+        Connect(fightTR, shop);
+
+        // 상점 - 중앙 거대 방
+        Connect(shop, huge);
+
+        // 중앙 거대 방 - 좌우 상호작용 방
+        Connect(huge, interactL);
+        Connect(huge, interactR);
+
+        // 중앙 거대 방 - 하단 전투방들
+        Connect(huge, fightBL);
+        Connect(huge, fightBR);
+
+        // 하단 전투방들 - 스폰 방
+        Connect(fightBL, spawn);
+        Connect(fightBR, spawn);
     }
     void GenerateMapVisuals()
     {
@@ -96,6 +194,17 @@ public class MapManager : MonoBehaviour
             }
         }
         DrawMapLines();
+        MapPlayer player = FindObjectOfType<MapPlayer>();
+        if (player != null)
+        {
+            // spawn 노드를 찾아서 배치 (ID가 "Spawn"인 노드)
+            MapNode spawnNode = allNodes.Find(n => n.nodeID == "Spawn");
+            if (spawnNode != null)
+            {
+                player.currentNode = spawnNode;
+                player.transform.position = new Vector3(spawnNode.position.x, spawnNode.position.y, -0.5f);
+            }
+        }
 
     }
     GameObject[] GetArrayByType(RoomType type)
@@ -113,13 +222,23 @@ public class MapManager : MonoBehaviour
     }
     MapNode CreateNode(string id, float x, float y, RoomType type)
     {
-        MapNode node = new MapNode
+        MapNode node = ScriptableObject.CreateInstance<MapNode>();
+        node.nodeID = id;
+        node.position = new Vector2(x, y);
+        node.type = type;
+        node.mapType = savedMapType;
+        node.roomShapeType = savedShapeIndex;
+
+        // [수정] 스폰룸이거나 이미 클리어 리스트에 있다면 true
+        if (type == RoomType.Spawn || clearedNodeIDs.Contains(id))
         {
-            nodeID = id,
-            position = new Vector2(x, y),
-            type = type,
-            roomShapeType = currentMapShapeIndex 
-        };
+            node.isCleared = true;
+        }
+        else
+        {
+            node.isCleared = false;
+        }
+
         allNodes.Add(node);
         return node;
     }

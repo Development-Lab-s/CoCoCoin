@@ -1,16 +1,86 @@
 using UnityEngine;
+using UnityEngine.SceneManagement; // 씬 전환을 위해 필요
 
 public class Room : MonoBehaviour
 {
     public MapNode myData;
+    private SpriteRenderer spriteRenderer;
+    private void OnMouseDown()
+    {
+        if (MapPlayer.Instance != null)
+        {
+            MapPlayer.Instance.MoveTo(myData, this);
+        }
+    }
+
     public void Setup(MapNode data)
     {
         myData = data;
-        gameObject.name = "Room_" + data.nodeID;
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        UpdateVisual();
+    }
+
+    // 플레이어가 이 방에 도착했을 때 호출될 함수
+    public void OnPlayerEnter()
+    {
         if (myData.isCleared)
         {
-            SpriteRenderer sr = GetComponent<SpriteRenderer>();
-            if (sr != null) sr.color = Color.gray;
+            Debug.Log("이미 클리어한 방입니다.");
+            return;
+        }
+
+        // 방 종류에 따른 반응
+        switch (myData.type)
+        {
+            case RoomType.Fight:
+                Debug.Log("전투 발생! 전투 씬으로 이동합니다.");
+                // SceneManager.LoadScene("FightScene"); // 실제 전투 씬 이름
+                SetCleared(); // 테스트를 위해 즉시 클리어 처리
+                break;
+
+            case RoomType.Shop:
+                Debug.Log("상점에 입장했습니다. 물건을 구매하세요.");
+                // 상점 UI 띄우기 로직
+                SetCleared();
+                break;
+
+            case RoomType.Interaction:
+                Debug.Log("신비한 비석을 발견했습니다.");
+                SetCleared();
+                break;
+
+            case RoomType.Boss:
+                Debug.Log("⚠️ 보스가 나타났습니다! ⚠️");
+                break;
+
+            case RoomType.Huge:
+                Debug.Log("넓은 방에 들어왔습니다.");
+                SetCleared();
+                break;
+        }
+    }
+
+    // 방을 클리어 상태로 만들고 시각 효과 적용
+    public void SetCleared()
+    {
+        myData.isCleared = true;
+        if (!MapManager.clearedNodeIDs.Contains(myData.nodeID))
+        {
+            MapManager.clearedNodeIDs.Add(myData.nodeID);
+        }
+        UpdateVisual();
+    }
+
+    // 시각적 업데이트 (클리어 시 어둡게)
+    private void UpdateVisual()
+    {
+        if (spriteRenderer == null) spriteRenderer = GetComponent<SpriteRenderer>();
+        {
+            // [수정] 클리어 상태이면서, 스폰룸이 아닐 때만 색을 어둡게 변경
+            if (myData.isCleared && myData.type != RoomType.Spawn)
+            {
+                spriteRenderer.color = new Color(0.3f, 0.3f, 0.3f, 1.0f);
+            }
         }
     }
 }
