@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd6cd16f8d963049b82a4a3b3fa7db7, type: 3}
   m_Name: Zombie
   m_EditorClassIdentifier: 
-  enemyName: "\uC880\uBE44"
+  enemyName: "\uC8011"
   maxHp: 100
   attackPower: 20
+  sprite: {fileID: 0}
