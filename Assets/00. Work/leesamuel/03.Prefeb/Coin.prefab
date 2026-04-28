@@ -109,6 +109,7 @@ MonoBehaviour:
   _maxScale: 1.3
   _scaleSpeed: 10
   _returnSpeed: 15
+  toolTip: {fileID: 0}
 --- !u!58 &8118753563461205464
 CircleCollider2D:
   m_ObjectHideFlags: 0
