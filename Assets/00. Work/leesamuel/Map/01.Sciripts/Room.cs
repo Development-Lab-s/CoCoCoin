@@ -1,5 +1,6 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; // 씬 전환을 위해 필요
+using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class Room : MonoBehaviour
 {
@@ -50,7 +51,9 @@ public class Room : MonoBehaviour
                 break;
 
             case RoomType.Boss:
-                Debug.Log("⚠️ 보스가 나타났습니다! ⚠️");
+                Debug.Log("보스 전투 시작!");
+                // 실제로는 보스 전투 씬으로 보낸 뒤, 승리하고 돌아와서 이 함수가 실행되어야 함
+                StartCoroutine(BossClearRoutine());
                 break;
 
             case RoomType.Huge:
@@ -81,6 +84,21 @@ public class Room : MonoBehaviour
             {
                 spriteRenderer.color = new Color(0.3f, 0.3f, 0.3f, 1.0f);
             }
+        }
+    }
+
+    private IEnumerator BossClearRoutine()
+    {
+        // 전투 연출이나 승리 대기 시간 (임시)
+        yield return new WaitForSeconds(1.5f);
+
+        SetCleared(); // 현재 방 클리어 처리
+
+        // 맵 매니저를 찾아서 다음 층 로직 실행
+        MapManager mapMgr = FindObjectOfType<MapManager>();
+        if (mapMgr != null)
+        {
+            mapMgr.OnBossCleared();
         }
     }
 }

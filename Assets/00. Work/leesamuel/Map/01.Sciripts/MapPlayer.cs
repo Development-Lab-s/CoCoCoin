@@ -18,27 +18,19 @@ public class MapPlayer : MonoBehaviour
     public void MoveTo(MapNode targetNode, Room targetRoomScript)
     {
         if (isMoving) return;
-
-        // 1. 경로 탐색 (BFS 알고리즘 사용)
-        List<MapNode> path = FindPath(currentNode, targetNode);
-
-        if (path != null && path.Count > 0)
         {
-            StartCoroutine(FollowPathRoutine(path, targetRoomScript));
-        }
-        else
-        {
-            Debug.Log("연결된 경로가 없거나 중간 방이 클리어되지 않았습니다.");
-        }
-    }
-    private bool CanReachNode(MapNode start, MapNode target)
-    {
-        // 시작점의 이웃 중 하나가 타겟이면 당연히 이동 가능
-        if (start.neighbors.Contains(target)) return true;
+            // 1. 경로 탐색 (BFS 알고리즘 사용)
+            List<MapNode> path = FindPath(currentNode, targetNode);
 
-        // 그게 아니라면, 이웃 중 '클리어된 방'들을 타고 건너갈 수 있는지 확인
-        HashSet<MapNode> visited = new HashSet<MapNode>();
-        return CheckNeighborsRecursive(start, target, visited);
+            if (path != null && path.Count > 0)
+            {
+                StartCoroutine(FollowPathRoutine(path, targetRoomScript));
+            }
+            else
+            {
+                Debug.Log("연결된 경로가 없거나 중간 방이 클리어되지 않았습니다.");
+            }
+        }
     }
 
     private bool CheckNeighborsRecursive(MapNode current, MapNode target, HashSet<MapNode> visited)

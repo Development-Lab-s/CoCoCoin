@@ -20,6 +20,9 @@ public class MapManager : MonoBehaviour
     [SerializeField] private GameObject[] shopRoomPrefab;
     [SerializeField] private GameObject[] spawnRoomPrefab;
 
+    public static int currentFloor = 1;     
+    public int maxFloor = 3;
+
     void Start()
     {
         InitializeMapSettings();
@@ -27,6 +30,11 @@ public class MapManager : MonoBehaviour
         currentMapShapeIndex = savedShapeIndex;
         SetupMapData();
         GenerateMapVisuals();
+        FloorUIController ui = FindObjectOfType<FloorUIController>();
+        if (ui != null)
+        {
+            ui.ShowFloorUI(currentFloor);
+        }
 
     }
     void InitializeMapSettings()
@@ -270,5 +278,30 @@ public class MapManager : MonoBehaviour
     {
         if (!a.neighbors.Contains(b)) a.neighbors.Add(b);
         if (!b.neighbors.Contains(a)) b.neighbors.Add(a);
+    }
+
+    public void OnBossCleared()
+    {
+        if (currentFloor < maxFloor)
+        {
+            // 다음 층으로 진행
+            currentFloor++;
+            Debug.Log($"{currentFloor}층으로 이동합니다.");
+
+            // 맵 데이터 초기화 (클리어 기록 삭제)
+            clearedNodeIDs.Clear();
+            isInitialized = false; // 새로운 맵 타입을 정하기 위해 초기화
+
+            // 현재 맵 씬을 다시 로드 (그러면 Start가 실행되며 새 맵이 생성됨)
+            UnityEngine.SceneManagement.SceneManager.LoadScene(
+                UnityEngine.SceneManagement.SceneManager.GetActiveScene().name
+            );
+        }
+        else
+        {
+            // 마지막 층 보스를 깼다면 엔딩으로
+            Debug.Log("축하합니다! 모든 층을 클리어하여 엔딩 씬으로 이동합니다.");
+            //UnityEngine.SceneManagement.SceneManager.LoadScene("EndingScene");
+        }
     }
 }
