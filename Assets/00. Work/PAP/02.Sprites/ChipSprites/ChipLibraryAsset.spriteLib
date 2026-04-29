@@ -70,6 +70,17 @@ MonoBehaviour:
       m_SpriteOverride: {fileID: 7275141282929498600, guid: 729bf28cac82f3a41855f88f089d6631, type: 3}
     m_FromMain: 0
     m_EntryOverrideCount: 1
+  - m_Name: Shop
+    m_Hash: 207152028
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Shop0
+      m_Hash: 225335469
+      m_Sprite: {fileID: -3647211631376388965, guid: 1f06a51affffc0044a1c02b5179535a9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -3647211631376388965, guid: 1f06a51affffc0044a1c02b5179535a9, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
   m_PrimaryLibraryGUID: 
-  m_ModificationHash: 639128948111585163
+  m_ModificationHash: 639130819578672679
   m_Version: 1

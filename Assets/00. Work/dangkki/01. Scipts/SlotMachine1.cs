@@ -47,7 +47,7 @@ public class SlotMachine1 : MonoBehaviour
             _contentRect.anchoredPosition += new Vector2(0, _symbolHeight);
             _symbolName = bottomSymbol.name;
         }
-      //_slotCheck.CheckSlot(_symbolName);
+      //_slotCheck.CheckSlot();
     }
 
 }
