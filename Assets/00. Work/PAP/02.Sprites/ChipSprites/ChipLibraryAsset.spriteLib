@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: Spin
+    m_Hash: 842566577
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Spin0
+      m_Hash: 135226544
+      m_Sprite: {fileID: 7275141282929498600, guid: 729bf28cac82f3a41855f88f089d6631, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 7275141282929498600, guid: 729bf28cac82f3a41855f88f089d6631, type: 3}
+    - m_Name: Spin1
+      m_Hash: 1057510438
+      m_Sprite: {fileID: -7112410318549634391, guid: ce0975a7667cc9745bca5ed20119077a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -7112410318549634391, guid: ce0975a7667cc9745bca5ed20119077a, type: 3}
+    - m_Name: Spin2
+      m_Hash: 637601180
+      m_Sprite: {fileID: -8954710421063291801, guid: 98990d993a275a844bfe7a9775fc538c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -8954710421063291801, guid: 98990d993a275a844bfe7a9775fc538c, type: 3}
+    - m_Name: Spin3
+      m_Hash: 285619466
+      m_Sprite: {fileID: 812866419682901693, guid: 1d61681b4f1bbe74fb28a59d292486ae, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 812866419682901693, guid: 1d61681b4f1bbe74fb28a59d292486ae, type: 3}
+    - m_Name: Spin4
+      m_Hash: 258121897
+      m_Sprite: {fileID: -5048468221987807522, guid: 9c7e706ed907a1d47a34a14acc23069a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -5048468221987807522, guid: 9c7e706ed907a1d47a34a14acc23069a, type: 3}
+    - m_Name: Spin5
+      m_Hash: 946180159
+      m_Sprite: {fileID: -3545757011769071268, guid: 49a5b0cb2f8cb194e9924d188c6d36e6, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -3545757011769071268, guid: 49a5b0cb2f8cb194e9924d188c6d36e6, type: 3}
+    - m_Name: Spin6
+      m_Hash: 560775557
+      m_Sprite: {fileID: 7598171459706568139, guid: 51a3d66c067146e4681f661cea7d8be5, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 7598171459706568139, guid: 51a3d66c067146e4681f661cea7d8be5, type: 3}
+    - m_Name: Spin7
+      m_Hash: 376172819
+      m_Sprite: {fileID: -4205209652619500768, guid: ca97d42379e74ec4a9985c1a37950dc5, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -4205209652619500768, guid: ca97d42379e74ec4a9985c1a37950dc5, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 8
+  - m_Name: Idle
+    m_Hash: 1008081451
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Idle0
+      m_Hash: 404435067
+      m_Sprite: {fileID: 7275141282929498600, guid: 729bf28cac82f3a41855f88f089d6631, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 7275141282929498600, guid: 729bf28cac82f3a41855f88f089d6631, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  m_PrimaryLibraryGUID: 
+  m_ModificationHash: 639128948111585163
+  m_Version: 1

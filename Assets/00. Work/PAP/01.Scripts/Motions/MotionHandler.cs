@@ -8,10 +8,26 @@ using static UnityEngine.EventSystems.EventTrigger;
 public class MotionHandler : MonoBehaviour
 {
     [SerializeField] CinemachineImpulseSource impulseSource;
+    [SerializeField] Animator animator;
+    [SerializeField] GameObject rightHand;
+    [SerializeField] LeftMotionHandler leftMotionHandler;
+
+    private void Awake()
+    {
+        gameObject.SetActive(false);
+    }
     public void PlayMotion(bool isHead,Player player, Enemy enemy,ChipEncounter chip,int headChipMotion,int tailChipMotion)
     {
+        gameObject.SetActive(true);
+        rightHand.SetActive(false);
         switch (isHead ? headChipMotion : tailChipMotion)
         {
+            case -10:
+                StartCoroutine(ShotGunMotion(player, enemy, chip, isHead));
+                break;
+            case -1:
+                StartCoroutine(LeftHandTurnMotion(player, enemy, chip, isHead));
+                break;
             case 0:
                 StartCoroutine(NormalPunchMotion(player, enemy, chip,isHead));
                 break;
@@ -33,20 +49,55 @@ public class MotionHandler : MonoBehaviour
         }
     }
 
-
-    private IEnumerator NormalPunchMotion(Player player, Enemy enemy,ChipEncounter chip,bool isHead)
+    private void SetEnable(ChipEncounter chip)
     {
-        yield return new WaitForSeconds(1);
-        impulseSource.GenerateImpulseWithVelocity(new Vector3(0.2f, 0, 0));
-        ChipAbility(player, enemy, chip, isHead);
+        rightHand.SetActive(true);
+        gameObject.SetActive(false);
         BattleManager.instance.isActive = true;
         BattleManager.instance.currentState = BattleManager.State.PlayerTurn;
+        if (chip.type == ChipEncounter.Type.Stop)
+        {
+            BattleManager.instance.canUse = true;
+        }
+    }
+
+    private IEnumerator LeftHandTurnMotion(Player player, Enemy enemy, ChipEncounter chip, bool isHead)
+    {
+        ChipAbility(player, enemy, chip, isHead);
+        if (BattleManager.instance.needDiscard > 0)
+        {
+            leftMotionHandler.PlayMotion(0);
+        }
+        yield return null;
+        SetEnable(chip);
+    }
+    private IEnumerator NormalPunchMotion(Player player, Enemy enemy,ChipEncounter chip,bool isHead)
+    {
+        animator.SetTrigger("Punch");
+        yield return new WaitForSeconds(0.5f);
+        impulseSource.GenerateImpulseWithVelocity(new Vector3(0.2f, 0, 0));
+        ChipAbility(player, enemy, chip, isHead);
+        yield return new WaitForSeconds(0.5f);
+        SetEnable(chip);
+
     }
     private IEnumerator DefenseMotion(Player player, Enemy enemy,ChipEncounter chip, bool isHead)
     {
-        yield return new WaitForSeconds(0.5f);
+        animator.SetTrigger("GetBuff");
+        yield return new WaitForSeconds(1f);
         ChipAbility(player, enemy, chip, isHead);
-        BattleManager.instance.isActive = true;
-        BattleManager.instance.currentState = BattleManager.State.PlayerTurn;
+        SetEnable(chip);
+
+    }
+    
+    private IEnumerator ShotGunMotion(Player player, Enemy enemy,ChipEncounter chip, bool isHead)
+    {
+        animator.SetTrigger("ShotGun");
+        yield return new WaitForSeconds(0.4f);
+        impulseSource.GenerateImpulseWithVelocity(new Vector3(0.2f, 0, 0));
+        ChipAbility(player, enemy, chip, isHead);
+        yield return new WaitForSeconds(0.3f);
+        SetEnable(chip);
+
     }
 }

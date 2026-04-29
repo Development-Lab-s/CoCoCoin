@@ -1,0 +1,55 @@
+using TMPro;
+using UnityEngine;
+using UnityEngine.U2D;
+using UnityEngine.UI;
+
+public class ToolTip : MonoBehaviour
+{
+    [SerializeField] private GameObject toolTipUI;
+    private TextMeshProUGUI itemNameUI;
+    private TextMeshProUGUI itemDescriptionUI;
+    private Image itemSprite;
+
+    private void Awake()
+    {
+        itemNameUI = toolTipUI.transform.Find("ItemName").GetComponent<TextMeshProUGUI>();
+        itemDescriptionUI = toolTipUI.transform.Find("ItemDescription").GetComponent<TextMeshProUGUI>();
+        itemSprite = toolTipUI.transform.Find("ItemImage").GetComponent<Image>();
+
+    }
+
+    private void Start()
+    {
+        toolTipUI.SetActive(false);
+    }
+
+    public void ShowToolTip(string itemName, string itemDescription, Vector2 chipTrm, Sprite sprite )
+    {
+
+        if (CoinDrag._isDragging==false)
+        {
+            RectTransform rectTrm = toolTipUI.GetComponent<RectTransform>();
+            itemNameUI.text = $"{itemName}";
+            itemDescriptionUI.text = $"{itemDescription}";
+            itemSprite.sprite = sprite;
+            toolTipUI.SetActive(true);
+            if (chipTrm != Vector2.zero)
+            {
+                Vector3 screenPos = chipTrm;
+
+                rectTrm.pivot = new Vector2(0f, 0.5f);
+                float padding = 1.0f;
+                screenPos.x += padding;
+
+                rectTrm.position = screenPos;
+            }
+        }
+    }
+
+
+
+    public void HideToolTip()
+    {
+        toolTipUI.SetActive(false);
+    }
+}
