@@ -178,3 +178,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87d8343b8611dfc408c4bb3d5e1fc88d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  chip: {fileID: 0}
+  image: {fileID: 2115816944072307698}
+  materials:
+  - {fileID: 2100000, guid: cc83b86bd17799c4aae0138475bed9cf, type: 2}
+  - {fileID: 2100000, guid: 918ca458ebc96654abe52400fd2077fb, type: 2}
+  - {fileID: 2100000, guid: b9277b7a70a87e745af36546c2d05f21, type: 2}
