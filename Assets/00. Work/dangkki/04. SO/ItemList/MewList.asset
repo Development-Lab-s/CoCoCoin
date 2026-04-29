@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 608b856b48f6207448d192e8e762e794, type: 3}
+  m_Name: MewList
+  m_EditorClassIdentifier: 
+  ShopItemList:
+  - {fileID: 11400000, guid: b0e409e2e89b4dd41afa93249dadde0b, type: 2}
+  - {fileID: 11400000, guid: 180f1df6b4c72304298b15829efc9e27, type: 2}
+  - {fileID: 11400000, guid: f7ef963df00af4047b7166b83b536444, type: 2}
+  - {fileID: 11400000, guid: 3449ed6f64df9664eab0173a44a8b16d, type: 2}
