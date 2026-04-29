@@ -4,7 +4,7 @@ using DG.Tweening;
 public class SettingOpenScript : MonoBehaviour
 {
     private GameObject settingFrame;
-    private bool settingFrameIsTurned = false;
+   
 
     private void Start()
     {

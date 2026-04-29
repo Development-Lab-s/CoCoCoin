@@ -11,12 +11,13 @@ public class ScreenManager : MonoBehaviour
     [SerializeField] private GameObject Settingframe;
     public static ScreenManager instance;
     private bool isActive;
-
+    private bool timeScaleValue;
     private void Update()
     {
         if(Keyboard.current.escapeKey.wasPressedThisFrame)
-        { 
-                esc.SetActive(!esc.activeSelf);
+        {
+            //esc.SetActive(!esc.activeSelf);  
+            Backtogame();
         }
     }
 
@@ -30,16 +31,23 @@ public class ScreenManager : MonoBehaviour
     public void Backtogame()
     {
         esc.SetActive(!esc.activeSelf);
+        if(esc.activeSelf == true)
+        {
+            Time.timeScale = 0;
+        }
+        else
+            Time.timeScale = 1;
+
     }
 
     public void setting()
     {
         Settingframe.SetActive(!Settingframe.activeSelf);
+
     }
 
     public void Restart()
     {
         SceneManager.LoadScene(1);
-       
     }
 }

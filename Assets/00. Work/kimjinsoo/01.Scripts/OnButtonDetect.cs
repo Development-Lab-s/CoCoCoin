@@ -28,7 +28,7 @@ public class UIController : MonoBehaviour
 
     private IEnumerator DelayCorutine()
     {
-        yield return new WaitForSeconds(delayTime);
+        yield return new WaitForSecondsRealtime(delayTime);
         transform.localScale = currentPos;
     }
 }

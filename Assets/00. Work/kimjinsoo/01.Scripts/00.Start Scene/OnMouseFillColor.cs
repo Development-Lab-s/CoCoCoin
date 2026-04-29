@@ -22,14 +22,14 @@ public class OnMouseFillColor : MonoBehaviour, IPointerEnterHandler ,IPointerExi
     {
         mouseEntered = true;
         mouseExited = false;
-        Debug.Log("마우스 올려져있음");
+        
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
         mouseEntered = false;
         mouseExited= true;
-        Debug.Log("마우스 나감");
+        
     }
 
     private void Update()
@@ -43,9 +43,6 @@ public class OnMouseFillColor : MonoBehaviour, IPointerEnterHandler ,IPointerExi
         {
             slider.value -= chargingTime;
         }
-
-            
-
     }
 }
 
