@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: Rosmontis
   m_EditorClassIdentifier: 
   Name: "\uB85C\uC988\uBAAC\uD2F0\uC2A4"
-  Description: "\uCABD\uB0E5\uC774\uB294 \uADC0\uC5FD\uC2B5\uB2C8\uB2E4 \uADF8\uB0E5
-    \uADF8\uB807\uB2E4\uAD6C\uC5EC"
+  Description: "\uCABD\uB0E5\uC774\uB294 \uADC0\uC5FD\uC2B5\uB2C8\uB2E4"
   Sprite: {fileID: 7431584577646538216, guid: 3aabfb2e8a1159747b1cb5c5146fcd61, type: 3}
   SpriteOnInventory: {fileID: 0}
   SpriteOnStack: {fileID: 0}
   ChipEncounter: {fileID: 0}
+  spriteLibrary: {fileID: 0}
+  rarity: 0
   SpinSprite: {fileID: 0}
   SelectSprite: {fileID: 22100000, guid: 61d849081cc245d4ba122e651a27c3d4, type: 2}
   ItemRarity: 2
