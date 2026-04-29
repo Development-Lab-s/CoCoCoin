@@ -1,5 +1,6 @@
 using DG.Tweening;
 using System.Collections;
+using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -8,44 +9,32 @@ using UnityEngine.UI;
 public class ChipDraw : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IDragHandler, IBeginDragHandler, IEndDragHandler
 {
     private InventoryToolTip toolTip;
-    private InventoryItemSO chip = null;
+    public InventoryItemSO chip = null;
     private Transform chipUI;
-    private Image image;
-    private Vector3 startPosition;
-    private CanvasGroup canvasGroup;
-    private Canvas canvas;
-
-    private Vector2 minRange;
-    private Vector2 maxRange;
-
-    Rigidbody2D coinRigid;
-    Animator handAnimator;
-    Animator coinAnimator;
+    [SerializeField]private Image image;
+    [SerializeField]
+    Material[] materials = new Material[3];
+    Dictionary<InventoryItemSO.Rarity, Material> rarityColor;
 
 
-    private void Awake()
+
+
+    public void Init(InventoryToolTip toolTip, InventoryItemSO chip, Transform chipUI)
     {
-        image = GetComponentInChildren<Image>();
-        canvasGroup = GetComponentInParent<CanvasGroup>();
-    }
-
-    private void Start()
-    {
-        minRange = new Vector2(-2, -2);
-        maxRange = new Vector2(2, 2);
-    }
-
-    public void Init(InventoryToolTip toolTip, InventoryItemSO chip, Transform chipUI, Rigidbody2D coinRigid, Animator handAnimator, Animator coinAnimator)
-    {
+        rarityColor = new Dictionary<InventoryItemSO.Rarity, Material>()
+        {
+            { InventoryItemSO.Rarity.Common, materials[0] },
+            { InventoryItemSO.Rarity.Rare, materials[1] },
+            { InventoryItemSO.Rarity.Legendary, materials[2] }
+        };
         this.toolTip = toolTip;
         this.chip = chip;
         this.chipUI = chipUI;
-        this.coinRigid = coinRigid;
-        this.handAnimator = handAnimator;
-        this.coinAnimator = coinAnimator;
         image.sprite = chip.SpriteOnStack;
         image.color = new Color(0,0,0,0);
         image.DOColor(Color.gray, 0.5f);
+        image.material = rarityColor[chip.rarity];
+        
     }
     public void OnPointerEnter(PointerEventData eventData)
     {
@@ -66,34 +55,23 @@ public class ChipDraw : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {
         transform.SetParent(chipUI.parent);
         transform.position = (Vector2)Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        canvasGroup.blocksRaycasts = false;
     }
 
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        canvasGroup.blocksRaycasts = true;
-        if (Camera.main.ScreenToWorldPoint(Input.mousePosition).x < maxRange.x && Camera.main.ScreenToWorldPoint(Input.mousePosition).y < maxRange.y && Camera.main.ScreenToWorldPoint(Input.mousePosition).x > minRange.x && Camera.main.ScreenToWorldPoint(Input.mousePosition).y > minRange.y)
-        {
-            BattleManager.instance.DiscardChip(chip);
-            BattleManager.instance.UseChip(chip,gameObject);
-            
-        }
-        else
-        {
-            transform.SetParent(chipUI);
-        }
+        image.raycastTarget = true;
+        transform.SetParent(chipUI);
     }
 
     private void OnDestroy()
     {
         DOTween.Kill(image);
-        canvasGroup.blocksRaycasts = true;
         toolTip.HideToolTip();
     }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        startPosition = transform.position;
+        image.raycastTarget = false;
     }
 }

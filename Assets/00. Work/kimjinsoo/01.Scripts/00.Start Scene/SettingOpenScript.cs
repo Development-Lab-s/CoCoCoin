@@ -5,6 +5,7 @@ public class SettingOpenScript : MonoBehaviour
 
 
     private GameObject Settingframe;
+
     private void Start()
     {
         Settingframe = GameObject.Find("SettingFrame");

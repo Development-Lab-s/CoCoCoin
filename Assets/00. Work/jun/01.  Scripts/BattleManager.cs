@@ -18,7 +18,7 @@ public class BattleManager : MonoBehaviour
 
     [SerializeField] private Player player;
     
-    [SerializeField] private Enemy enemy;
+    public Enemy enemy;
 
     [SerializeField] private InventorySO inventory;
 
@@ -33,24 +33,15 @@ public class BattleManager : MonoBehaviour
     [SerializeField] Animator handAnimator;
     [SerializeField] Animator coinAnimator;
     [SerializeField] Transform coinTrm;
-    [SerializeField] ParticleSystem coinParticle;
     [SerializeField] SpriteRenderer coinSprite;
-    [SerializeField] Transform handTrm;
-    [SerializeField] SpriteRenderer handSprite;
-
-    [SerializeField] CinemachineImpulseSource shaker;
-
-    [SerializeField] CinemachineCamera cineCamera;
 
     [SerializeField] CheckChipList chipList;
-
-    [SerializeField] ComboSystem comboSystem;
 
     [SerializeField] TextMeshProUGUI maxChipText;
 
     [SerializeField] TextMeshProUGUI drawChipText;
 
-    Vector3 originPos;
+    [SerializeField] FlipCoin flip;
 
     public List<InventoryItemSO> drawChips = new List<InventoryItemSO>();
     public List<InventoryItemSO> nowChips =  new List<InventoryItemSO>();
@@ -62,9 +53,14 @@ public class BattleManager : MonoBehaviour
 
     public bool isActive = true;
 
-    public static BattleManager instance;
+    public bool isLocked = false;
 
-    [SerializeField] MotionHandler motion;
+    public bool canUse = true;
+
+    public int needDiscard;
+
+
+    public static BattleManager instance;
 
     private void ChangeNowChips()
     {
@@ -74,7 +70,6 @@ public class BattleManager : MonoBehaviour
     private void Awake()
     {
         instance = this;
-        originPos = coinTrm.position;
         coinSprite.color = Color.clear;
     }
 
@@ -107,22 +102,30 @@ public class BattleManager : MonoBehaviour
         if (GameData.instance.amountDrawMax > nowChips.Count)
         {
             if (drawChips.Count <= 0) ShuffleChips();
+            if (drawChips.Count <= 0)
+            {
+                Debug.Log("이미 모든 카드를 다 뽑았습니다!");
+                return targetChip;
+            }
             targetChip = drawChips[Random.Range(0, drawChips.Count)];
             drawChips.Remove(targetChip);
             nowChips.Add(targetChip);
+
             ChangeNowChips();
             GameObject chipModel = Instantiate(chipModelPrerfab, chipUI);
-            chipModel.GetComponent<ChipDraw>().Init(inventoryToolTipUI, targetChip, chipUI, coinRigid, handAnimator, coinAnimator);
+            chipModel.GetComponent<ChipDraw>().Init(inventoryToolTipUI, targetChip, chipUI);
             chipModels.Add(chipModel);
 
         }
         return targetChip;
     }
 
-    public void DiscardChip(InventoryItemSO chip)
+    public void DiscardChip(InventoryItemSO chip,GameObject chipModel)
     {
         discardChips.Add(chip);
         nowChips.Remove(chip);
+        chipModels.Remove(chipModel);
+        Destroy(chipModel);
         ChangeNowChips();
     }
     private void PassTurn()
@@ -134,51 +137,20 @@ public class BattleManager : MonoBehaviour
     }
     private void Update()
     {
-        if (chipsOrder.Count > 0 && isActive)
+        if (chipsOrder.Count > 0 && isActive && currentState == State.PlayerTurn)
         {
-            currentState = State.PlayerPlaying;
-            shaker.GenerateImpulseWithForce(0.5f);
-
-            coinSprite.DOColor(Color.white, 0.1f);
-            
             isActive = false;
+            foreach (StatusEffect statusEffect in player.statusEffectHandler.nowStatusEffectList)
+            {
+                statusEffect.OnUse(player, enemy);
+            }
+            currentState = State.PlayerPlaying;
             InventoryItemSO chip = chipsOrder[0];
             chipsOrder.Remove(chip);
-            coinParticle.transform.position = coinTrm.position;
-            coinParticle.Stop();
-            coinParticle.Play();
-            handAnimator.SetBool("isFlipping", true);
-            coinAnimator.SetBool("isFlip", true);
-            coinRigid.DOMove(Vector3.up * 5, 0.5f).SetEase(Ease.OutQuad).OnComplete(JumpEnded);
-            cineCamera.Follow = coinTrm;
-            void JumpEnded()
-            {
-                handAnimator.SetTrigger("Grab");
-                coinRigid.DOMove(Vector3.down * 5, 0.4f).SetEase(Ease.InQuad);
-                handTrm.DORotate(new Vector3(0, 0, -80), 0.3f).OnComplete(() => handTrm.DORotate(new Vector3(0, 0, 30), 0.1f).OnComplete(SkillChipUse));
-            }
-
-            void SkillChipUse()
-            {
-                coinSprite.color = Color.clear;
-                coinRigid.position = originPos;
-                handAnimator.SetBool("isFlipping", false);
-                coinAnimator.SetBool("isFlip", false);
-                handTrm.DORotate(Vector3.zero, 0.2f);
-                bool isHead = chip.ChipEncounter.FlipCoin(player, enemy,motion);
-                if (isHead) 
-                {
-                    comboSystem.SetCombo(1);
-                }
-                else
-                {
-                    comboSystem.ResetCombo();
-                }
-                shaker.GenerateImpulse();
-                cineCamera.Follow = enemy.transform;
-            }
+            handAnimator.SetTrigger("Toss");
+            flip.chip = chip;
         }
-        if (chipsOrder.Count >= 3)
+        if (chipsOrder.Count >= 2)
         {
             Time.timeScale = 2f;
         }
@@ -190,12 +162,14 @@ public class BattleManager : MonoBehaviour
         {
             PassTurn();
         }
-    }
-    public void UseChip(InventoryItemSO chip,GameObject chipModel)
+}
+    public void UseChip(InventoryItemSO chip)
     {
+        if (chip.ChipEncounter.type == ChipEncounter.Type.Stop)
+        {
+            canUse = false;
+        }
         chipsOrder.Add(chip);
-        chipModels.Remove(chipModel);
-        Destroy(chipModel);
     }
     public List<InventoryItemSO>[] ReturnChipLists()
     {
@@ -207,6 +181,18 @@ public class BattleManager : MonoBehaviour
         for (int i = 0; i < GameData.instance.amountDrawOnce; i++)
         {
             DrawChip();
+        }
+        foreach (StatusEffect statusEffect in player.statusEffectHandler.nowStatusEffectList)
+        {
+            statusEffect.OnStartTurn(player, enemy);
+        }
+        if (player.statusEffectHandler.nowStatusEffectList.Count > 0)
+        {
+            foreach (StatusEffect effect in player.statusEffectHandler.nowStatusEffectList)
+            {
+                player.statusEffectHandler.AddCount(effect, -1);
+            }
+            player.statusEffectHandler.nowStatusEffectList.RemoveAll(effect => effect.leftTurns <= 0);
         }
     }
 
@@ -229,7 +215,8 @@ public class BattleManager : MonoBehaviour
         }
         else
         {
-            player.DiscardShield(player.shieldHP);
+            if (!player.statusEffectHandler.nowStatusEffectList.Exists(effect => effect.checkValue == "SaveDefense"))
+                player.ClearShield();
             StartPlayerTurn();
         }
     }
