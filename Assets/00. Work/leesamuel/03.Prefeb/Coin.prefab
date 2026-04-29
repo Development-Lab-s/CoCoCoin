@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1937998182923958745}
   - component: {fileID: 8359128759911446297}
-  - component: {fileID: -4469693353447538216}
-  - component: {fileID: 5602667931139224533}
+  - component: {fileID: 1964309625523453644}
+  - component: {fileID: 8118753563461205464}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Untagged
@@ -19,21 +19,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1937998182923958745
-Transform:
+--- !u!224 &1937998182923958745
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2001689316861808664}
-  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.32, y: 0.35, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1.7714286, y: 1.7857143}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &8359128759911446297
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -75,7 +79,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: -429253027
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -3647211631376388965, guid: 79bcefe47550727459e22ca51b7ddcb5, type: 3}
@@ -89,7 +93,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!58 &-4469693353447538216
+--- !u!114 &1964309625523453644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001689316861808664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29b2d069c2da0ad44ad79df856d815e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  so: {fileID: 11400000, guid: d55e1ed61c39a474998195d5409c54a4, type: 2}
+  _maxScale: 1.3
+  _scaleSpeed: 10
+  _returnSpeed: 15
+  toolTip: {fileID: 0}
+--- !u!58 &8118753563461205464
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,17 +145,4 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 1.25
---- !u!114 &5602667931139224533
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2001689316861808664}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 576253e419d132f4ba6443507b686887, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  so: {fileID: 11400000, guid: d55e1ed61c39a474998195d5409c54a4, type: 2}
+  m_Radius: 0.89285713

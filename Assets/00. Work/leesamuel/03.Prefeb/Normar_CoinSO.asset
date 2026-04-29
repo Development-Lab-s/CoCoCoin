@@ -12,8 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ab833fd37e42eb48b8fbb686d40d810, type: 3}
   m_Name: Normar_CoinSO
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
+  Name: "\uC77C\uBC18\uCF54\uC778"
+  Description: "[50%|50%]\\n\uC55E\uBA74 \uC801\uC911\uC2DC \uC790\uC2E0\uC5D0\uAC8C
+    <color=#7EEDFF>10\uC758 \uD53C\uD574\uB97C \uB9C9\uC744 \uBC18\uD07C\uC758 \uBC29\uC5B4\uB3C4</color>\uB97C
+    \uC5BB\uC2B5\uB2C8\uB2E4.\\n\uB4B7\uBA74 \uC801\uC911\uC2DC \uC801\uC5D0\uAC8C
+    <color=#7EEDFF>10\uC758 \uD53C\uD574\uB97C \uB9C9\uC744 \uBC18\uD07C\uC758 \uBC29\uC5B4\uB3C4</color>\uB97C
+    \uC90D\uB2C8\uB2E4."
   Sprite: {fileID: -3647211631376388965, guid: 79bcefe47550727459e22ca51b7ddcb5, type: 3}
   SpriteOnInventory: {fileID: -3647211631376388965, guid: 79bcefe47550727459e22ca51b7ddcb5, type: 3}
+  SpriteOnStack: {fileID: 0}
   ChipEncounter: {fileID: 0}
