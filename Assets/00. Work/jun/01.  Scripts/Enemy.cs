@@ -18,23 +18,48 @@ public class Enemy : MonoBehaviour
     [SerializeField] EnemyMotionHandler motionHandler;
 
     private Vector3 originScale;
+    private Vector3 newScale;
 
     [SerializeField] private CinemachineImpulseSource impulseSource;
     [SerializeField] DamageEncounter damageEncounter;
     private Color shieldTextColor;
-
-
-    public int EnemyCurrentHP()
-    {
-        return hp;
-    }
-
+    bool enabledSmoothMove = true;
+    float t = 0.0f;
+    float speed = 2f;
     private void Start()
     {
         displayHP = hp;
         shieldTextColor = shieldText.color;
         originScale = transform.localScale;
+        newScale = originScale + new Vector3(-0.025f,0.05f,-0.025f);
         UpdateUI();
+    }
+
+    private void Update()
+    {
+        if (enabledSmoothMove)
+        {
+            if (t < 1.0f)
+            {
+                t += Time.deltaTime * speed;
+                transform.localScale = Vector3.Lerp(originScale, newScale, t);
+            }
+            else if (t < 2.0f)
+            {
+                t += Time.deltaTime * speed;
+                transform.localScale = Vector3.Lerp(newScale, originScale, t-1);
+            }
+            else
+            {
+                t = 0.0f;
+            }
+        }
+    }
+
+
+    public int EnemyCurrentHP()
+    {
+        return hp;
     }
 
     // 적의 턴 행동
@@ -101,7 +126,7 @@ public class Enemy : MonoBehaviour
             // 1씩 감소하는 모션
             while (displayHP > hp)
             {
-                displayHP--;
+                displayHP -= damage / 1000 + 1;
                 UpdateUI();
                 yield return new WaitForSeconds(0.6f / damage); // 1초에 20번 업데이트
             }

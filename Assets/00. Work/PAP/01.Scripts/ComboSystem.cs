@@ -10,7 +10,8 @@ public class ComboSystem : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI comboTextUI;
     int currentCombo = 0;
-    string[] comboText = { "", "코인!", "코코인!!", "코코코인!!!", "울트라 코인!!!!", "슈퍼 울트라 코코인!!!!!", "슈퍼 울티메이트 코코코인!!!!!!" };
+    string[] comboText = { "", "코인!", "코코인!!", "코코코인!!!", "울트라 코인!!!!", "슈퍼 울티메이트 코코인!!!!!", "슈퍼 울트라 울티메이트 코코코인!!!!!!","데브 랩!!!!!!!!!!!!!!" };
+    int[] comboMultiplier = {1, 1, 2, 3, 5, 8, 13,21,34,55,89,144};
     Vector3 originPos;
     Vector3 targetPos;
     float speed = 1f;
@@ -82,7 +83,7 @@ public class ComboSystem : MonoBehaviour
         comboTextUI.rectTransform.position = originPos;
         comboTextUI.rectTransform.rotation = Quaternion.identity;
         comboTextUI.color = Color.red;
-        comboTextUI.DOColor(Color.green, 0.1f).OnComplete(() => comboTextUI.DOColor(Color.blue, 0.2f).OnComplete(() => comboTextUI.DOColor(new Color(1f, 1f, 0.3f) + new Color(currentCombo * 0.2f, currentCombo * -0.2f, 0), 0.2f)));
+        comboTextUI.DOColor(Color.green, 0.1f).OnComplete(() => comboTextUI.DOColor(Color.blue, 0.2f).OnComplete(() => comboTextUI.DOColor(new Color(1f, 1f, 0.1f) + new Color(currentCombo * 0.15f, currentCombo * -0.15f, 0), 0.2f)));
         comboTextUI.rectTransform.DORotate(new Vector3(0, 0, -10), 0.1f).OnComplete(() => comboTextUI.rectTransform.DORotate(new Vector3(0, 0, 10), 0.1f).OnComplete(() => comboTextUI.rectTransform.DORotate(new Vector3(0, 0, 0), 0.1f)));
         long fact = ReturnComboCount();
         comboTextUI.SetText($"{comboText[currentCombo]} X{fact}");
@@ -90,11 +91,6 @@ public class ComboSystem : MonoBehaviour
 
     public long ReturnComboCount()
     {
-        long fact = 1;
-        for (int i = 1; i <= currentCombo; i++)
-        {
-            fact *= i;
-        }
-        return fact;
+        return comboMultiplier[currentCombo];
     }
 }
