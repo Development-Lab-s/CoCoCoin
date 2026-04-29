@@ -118,7 +118,14 @@ public class FlipCoin : MonoBehaviour
             }
             else
             {
-                comboSystem.ResetCombo();
+                if (player.statusEffectHandler.nowStatusEffectList.Exists(effect => effect.checkValue == "SaveCombo"))
+                {
+                    player.statusEffectHandler.AddCount(player.statusEffectHandler.nowStatusEffectList.Find(effect => effect.checkValue == "SaveDefense"),-77);
+                }
+                else
+                {
+                    comboSystem.ResetCombo();
+                }
             }
         }
     }

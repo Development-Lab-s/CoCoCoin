@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: "\uBC18\uACA9 \uCE69"
   Description: "[50% \uC55E\uBA74]\n\uC801\uC5D0\uAC8C <color=#6666FF>\uC790\uC2E0\uC758
-    \uC274\uB4DC \uB9CC\uD07C\uC758 \uD53C\uD574</color>\uB97C \uC90D\uB2C8\uB2E4.\n\n[50%
-    \uB4B7\uBA74]\n<color=#999999>\uC2E4\uD328</color> \uD569\uB2C8\uB2E4."
+    \uC274\uB4DC \uB9CC\uD07C\uC758 \uD53C\uD574</color>\uB97C \uC90D\uB2C8\uB2E4\n\n[50%
+    \uB4B7\uBA74]\n<color=#999999>\uC2E4\uD328</color> \uD569\uB2C8\uB2E4"
   Sprite: {fileID: -7502710690579546915, guid: 88cd6d10308574c4696760c23c213124, type: 3}
   SpriteOnInventory: {fileID: 3426827930244345985, guid: 79f3433df6a2cc34281ed26d4dd13288, type: 3}
   SpriteOnStack: {fileID: 7862119159083213105, guid: 8328d1c6c0f292544ac22e5e0aefb4b6, type: 3}
   ChipEncounter: {fileID: 11400000, guid: d24aabbd1062dd54691db44d2f73924f, type: 2}
-  coinAnim: {fileID: 0}
+  spriteLibrary: {fileID: 0}
   rarity: 0

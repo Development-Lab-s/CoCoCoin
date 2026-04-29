@@ -10,6 +10,7 @@ public class ComboSystem : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI comboTextUI;
     int currentCombo = 0;
+    private int pastCombo = 0;
     string[] comboText = { "", "코인!", "코코인!!", "코코코인!!!", "울트라 코인!!!!", "슈퍼 울티메이트 코코인!!!!!", "슈퍼 울트라 울티메이트 코코코인!!!!!!","데브 랩!!!!!!!!!!!!!!" };
     int[] comboMultiplier = {1, 1, 2, 3, 5, 8, 13,21,34,55,89,144};
     Vector3 originPos;
@@ -57,6 +58,7 @@ public class ComboSystem : MonoBehaviour
     public void ResetCombo()
     {
         speed = 1f + currentCombo * 0.2f;
+        pastCombo = currentCombo;
         if (currentCombo != 0)
         {
             currentCombo = 0;
