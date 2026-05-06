@@ -29,7 +29,19 @@ public class BattleManager : MonoBehaviour
     [SerializeField] private Transform chipUI;
     [SerializeField] private InventoryToolTip inventoryToolTipUI;
 
-    public int amountDrawMax;
+    private int _amountDrawMax = 10;
+    public int AmountDrawMax
+    {
+        get
+        {
+            return _amountDrawMax;
+        } 
+        set
+        {
+            _amountDrawMax = value;
+            maxChipText.SetText(_amountDrawMax.ToString());
+        }
+    }
 
     [SerializeField] Rigidbody2D coinRigid;
     [SerializeField] Animator handAnimator;
@@ -84,8 +96,8 @@ public class BattleManager : MonoBehaviour
     {
         enemy.Init(currentEnemySettiing.Data.enemySprite,currentEnemySettiing.Data.Health);
         
-        amountDrawMax = GameData.instance.amountDrawMax;
-        maxChipText.SetText(amountDrawMax.ToString());
+        AmountDrawMax = GameData.instance.amountDrawMax;
+        
         currentState = State.Start;
         foreach (InventoryItemSO item in inventory.inventoryItemList)
         {
@@ -188,6 +200,7 @@ public class BattleManager : MonoBehaviour
     }
     private void StartPlayerTurn()
     {
+        enemy.AttackPower = currentEnemySettiing.Data.damage[Random.Range(0,currentEnemySettiing.Data.damage.Count)];
         currentState = State.PlayerTurn;
         for (int i = 0; i < GameData.instance.amountDrawOnce; i++)
         {

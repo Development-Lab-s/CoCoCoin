@@ -1,12 +1,12 @@
 using Unity.Jobs;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "DiscardChip", menuName = "ChipEncounterSO/DiscardChip")]
-public class DiscardChip : ChipEncounter
+[CreateAssetMenu(fileName = "DiscardDrawSpecialChip", menuName = "ChipEncounterSO/DiscardDrawSpecialChip")]
+public class DiscardDrawSpecialChip : ChipEncounter
 {
     public override void HeadChip(Player player, Enemy enemy)
     {
-        for (int i = 0; i < 2; i++)
+        for (int i = 0; i < 3; i++)
         {
             BattleManager.instance.DrawChip();
         }
@@ -20,5 +20,6 @@ public class DiscardChip : ChipEncounter
 
     public override void TailChip(Player player, Enemy enemy)
     {
+        BattleManager.instance.AmountDrawMax += 1;
     }
 }

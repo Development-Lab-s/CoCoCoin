@@ -10,15 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ab833fd37e42eb48b8fbb686d40d810, type: 3}
-  m_Name: AttackChip
+  m_Name: DefenseDrawChip
   m_EditorClassIdentifier: 
-  Name: "\uBE68\uAC04\uC0C9 \uCE69"
-  Description: "[50% \uC55E\uBA74]\n<color=#FF0000>\uD53C\uD574\uB97C 7</color>\uB97C
-    \uC90D\uB2C8\uB2E4.\n\n[50% \uB4B7\uBA74]\n<color=#999999>\uC2E4\uD328</color>
-    \uD569\uB2C8\uB2E4."
+  Name: "\uBCF4\uB77C\uC0C9 \uCE69"
+  Description: "[50% \uC55E\uBA74]\n\uBC29\uC5B4\uB3C4 <color=#AAAAFF>+10</color>\n\n[50%
+    \uB4B7\uBA74]\n\uCF54\uC778\uC744 2\uC7A5 \uBF51\uC2B5\uB2C8\uB2E4"
   Sprite: {fileID: -7502710690579546915, guid: 88cd6d10308574c4696760c23c213124, type: 3}
   SpriteOnInventory: {fileID: 3426827930244345985, guid: 79f3433df6a2cc34281ed26d4dd13288, type: 3}
   SpriteOnStack: {fileID: 7862119159083213105, guid: 8328d1c6c0f292544ac22e5e0aefb4b6, type: 3}
-  ChipEncounter: {fileID: 11400000, guid: 3d7783809ee8f744d94ba9d8172aea77, type: 2}
+  ChipEncounter: {fileID: 11400000, guid: 16f767f2b096b954b9a6067f74bad2a6, type: 2}
   spriteLibrary: {fileID: 0}
   rarity: 0
