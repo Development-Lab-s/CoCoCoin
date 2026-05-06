@@ -56,6 +56,8 @@ public class ScreenManager : MonoBehaviour
     public void Restart()
     {
         esc.SetActive(false);
+        MapManager.isInitialized = false;
+        MapManager.saveMapId = null;
         SceneManageHandler.instance.MoveScene(0);
     }
 }

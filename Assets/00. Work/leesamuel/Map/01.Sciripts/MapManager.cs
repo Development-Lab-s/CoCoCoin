@@ -6,10 +6,11 @@ public class MapManager : MonoBehaviour
 {
     public static List<string> clearedNodeIDs = new List<string>();
 
+    public static string saveMapId = null;
     private int currentMapShapeIndex;
     private int currentMapType;
     [SerializeField]private GameObject linePrefab;
-    private static bool isInitialized = false;
+    public static bool isInitialized = false;
     private static int savedMapType = -1;
     private static int savedShapeIndex = -1;
     public List<MapNode> allNodes = new List<MapNode>();
@@ -26,7 +27,7 @@ public class MapManager : MonoBehaviour
     public int maxFloor = 3;
 
     void Start()
-    {
+    {   
         MapPlayer.Instance.isMoving = false;
         InitializeMapSettings();
         currentMapType = savedMapType;
@@ -38,6 +39,7 @@ public class MapManager : MonoBehaviour
         {
             ui.ShowFloorUI(currentFloor);
         }
+        
 
     }
     void InitializeMapSettings()
@@ -209,7 +211,7 @@ public class MapManager : MonoBehaviour
         if (player != null)
         {
             // spawn 노드를 찾아서 배치 (ID가 "Spawn"인 노드)
-            MapNode spawnNode = allNodes.Find(n => n.nodeID == "Spawn");
+            MapNode spawnNode = allNodes.Find(n => saveMapId != null ? n.nodeID == saveMapId : n.nodeID == "Spawn");
             if (spawnNode != null)
             {
                 player.currentNode = spawnNode;

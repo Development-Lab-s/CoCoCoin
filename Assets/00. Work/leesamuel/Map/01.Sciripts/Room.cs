@@ -66,6 +66,7 @@ public class Room : MonoBehaviour
                 MapPlayer.Instance.isMoving = false;
                 break;
         }
+        MapManager.saveMapId = myData.nodeID;
     }
 
     // 방을 클리어 상태로 만들고 시각 효과 적용
