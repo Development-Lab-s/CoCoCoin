@@ -12,5 +12,5 @@ public class ShopItemSO : InventoryItemSO
     }
     public AnimationClip SpinSprite;
     public AnimatorOverrideController SelectSprite;
-    public new Rarity ItemRarity;
+    public Rarity ItemRarity;
 }

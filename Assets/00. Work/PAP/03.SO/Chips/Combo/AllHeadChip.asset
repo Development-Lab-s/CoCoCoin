@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ab833fd37e42eb48b8fbb686d40d810, type: 3}
   m_Name: AllHeadChip
   m_EditorClassIdentifier: 
-  Name: 
+  Name: "\uBBF8\uC815"
   Description: "[<color=#FFFF00>777% \uC55E\uBA74]\n\uC774 \uCF54\uC778\uC740 \uBAA8\uB450
     \uC55E\uBA74\uC785\uB2C8\uB2E4!"
   Sprite: {fileID: -7502710690579546915, guid: 88cd6d10308574c4696760c23c213124, type: 3}

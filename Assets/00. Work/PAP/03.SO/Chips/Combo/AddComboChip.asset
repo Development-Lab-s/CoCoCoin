@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ab833fd37e42eb48b8fbb686d40d810, type: 3}
   m_Name: AddComboChip
   m_EditorClassIdentifier: 
-  Name: 
+  Name: "\uBBF8\uC815"
   Description: "[50% \uC55E\uBA74]\n\uCF64\uBCF4 +2\n\n[50% \uB4B7\uBA74]\n<color=#999999>\uC2E4\uD328</color>
     \uD569\uB2C8\uB2E4"
   Sprite: {fileID: -7502710690579546915, guid: 88cd6d10308574c4696760c23c213124, type: 3}

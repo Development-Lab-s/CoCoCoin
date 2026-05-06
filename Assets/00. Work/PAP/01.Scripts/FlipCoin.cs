@@ -111,7 +111,6 @@ public class FlipCoin : MonoBehaviour
 
         void SkillChipUse(bool isHead)
         {
-            motion.PlayMotion(isHead, player, enemy, chip.ChipEncounter, chip.ChipEncounter.headChipMotion, chip.ChipEncounter.tailChipMotion);
             if (isHead)
             {
                 comboSystem.SetCombo(1);
@@ -120,13 +119,15 @@ public class FlipCoin : MonoBehaviour
             {
                 if (player.statusEffectHandler.nowStatusEffectList.Exists(effect => effect.checkValue == "SaveCombo"))
                 {
-                    player.statusEffectHandler.AddCount(player.statusEffectHandler.nowStatusEffectList.Find(effect => effect.checkValue == "SaveDefense"),-77);
+                    player.statusEffectHandler.AddCount(player.statusEffectHandler.nowStatusEffectList.Find(effect => effect.checkValue == "SaveCombo"),-77);
+                    player.statusEffectHandler.nowStatusEffectList.RemoveAll(effect => effect.leftTurns <= 0);
                 }
                 else
                 {
                     comboSystem.ResetCombo();
                 }
             }
+            motion.PlayMotion(isHead, player, enemy, chip.ChipEncounter, chip.ChipEncounter.headChipMotion, chip.ChipEncounter.tailChipMotion);
         }
     }
 }

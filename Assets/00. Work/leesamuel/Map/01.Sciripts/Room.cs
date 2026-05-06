@@ -6,6 +6,8 @@ public class Room : MonoBehaviour
 {
     public MapNode myData;
     private SpriteRenderer spriteRenderer;
+    [SerializeField] private CurrentEnemySetting enemySetting;
+
     private void OnMouseDown()
     {
         if (MapPlayer.Instance != null)
@@ -27,6 +29,7 @@ public class Room : MonoBehaviour
         if (myData.isCleared)
         {
             Debug.Log("이미 클리어한 방입니다.");
+            MapPlayer.Instance.isMoving = false;
             return;
         }
 
@@ -34,20 +37,22 @@ public class Room : MonoBehaviour
         switch (myData.type)
         {
             case RoomType.Fight:
-                Debug.Log("전투 발생! 전투 씬으로 이동합니다.");
-                // SceneManager.LoadScene("FightScene"); // 실제 전투 씬 이름
-                SetCleared(); // 테스트를 위해 즉시 클리어 처리
+                enemySetting.Data = myData.enemyData;
+                SceneManageHandler.instance.MoveScene(3);
+                SetCleared();
                 break;
 
             case RoomType.Shop:
                 Debug.Log("상점에 입장했습니다. 물건을 구매하세요.");
                 // 상점 UI 띄우기 로직
+                SceneManageHandler.instance.MoveScene(2);
                 SetCleared();
                 break;
 
             case RoomType.Interaction:
                 Debug.Log("신비한 비석을 발견했습니다.");
                 SetCleared();
+                MapPlayer.Instance.isMoving = false;
                 break;
 
             case RoomType.Boss:
@@ -58,7 +63,7 @@ public class Room : MonoBehaviour
 
             case RoomType.Huge:
                 Debug.Log("넓은 방에 들어왔습니다.");
-                SetCleared();
+                MapPlayer.Instance.isMoving = false;
                 break;
         }
     }

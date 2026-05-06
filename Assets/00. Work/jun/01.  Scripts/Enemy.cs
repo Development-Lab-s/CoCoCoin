@@ -26,8 +26,12 @@ public class Enemy : MonoBehaviour
     bool enabledSmoothMove = true;
     float t = 0.0f;
     float speed = 2f;
-    private void Start()
+    bool isDead = false;
+
+    public void Init(Sprite sprite, int hp)
     {
+        GetComponent<SpriteRenderer>().sprite = sprite;
+        this.hp = hp;
         displayHP = hp;
         shieldTextColor = shieldText.color;
         originScale = transform.localScale;
@@ -94,11 +98,12 @@ public class Enemy : MonoBehaviour
         {
             hpText.SetText(displayHP.ToString());
         }
-        if (displayHP <= 0)
+        if (displayHP <= 0 && !isDead)
         {
+            isDead = true;
             Debug.Log("승리!");
             BattleManager.instance.currentState = BattleManager.State.End;
-            Time.timeScale = 0f;
+            SceneManageHandler.instance.MoveScene(4);
         }
     }
 

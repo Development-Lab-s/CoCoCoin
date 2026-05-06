@@ -299,6 +299,8 @@ MonoBehaviour:
   - {fileID: 5364675641484808083, guid: dbe3214ccd76dd9419ef0430ab554743, type: 3}
   spawnRoomPrefab:
   - {fileID: 750492222377320062, guid: 4d4982e060fbc2b4cafa3c05f842bc3f, type: 3}
+  enemyData:
+  - {fileID: 11400000, guid: 7f512a2bd44274e40a647c906867c6c5, type: 2}
   maxFloor: 3
 --- !u!4 &847855605
 Transform:

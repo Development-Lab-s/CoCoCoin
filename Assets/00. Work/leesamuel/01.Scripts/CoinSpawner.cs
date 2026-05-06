@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.Collections;
 using UnityEngine;
+using UnityEngine.AI;
 using UnityEngine.EventSystems;
 using System.Threading.Tasks;
 
@@ -10,14 +11,15 @@ public class CoinSpawner : MonoBehaviour
     private int _Number_of_coins;
     private float X = 0;
     private float Y = 0;
-    [SerializeField] private GameObject NormarCoinPrefeb;//생성할 코인 프레펩
-    [SerializeField] private GameObject RedCoinPrefeb;
     [SerializeField] private GameObject Coin_Spown_point;
+    [SerializeField] private GameObject _coinPrefab;
+    [SerializeField] List<InventoryItemSO> _commonCoinDatas = new List<InventoryItemSO>();
+    [SerializeField] List<InventoryItemSO> _rareCoinDatas = new List<InventoryItemSO>();
+    [SerializeField] List<InventoryItemSO> _legendaryCoinDatas = new List<InventoryItemSO>();
     private int Rarity_probability;
     private int CoinType;
-    private GameObject _CoinPrefeb;
     private float _spawnTime =0.3f;
-
+    
 
     public int Common_probability = 100;//확률 설정 무조건 총합"100"이어야함
     public int Rare_probability = 0;
@@ -29,27 +31,19 @@ public class CoinSpawner : MonoBehaviour
         Rare_probability += Common_probability;
         Regendery_probability += Rare_probability;
         Rarity_probability = Random.Range(1, 101);
+        GameObject Coin = Instantiate(_coinPrefab); //코인 생성
         if (0 < Rarity_probability && Common_probability >= Rarity_probability)
         {
-            CoinType = Random.Range(0, 2);  //common등급 코인 
-            if (CoinType == 0)
-            {
-                _CoinPrefeb = NormarCoinPrefeb;
-            }
-            else if (CoinType == 1)
-            {
-                _CoinPrefeb = RedCoinPrefeb;
-            }
+            Coin.GetComponent<CoinDrag>().so = _commonCoinDatas[Random.Range(0, _commonCoinDatas.Count)];
         }
         else if (Common_probability < Rarity_probability && Rare_probability >= Rarity_probability)//Rare등급 코인 
         {
-
+            Coin.GetComponent<CoinDrag>().so = _rareCoinDatas[Random.Range(0, _rareCoinDatas.Count)];
         }
         else if (Rare_probability < Rarity_probability && Regendery_probability >= Rarity_probability)//Epic등급 코인 
         {
 
         }
-        GameObject Coin = Instantiate(_CoinPrefeb); //코인 생성
         Coin.transform.position = Coin_Spown_point.transform.position;
     }
     private IEnumerator Start()
@@ -70,7 +64,7 @@ public class CoinSpawner : MonoBehaviour
         }
         else if (_Number_of_coins == 5)
         {
-            X = -7;
+            X = -6;
 
             for (int i = 0; i < _Number_of_coins; i++)
             {
@@ -82,7 +76,7 @@ public class CoinSpawner : MonoBehaviour
                     }
 
                     transform.position = new Vector3(X, Y, 0);//좌표 수정
-                    X += 3.5f;
+                    X += 3f;
                     CoinSpawn();
                     yield return new WaitForSeconds(_spawnTime);
                 }

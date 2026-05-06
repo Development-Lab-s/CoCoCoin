@@ -8,6 +8,6 @@ public class SaveCombo : StatusEffect
         checkValue = "SaveCombo";
         leftTurns = 77;
         textColor = new Color(1f, 0.1f, 0.8f);
-        contents = $"다음 한번, 콤보가 끊기지 않습니다";
+        contents = $"콤보 끊김을 막아줍니다.";
     }
 }

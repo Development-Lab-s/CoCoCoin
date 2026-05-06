@@ -73,7 +73,7 @@ public class Player : MonoBehaviour
 
     public void DiscardShield(int shield)
     {
-        shieldHP -= Mathf.Max(shield,shieldHP);
+        shieldHP = Mathf.Max(shieldHP-shield,0);
         StartCoroutine(ShieldAnimation(shield));
     }
 

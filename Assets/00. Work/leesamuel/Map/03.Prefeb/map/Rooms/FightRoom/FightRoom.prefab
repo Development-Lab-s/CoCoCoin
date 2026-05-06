@@ -102,6 +102,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myData: {fileID: 0}
+  enemySetting: {fileID: 11400000, guid: 414864045450ba443903182cfda8bf17, type: 2}
 --- !u!61 &-2079785837612648569
 BoxCollider2D:
   m_ObjectHideFlags: 0

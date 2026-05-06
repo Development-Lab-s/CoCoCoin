@@ -256,7 +256,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -264,7 +264,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &227483612
@@ -357,9 +357,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b79f2d55d751c044822f87155260143, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NormarCoinPrefeb: {fileID: 2001689316861808664, guid: cfc31c3ad07261d4ebd4ac3e6662b8db, type: 3}
-  RedCoinPrefeb: {fileID: 9051150441579577480, guid: 22252c9352aff8d41ae0c6df16728490, type: 3}
   Coin_Spown_point: {fileID: 756834156}
+  _coinPrefab: {fileID: 2001689316861808664, guid: cfc31c3ad07261d4ebd4ac3e6662b8db, type: 3}
+  _commonCoinDatas:
+  - {fileID: 11400000, guid: 4422f1c4a44631f4a80e1781d8ef2e5f, type: 2}
+  - {fileID: 11400000, guid: 4d67fbbea1d02fb488c63d6260a7fe9f, type: 2}
+  - {fileID: 11400000, guid: c2fa227f74648dd46b54681d86701440, type: 2}
+  - {fileID: 11400000, guid: f16f96c19ad07294eb0bad6f0010c481, type: 2}
+  - {fileID: 11400000, guid: cd550dcc671d4224991918876091a699, type: 2}
+  - {fileID: 11400000, guid: d7bf94687914a604d88d779a59eea97a, type: 2}
+  _rareCoinDatas:
+  - {fileID: 11400000, guid: b923f7b2003d25c4fa8f339cd65b7223, type: 2}
+  - {fileID: 11400000, guid: c2541c4875bd462458c1d62695e806b7, type: 2}
+  - {fileID: 11400000, guid: 3565049bb1f198440921da00573e01a1, type: 2}
+  _legendaryCoinDatas:
+  - {fileID: 11400000, guid: c2541c4875bd462458c1d62695e806b7, type: 2}
   Common_probability: 100
   Rare_probability: 0
   Regendery_probability: 0
@@ -872,6 +884,7 @@ GameObject:
   - component: {fileID: 1538737928}
   - component: {fileID: 1538737927}
   - component: {fileID: 1538737926}
+  - component: {fileID: 1538737929}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -953,6 +966,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1538737929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1538737925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
 --- !u!1 &1571534606
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,18 +5,21 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
     path: Assets/00. Work/kimjinsoo/00. Scene/00.StartScene.unity
     guid: 1973abbdffe90dc42bfb7ebc4aa19cfe
   - enabled: 1
-    path: Assets/00. Work/kimjinsoo/00. Scene/01.Loading.unity
-    guid: 4c8fdbbe5d517e341bd767219359f23b
+    path: Assets/00. Work/leesamuel/Map/00.Scean/Map.unity
+    guid: 6c365f0a3043fb044b523f49bce7485c
   - enabled: 1
-    path: Assets/00. Work/kimjinsoo/00. Scene/02.InGame.unity
-    guid: fcc151321e7744242900bc6a349a3c22
+    path: Assets/00. Work/dangkki/00. Scenes/Shop.unity
+    guid: 22e2064dad5e7ce45911a9ba5a1e0e11
+  - enabled: 1
+    path: Assets/00. Work/PAP/00.Scenes/Fight.unity
+    guid: 75dfae80ad5940b499571538baa5f2c6
+  - enabled: 1
+    path: Assets/00. Work/leesamuel/00. Scenes/Loot.unity
+    guid: 603c2cec455500c48ae0692571afd4d0
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

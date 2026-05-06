@@ -19,12 +19,15 @@ public class MapManager : MonoBehaviour
     [SerializeField] private GameObject[] interacitionRoomPrefab;
     [SerializeField] private GameObject[] shopRoomPrefab;
     [SerializeField] private GameObject[] spawnRoomPrefab;
+    
+    [SerializeField] private List<EnemyData> enemyData = new List<EnemyData>();
 
     public static int currentFloor = 1;     
     public int maxFloor = 3;
 
     void Start()
     {
+        MapPlayer.Instance.isMoving = false;
         InitializeMapSettings();
         currentMapType = savedMapType;
         currentMapShapeIndex = savedShapeIndex;
@@ -236,6 +239,7 @@ public class MapManager : MonoBehaviour
         node.type = type;
         node.mapType = savedMapType;
         node.roomShapeType = savedShapeIndex;
+        node.enemyData = enemyData[Random.Range(0, enemyData.Count)];
 
         // [수정] 스폰룸이거나 이미 클리어 리스트에 있다면 true
         if (type == RoomType.Spawn || clearedNodeIDs.Contains(id))

@@ -5,6 +5,6 @@ public class GoAnotherScene : MonoBehaviour
 {
     public void Change()
     {
-        SceneManager.LoadScene(1);
+         SceneManageHandler.instance.MoveScene(1);
     }
 }

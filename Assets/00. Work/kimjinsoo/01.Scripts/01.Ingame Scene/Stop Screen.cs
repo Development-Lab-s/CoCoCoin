@@ -9,9 +9,11 @@ public class ScreenManager : MonoBehaviour
 {
     public GameObject esc;
     [SerializeField] private GameObject Settingframe;
+    [SerializeField] private GameObject stopCanvas;
     public static ScreenManager instance;
     private bool isActive;
     private bool timeScaleValue;
+    
     private void Update()
     {
         if(Keyboard.current.escapeKey.wasPressedThisFrame)
@@ -26,6 +28,9 @@ public class ScreenManager : MonoBehaviour
         instance = this;
         esc.SetActive(false);
         Settingframe.SetActive(false);
+        stopCanvas.GetComponent<Canvas>().sortingOrder = 0;
+        DontDestroyOnLoad(gameObject);
+        DontDestroyOnLoad(stopCanvas);
     }
 
     public void Backtogame()
@@ -33,10 +38,12 @@ public class ScreenManager : MonoBehaviour
         esc.SetActive(!esc.activeSelf);
         if(esc.activeSelf == true)
         {
-            Time.timeScale = 0;
+            stopCanvas.GetComponent<Canvas>().sortingOrder = 2;
         }
         else
-            Time.timeScale = 1;
+        {
+            stopCanvas.GetComponent<Canvas>().sortingOrder = 0;
+        }
 
     }
 
@@ -48,6 +55,7 @@ public class ScreenManager : MonoBehaviour
 
     public void Restart()
     {
-        SceneManager.LoadScene(1);
+        esc.SetActive(false);
+        SceneManageHandler.instance.MoveScene(0);
     }
 }
