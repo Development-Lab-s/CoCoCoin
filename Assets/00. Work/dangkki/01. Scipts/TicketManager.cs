@@ -2,6 +2,15 @@ using UnityEngine;
 
 public class TicketManager : MonoBehaviour
 {
+    public static TicketManager instance;
+
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+    }
     public int _ticket = 0;
     public void AddTicket(int amount)
     {

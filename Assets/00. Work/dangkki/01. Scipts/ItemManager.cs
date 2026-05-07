@@ -43,7 +43,10 @@ public class ItemManager : MonoBehaviour
             _itemList_SoldOut[i].enabled = false;
             _itemList_Sprite[i].color = Color.white;
         }
-        
+    }
+    private void Start()
+    {
+        SetItem();
     }
     public void SetItem()
     {
@@ -66,21 +69,16 @@ public class ItemManager : MonoBehaviour
          if (_isSold[itemNumber - 1] == true)
         {
             Debug.Log("이미 구매한 아이템입니다.");
-            return;
         }
         if (_sellitem[itemNumber - 1].ItemRarity == ShopItemSO.Rarity.Common)
         {
-
             if (_ticketManager._ticket >= 3)
             {
                 _ticketManager._ticket -= 3;
                 _inventory.inventoryItemList.Add(_sellitem[itemNumber - 1]);
             }
             else
-                {
                 Debug.Log("티켓이 부족합니다.");
-                return;
-            }
 
         }
         else if (_sellitem[itemNumber - 1].ItemRarity == ShopItemSO.Rarity.Rare)
@@ -91,10 +89,7 @@ public class ItemManager : MonoBehaviour
                 _inventory.inventoryItemList.Add(_sellitem[itemNumber - 1]);
             }
             else
-            {
                 Debug.Log("티켓이 부족합니다.");
-                return;
-            }
         }
         else if (_sellitem[itemNumber - 1].ItemRarity == ShopItemSO.Rarity.Legendary)
         {
@@ -104,17 +99,12 @@ public class ItemManager : MonoBehaviour
                 _inventory.inventoryItemList.Add(_sellitem[itemNumber - 1]);
             }
             else
-            {
                 Debug.Log("현제 티켓 : " + _ticketManager._ticket + " 티켓이 부족합니다.");
-                return;
-            }
         }
         Debug.Log(_sellitem[itemNumber - 1].Name + "구매완료");
         _itemList_SoldOut[itemNumber - 1].enabled = true;
         _itemList_Sprite[itemNumber - 1].color = Color.gray;
         _itemList_Price[itemNumber - 1].text = "Sold Out";
         _isSold[itemNumber - 1] = true;
-
-
     }
 }
