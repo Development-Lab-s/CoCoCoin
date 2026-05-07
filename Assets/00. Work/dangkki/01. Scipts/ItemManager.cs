@@ -52,18 +52,9 @@ public class ItemManager : MonoBehaviour
             int randomNum = Random.Range(0, _chipList.ShopItemList.Count);
             _itemList_Sprite[i].sprite = _chipList.ShopItemList[randomNum].Sprite;
             _itemList_Animation[i].runtimeAnimatorController = _chipList.ShopItemList[randomNum].SelectSprite;
-            if(_chipList.ShopItemList[randomNum].ItemRarity == ShopItemSO.Rarity.Common)
-            {
-                _itemList_Price[i].text = "3$";
-            }
-            else if(_chipList.ShopItemList[randomNum].ItemRarity == ShopItemSO.Rarity.Rare)
-            {
-                _itemList_Price[i].text = "5$";
-            }
-            else if(_chipList.ShopItemList[randomNum].ItemRarity == ShopItemSO.Rarity.Legendary)
-            {
-                _itemList_Price[i].text = "10$";
-            }
+            if(_chipList.ShopItemList[randomNum].ItemRarity == ShopItemSO.Rarity.Common) _itemList_Price[i].text = "3$";
+            else if(_chipList.ShopItemList[randomNum].ItemRarity == ShopItemSO.Rarity.Rare) _itemList_Price[i].text = "5$";
+            else if(_chipList.ShopItemList[randomNum].ItemRarity == ShopItemSO.Rarity.Legendary) _itemList_Price[i].text = "10$";
             //_itemList_Price[i].text = _chipList.ShopItemList[randomNum].Description;
             _sellitem[i] = _chipList.ShopItemList[randomNum];
             //_descripton.SetDescription(i);
@@ -99,9 +90,9 @@ public class ItemManager : MonoBehaviour
                 _ticketManager._ticket -= 5;
                 _inventory.inventoryItemList.Add(_sellitem[itemNumber - 1]);
             }
-                else
-                {
-                    Debug.Log("티켓이 부족합니다.");
+            else
+            {
+                Debug.Log("티켓이 부족합니다.");
                 return;
             }
         }

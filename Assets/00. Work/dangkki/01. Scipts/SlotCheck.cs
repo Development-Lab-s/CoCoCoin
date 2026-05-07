@@ -14,29 +14,23 @@ public class SlotCheck : MonoBehaviour
     private void Awake()
     {
         _slotMachine = GetComponent<SlotMachine1>();
-        //_ticketManager = GetComponent<TicketManager>();
     }
-    private void Update()
-    {
-        //_slot0.GetChild(_slot0.childCount - 1);
-    }
-
     public void CheckSlot()
     {
         if (_slot0.GetChild(_slot0.childCount - 2).name == _slot1.GetChild(_slot1.childCount - 2).name &&
          _slot0.GetChild(_slot0.childCount - 2).name == _slot2.GetChild(_slot2.childCount - 2).name)
-        {
-            if (_slot0.GetChild(_slot0.childCount - 2).name == "Bell")
+        { 
+            switch(_slot0.GetChild(_slot0.childCount - 2).name)
             {
-                _ticketManager.AddTicket(20);
-            }
-            else if (_slot0.GetChild(_slot0.childCount - 2).name == "Cherry")
-            {
-                _ticketManager.AddTicket(30);
-            }
-            else if (_slot0.GetChild(_slot0.childCount - 2).name == "JackPot")
-            {
-                _ticketManager.AddTicket(50);
+                case "Bell":
+                    _ticketManager.AddTicket(20);
+                    break;
+                case "Cherry":
+                    _ticketManager.AddTicket(30);
+                    break;
+                case "JackPot":
+                    _ticketManager.AddTicket(50);
+                    break;
             }
         }
     }
