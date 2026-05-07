@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MapManager : MonoBehaviour
 {
-    public static List<string> clearedNodeIDs = new List<string>();
+    public static List<string> clearedNodeIDs;
 
     public static string saveMapId = null;
     private int currentMapShapeIndex;
@@ -49,6 +49,7 @@ public class MapManager : MonoBehaviour
         {
             savedMapType = Random.Range(0, 3); // 0 또는 1
             savedShapeIndex = 0;
+            clearedNodeIDs = new List<string>();
             isInitialized = true; // 이 변수를 true로 바꿔야 다음 씬 로드 때 랜덤이 안 돌아갑니다.
         }
     }

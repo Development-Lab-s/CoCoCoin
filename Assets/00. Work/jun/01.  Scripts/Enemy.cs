@@ -3,6 +3,7 @@ using System.Collections;
 using TMPro;
 using Unity.Cinemachine;
 using UnityEngine;
+using UnityEngine.Assertions.Must;
 using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
@@ -38,6 +39,9 @@ public class Enemy : MonoBehaviour
     private Vector3 originScale;
     private Vector3 newScale;
 
+    private Vector3 originPos;
+    private Vector3 newPos;
+
     [SerializeField] private CinemachineImpulseSource impulseSource;
     [SerializeField] DamageEncounter damageEncounter;
     private Color shieldTextColor;
@@ -48,6 +52,12 @@ public class Enemy : MonoBehaviour
 
     public void Init(Sprite sprite, int hp)
     {
+        originPos = transform.position;
+        newPos = transform.position + Vector3.down * 5;
+        transform.position = newPos;
+        hpText.transform.position += Vector3.down * 5;
+        hpText.transform.DOMove(hpText.transform.position + Vector3.up * 5, 0.5f).SetEase(Ease.OutQuad);
+        transform.DOMove(originPos, 0.5f).SetEase(Ease.OutQuad);
         GetComponent<SpriteRenderer>().sprite = sprite;
         this.hp = hp;
         displayHP = hp;

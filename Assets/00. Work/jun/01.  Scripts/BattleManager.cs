@@ -28,6 +28,7 @@ public class BattleManager : MonoBehaviour
 
     [SerializeField] private Transform chipUI;
     [SerializeField] private InventoryToolTip inventoryToolTipUI;
+    [SerializeField] private DrawMotionHandler drawMotionHandler;
 
     private int _amountDrawMax = 10;
     public int AmountDrawMax
@@ -127,6 +128,7 @@ public class BattleManager : MonoBehaviour
                 Debug.Log("이미 모든 카드를 다 뽑았습니다!");
                 return targetChip;
             }
+            drawMotionHandler.DrawChipMotion();
             targetChip = drawChips[Random.Range(0, drawChips.Count)];
             drawChips.Remove(targetChip);
             nowChips.Add(targetChip);
@@ -234,9 +236,8 @@ public class BattleManager : MonoBehaviour
 
         if (GameData.instance.playerCurrentHp <= 0)
         {
-            SceneManageHandler.instance.MoveScene(0);
+            SceneManageHandler.instance.MoveScene(5);
             currentState = State.End;
-            Debug.Log("패배...");
         }
         else
         {

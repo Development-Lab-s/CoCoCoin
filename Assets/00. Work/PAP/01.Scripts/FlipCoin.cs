@@ -2,6 +2,7 @@ using DG.Tweening;
 using System.Collections;
 using Unity.Cinemachine;
 using UnityEngine;
+using UnityEngine.U2D.Animation;
 using static UnityEngine.Rendering.ProbeAdjustmentVolume;
 
 public class FlipCoin : MonoBehaviour
@@ -14,6 +15,7 @@ public class FlipCoin : MonoBehaviour
     [Header("Coin")]
     [SerializeField] Transform coinTrm;
     [SerializeField] SpriteRenderer coinSprite;
+    [SerializeField] SpriteLibrary coinSpriteLibrary;
     [SerializeField] ParticleSystem coinParticle;
     [SerializeField] Animator coinAnimator;
 
@@ -73,6 +75,7 @@ public class FlipCoin : MonoBehaviour
     {
         shaker.GenerateImpulseWithForce(0.5f);
 
+        coinSpriteLibrary.spriteLibraryAsset = chip.spriteLibrary;
         coinSprite.DOColor(Color.white, 0.1f);
         coinParticle.transform.position = coinTrm.position;
         coinParticle.Stop();

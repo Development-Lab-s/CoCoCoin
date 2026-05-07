@@ -12,6 +12,7 @@ public class ChipDraw : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     public InventoryItemSO chip = null;
     private Transform chipUI;
     [SerializeField]private Image image;
+    [SerializeField] private Image detectiveImage;
     [SerializeField]
     Material[] materials = new Material[3];
     Dictionary<InventoryItemSO.Rarity, Material> rarityColor;
@@ -47,7 +48,10 @@ public class ChipDraw : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         toolTip.HideToolTip();
         foreach (Transform chipModel in chipUI)
         {
-            chipModel.GetComponentInChildren<Image>().DOColor(Color.gray, 0.1f);
+            foreach (Transform child in chipModel)
+            {
+                child.GetComponent<Image>().DOColor(Color.gray, 0.1f);
+            }
         }
     }
 
@@ -60,7 +64,7 @@ public class ChipDraw : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        image.raycastTarget = true;
+        detectiveImage.raycastTarget = true;
         transform.SetParent(chipUI);
     }
 
@@ -72,6 +76,6 @@ public class ChipDraw : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        image.raycastTarget = false;
+        detectiveImage.raycastTarget = false;
     }
 }

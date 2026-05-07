@@ -25,12 +25,20 @@ public class ScreenManager : MonoBehaviour
 
     private void Start()
     {
-        instance = this;
-        esc.SetActive(false);
-        Settingframe.SetActive(false);
-        stopCanvas.GetComponent<Canvas>().sortingOrder = 0;
-        DontDestroyOnLoad(gameObject);
-        DontDestroyOnLoad(stopCanvas);
+        if (instance == null)
+        {
+            instance = this;
+            esc.SetActive(false);
+            Settingframe.SetActive(false);
+            stopCanvas.GetComponent<Canvas>().sortingOrder = 0;
+            DontDestroyOnLoad(gameObject);
+            DontDestroyOnLoad(stopCanvas);
+        }
+        else
+        {
+            Destroy(stopCanvas);
+            Destroy(gameObject);
+        }
     }
 
     public void Backtogame()

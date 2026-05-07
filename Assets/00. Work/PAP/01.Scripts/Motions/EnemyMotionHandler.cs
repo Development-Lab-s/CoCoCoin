@@ -13,7 +13,7 @@ public class EnemyMotionHandler : MonoBehaviour
 
     private IEnumerator Normal(int attackPower)
     {
-        yield return new WaitForSeconds(1.0f);
+        yield return new WaitForSeconds(0.5f);
         impulseSource.GenerateImpulseWithForce(attackPower / 10f);
         player.TakeDamage(attackPower);
         yield return new WaitForSeconds(0.5f);

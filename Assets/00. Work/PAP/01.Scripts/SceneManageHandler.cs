@@ -31,6 +31,7 @@ public class SceneManageHandler: MonoBehaviour
     {
         await fadeInOutImage.DOFade(1f, 0.5f).AsyncWaitForCompletion();
         await SceneManager.LoadSceneAsync(sceneNumber);
+        Time.timeScale = 1;
         fadeInOutImage.DOFade(0f, 0.5f);
         
     }
