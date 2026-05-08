@@ -10,7 +10,7 @@ public class ChipItem : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     private InventoryItemSO item;
     private InventoryToolTip toolTip;
-    private Image image;
+    public Image image;
     private RectTransform rectTransform;
     private Vector3 originalPosition;
     private Vector3 newPosition;
@@ -31,7 +31,6 @@ public class ChipItem : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         this.toolTip = toolTip;
         originalPosition = rectTransform.position;
         newPosition = rectTransform.position + new Vector3(0,0.15f);
-        image = GetComponent<Image>();
         image.sprite = item.SpriteOnInventory;
         image.material = rarityColor[item.rarity];
         gameObject.name = item.Name;

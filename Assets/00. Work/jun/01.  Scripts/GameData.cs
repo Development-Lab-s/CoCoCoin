@@ -14,5 +14,9 @@ public class GameData : MonoBehaviour
             instance = this;
             DontDestroyOnLoad(gameObject);
         }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 }

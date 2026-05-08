@@ -3,6 +3,8 @@ using NUnit.Framework;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
+using _00._Work.PAP._01.Scripts.Motions;
 using TMPro;
 using Unity.Cinemachine;
 using Unity.VisualScripting;
@@ -22,12 +24,25 @@ public class BattleManager : MonoBehaviour
 
     [SerializeField] private InventorySO inventory;
 
-    [SerializeField] private GameObject chipModelPrerfab;
+    [SerializeField] private GameObject chipModelPrefab;
 
     [SerializeField] private Transform chipUI;
     [SerializeField] private InventoryToolTip inventoryToolTipUI;
+    [SerializeField] private DrawMotionHandler drawMotionHandler;
 
-    public int amountDrawMax;
+    private int _amountDrawMax = 10;
+    public int AmountDrawMax
+    {
+        get
+        {
+            return _amountDrawMax;
+        } 
+        set
+        {
+            _amountDrawMax = value;
+            maxChipText.SetText(_amountDrawMax.ToString());
+        }
+    }
 
     [SerializeField] Rigidbody2D coinRigid;
     [SerializeField] Animator handAnimator;
@@ -42,6 +57,10 @@ public class BattleManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI drawChipText;
 
     [SerializeField] FlipCoin flip;
+
+    [SerializeField] private CurrentEnemySetting currentEnemySettiing;
+
+    [SerializeField] private TurnHandMotionHandler turnMotionHandler;
 
     public List<InventoryItemSO> drawChips = new List<InventoryItemSO>();
     public List<InventoryItemSO> nowChips =  new List<InventoryItemSO>();
@@ -76,8 +95,10 @@ public class BattleManager : MonoBehaviour
 
     private void Start()
     {
-        amountDrawMax = GameData.instance.amountDrawMax;
-        maxChipText.SetText(amountDrawMax.ToString());
+        enemy.Init(currentEnemySettiing.Data.enemySprite,currentEnemySettiing.Data.Health);
+        
+        AmountDrawMax = GameData.instance.amountDrawMax;
+        
         currentState = State.Start;
         foreach (InventoryItemSO item in inventory.inventoryItemList)
         {
@@ -107,12 +128,13 @@ public class BattleManager : MonoBehaviour
                 Debug.Log("이미 모든 카드를 다 뽑았습니다!");
                 return targetChip;
             }
+            drawMotionHandler.DrawChipMotion();
             targetChip = drawChips[Random.Range(0, drawChips.Count)];
             drawChips.Remove(targetChip);
             nowChips.Add(targetChip);
 
             ChangeNowChips();
-            GameObject chipModel = Instantiate(chipModelPrerfab, chipUI);
+            GameObject chipModel = Instantiate(chipModelPrefab, chipUI);
             chipModel.GetComponent<ChipDraw>().Init(inventoryToolTipUI, targetChip, chipUI);
             chipModels.Add(chipModel);
 
@@ -128,11 +150,18 @@ public class BattleManager : MonoBehaviour
         Destroy(chipModel);
         ChangeNowChips();
     }
-    private void PassTurn()
+    public void PassTurn()
     {
         if (currentState != State.PlayerTurn)
             return;
         currentState = State.Wait;
+        TurnMotion();
+    }
+
+    async void TurnMotion()
+    {
+        turnMotionHandler.PlayMotion();
+        await Task.Delay(1000);
         CheckBattleStatus();
     }
     private void Update()
@@ -158,10 +187,6 @@ public class BattleManager : MonoBehaviour
         {
             Time.timeScale = 1.0f;
         }
-        if (Keyboard.current.spaceKey.wasPressedThisFrame)
-        {
-            PassTurn();
-        }
 }
     public void UseChip(InventoryItemSO chip)
     {
@@ -177,6 +202,7 @@ public class BattleManager : MonoBehaviour
     }
     private void StartPlayerTurn()
     {
+        enemy.AttackPower = currentEnemySettiing.Data.damage[Random.Range(0,currentEnemySettiing.Data.damage.Count)];
         currentState = State.PlayerTurn;
         for (int i = 0; i < GameData.instance.amountDrawOnce; i++)
         {
@@ -210,8 +236,8 @@ public class BattleManager : MonoBehaviour
 
         if (GameData.instance.playerCurrentHp <= 0)
         {
+            SceneManageHandler.instance.MoveScene(5);
             currentState = State.End;
-            Debug.Log("패배...");
         }
         else
         {
@@ -219,10 +245,5 @@ public class BattleManager : MonoBehaviour
                 player.ClearShield();
             StartPlayerTurn();
         }
-    }
-
-    private void RestartBattle()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

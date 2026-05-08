@@ -2,6 +2,7 @@ using DG.Tweening;
 using System.Collections;
 using Unity.Cinemachine;
 using UnityEngine;
+using UnityEngine.U2D.Animation;
 using static UnityEngine.Rendering.ProbeAdjustmentVolume;
 
 public class FlipCoin : MonoBehaviour
@@ -14,6 +15,7 @@ public class FlipCoin : MonoBehaviour
     [Header("Coin")]
     [SerializeField] Transform coinTrm;
     [SerializeField] SpriteRenderer coinSprite;
+    [SerializeField] SpriteLibrary coinSpriteLibrary;
     [SerializeField] ParticleSystem coinParticle;
     [SerializeField] Animator coinAnimator;
 
@@ -73,6 +75,7 @@ public class FlipCoin : MonoBehaviour
     {
         shaker.GenerateImpulseWithForce(0.5f);
 
+        coinSpriteLibrary.spriteLibraryAsset = chip.spriteLibrary;
         coinSprite.DOColor(Color.white, 0.1f);
         coinParticle.transform.position = coinTrm.position;
         coinParticle.Stop();
@@ -111,15 +114,23 @@ public class FlipCoin : MonoBehaviour
 
         void SkillChipUse(bool isHead)
         {
-            motion.PlayMotion(isHead, player, enemy, chip.ChipEncounter, chip.ChipEncounter.headChipMotion, chip.ChipEncounter.tailChipMotion);
             if (isHead)
             {
                 comboSystem.SetCombo(1);
             }
             else
             {
-                comboSystem.ResetCombo();
+                if (player.statusEffectHandler.nowStatusEffectList.Exists(effect => effect.checkValue == "SaveCombo"))
+                {
+                    player.statusEffectHandler.AddCount(player.statusEffectHandler.nowStatusEffectList.Find(effect => effect.checkValue == "SaveCombo"),-77);
+                    player.statusEffectHandler.nowStatusEffectList.RemoveAll(effect => effect.leftTurns <= 0);
+                }
+                else
+                {
+                    comboSystem.ResetCombo();
+                }
             }
+            motion.PlayMotion(isHead, player, enemy, chip.ChipEncounter, chip.ChipEncounter.headChipMotion, chip.ChipEncounter.tailChipMotion);
         }
     }
 }

@@ -3,6 +3,7 @@ using System.Collections;
 using TMPro;
 using Unity.Cinemachine;
 using UnityEngine;
+using UnityEngine.Assertions.Must;
 using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
@@ -10,15 +11,36 @@ public class Enemy : MonoBehaviour
     //[SerializeField] private string enemyName = "몬스터";
     [SerializeField] private int hp = 50;
     [SerializeField] private TextMeshProUGUI shieldText;
+    [SerializeField] private TextMeshPro damageText;
+    [SerializeField] private SpriteRenderer patternImage;
     private int displayHP;
     public int displayShield;
     public int shieldHP = 0;
-    public int attackPower = 10;
+
+    public int _attackPower;
+    
+    public int AttackPower
+    {
+        get
+        {
+            return _attackPower;
+        }
+        set
+        {
+            int before = _attackPower;
+            _attackPower = value; 
+            DamageSetting();
+        }
+    }
+
     [SerializeField] private TextMeshProUGUI hpText;
     [SerializeField] EnemyMotionHandler motionHandler;
 
     private Vector3 originScale;
     private Vector3 newScale;
+
+    private Vector3 originPos;
+    private Vector3 newPos;
 
     [SerializeField] private CinemachineImpulseSource impulseSource;
     [SerializeField] DamageEncounter damageEncounter;
@@ -26,8 +48,18 @@ public class Enemy : MonoBehaviour
     bool enabledSmoothMove = true;
     float t = 0.0f;
     float speed = 2f;
-    private void Start()
+    bool isDead = false;
+
+    public void Init(Sprite sprite, int hp)
     {
+        originPos = transform.position;
+        newPos = transform.position + Vector3.down * 5;
+        transform.position = newPos;
+        hpText.transform.position += Vector3.down * 5;
+        hpText.transform.DOMove(hpText.transform.position + Vector3.up * 5, 0.5f).SetEase(Ease.OutQuad);
+        transform.DOMove(originPos, 0.5f).SetEase(Ease.OutQuad);
+        GetComponent<SpriteRenderer>().sprite = sprite;
+        this.hp = hp;
         displayHP = hp;
         shieldTextColor = shieldText.color;
         originScale = transform.localScale;
@@ -65,7 +97,10 @@ public class Enemy : MonoBehaviour
     // 적의 턴 행동
     public IEnumerator DoTurn(Player player)
     {
-        yield return motionHandler.PlayMotion("Normal",attackPower);
+        damageText.transform.DOScale(Vector3.zero, 0.2f);
+        patternImage.transform.DOScale(Vector3.zero, 0.2f);
+        damageText.DOColor(new Color(1, 0, 0, 0), 0.2f);
+        yield return motionHandler.PlayMotion("Normal",AttackPower);
     }
 
     public void TakeDamage(int damage)
@@ -82,6 +117,16 @@ public class Enemy : MonoBehaviour
         StartCoroutine(DecreaseShieldAnimation(damage));
     }
 
+    private void DamageSetting()
+    {
+        damageText.color = new Color(1, 1, 1, 0);
+        damageText.transform.localScale = Vector3.zero;
+        damageText.transform.DOScale(Vector3.one, 0.2f);
+        patternImage.transform.DOScale(Vector3.one, 0.2f);
+        damageText.DOColor(Color.red, 0.2f);
+        damageText.SetText(AttackPower.ToString());
+    }
+
     public void GetShield(int shield)
     {
         shieldHP = Mathf.Clamp(shieldHP + shield, 0, int.MaxValue);
@@ -94,11 +139,12 @@ public class Enemy : MonoBehaviour
         {
             hpText.SetText(displayHP.ToString());
         }
-        if (displayHP <= 0)
+        if (displayHP <= 0 && !isDead)
         {
+            isDead = true;
             Debug.Log("승리!");
             BattleManager.instance.currentState = BattleManager.State.End;
-            Time.timeScale = 0f;
+            SceneManageHandler.instance.MoveScene(4);
         }
     }
 

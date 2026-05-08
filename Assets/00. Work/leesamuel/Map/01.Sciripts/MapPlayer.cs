@@ -8,7 +8,7 @@ public class MapPlayer : MonoBehaviour
     public MapNode currentNode;      // 플레이어가 현재 서 있는 방 데이터
 
     public float moveSpeed = 8f;
-    private bool isMoving = false;
+    public bool isMoving = false;
 
     void Awake()
     {
@@ -76,7 +76,6 @@ public class MapPlayer : MonoBehaviour
             currentNode = nextNode; // 현재 위치 업데이트
         }
 
-        isMoving = false;
         targetRoomScript.OnPlayerEnter();
     }
 

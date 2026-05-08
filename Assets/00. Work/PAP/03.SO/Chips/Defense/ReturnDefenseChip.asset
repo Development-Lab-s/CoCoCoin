@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: "\uACA9\uB178 7\uCE69"
   Description: "[50% \uC55E\uBA74]\n<color=#AAAAFF>7\uC758 \uC274\uB4DC</color>\uB97C
-    \uC5BB\uC2B5\uB2C8\uB2E4.\n\uC774\uBC88 \uD134\uC5D0 \uB9C9\uC740 \uB370\uBBF8\uC9C0
-    \uB9CC\uD07C \uBC18\uACA9\uD569\uB2C8\uB2E4.\n\n[50% \uB4B7\uBA74]\n<color=#999999>\uC2E4\uD328</color>
-    \uD569\uB2C8\uB2E4."
+    \uC5BB\uC2B5\uB2C8\uB2E4\n\uC774\uBC88 \uD134\uC5D0 \uB9C9\uC740 \uB370\uBBF8\uC9C0
+    \uB9CC\uD07C \uBC18\uACA9\uD569\uB2C8\uB2E4\n\n[50% \uB4B7\uBA74]\n<color=#999999>\uC2E4\uD328</color>
+    \uD569\uB2C8\uB2E4"
   Sprite: {fileID: -7502710690579546915, guid: 88cd6d10308574c4696760c23c213124, type: 3}
   SpriteOnInventory: {fileID: 3426827930244345985, guid: 79f3433df6a2cc34281ed26d4dd13288, type: 3}
   SpriteOnStack: {fileID: 7862119159083213105, guid: 8328d1c6c0f292544ac22e5e0aefb4b6, type: 3}
   ChipEncounter: {fileID: 11400000, guid: b863501ac46da47429a058e9d8b6420d, type: 2}
-  spriteLibrary: {fileID: 0}
+  spriteLibrary: {fileID: 7108339969198208228, guid: e7ec5a0c439bc6344bf0c1fc3654560a, type: 3}
   rarity: 0

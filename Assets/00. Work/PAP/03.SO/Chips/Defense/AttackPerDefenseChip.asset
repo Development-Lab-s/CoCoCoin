@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: "\uC88B\uC740 \uBC29\uC5B4\uCE69"
   Description: "[50% \uC55E\uBA74]\n\uC801\uC5D0\uAC8C <color=#6666FF>\uC790\uC2E0\uC758
-    \uC274\uB4DC \uB9CC\uD07C\uC758 \uD53C\uD574</color>\uB97C \uC90D\uB2C8\uB2E4.\n\uC790\uC2E0\uC774
-    \uAC00\uC9C4 \uBAA8\uB4E0 \uC274\uB4DC\uB97C \uC783\uC2B5\uB2C8\uB2E4.\n\n[50%
+    \uC274\uB4DC \uB9CC\uD07C\uC758 \uD53C\uD574</color>\uB97C \uC90D\uB2C8\uB2E4\n\uC790\uC2E0\uC774
+    \uAC00\uC9C4 \uBAA8\uB4E0 \uC274\uB4DC\uB97C \uC783\uC2B5\uB2C8\uB2E4\n\n[50%
     \uB4B7\uBA74]\n\uC774\uD6C4 \uCE69\uC744 \uC4F8\uB54C\uB9C8\uB2E4 \uC5BB\uC740
-    \uC274\uB4DC\uB9CC\uD07C \uD53C\uD574\uB97C \uC90D\uB2C8\uB2E4."
+    \uC274\uB4DC\uB9CC\uD07C \uD53C\uD574\uB97C \uC90D\uB2C8\uB2E4"
   Sprite: {fileID: -7502710690579546915, guid: 88cd6d10308574c4696760c23c213124, type: 3}
   SpriteOnInventory: {fileID: 3426827930244345985, guid: 79f3433df6a2cc34281ed26d4dd13288, type: 3}
   SpriteOnStack: {fileID: 7862119159083213105, guid: 8328d1c6c0f292544ac22e5e0aefb4b6, type: 3}
   ChipEncounter: {fileID: 11400000, guid: a5cea33d4f6f519468946b9531a25d32, type: 2}
-  spriteLibrary: {fileID: 0}
+  spriteLibrary: {fileID: 7108339969198208228, guid: e7ec5a0c439bc6344bf0c1fc3654560a, type: 3}
   rarity: 1

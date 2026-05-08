@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class MapManager : MonoBehaviour
 {
-    public static List<string> clearedNodeIDs = new List<string>();
+    public static List<string> clearedNodeIDs;
 
+    public static string saveMapId = null;
     private int currentMapShapeIndex;
     private int currentMapType;
     [SerializeField]private GameObject linePrefab;
-    private static bool isInitialized = false;
+    public static bool isInitialized = false;
     private static int savedMapType = -1;
     private static int savedShapeIndex = -1;
     public List<MapNode> allNodes = new List<MapNode>();
@@ -19,12 +20,15 @@ public class MapManager : MonoBehaviour
     [SerializeField] private GameObject[] interacitionRoomPrefab;
     [SerializeField] private GameObject[] shopRoomPrefab;
     [SerializeField] private GameObject[] spawnRoomPrefab;
+    
+    [SerializeField] private List<EnemyData> enemyData = new List<EnemyData>();
 
     public static int currentFloor = 1;     
     public int maxFloor = 3;
 
     void Start()
-    {
+    {   
+        MapPlayer.Instance.isMoving = false;
         InitializeMapSettings();
         currentMapType = savedMapType;
         currentMapShapeIndex = savedShapeIndex;
@@ -35,6 +39,7 @@ public class MapManager : MonoBehaviour
         {
             ui.ShowFloorUI(currentFloor);
         }
+        
 
     }
     void InitializeMapSettings()
@@ -44,6 +49,7 @@ public class MapManager : MonoBehaviour
         {
             savedMapType = Random.Range(0, 3); // 0 또는 1
             savedShapeIndex = 0;
+            clearedNodeIDs = new List<string>();
             isInitialized = true; // 이 변수를 true로 바꿔야 다음 씬 로드 때 랜덤이 안 돌아갑니다.
         }
     }
@@ -206,7 +212,7 @@ public class MapManager : MonoBehaviour
         if (player != null)
         {
             // spawn 노드를 찾아서 배치 (ID가 "Spawn"인 노드)
-            MapNode spawnNode = allNodes.Find(n => n.nodeID == "Spawn");
+            MapNode spawnNode = allNodes.Find(n => saveMapId != null ? n.nodeID == saveMapId : n.nodeID == "Spawn");
             if (spawnNode != null)
             {
                 player.currentNode = spawnNode;
@@ -236,6 +242,7 @@ public class MapManager : MonoBehaviour
         node.type = type;
         node.mapType = savedMapType;
         node.roomShapeType = savedShapeIndex;
+        node.enemyData = enemyData[Random.Range(0, enemyData.Count)];
 
         // [수정] 스폰룸이거나 이미 클리어 리스트에 있다면 true
         if (type == RoomType.Spawn || clearedNodeIDs.Contains(id))

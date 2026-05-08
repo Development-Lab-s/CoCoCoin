@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class CoinDrag : MonoBehaviour
 {
-    [SerializeField] private InventoryItemSO so;
+    public InventoryItemSO so;
     private SpriteRenderer _sr;
     [Header("Settings")]
     [SerializeField] private float _maxScale = 1.3f;
@@ -48,6 +48,12 @@ public class CoinDrag : MonoBehaviour
         }
     }
 
+    public void Init(InventoryItemSO itemSo)
+    {
+        _sr .sprite = itemSo.Sprite;
+        
+    }
+
     private void OnMouseDown()
     {
         toolTip.HideToolTip();
@@ -83,7 +89,7 @@ public class CoinDrag : MonoBehaviour
             _coinMover.Select(so);
             if (coinCount == 3)
             {
-                Debug.Log("씬 넘어가기");
+                SceneManageHandler.instance.MoveScene(1);
             }
         }
         else

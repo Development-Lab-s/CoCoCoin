@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab833fd37e42eb48b8fbb686d40d810, type: 3}
+  m_Name: AttackDrawChip
+  m_EditorClassIdentifier: 
+  Name: "\uC8FC\uD669\uC0C9 \uCE69"
+  Description: "[50% \uC55E\uBA74]\n<color=#FF0000>\uD53C\uD574\uB97C 10</color>\uB97C
+    \uC90D\uB2C8\uB2E4.\n\n[50% \uB4B7\uBA74]\n\uCF54\uC778\uC744 2\uC7A5 \uBF51\uC2B5\uB2C8\uB2E4"
+  Sprite: {fileID: -7210935366649098577, guid: a5a996ca6b286d245886451973f3b3df, type: 3}
+  SpriteOnInventory: {fileID: -8308055963151357098, guid: a5a996ca6b286d245886451973f3b3df, type: 3}
+  SpriteOnStack: {fileID: -6348735283450591501, guid: 287e4460708e4f64c9dbc6feb3b51700, type: 3}
+  ChipEncounter: {fileID: 11400000, guid: 4a79fcdfb80e1044589ad3da19ba2af2, type: 2}
+  spriteLibrary: {fileID: 7108339969198208228, guid: 3a3afce0011b30741b7f932d16ad892b, type: 3}
+  rarity: 1

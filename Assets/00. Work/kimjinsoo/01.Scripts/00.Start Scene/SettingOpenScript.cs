@@ -1,20 +1,33 @@
 using UnityEngine;
+using DG.Tweening;
 
 public class SettingOpenScript : MonoBehaviour
 {
-
-
-    private GameObject Settingframe;
+    private GameObject settingFrame;
+   
 
     private void Start()
     {
-        Settingframe = GameObject.Find("SettingFrame");
-        Settingframe.SetActive(false);
+        settingFrame = GameObject.Find("SettingFrame");
+        settingFrame.SetActive(false);
     }
 
 
     public void setting()
     {
-        Settingframe.SetActive(!Settingframe.activeSelf);
+        settingFrame.SetActive(!settingFrame.activeSelf);
+       /* settingFrame.transform.DOScale(new Vector2(1.2f,1.2f), 0.4f);
+        settingFrameIsTurned = true;*/
+
     }
+
+   /* private void Update()
+    {
+        if(settingFrameIsTurned == true)
+        {
+            settingFrame.transform.DOScale(new Vector2(1.0f, 1.0f), 0.4f);
+            settingFrameIsTurned =false;
+        }
+    } */
+
 }

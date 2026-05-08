@@ -14,7 +14,7 @@ public class CheckChipList : MonoBehaviour
     private Vector3 moveModelOriginPos;
     private Vector3 moveModelNewPos;
 
-    private Vector2 startPos = new Vector2(150, -54);
+    private Vector2 startPos = new Vector2(-439, 237);
 
     private bool openActive = true;
 
@@ -60,7 +60,7 @@ public class CheckChipList : MonoBehaviour
         itemChip.GetComponent<ChipItem>().Init(item, toolTip);
         if (isTransparency)
         {
-            itemChip.GetComponent<UnityEngine.UI.Image>().color = new Color(0.5f, 0.5f, 0.5f, 0.9f);
+            itemChip.GetComponent<ChipItem>().image.color = new Color(0.5f, 0.5f, 0.5f, 0.9f);
         }
     }
 

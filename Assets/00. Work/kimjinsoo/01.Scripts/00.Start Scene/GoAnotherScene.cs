@@ -5,6 +5,9 @@ public class GoAnotherScene : MonoBehaviour
 {
     public void Change()
     {
-        SceneManager.LoadScene(1);
+        //Setting
+        GameData.instance.playerMaxHp = 100;
+        GameData.instance.playerCurrentHp = 100;
+         SceneManageHandler.instance.MoveScene(1);
     }
 }

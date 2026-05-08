@@ -1,3 +1,4 @@
+using System.Collections;
 using Unity.Hierarchy;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -19,9 +20,12 @@ public class DataSingleTon : MonoBehaviour
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
-        }        
+        }       
+        else
+        {
+            Destroy(gameObject);
+        }
     }
-
     private void Start()
     {
         fxSliderOrigin = GameObject.Find("FXSound Slider");
@@ -29,13 +33,10 @@ public class DataSingleTon : MonoBehaviour
         musicSlider = musicSliderOrigin.GetComponent<Slider>();
         fxSlider = fxSliderOrigin.GetComponent<Slider>();
     }
-
-    
     private void Update()
     {
         fxSliderValue = fxSlider.value;
         musicSliderValue = musicSlider.value;
     }
-
 }
 
