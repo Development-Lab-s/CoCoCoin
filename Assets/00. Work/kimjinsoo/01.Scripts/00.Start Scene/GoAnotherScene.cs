@@ -8,6 +8,6 @@ public class GoAnotherScene : MonoBehaviour
         //Setting
         GameData.instance.playerMaxHp = 100;
         GameData.instance.playerCurrentHp = 100;
-         SceneManageHandler.instance.MoveScene(1);
+        _ = SceneManageHandler.instance.MoveScene(1);
     }
 }

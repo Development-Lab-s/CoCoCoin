@@ -8,7 +8,7 @@ namespace _00._Work.PAP._01.Scripts
         {
             MapManager.isInitialized = false;
             MapManager.saveMapId = null;
-            SceneManageHandler.instance.MoveScene(0);
+            _ = SceneManageHandler.instance.MoveScene(0);
         }
     }
 }

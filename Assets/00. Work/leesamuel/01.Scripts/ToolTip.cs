@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.U2D;
@@ -9,6 +10,13 @@ public class ToolTip : MonoBehaviour
     private TextMeshProUGUI itemNameUI;
     private TextMeshProUGUI itemDescriptionUI;
     private Image itemSprite;
+    Dictionary<InventoryItemSO.Rarity,Color> rarityColors = new Dictionary<InventoryItemSO.Rarity, Color>()
+    {
+        {InventoryItemSO.Rarity.Common, new Color32(255, 255, 255, 255) },
+        {InventoryItemSO.Rarity.Rare, new Color32(150, 200, 255, 255) },
+        {InventoryItemSO.Rarity.Legendary, new Color32(255, 255, 50, 255) },
+
+    };
 
     private void Awake()
     {
@@ -23,13 +31,14 @@ public class ToolTip : MonoBehaviour
         toolTipUI.SetActive(false);
     }
 
-    public void ShowToolTip(string itemName, string itemDescription, Vector2 chipTrm, Sprite sprite )
+    public void ShowToolTip(string itemName, string itemDescription, Vector2 chipTrm, Sprite sprite, InventoryItemSO.Rarity rarity)
     {
 
         if (CoinDrag._isDragging==false)
         {
             RectTransform rectTrm = toolTipUI.GetComponent<RectTransform>();
             itemNameUI.text = $"{itemName}";
+            itemNameUI.color = rarityColors[rarity];
             itemDescriptionUI.text = $"{itemDescription}";
             itemSprite.sprite = sprite;
             toolTipUI.SetActive(true);

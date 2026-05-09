@@ -58,6 +58,6 @@ public class ScreenManager : MonoBehaviour
         esc.SetActive(false);
         MapManager.isInitialized = false;
         MapManager.saveMapId = null;
-        SceneManageHandler.instance.MoveScene(0);
+        _ = SceneManageHandler.instance.MoveScene(0);
     }
 }

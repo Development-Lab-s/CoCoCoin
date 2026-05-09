@@ -23,24 +23,24 @@ public class CoinSpawner : MonoBehaviour
 
     public int Common_probability = 100;//확률 설정 무조건 총합"100"이어야함
     public int Rare_probability = 0;
-    public int Regendery_probability = 0;
+    public int Legendery_probability = 0;
 
 
     public void CoinSpawn()//랜덤 희귀도의 랜덤코인을 "생성"까지 해줌
     {
         Rare_probability += Common_probability;
-        Regendery_probability += Rare_probability;
+        Legendery_probability += Rare_probability;
         Rarity_probability = Random.Range(1, 101);
         GameObject Coin = Instantiate(_coinPrefab); //코인 생성
         if (0 < Rarity_probability && Common_probability >= Rarity_probability)
         {
-            Coin.GetComponent<CoinDrag>().so = _commonCoinDatas[Random.Range(0, _commonCoinDatas.Count)];
+            Coin.GetComponent<CoinDrag>().Init(_rareCoinDatas[Random.Range(0, _rareCoinDatas.Count)]);
         }
-        else if (Common_probability < Rarity_probability && Rare_probability >= Rarity_probability)//Rare등급 코인 
+        else if (Rare_probability >= Rarity_probability)//Rare등급 코인 
         {
-            Coin.GetComponent<CoinDrag>().so = _rareCoinDatas[Random.Range(0, _rareCoinDatas.Count)];
+            Coin.GetComponent<CoinDrag>().Init(_rareCoinDatas[Random.Range(0, _rareCoinDatas.Count)]);
         }
-        else if (Rare_probability < Rarity_probability && Regendery_probability >= Rarity_probability)//Epic등급 코인 
+        else if (Legendery_probability >= Rarity_probability)//Legendary등급 코인 
         {
 
         }

@@ -22,4 +22,4 @@ MonoBehaviour:
   SpriteOnBack: {fileID: -2528759152563356337, guid: 0de1df47d6df8bc45b3ad9081069991c, type: 3}
   ChipEncounter: {fileID: 11400000, guid: e2147aa1a80f7c84d8f246025fd6c545, type: 2}
   spriteLibrary: {fileID: 7108339969198208228, guid: 25d58d9a880f541488d9d8ccf1c07513, type: 3}
-  rarity: 0
+  rarity: 1
