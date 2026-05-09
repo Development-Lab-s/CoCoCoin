@@ -48,7 +48,7 @@ public class MapManager : MonoBehaviour
         if (!isInitialized)
         {
             savedMapType = Random.Range(0, 3); // 0 또는 1
-            savedShapeIndex = 0;
+            savedShapeIndex = Random.Range(0, 3);
             clearedNodeIDs = new List<string>();
             isInitialized = true; // 이 변수를 true로 바꿔야 다음 씬 로드 때 랜덤이 안 돌아갑니다.
         }
@@ -69,7 +69,7 @@ public class MapManager : MonoBehaviour
     void GenerateTypeAMap()
     {
         // 1. 노드 생성 (좌표는 유니티 유닛 기준, 중앙이 0,0)
-        MapNode boss = CreateNode("Boss", 0, 5f, RoomType.Boss);         // 맨 위 긴 상자
+        MapNode boss = CreateNode("Boss", 0, 4f, RoomType.Boss);         // 맨 위 긴 상자
         MapNode interact = CreateNode("Interact", 0, 2f, RoomType.Interaction); // 중앙 위 느낌표
         MapNode huge = CreateNode("Huge", 0, -1f, RoomType.Huge);            // 중앙 큰 네모
         MapNode shopL = CreateNode("ShopL", -4f, -1f, RoomType.Shop);        // 왼쪽 노란 네모
@@ -96,8 +96,8 @@ public class MapManager : MonoBehaviour
     void GenerateTypeBMap()
     {
         // 1. 노드 생성 (이미지 구도 기준 좌표 설정)
-        MapNode boss = CreateNode("Boss", 0f, 5f, RoomType.Boss);
-        MapNode shop = CreateNode("Shop", 0f, 3f, RoomType.Shop); // 상단 중앙 상점
+        MapNode boss = CreateNode("Boss", 0f, 4f, RoomType.Boss);
+        MapNode shop = CreateNode("Shop", 0f, 2.3f, RoomType.Shop); // 상단 중앙 상점
 
         // 중앙 거대 방
         MapNode huge = CreateNode("Huge", 0f, 0f, RoomType.Huge);
@@ -144,7 +144,7 @@ public class MapManager : MonoBehaviour
     void GenerateTypeCMap()
     {
         // 1. 노드 생성 (이미지 C 구도 기준)
-        MapNode boss = CreateNode("Boss", 0f, 5f, RoomType.Boss);
+        MapNode boss = CreateNode("Boss", 0f, 4f, RoomType.Boss);
 
         // 상단 전투방 2개
         MapNode fightTL = CreateNode("FTL", -3f, 2.5f, RoomType.Fight);

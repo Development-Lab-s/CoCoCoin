@@ -288,17 +288,29 @@ MonoBehaviour:
   linePrefab: {fileID: 4346092777419424090, guid: 7b3d8915f36e6634ab3c5328e0424784, type: 3}
   allNodes: []
   bossRoomPrefab:
-  - {fileID: 1506301888528101026, guid: a706e661e0234aa48ad795c5946d196f, type: 3}
+  - {fileID: 1512688538524346872, guid: a706e661e0234aa48ad795c5946d196f, type: 3}
+  - {fileID: 1512688538524346872, guid: 8e3fbc453b88f7b4898848d62277ab13, type: 3}
+  - {fileID: 1512688538524346872, guid: 34cef255baebc8c4a9daf30241021413, type: 3}
   fightRoomPrefab:
   - {fileID: 6489856784019145811, guid: 21522b6e334d13442b5834bd30583d7e, type: 3}
+  - {fileID: 6489856784019145811, guid: 1e156e1c14981b340b7cbb8e976271af, type: 3}
+  - {fileID: 6489856784019145811, guid: 6b40f0080f083a44b9ca039a2228545e, type: 3}
   hugeRoomPrefab:
   - {fileID: 3821464270465459345, guid: 6a55961076df6c845868a095ee3dfcd9, type: 3}
+  - {fileID: 3821464270465459345, guid: 082a34d01bb9bba4b96d906f654fdbc3, type: 3}
+  - {fileID: 3821464270465459345, guid: 50f203dbe90a70e45a9aeac616a9abf4, type: 3}
   interacitionRoomPrefab:
   - {fileID: 5843597333845999382, guid: 1f61629d5c23ecf4b8aa69f74d902fc5, type: 3}
+  - {fileID: 5843597333845999382, guid: 95b034aabfd941c4d8bfcf0e3ce0dfb8, type: 3}
+  - {fileID: 5843597333845999382, guid: 06c836222e5badd46958c81e43f865a3, type: 3}
   shopRoomPrefab:
   - {fileID: 5364675641484808083, guid: dbe3214ccd76dd9419ef0430ab554743, type: 3}
+  - {fileID: 5364675641484808083, guid: 2bac7bbca9caa8d4094d4f0fd5215cd7, type: 3}
+  - {fileID: 5364675641484808083, guid: 354033b790d6a9544a51945bdf4c7a91, type: 3}
   spawnRoomPrefab:
   - {fileID: 750492222377320062, guid: 4d4982e060fbc2b4cafa3c05f842bc3f, type: 3}
+  - {fileID: 750492222377320062, guid: 9dc8e169fd577214a9088e81bb83fd0a, type: 3}
+  - {fileID: 750492222377320062, guid: 9aacc95c32c8e7442994853a4a0dad31, type: 3}
   enemyData:
   - {fileID: 11400000, guid: 7f512a2bd44274e40a647c906867c6c5, type: 2}
   maxFloor: 3
@@ -593,6 +605,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentNode: {fileID: 0}
   moveSpeed: 5
+  isMoving: 0
 --- !u!1 &1642019044
 GameObject:
   m_ObjectHideFlags: 0
