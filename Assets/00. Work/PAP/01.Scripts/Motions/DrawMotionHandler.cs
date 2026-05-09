@@ -7,7 +7,7 @@ namespace _00._Work.PAP._01.Scripts.Motions
     public class DrawMotionHandler : MonoBehaviour
     {
         [SerializeField] private GameObject DrawHand;
-        [SerializeField] private GameObject DrawChips;
+        [SerializeField] private CanvasGroup DrawChips;
         [SerializeField] private Animator drawHandAnimator;
         private Vector3 originPos;
         private Vector3 firstPos = new Vector3(-8.5f,-4.5f,0);
@@ -31,14 +31,17 @@ namespace _00._Work.PAP._01.Scripts.Motions
             _seq.AppendCallback( () =>
             {
                 drawHandAnimator.SetBool("Draw", true);
-                DrawChips.SetActive(false);
+                DrawChips.alpha = 0;
             });
             _seq.Append(DrawHand.transform.DOMove(secondPos, 0.3f));
             _seq.AppendInterval(0.4f);
+            _seq.AppendCallback(() =>
+            {
+                DrawChips.alpha = 1;
+            });
             _seq.Append(DrawHand.transform.DOMove(thirdPos, 0.5f));
             _seq.AppendCallback( () =>
             {
-                DrawChips.SetActive(true);
                 drawHandAnimator.SetBool("Draw", false);
                 DrawHandActive = true;
             });

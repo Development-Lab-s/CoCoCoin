@@ -15,5 +15,8 @@ MonoBehaviour:
   inventoryItemList:
   - {fileID: 11400000, guid: be697d1a6d976b240a3ebf3cc203baed, type: 2}
   - {fileID: 11400000, guid: 1c6ffdbf29b169b48b44c061a7580064, type: 2}
-  - {fileID: 11400000, guid: be697d1a6d976b240a3ebf3cc203baed, type: 2}
-  - {fileID: 11400000, guid: 1c6ffdbf29b169b48b44c061a7580064, type: 2}
+  - {fileID: 11400000, guid: 0e4e88c82ab6fb7488eaef7cc91c7c28, type: 2}
+  - {fileID: 11400000, guid: 3a7629f026d28b646b2f783252fd3379, type: 2}
+  - {fileID: 11400000, guid: 7f52bc142cdea614d934da2ccd636128, type: 2}
+  - {fileID: 11400000, guid: 5da038495abbf9e4c82747248f69b7da, type: 2}
+  - {fileID: 11400000, guid: c2d0f69995485394294cdbaa890e173a, type: 2}

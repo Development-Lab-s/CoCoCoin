@@ -1,0 +1,2249 @@
+fileFormatVersion: 2
+guid: ea7a78b3a3936f4498c304dc9178c2f0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6614762452498050315
+    second: SilverChipsUpsidedown_0
+  - first:
+      213: 3491328544401763714
+    second: SilverChipsUpsidedown_1
+  - first:
+      213: -3252232181804386022
+    second: SilverChipsUpsidedown_2
+  - first:
+      213: 8402605656015613685
+    second: SilverChipsUpsidedown_3
+  - first:
+      213: 4313450631279941178
+    second: SilverChipsUpsidedown_4
+  - first:
+      213: 7540526672505811636
+    second: SilverChipsUpsidedown_5
+  - first:
+      213: 108031423205195260
+    second: SilverChipsUpsidedown_6
+  - first:
+      213: 2900227080202471462
+    second: SilverChipsUpsidedown_7
+  - first:
+      213: -6515621298818418587
+    second: SilverChipsUpsidedown_8
+  - first:
+      213: -5295852846446495160
+    second: SilverChipsUpsidedown_9
+  - first:
+      213: -203894643177086050
+    second: SilverChipsUpsidedown_10
+  - first:
+      213: -4862895922427905407
+    second: SilverChipsUpsidedown_11
+  - first:
+      213: 7850048573732699240
+    second: SilverChipsUpsidedown_12
+  - first:
+      213: 4531561511701966401
+    second: SilverChipsUpsidedown_13
+  - first:
+      213: -2496155882334908838
+    second: SilverChipsUpsidedown_14
+  - first:
+      213: -6535595742382011664
+    second: SilverChipsUpsidedown_15
+  - first:
+      213: -4451696993054336896
+    second: SilverChipsUpsidedown_16
+  - first:
+      213: 2932346424039961404
+    second: SilverChipsUpsidedown_17
+  - first:
+      213: 6798199731240350640
+    second: SilverChipsUpsidedown_18
+  - first:
+      213: 3802921139051980927
+    second: SilverChipsUpsidedown_19
+  - first:
+      213: -2978914882086864587
+    second: SilverChipsUpsidedown_20
+  - first:
+      213: -8340174350047318016
+    second: SilverChipsUpsidedown_21
+  - first:
+      213: -1257760287773112744
+    second: SilverChipsUpsidedown_22
+  - first:
+      213: 1388180749796408889
+    second: SilverChipsUpsidedown_23
+  - first:
+      213: 8315026098388339486
+    second: SilverChipsUpsidedown_24
+  - first:
+      213: 8073179335546822859
+    second: SilverChipsUpsidedown_25
+  - first:
+      213: 7504208838349961927
+    second: SilverChipsUpsidedown_26
+  - first:
+      213: -4342804459651686941
+    second: SilverChipsUpsidedown_27
+  - first:
+      213: -8958526273867872677
+    second: SilverChipsUpsidedown_28
+  - first:
+      213: -2632703333389158277
+    second: SilverChipsUpsidedown_29
+  - first:
+      213: -2115646122234465962
+    second: SilverChipsUpsidedown_30
+  - first:
+      213: 6204672760021994781
+    second: SilverChipsUpsidedown_31
+  - first:
+      213: -3618696697168576957
+    second: SilverChipsUpsidedown_32
+  - first:
+      213: 221489133227255245
+    second: SilverChipsUpsidedown_33
+  - first:
+      213: 5009316523156463352
+    second: SilverChipsUpsidedown_34
+  - first:
+      213: -8455986070006015071
+    second: SilverChipsUpsidedown_35
+  - first:
+      213: -8457912244908661179
+    second: SilverChipsUpsidedown_36
+  - first:
+      213: 144712289462579228
+    second: SilverChipsUpsidedown_37
+  - first:
+      213: 4278580887570456860
+    second: SilverChipsUpsidedown_38
+  - first:
+      213: -4785777187094828501
+    second: SilverChipsUpsidedown_39
+  - first:
+      213: 7443026882734660761
+    second: SilverChipsUpsidedown_40
+  - first:
+      213: -1037751749824953555
+    second: SilverChipsUpsidedown_41
+  - first:
+      213: -8309628693232787946
+    second: SilverChipsUpsidedown_42
+  - first:
+      213: -6506396749855916369
+    second: SilverChipsUpsidedown_43
+  - first:
+      213: 7267524461647521915
+    second: SilverChipsUpsidedown_44
+  - first:
+      213: -7570437446880748430
+    second: SilverChipsUpsidedown_45
+  - first:
+      213: 6649650820197465271
+    second: SilverChipsUpsidedown_46
+  - first:
+      213: 1546224188018862947
+    second: SilverChipsUpsidedown_47
+  - first:
+      213: 1646213634305928901
+    second: SilverChipsUpsidedown_48
+  - first:
+      213: 3065400682521277167
+    second: SilverChipsUpsidedown_49
+  - first:
+      213: 2583608059730642845
+    second: SilverChipsUpsidedown_50
+  - first:
+      213: 7975191956126096064
+    second: SilverChipsUpsidedown_51
+  - first:
+      213: -8618316261715688580
+    second: SilverChipsUpsidedown_52
+  - first:
+      213: 2822428204448971522
+    second: SilverChipsUpsidedown_53
+  - first:
+      213: -6774280574595441829
+    second: SilverChipsUpsidedown_54
+  - first:
+      213: 738747620434852629
+    second: SilverChipsUpsidedown_55
+  - first:
+      213: 7764503824002127041
+    second: SilverChipsUpsidedown_56
+  - first:
+      213: 4609047172246362610
+    second: SilverChipsUpsidedown_57
+  - first:
+      213: 5629995995289504739
+    second: SilverChipsUpsidedown_58
+  - first:
+      213: -5750554544400907223
+    second: SilverChipsUpsidedown_59
+  - first:
+      213: -3854017478426651349
+    second: SilverChipsUpsidedown_60
+  - first:
+      213: -234885624984031310
+    second: SilverChipsUpsidedown_61
+  - first:
+      213: -3708401002075163907
+    second: SilverChipsUpsidedown_62
+  - first:
+      213: 4282314696241637879
+    second: SilverChipsUpsidedown_63
+  - first:
+      213: -1471631635678322710
+    second: SilverChipsUpsidedown_64
+  - first:
+      213: -6058864065374140344
+    second: SilverChipsUpsidedown_65
+  - first:
+      213: -5827808086699067610
+    second: SilverChipsUpsidedown_66
+  - first:
+      213: -1054284255616903903
+    second: SilverChipsUpsidedown_67
+  - first:
+      213: -4635578450827932608
+    second: SilverChipsUpsidedown_68
+  - first:
+      213: 8813882352804714572
+    second: SilverChipsUpsidedown_69
+  - first:
+      213: -6209579004997055166
+    second: SilverChipsUpsidedown_70
+  - first:
+      213: 7706839434591007911
+    second: SilverChipsUpsidedown_71
+  - first:
+      213: 7704454386910517915
+    second: SilverChipsUpsidedown_72
+  - first:
+      213: 9115269319493282482
+    second: SilverChipsUpsidedown_73
+  - first:
+      213: -6588176076556483871
+    second: SilverChipsUpsidedown_74
+  - first:
+      213: 8010986148306286256
+    second: SilverChipsUpsidedown_75
+  - first:
+      213: 2344936591571934278
+    second: SilverChipsUpsidedown_76
+  - first:
+      213: -5899207802141654151
+    second: SilverChipsUpsidedown_77
+  - first:
+      213: -5572048691767024876
+    second: SilverChipsUpsidedown_78
+  - first:
+      213: 4675236688437772074
+    second: SilverChipsUpsidedown_79
+  - first:
+      213: -6298323234334074610
+    second: SilverChipsUpsidedown_80
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f213419894a334a0800000000000000
+      internalID: -6614762452498050315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_1
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28daf3330d0b37030800000000000000
+      internalID: 3491328544401763714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_2
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a19b47ccf00cdd2d0800000000000000
+      internalID: -3252232181804386022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_3
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5feaf72435d0c9470800000000000000
+      internalID: 8402605656015613685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_4
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3610a9de747cdb30800000000000000
+      internalID: 4313450631279941178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_5
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b23116ae0555a860800000000000000
+      internalID: 7540526672505811636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_6
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfdb9bcc10ecf7100800000000000000
+      internalID: 108031423205195260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_7
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 628cf63d92daf3820800000000000000
+      internalID: 2900227080202471462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_8
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56875f033fcd395a0800000000000000
+      internalID: -6515621298818418587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ab0d015e95186b0800000000000000
+      internalID: -5295852846446495160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_10
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9323ddf6ee9b2df0800000000000000
+      internalID: -203894643177086050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_11
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a3dfb5ce5838cb0800000000000000
+      internalID: -4862895922427905407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_12
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c36e22699f0fc60800000000000000
+      internalID: 7850048573732699240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_13
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14ee3d68f2753ee30800000000000000
+      internalID: 4531561511701966401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_14
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e0d61437fdb5dd0800000000000000
+      internalID: -2496155882334908838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_15
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fac3c3ac46ec45a0800000000000000
+      internalID: -6535595742382011664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_16
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0885251cb256832c0800000000000000
+      internalID: -4451696993054336896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_17
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c33f9435989c1b820800000000000000
+      internalID: 2932346424039961404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b3bcbc13ae085e50800000000000000
+      internalID: 6798199731240350640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_19
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78640290a0b6c430800000000000000
+      internalID: 3802921139051980927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_20
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 539761d92b4c8a6d0800000000000000
+      internalID: -2978914882086864587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_21
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 000fa94ed9fb14c80800000000000000
+      internalID: -8340174350047318016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_22
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 856c0b2aea98b8ee0800000000000000
+      internalID: -1257760287773112744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_23
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93e76ab790fc34310800000000000000
+      internalID: 1388180749796408889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_24
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b0a8c7e28e46370800000000000000
+      internalID: 8315026098388339486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_25
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc0ea4705d1b90070800000000000000
+      internalID: 8073179335546822859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_26
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca3232fd2e442860800000000000000
+      internalID: 7504208838349961927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ed9a756a524bb3c0800000000000000
+      internalID: -4342804459651686941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_28
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b560a1771dbeca380800000000000000
+      internalID: -8958526273867872677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_29
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b783a565442c67bd0800000000000000
+      internalID: -2632703333389158277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_30
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65138cd9f07b3a2e0800000000000000
+      internalID: -2115646122234465962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_31
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d47a0600d6b1650800000000000000
+      internalID: 6204672760021994781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_32
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34e336fc68ec7cdc0800000000000000
+      internalID: -3618696697168576957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_33
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc5ae937133e21300800000000000000
+      internalID: 221489133227255245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_34
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe5c3a56daa48540800000000000000
+      internalID: 5009316523156463352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_35
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1abd3a7987d46aa80800000000000000
+      internalID: -8455986070006015071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 546eacc00a57f9a80800000000000000
+      internalID: -8457912244908661179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_37
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10fc008f0f120200800000000000000
+      internalID: 144712289462579228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_38
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11a96af5a2906b30800000000000000
+      internalID: 4278580887570456860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_39
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a6b052101859db0800000000000000
+      internalID: -4785777187094828501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_40
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c1517d381fa4760800000000000000
+      internalID: 7443026882734660761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_41
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d23c4a2284a2991f0800000000000000
+      internalID: -1037751749824953555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_42
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e5774dab44eac80800000000000000
+      internalID: -8309628693232787946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_43
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faef41dd0a2a4b5a0800000000000000
+      internalID: -6506396749855916369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_44
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7866fc2efe6bd460800000000000000
+      internalID: 7267524461647521915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c9b50804760f690800000000000000
+      internalID: -7570437446880748430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_46
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc314a803e484c50800000000000000
+      internalID: 6649650820197465271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_47
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b2bfde4ba457510800000000000000
+      internalID: 1546224188018862947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_48
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cea531149688d610800000000000000
+      internalID: 1646213634305928901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_49
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe2bbe7fdad7a8a20800000000000000
+      internalID: 3065400682521277167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_50
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97c41f77d1dad320800000000000000
+      internalID: 2583608059730642845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_51
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cad27864d29dae60800000000000000
+      internalID: 7975191956126096064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_52
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c73c6729507956880800000000000000
+      internalID: -8618316261715688580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_53
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20b79328f774b2720800000000000000
+      internalID: 2822428204448971522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5bd86685bbecf1a0800000000000000
+      internalID: -6774280574595441829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_55
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51b3fa6fb0f804a00800000000000000
+      internalID: 738747620434852629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_56
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c41fcef61f01cb60800000000000000
+      internalID: 7764503824002127041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_57
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f953cebbff96ff30800000000000000
+      internalID: 4609047172246362610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_58
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb4a1a5783c12e40800000000000000
+      internalID: 5629995995289504739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_59
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 924c97f0c1de130b0800000000000000
+      internalID: -5750554544400907223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_60
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b259b38d587c38ac0800000000000000
+      internalID: -3854017478426651349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_61
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf2bffb4c48dbcf0800000000000000
+      internalID: -234885624984031310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_62
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df27b92cfec198cc0800000000000000
+      internalID: -3708401002075163907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f9eaed0786dd6b30800000000000000
+      internalID: 4282314696241637879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_64
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 120
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef9a2b03d6b39be0800000000000000
+      internalID: -1471631635678322710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_65
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 120
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 848cef8db379aeba0800000000000000
+      internalID: -6058864065374140344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_66
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 120
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62737251c677f1fa0800000000000000
+      internalID: -5827808086699067610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_67
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 120
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 125daab2e0e6e51f0800000000000000
+      internalID: -1054284255616903903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_68
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 120
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c02f595fd1bafb0800000000000000
+      internalID: -4635578450827932608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_69
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 120
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c48520b4d43315a70800000000000000
+      internalID: 8813882352804714572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_70
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 120
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d4d627bc423d9a0800000000000000
+      internalID: -6209579004997055166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_71
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 120
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4f4c712a134fa60800000000000000
+      internalID: 7706839434591007911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a5008e178bbea60800000000000000
+      internalID: 7704454386910517915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_73
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 0
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bae96cb621ff7e70800000000000000
+      internalID: 9115269319493282482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_74
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 0
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e2cf1793c81294a0800000000000000
+      internalID: -6588176076556483871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_75
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 0
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b6fe56357dbc2f60800000000000000
+      internalID: 8010986148306286256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_76
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 0
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64cd571f763ea8020800000000000000
+      internalID: 2344936591571934278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_77
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 0
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 973422162cdc12ea0800000000000000
+      internalID: -5899207802141654151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_78
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 0
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413eb00ac3b1ca2b0800000000000000
+      internalID: -5572048691767024876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_79
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 0
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2ff4376ff6c1e040800000000000000
+      internalID: 4675236688437772074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverChipsUpsidedown_80
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 0
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e099de8636cd798a0800000000000000
+      internalID: -6298323234334074610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 991b3778d7c4c534fbe12dc3086b3734
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SilverChipsUpsidedown_0: -6614762452498050315
+      SilverChipsUpsidedown_1: 3491328544401763714
+      SilverChipsUpsidedown_10: -203894643177086050
+      SilverChipsUpsidedown_11: -4862895922427905407
+      SilverChipsUpsidedown_12: 7850048573732699240
+      SilverChipsUpsidedown_13: 4531561511701966401
+      SilverChipsUpsidedown_14: -2496155882334908838
+      SilverChipsUpsidedown_15: -6535595742382011664
+      SilverChipsUpsidedown_16: -4451696993054336896
+      SilverChipsUpsidedown_17: 2932346424039961404
+      SilverChipsUpsidedown_18: 6798199731240350640
+      SilverChipsUpsidedown_19: 3802921139051980927
+      SilverChipsUpsidedown_2: -3252232181804386022
+      SilverChipsUpsidedown_20: -2978914882086864587
+      SilverChipsUpsidedown_21: -8340174350047318016
+      SilverChipsUpsidedown_22: -1257760287773112744
+      SilverChipsUpsidedown_23: 1388180749796408889
+      SilverChipsUpsidedown_24: 8315026098388339486
+      SilverChipsUpsidedown_25: 8073179335546822859
+      SilverChipsUpsidedown_26: 7504208838349961927
+      SilverChipsUpsidedown_27: -4342804459651686941
+      SilverChipsUpsidedown_28: -8958526273867872677
+      SilverChipsUpsidedown_29: -2632703333389158277
+      SilverChipsUpsidedown_3: 8402605656015613685
+      SilverChipsUpsidedown_30: -2115646122234465962
+      SilverChipsUpsidedown_31: 6204672760021994781
+      SilverChipsUpsidedown_32: -3618696697168576957
+      SilverChipsUpsidedown_33: 221489133227255245
+      SilverChipsUpsidedown_34: 5009316523156463352
+      SilverChipsUpsidedown_35: -8455986070006015071
+      SilverChipsUpsidedown_36: -8457912244908661179
+      SilverChipsUpsidedown_37: 144712289462579228
+      SilverChipsUpsidedown_38: 4278580887570456860
+      SilverChipsUpsidedown_39: -4785777187094828501
+      SilverChipsUpsidedown_4: 4313450631279941178
+      SilverChipsUpsidedown_40: 7443026882734660761
+      SilverChipsUpsidedown_41: -1037751749824953555
+      SilverChipsUpsidedown_42: -8309628693232787946
+      SilverChipsUpsidedown_43: -6506396749855916369
+      SilverChipsUpsidedown_44: 7267524461647521915
+      SilverChipsUpsidedown_45: -7570437446880748430
+      SilverChipsUpsidedown_46: 6649650820197465271
+      SilverChipsUpsidedown_47: 1546224188018862947
+      SilverChipsUpsidedown_48: 1646213634305928901
+      SilverChipsUpsidedown_49: 3065400682521277167
+      SilverChipsUpsidedown_5: 7540526672505811636
+      SilverChipsUpsidedown_50: 2583608059730642845
+      SilverChipsUpsidedown_51: 7975191956126096064
+      SilverChipsUpsidedown_52: -8618316261715688580
+      SilverChipsUpsidedown_53: 2822428204448971522
+      SilverChipsUpsidedown_54: -6774280574595441829
+      SilverChipsUpsidedown_55: 738747620434852629
+      SilverChipsUpsidedown_56: 7764503824002127041
+      SilverChipsUpsidedown_57: 4609047172246362610
+      SilverChipsUpsidedown_58: 5629995995289504739
+      SilverChipsUpsidedown_59: -5750554544400907223
+      SilverChipsUpsidedown_6: 108031423205195260
+      SilverChipsUpsidedown_60: -3854017478426651349
+      SilverChipsUpsidedown_61: -234885624984031310
+      SilverChipsUpsidedown_62: -3708401002075163907
+      SilverChipsUpsidedown_63: 4282314696241637879
+      SilverChipsUpsidedown_64: -1471631635678322710
+      SilverChipsUpsidedown_65: -6058864065374140344
+      SilverChipsUpsidedown_66: -5827808086699067610
+      SilverChipsUpsidedown_67: -1054284255616903903
+      SilverChipsUpsidedown_68: -4635578450827932608
+      SilverChipsUpsidedown_69: 8813882352804714572
+      SilverChipsUpsidedown_7: 2900227080202471462
+      SilverChipsUpsidedown_70: -6209579004997055166
+      SilverChipsUpsidedown_71: 7706839434591007911
+      SilverChipsUpsidedown_72: 7704454386910517915
+      SilverChipsUpsidedown_73: 9115269319493282482
+      SilverChipsUpsidedown_74: -6588176076556483871
+      SilverChipsUpsidedown_75: 8010986148306286256
+      SilverChipsUpsidedown_76: 2344936591571934278
+      SilverChipsUpsidedown_77: -5899207802141654151
+      SilverChipsUpsidedown_78: -5572048691767024876
+      SilverChipsUpsidedown_79: 4675236688437772074
+      SilverChipsUpsidedown_8: -6515621298818418587
+      SilverChipsUpsidedown_80: -6298323234334074610
+      SilverChipsUpsidedown_9: -5295852846446495160
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,2249 @@
+fileFormatVersion: 2
+guid: 7c039f086870c9146927b1f83736afb5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5850603628638889976
+    second: SilverCoins_0
+  - first:
+      213: -609477094910776261
+    second: SilverCoins_1
+  - first:
+      213: -1512792464336617809
+    second: SilverCoins_2
+  - first:
+      213: -3821115891533325598
+    second: SilverCoins_3
+  - first:
+      213: 1775138774926601342
+    second: SilverCoins_4
+  - first:
+      213: 8805648542770447792
+    second: SilverCoins_5
+  - first:
+      213: -1910824762750107634
+    second: SilverCoins_6
+  - first:
+      213: -9192572159628375827
+    second: SilverCoins_7
+  - first:
+      213: 250715514788967265
+    second: SilverCoins_8
+  - first:
+      213: 8963935084653189055
+    second: SilverCoins_9
+  - first:
+      213: 3374691437361667930
+    second: SilverCoins_10
+  - first:
+      213: -6787451320271725956
+    second: SilverCoins_11
+  - first:
+      213: -5217817734961941889
+    second: SilverCoins_12
+  - first:
+      213: 3137266510029552070
+    second: SilverCoins_13
+  - first:
+      213: -3487587949607926214
+    second: SilverCoins_14
+  - first:
+      213: -5412443741547790515
+    second: SilverCoins_15
+  - first:
+      213: 1293736282325942105
+    second: SilverCoins_16
+  - first:
+      213: 2239067582010557686
+    second: SilverCoins_17
+  - first:
+      213: 3434551015164105537
+    second: SilverCoins_18
+  - first:
+      213: 3167556556385575113
+    second: SilverCoins_19
+  - first:
+      213: 3046889103230206619
+    second: SilverCoins_20
+  - first:
+      213: 899439247401817507
+    second: SilverCoins_21
+  - first:
+      213: 4746381036759830190
+    second: SilverCoins_22
+  - first:
+      213: -753681214139797152
+    second: SilverCoins_23
+  - first:
+      213: -5166301444911954033
+    second: SilverCoins_24
+  - first:
+      213: -4918945977524623375
+    second: SilverCoins_25
+  - first:
+      213: 7646373557091088469
+    second: SilverCoins_26
+  - first:
+      213: 9071360681989949520
+    second: SilverCoins_27
+  - first:
+      213: 994359129336512309
+    second: SilverCoins_28
+  - first:
+      213: -7891624342341993499
+    second: SilverCoins_29
+  - first:
+      213: -8244358270295869270
+    second: SilverCoins_30
+  - first:
+      213: 4531654468902349210
+    second: SilverCoins_31
+  - first:
+      213: -924849425645623708
+    second: SilverCoins_32
+  - first:
+      213: 2961866072717410555
+    second: SilverCoins_33
+  - first:
+      213: 1426224815084693325
+    second: SilverCoins_34
+  - first:
+      213: 1687978306155873752
+    second: SilverCoins_35
+  - first:
+      213: 4194305133001026013
+    second: SilverCoins_36
+  - first:
+      213: 6268620586511572337
+    second: SilverCoins_37
+  - first:
+      213: -2080001478306717042
+    second: SilverCoins_38
+  - first:
+      213: 6893695449655009113
+    second: SilverCoins_39
+  - first:
+      213: -1453108189941608991
+    second: SilverCoins_40
+  - first:
+      213: 6158244136515483686
+    second: SilverCoins_41
+  - first:
+      213: 4815555920408200731
+    second: SilverCoins_42
+  - first:
+      213: -7828286930180649101
+    second: SilverCoins_43
+  - first:
+      213: 4874847836540319028
+    second: SilverCoins_44
+  - first:
+      213: 5956932228837838979
+    second: SilverCoins_45
+  - first:
+      213: -3569522227339482058
+    second: SilverCoins_46
+  - first:
+      213: 2505546258329718671
+    second: SilverCoins_47
+  - first:
+      213: -1869057654111700588
+    second: SilverCoins_48
+  - first:
+      213: -2718139061909998669
+    second: SilverCoins_49
+  - first:
+      213: -8668669896698285177
+    second: SilverCoins_50
+  - first:
+      213: -8199312545285337050
+    second: SilverCoins_51
+  - first:
+      213: 1070900460285325109
+    second: SilverCoins_52
+  - first:
+      213: 4130672673471699904
+    second: SilverCoins_53
+  - first:
+      213: -454427740264049184
+    second: SilverCoins_54
+  - first:
+      213: 5520316689134107401
+    second: SilverCoins_55
+  - first:
+      213: -822873594388758809
+    second: SilverCoins_56
+  - first:
+      213: -7948349352274805116
+    second: SilverCoins_57
+  - first:
+      213: -2374151421154506552
+    second: SilverCoins_58
+  - first:
+      213: 4861321908738830234
+    second: SilverCoins_59
+  - first:
+      213: 2574122442303624401
+    second: SilverCoins_60
+  - first:
+      213: -782556482002807108
+    second: SilverCoins_61
+  - first:
+      213: -5673639370127676183
+    second: SilverCoins_62
+  - first:
+      213: 745443538320583171
+    second: SilverCoins_63
+  - first:
+      213: 1242674257399517175
+    second: SilverCoins_64
+  - first:
+      213: -6760612820649357273
+    second: SilverCoins_65
+  - first:
+      213: 194415945208004087
+    second: SilverCoins_66
+  - first:
+      213: -6428487503664414534
+    second: SilverCoins_67
+  - first:
+      213: -5529673589748894131
+    second: SilverCoins_68
+  - first:
+      213: -3056973287301018831
+    second: SilverCoins_69
+  - first:
+      213: -8422030409615565482
+    second: SilverCoins_70
+  - first:
+      213: 6239393268677358590
+    second: SilverCoins_71
+  - first:
+      213: 6415528393531277625
+    second: SilverCoins_72
+  - first:
+      213: 8802606113538154944
+    second: SilverCoins_73
+  - first:
+      213: -4413602839118190149
+    second: SilverCoins_74
+  - first:
+      213: -6762608835599970748
+    second: SilverCoins_75
+  - first:
+      213: 443043999082737278
+    second: SilverCoins_76
+  - first:
+      213: -5793373967916703963
+    second: SilverCoins_77
+  - first:
+      213: 1720744921001516214
+    second: SilverCoins_78
+  - first:
+      213: 5313897634933976946
+    second: SilverCoins_79
+  - first:
+      213: 8294404191636385778
+    second: SilverCoins_80
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SilverCoins_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8081e516ffa7ecea0800000000000000
+      internalID: -5850603628638889976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_1
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c2b13bfc3ba87f0800000000000000
+      internalID: -609477094910776261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_2
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faef350d44b710be0800000000000000
+      internalID: -1512792464336617809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_3
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea5e8f775ba8fac0800000000000000
+      internalID: -3821115891533325598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_4
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ca58a8f4f82a810800000000000000
+      internalID: 1775138774926601342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_5
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b5c4c002b2f33a70800000000000000
+      internalID: 8805648542770447792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_6
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00824490036b75e0800000000000000
+      internalID: -1910824762750107634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_7
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de8843d335c6d6080800000000000000
+      internalID: -9192572159628375827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_8
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 163fcaeae68ba7300800000000000000
+      internalID: 250715514788967265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb71a6e677b466c70800000000000000
+      internalID: 8963935084653189055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_10
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f9e7e7bff45de20800000000000000
+      internalID: 3374691437361667930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_11
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a92f45cf02ec1a0800000000000000
+      internalID: -6787451320271725956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_12
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f723cdc4a669697b0800000000000000
+      internalID: -5217817734961941889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_13
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c97a08d44fc98b20800000000000000
+      internalID: 3137266510029552070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_14
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36cfa4ec39999fc0800000000000000
+      internalID: -3487587949607926214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_15
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ff14ae71323e4b0800000000000000
+      internalID: -5412443741547790515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_16
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f72155b4644f110800000000000000
+      internalID: 1293736282325942105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_17
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f405dd4a14c21f10800000000000000
+      internalID: 2239067582010557686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14350d583f9f9af20800000000000000
+      internalID: 3434551015164105537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_19
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c06255d7eb65fb20800000000000000
+      internalID: 3167556556385575113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_20
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b928b0c0f79b84a20800000000000000
+      internalID: 3046889103230206619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_21
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a51e66ea337b7c00800000000000000
+      internalID: 899439247401817507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_22
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae48b0d7688ed140800000000000000
+      internalID: 4746381036759830190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_23
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 061ff4dcde26a85f0800000000000000
+      internalID: -753681214139797152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_24
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f878f65453c9d48b0800000000000000
+      internalID: -5166301444911954033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_25
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f7ee44f1b46cbbb0800000000000000
+      internalID: -4918945977524623375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_26
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 558ba5aec306d1a60800000000000000
+      internalID: 7646373557091088469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 058c4776a72f3ed70800000000000000
+      internalID: 9071360681989949520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_28
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ff44b1c5caccd00800000000000000
+      internalID: 994359129336512309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_29
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb31e5e8715b7290800000000000000
+      internalID: -7891624342341993499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_30
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa8f5f965d7269d80800000000000000
+      internalID: -8244358270295869270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_31
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a996cbfcabba3ee30800000000000000
+      internalID: 4531654468902349210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_32
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4662ba1f8564a23f0800000000000000
+      internalID: -924849425645623708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_33
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf04a902089aa1920800000000000000
+      internalID: 2961866072717410555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_34
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4768f0b9e7fac310800000000000000
+      internalID: 1426224815084693325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_35
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d58cfe7357ec6710800000000000000
+      internalID: 1687978306155873752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd9af1ccb4a253a30800000000000000
+      internalID: 4194305133001026013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_37
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d19baf53d9ef650800000000000000
+      internalID: 6268620586511572337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_38
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e82ad310da95223e0800000000000000
+      internalID: -2080001478306717042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_39
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95fd962bc735baf50800000000000000
+      internalID: 6893695449655009113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_40
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1edc156dcc585dbe0800000000000000
+      internalID: -1453108189941608991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_41
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62833251a6a767550800000000000000
+      internalID: 6158244136515483686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_42
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16c5ff789a44d240800000000000000
+      internalID: 4815555920408200731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_43
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37fcfb653865c5390800000000000000
+      internalID: -7828286930180649101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_44
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 435311f7740f6a340800000000000000
+      internalID: 4874847836540319028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38094fa0d464ba250800000000000000
+      internalID: 5956932228837838979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_46
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ca1954272867ec0800000000000000
+      internalID: -3569522227339482058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_47
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8f4d080c0d75c220800000000000000
+      internalID: 2505546258329718671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_48
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49972fd57f5cf06e0800000000000000
+      internalID: -1869057654111700588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_49
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b3bdbcacea374ad0800000000000000
+      internalID: -2718139061909998669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_50
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7833d2458a2b2b780800000000000000
+      internalID: -8668669896698285177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_51
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6201ddf8ea0363e80800000000000000
+      internalID: -8199312545285337050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_52
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53feb157b4a9cde00800000000000000
+      internalID: 1070900460285325109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_53
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb91b949e8135930800000000000000
+      internalID: 4130672673471699904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e55a7db06c81b9f0800000000000000
+      internalID: -454427740264049184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_55
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90bbf77e7ca1c9c40800000000000000
+      internalID: 5520316689134107401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_56
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eeb86f53d09494f0800000000000000
+      internalID: -822873594388758809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_57
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e34f2506ac1b190800000000000000
+      internalID: -7948349352274805116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_58
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8c81b7cd15d0fd0800000000000000
+      internalID: -2374151421154506552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_59
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9fa3350582e67340800000000000000
+      internalID: 4861321908738830234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_60
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d45ed519be19b320800000000000000
+      internalID: 2574122442303624401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_61
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb61b89960dc325f0800000000000000
+      internalID: -782556482002807108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_62
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec6ed79d0f2341b0800000000000000
+      internalID: -5673639370127676183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a65b5d2f8585a00800000000000000
+      internalID: 745443538320583171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_64
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 120
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff02d337adde3110800000000000000
+      internalID: 1242674257399517175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_65
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 120
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7205e39757a7d22a0800000000000000
+      internalID: -6760612820649357273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_66
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 120
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd7bc8a544b2b200800000000000000
+      internalID: 194415945208004087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_67
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 120
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab08b0dccac69c6a0800000000000000
+      internalID: -6428487503664414534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_68
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 120
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d467827ea27a243b0800000000000000
+      internalID: -5529673589748894131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_69
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 120
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b8092edf27395d0800000000000000
+      internalID: -3056973287301018831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_70
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 120
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d935bd6ffee1b80800000000000000
+      internalID: -8422030409615565482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_71
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 120
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef33a71ce17c69650800000000000000
+      internalID: 6239393268677358590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9314dde3519880950800000000000000
+      internalID: 6415528393531277625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_73
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 0
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1af1f3f93292a70800000000000000
+      internalID: 8802606113538154944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_74
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 0
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb964b22a9bbfb2c0800000000000000
+      internalID: -4413602839118190149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_75
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 0
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44e452708136622a0800000000000000
+      internalID: -6762608835599970748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_76
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 0
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ee1397b22062600800000000000000
+      internalID: 443043999082737278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_77
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 0
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52f545f121dc99fa0800000000000000
+      internalID: -5793373967916703963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_78
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 0
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc5a55836051e710800000000000000
+      internalID: 1720744921001516214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_79
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 0
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f2707aeb1ceb940800000000000000
+      internalID: 5313897634933976946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoins_80
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 0
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff6ff9aaa4ab1370800000000000000
+      internalID: 8294404191636385778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d3b86c853ce57484cabf692adaa3790a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SilverCoins_0: -5850603628638889976
+      SilverCoins_1: -609477094910776261
+      SilverCoins_10: 3374691437361667930
+      SilverCoins_11: -6787451320271725956
+      SilverCoins_12: -5217817734961941889
+      SilverCoins_13: 3137266510029552070
+      SilverCoins_14: -3487587949607926214
+      SilverCoins_15: -5412443741547790515
+      SilverCoins_16: 1293736282325942105
+      SilverCoins_17: 2239067582010557686
+      SilverCoins_18: 3434551015164105537
+      SilverCoins_19: 3167556556385575113
+      SilverCoins_2: -1512792464336617809
+      SilverCoins_20: 3046889103230206619
+      SilverCoins_21: 899439247401817507
+      SilverCoins_22: 4746381036759830190
+      SilverCoins_23: -753681214139797152
+      SilverCoins_24: -5166301444911954033
+      SilverCoins_25: -4918945977524623375
+      SilverCoins_26: 7646373557091088469
+      SilverCoins_27: 9071360681989949520
+      SilverCoins_28: 994359129336512309
+      SilverCoins_29: -7891624342341993499
+      SilverCoins_3: -3821115891533325598
+      SilverCoins_30: -8244358270295869270
+      SilverCoins_31: 4531654468902349210
+      SilverCoins_32: -924849425645623708
+      SilverCoins_33: 2961866072717410555
+      SilverCoins_34: 1426224815084693325
+      SilverCoins_35: 1687978306155873752
+      SilverCoins_36: 4194305133001026013
+      SilverCoins_37: 6268620586511572337
+      SilverCoins_38: -2080001478306717042
+      SilverCoins_39: 6893695449655009113
+      SilverCoins_4: 1775138774926601342
+      SilverCoins_40: -1453108189941608991
+      SilverCoins_41: 6158244136515483686
+      SilverCoins_42: 4815555920408200731
+      SilverCoins_43: -7828286930180649101
+      SilverCoins_44: 4874847836540319028
+      SilverCoins_45: 5956932228837838979
+      SilverCoins_46: -3569522227339482058
+      SilverCoins_47: 2505546258329718671
+      SilverCoins_48: -1869057654111700588
+      SilverCoins_49: -2718139061909998669
+      SilverCoins_5: 8805648542770447792
+      SilverCoins_50: -8668669896698285177
+      SilverCoins_51: -8199312545285337050
+      SilverCoins_52: 1070900460285325109
+      SilverCoins_53: 4130672673471699904
+      SilverCoins_54: -454427740264049184
+      SilverCoins_55: 5520316689134107401
+      SilverCoins_56: -822873594388758809
+      SilverCoins_57: -7948349352274805116
+      SilverCoins_58: -2374151421154506552
+      SilverCoins_59: 4861321908738830234
+      SilverCoins_6: -1910824762750107634
+      SilverCoins_60: 2574122442303624401
+      SilverCoins_61: -782556482002807108
+      SilverCoins_62: -5673639370127676183
+      SilverCoins_63: 745443538320583171
+      SilverCoins_64: 1242674257399517175
+      SilverCoins_65: -6760612820649357273
+      SilverCoins_66: 194415945208004087
+      SilverCoins_67: -6428487503664414534
+      SilverCoins_68: -5529673589748894131
+      SilverCoins_69: -3056973287301018831
+      SilverCoins_7: -9192572159628375827
+      SilverCoins_70: -8422030409615565482
+      SilverCoins_71: 6239393268677358590
+      SilverCoins_72: 6415528393531277625
+      SilverCoins_73: 8802606113538154944
+      SilverCoins_74: -4413602839118190149
+      SilverCoins_75: -6762608835599970748
+      SilverCoins_76: 443043999082737278
+      SilverCoins_77: -5793373967916703963
+      SilverCoins_78: 1720744921001516214
+      SilverCoins_79: 5313897634933976946
+      SilverCoins_8: 250715514788967265
+      SilverCoins_80: 8294404191636385778
+      SilverCoins_9: 8963935084653189055
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

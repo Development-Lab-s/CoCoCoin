@@ -74,7 +74,7 @@ public class FlipCoin : MonoBehaviour
     public void TossCoin()
     {
         shaker.GenerateImpulseWithForce(0.5f);
-
+        coinTrm.GetComponent<AudioSource>().Play();
         coinSpriteLibrary.spriteLibraryAsset = chip.spriteLibrary;
         coinSprite.DOColor(Color.white, 0.1f);
         coinParticle.transform.position = coinTrm.position;
@@ -91,6 +91,7 @@ public class FlipCoin : MonoBehaviour
 
         IEnumerator ShowChip()
         {
+            GetComponent<AudioSource>().Play();
             shaker.GenerateImpulse();
             cineCamera.Follow = basicTrm;
             coinSprite.color = Color.clear;

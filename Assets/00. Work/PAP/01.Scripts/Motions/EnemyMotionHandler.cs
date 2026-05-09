@@ -1,4 +1,5 @@
 using System.Collections;
+using DG.Tweening;
 using Unity.Cinemachine;
 using UnityEngine;
 
@@ -6,6 +7,7 @@ public class EnemyMotionHandler : MonoBehaviour
 {
     [SerializeField] CinemachineImpulseSource impulseSource;
     [SerializeField] Player player;
+    [SerializeField] private Transform soundManager;
     public IEnumerator PlayMotion(string motionName,int attackPower)
     {
         yield return StartCoroutine(motionName,attackPower);
@@ -16,6 +18,8 @@ public class EnemyMotionHandler : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         impulseSource.GenerateImpulseWithForce(attackPower / 10f);
         player.TakeDamage(attackPower);
+        soundManager.Find("Swoosh").GetComponent<AudioSource>().Play();
+        soundManager.Find("Stab").GetComponent<AudioSource>().Play();
         yield return new WaitForSeconds(0.5f);
     }
 

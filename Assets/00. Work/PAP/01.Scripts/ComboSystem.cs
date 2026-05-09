@@ -52,6 +52,7 @@ public class ComboSystem : MonoBehaviour
     {
         speed = 1f + currentCombo * 0.2f;
         currentCombo = Mathf.Clamp(currentCombo + addVal, 0, comboText.Length - 1);
+        GetComponent<AudioSource>().Play();
         UpdateUI();
     }
 

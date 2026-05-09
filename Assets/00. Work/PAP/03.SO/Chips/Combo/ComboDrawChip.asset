@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ab833fd37e42eb48b8fbb686d40d810, type: 3}
   m_Name: ComboDrawChip
   m_EditorClassIdentifier: 
-  Name: "\uBBF8\uC815"
+  Name: "\uD310 \uD0A4\uC6B0\uAE30"
   Description: "[50% \uC55E\uBA74]\n\uCF64\uBCF4 +1 \n\uCF54\uC778\uC744 \uD55C\uC7A5
     \uBF51\uC2B5\uB2C8\uB2E4\n\n[50% \uB4B7\uBA74]\n<color=#999999>\uC2E4\uD328</color>
     \uD569\uB2C8\uB2E4"

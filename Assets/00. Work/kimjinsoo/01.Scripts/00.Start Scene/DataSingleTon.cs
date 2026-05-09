@@ -1,18 +1,20 @@
 using System.Collections;
 using Unity.Hierarchy;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class DataSingleTon : MonoBehaviour
 {
     public static DataSingleTon instance;
-    private GameObject musicSliderOrigin;
-    private GameObject fxSliderOrigin;
+    [SerializeField]private GameObject musicSliderOrigin;
+    [SerializeField]private GameObject fxSliderOrigin;
     private Slider musicSlider;
     private Slider fxSlider;
     public float musicSliderValue = 10f;
     public float fxSliderValue = 10f;
+    [SerializeField] AudioMixer audioMixer;
 
     private void Awake()
     {
@@ -28,8 +30,6 @@ public class DataSingleTon : MonoBehaviour
     }
     private void Start()
     {
-        fxSliderOrigin = GameObject.Find("FXSound Slider");
-        musicSliderOrigin = GameObject.Find("Sound Slider");
         musicSlider = musicSliderOrigin.GetComponent<Slider>();
         fxSlider = fxSliderOrigin.GetComponent<Slider>();
     }
@@ -37,6 +37,8 @@ public class DataSingleTon : MonoBehaviour
     {
         fxSliderValue = fxSlider.value;
         musicSliderValue = musicSlider.value;
+        audioMixer.SetFloat("SFX", Mathf.Log10(fxSliderValue) * 20);
+        audioMixer.SetFloat("BGM", Mathf.Log10(fxSliderValue) * 20);
     }
 }
 

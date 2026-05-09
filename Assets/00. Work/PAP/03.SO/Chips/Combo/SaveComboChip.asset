@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ab833fd37e42eb48b8fbb686d40d810, type: 3}
   m_Name: SaveComboChip
   m_EditorClassIdentifier: 
-  Name: "\uBBF8\uC815"
+  Name: "\uC138\uCEE8\uB4DC \uCC2C\uC2A4"
   Description: "[50% \uC55E\uBA74]\n\uB2E4\uC74C \uD55C\uBC88, \uCF64\uBCF4\uAC00
     \uB04A\uAE30\uB294 \uAC78 \uB9C9\uC544\uC90D\uB2C8\uB2E4\n\n[50% \uB4B7\uBA74]\n\uCF64\uBCF4
     +2"
