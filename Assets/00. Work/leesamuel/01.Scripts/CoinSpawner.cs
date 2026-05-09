@@ -1,129 +1,57 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.Collections;
 using UnityEngine;
-using UnityEngine.EventSystems;
-using System.Threading.Tasks;
 
 public class CoinSpawner : MonoBehaviour
 {
-    private int _Number_of_coins;
-    private float X = 0;
-    private float Y = 0;
-    [SerializeField] private GameObject NormarCoinPrefeb;//생성할 코인 프레펩
-    [SerializeField] private GameObject RedCoinPrefeb;
-    [SerializeField] private GameObject Coin_Spown_point;
-    private int Rarity_probability;
-    private int CoinType;
-    private GameObject _CoinPrefeb;
-    private float _spawnTime =0.3f;
+    [SerializeField] private List<CoinData> coinPool = new List<CoinData>();
+    [SerializeField] private float spawnTime = 0.3f;
+    [SerializeField] private GameObject spawnPoint; // 코인이 실제로 나타날 물리적 위치
 
-
-    public int Common_probability = 100;//확률 설정 무조건 총합"100"이어야함
-    public int Rare_probability = 0;
-    public int Regendery_probability = 0;
-
-
-    public void CoinSpawn()//랜덤 희귀도의 랜덤코인을 "생성"까지 해줌
-    {
-        Rare_probability += Common_probability;
-        Regendery_probability += Rare_probability;
-        Rarity_probability = Random.Range(1, 101);
-        if (0 < Rarity_probability && Common_probability >= Rarity_probability)
-        {
-            CoinType = Random.Range(0, 2);  //common등급 코인 
-            if (CoinType == 0)
-            {
-                _CoinPrefeb = NormarCoinPrefeb;
-            }
-            else if (CoinType == 1)
-            {
-                _CoinPrefeb = RedCoinPrefeb;
-            }
-        }
-        else if (Common_probability < Rarity_probability && Rare_probability >= Rarity_probability)//Rare등급 코인 
-        {
-
-        }
-        else if (Rare_probability < Rarity_probability && Regendery_probability >= Rarity_probability)//Epic등급 코인 
-        {
-
-        }
-        GameObject Coin = Instantiate(_CoinPrefeb); //코인 생성
-        Coin.transform.position = Coin_Spown_point.transform.position;
-    }
     private IEnumerator Start()
     {
-        _Number_of_coins = Random.Range(4, 8);
-        if (_Number_of_coins == 4)
+        int count = Random.Range(4, 8);
+        float x = (count == 4) ? -6f : (count == 5) ? -7f : (count == 6) ? -4f : -6f;
+        float gap = (count == 4) ? 4f : (count == 5) ? 3.5f : (count == 6) ? 4f : 2f;
+
+        for (int i = 0; i < count; i++)
         {
+            float y = 0;
+            if (count == 5) y = (i >= 1 && i <= 3) ? 1f : -1f;
+            else if (count == 6) y = (i % 2 == 0) ? 2f : -2f;
+            else if (count == 7) y = (i % 2 == 1) ? 1f : -1f;
 
-            X = -6;
-            for (int i = 0; i < _Number_of_coins; i++)
-            {
-                Y = 0;
-                transform.position = new Vector3(X, Y, 0);//좌표 수정
-                X += 4;
-                CoinSpawn();
-                yield return new WaitForSeconds(_spawnTime);
-            }
-        }
-        else if (_Number_of_coins == 5)
-        {
-            X = -7;
+            transform.position = new Vector3(x, y, 0); // 스포너 위치 이동
+            SpawnRandomCoin();
 
-            for (int i = 0; i < _Number_of_coins; i++)
-            {
-                {
-                    Y = -1;
-                    if (i >= 1 && i <= 3)
-                    {
-                        Y = 1;
-                    }
-
-                    transform.position = new Vector3(X, Y, 0);//좌표 수정
-                    X += 3.5f;
-                    CoinSpawn();
-                    yield return new WaitForSeconds(_spawnTime);
-                }
-            }
-        }
-        else if (_Number_of_coins == 6)
-        {
-            X = -4;
-            Y = -2;
-
-            for (int i = 0; i < (_Number_of_coins / 2); i++)
-            {
-                for (int j = 0; j < 2; j++)
-                {
-
-                    Y *= -1;
-                    transform.position = new Vector3(X, Y, 0);//좌표 수정
-                    CoinSpawn();
-                    yield return new WaitForSeconds(_spawnTime);
-                }
-                X += 4;
-            }
-        }
-
-        else if (_Number_of_coins == 7)
-        {
-            X = -6;
-
-            for (int i = 0; i < _Number_of_coins; i++)
-            {
-                Y = -1;
-                if (i % 2 == 1)
-                {
-                    Y = 1;
-                }
-
-                transform.position = new Vector3(X, Y, 0);//좌표 수정
-                X += 2;
-                CoinSpawn();
-                yield return new WaitForSeconds(_spawnTime);
-            }
+            if (!(count == 6 && i % 2 == 0)) x += gap;
+            yield return new WaitForSeconds(spawnTime);
         }
     }
+
+    public void SpawnRandomCoin()
+    {
+        if (coinPool.Count == 0) return;
+
+        // 리스트에서 무작위 데이터 선택
+        int randIndex = Random.Range(0, coinPool.Count);
+        CoinData selectedData = coinPool[randIndex];
+
+        // 생성 (spawnPoint가 있다면 그 위치에, 없다면 스포너 현재 위치에 생성)
+        Vector3 pos = spawnPoint != null ? spawnPoint.transform.position : transform.position;
+        GameObject coinObj = Instantiate(selectedData.prefab, pos, Quaternion.identity);
+
+        // 생성된 코인의 CoinDrag 컴포넌트를 찾아 SO 주입
+        CoinDrag dragScript = coinObj.GetComponent<CoinDrag>();
+        if (dragScript != null)
+        {
+            dragScript.Setup(selectedData.SO);
+        }
+    }
+}
+[System.Serializable]
+public class CoinData
+{
+    public GameObject prefab;
+    public InventoryItemSO SO; 
 }

@@ -1,16 +1,16 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class CoinDrag : MonoBehaviour
 {
-    [SerializeField] private InventoryItemSO so;
+    private InventoryItemSO so;
+
     private SpriteRenderer _sr;
     [Header("Settings")]
     [SerializeField] private float _maxScale = 1.3f;
     [SerializeField] private float _scaleSpeed = 10f;
     [SerializeField] private float _returnSpeed = 15f;
-     private LayerMask _targetLayer; // 목표 지점의 레이어
+    private LayerMask _targetLayer;
 
     private Vector3 _originalPosition;
     private Vector3 _originalScale;
@@ -18,29 +18,18 @@ public class CoinDrag : MonoBehaviour
     private static int coinCount = 0;
     private Coroutine _scaleCoroutine;
     private Coroutine _moveCoroutine;
-
-    private CoinMover _coinMover;
-
     private ToolTip toolTip;
 
-    void OnMouseEnter()
+    public void Setup(InventoryItemSO itemSO)
     {
-        
-        toolTip.ShowToolTip(so.Name, so.Description, transform.position, so.Sprite);
+        so = itemSO;
     }
-
-    void OnMouseExit()
-    {
-        toolTip.HideToolTip();
-    }
-
 
     private void Start()
     {
         _sr = GetComponent<SpriteRenderer>();
         _originalPosition = transform.position;
         _originalScale = transform.localScale;
-        _coinMover = GameObject.Find("CoinMover").GetComponent<CoinMover>();
         toolTip = GameObject.Find("DrawingChipCanvas").GetComponent<ToolTip>();
         if (_targetLayer == 0)
         {
@@ -48,16 +37,23 @@ public class CoinDrag : MonoBehaviour
         }
     }
 
+    void OnMouseEnter()
+    {
+        if (so != null)
+            toolTip.ShowToolTip(so.Name, so.Description, transform.position, so.Sprite);
+    }
+
+    void OnMouseExit()
+    {
+        toolTip.HideToolTip();
+    }
+
     private void OnMouseDown()
     {
         toolTip.HideToolTip();
         _isDragging = true;
         _sr.sortingLayerName = "Dragging";
-
-        // 이동 중이었다면 멈춤
         if (_moveCoroutine != null) StopCoroutine(_moveCoroutine);
-
-        // 커지는 효과 시작
         StartScaleEffect(_originalScale * _maxScale);
     }
 
@@ -71,31 +67,30 @@ public class CoinDrag : MonoBehaviour
     private void OnMouseUp()
     {
         _isDragging = false;
-
-        // 드롭 위치에 목표 지점이 있는지 체크 (Collider2D 필요)
         Collider2D hit = Physics2D.OverlapCircle(transform.position, 0.5f, _targetLayer);
         _sr.sortingLayerName = "Default";
+
         if (hit != null)
         {
-            //목표 지점이면 파괴
             coinCount++;
+            Select(so);
             Destroy(gameObject);
-            _coinMover.Select(so);
-            if (coinCount == 3)
-            {
-                Debug.Log("씬 넘어가기");
-            }
+            if (coinCount == 3) Debug.Log("씬 넘어가기");
         }
         else
         {
-            toolTip.ShowToolTip(so.Name, so.Description, transform.position, so.Sprite);
-            // 목표 지점이 아니면 복귀 및 크기 복원
+            if (so != null)
+                toolTip.ShowToolTip(so.Name, so.Description, transform.position, so.Sprite);
             StartScaleEffect(_originalScale);
             _moveCoroutine = StartCoroutine(RoutineReturnToOrigin());
         }
     }
 
-    // --- 연출용 함수들 ---
+    public void Select(InventoryItemSO item)
+    {
+        if (item != null)
+            GameManager.instance.inventoryManager.AddItem(item);
+    }
 
     private void StartScaleEffect(Vector3 targetScale)
     {
