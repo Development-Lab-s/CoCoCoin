@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -34,23 +35,24 @@ public class CoinDrag : MonoBehaviour
         toolTip.HideToolTip();
     }
 
-
     private void Start()
     {
-        _sr = GetComponent<SpriteRenderer>();
         _originalPosition = transform.position;
         _originalScale = transform.localScale;
+    }
+
+
+    public void Init(InventoryItemSO itemSo)
+    {
+        _sr = GetComponent<SpriteRenderer>();
         _coinMover = GameObject.Find("CoinMover").GetComponent<CoinMover>();
         toolTip = GameObject.Find("DrawingChipCanvas").GetComponent<ToolTip>();
         if (_targetLayer == 0)
         {
             _targetLayer = LayerMask.GetMask("OutPoint");
         }
-    }
-
-    public void Init(InventoryItemSO itemSo)
-    {
-        _sr .sprite = itemSo.Sprite;
+        so = itemSo;
+        _sr.sprite = so.Sprite;
         
     }
 

@@ -21,7 +21,9 @@ public class MapManager : MonoBehaviour
     [SerializeField] private GameObject[] shopRoomPrefab;
     [SerializeField] private GameObject[] spawnRoomPrefab;
     
-    [SerializeField] private List<EnemyData> enemyData = new List<EnemyData>();
+    [SerializeField] private List<EnemyData> enemyDataFloor1 = new List<EnemyData>();
+    [SerializeField] private List<EnemyData> enemyDataFloor2 = new List<EnemyData>();
+    [SerializeField] private List<EnemyData> enemyDataFloor3 = new List<EnemyData>();
 
     public static int currentFloor = 1;     
     public int maxFloor = 3;
@@ -242,7 +244,23 @@ public class MapManager : MonoBehaviour
         node.type = type;
         node.mapType = savedMapType;
         node.roomShapeType = savedShapeIndex;
-        node.enemyData = enemyData[Random.Range(0, enemyData.Count)];
+        List<EnemyData> targetList = null;
+        switch (currentFloor)
+        {
+            case 1:
+                targetList = enemyDataFloor1;
+                break;
+            case 2:
+                targetList = enemyDataFloor2;
+                break;
+            case 3:
+                targetList = enemyDataFloor3;
+                break;
+            default:
+                targetList = enemyDataFloor1;
+                break;
+        }
+        node.enemyData = targetList[Random.Range(0, targetList.Count)];
 
         // [수정] 스폰룸이거나 이미 클리어 리스트에 있다면 true
         if (type == RoomType.Spawn || clearedNodeIDs.Contains(id))
