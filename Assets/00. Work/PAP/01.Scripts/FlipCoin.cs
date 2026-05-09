@@ -18,6 +18,7 @@ public class FlipCoin : MonoBehaviour
     [SerializeField] SpriteLibrary coinSpriteLibrary;
     [SerializeField] ParticleSystem coinParticle;
     [SerializeField] Animator coinAnimator;
+    [SerializeField] private SpriteRenderer showCoin;
 
     [Header("Others")]
     [SerializeField] Enemy enemy;
@@ -74,7 +75,7 @@ public class FlipCoin : MonoBehaviour
     public void TossCoin()
     {
         shaker.GenerateImpulseWithForce(0.5f);
-
+        coinTrm.GetComponent<AudioSource>().Play();
         coinSpriteLibrary.spriteLibraryAsset = chip.spriteLibrary;
         coinSprite.DOColor(Color.white, 0.1f);
         coinParticle.transform.position = coinTrm.position;
@@ -91,6 +92,7 @@ public class FlipCoin : MonoBehaviour
 
         IEnumerator ShowChip()
         {
+            GetComponent<AudioSource>().Play();
             shaker.GenerateImpulse();
             cineCamera.Follow = basicTrm;
             coinSprite.color = Color.clear;
@@ -99,7 +101,10 @@ public class FlipCoin : MonoBehaviour
             yield return new WaitForSeconds(0.2f);
             handAnimator.SetTrigger("Turn");
             bool isHead = chip.ChipEncounter.FlipCoin(player, enemy);
-            yield return new WaitForSeconds(0.4f);
+            yield return new WaitForSeconds(0.3f);
+            showCoin.sprite = (isHead ? chip.SpriteOnStack : chip.SpriteOnBack);
+            showCoin.enabled = true;
+            yield return new WaitForSeconds(0.1f);
             if (isHead)
             {
                 resultUI.Head();
@@ -108,7 +113,9 @@ public class FlipCoin : MonoBehaviour
             {
                 resultUI.Tail();
             }
-            yield return new WaitForSeconds(0.6f);
+            yield return new WaitForSeconds(0.4f);
+            showCoin.enabled = false;
+            yield return new WaitForSeconds(0.2f);
             SkillChipUse(isHead);
         }
 

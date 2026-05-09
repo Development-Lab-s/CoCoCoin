@@ -52,6 +52,7 @@ public class ComboSystem : MonoBehaviour
     {
         speed = 1f + currentCombo * 0.2f;
         currentCombo = Mathf.Clamp(currentCombo + addVal, 0, comboText.Length - 1);
+        GetComponent<AudioSource>().Play();
         UpdateUI();
     }
 
@@ -86,7 +87,7 @@ public class ComboSystem : MonoBehaviour
         comboTextUI.rectTransform.rotation = Quaternion.identity;
         comboTextUI.color = Color.red;
         comboTextUI.DOColor(Color.green, 0.1f).OnComplete(() => comboTextUI.DOColor(Color.blue, 0.2f).OnComplete(() => comboTextUI.DOColor(new Color(1f, 1f, 0.1f) + new Color(currentCombo * 0.15f, currentCombo * -0.15f, 0), 0.2f)));
-        comboTextUI.rectTransform.DORotate(new Vector3(0, 0, -10), 0.1f).OnComplete(() => comboTextUI.rectTransform.DORotate(new Vector3(0, 0, 10), 0.1f).OnComplete(() => comboTextUI.rectTransform.DORotate(new Vector3(0, 0, 0), 0.1f)));
+        comboTextUI.rectTransform.DORotate(new Vector3(0, 0, -10), 0.1f).OnComplete(() => comboTextUI.rectTransform.DORotate(new Vector3(0, 0, 10), 0.1f).OnComplete(() => comboTextUI.rectTransform.DORotate(new Vector3(0, 0, 0), 0.1f).OnComplete(() => comboTextUI.rectTransform.rotation = Quaternion.identity)));
         long fact = ReturnComboCount();
         comboTextUI.SetText($"{comboText[currentCombo]} X{fact}");
     }

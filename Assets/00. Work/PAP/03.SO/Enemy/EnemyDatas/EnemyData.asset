@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemySprite: {fileID: -1684986574045993299, guid: fa5b9fda96ebe084ba46bf53d507d746, type: 3}
   Health: 60
+  hitSprite: {fileID: -1684986574045993299, guid: fa5b9fda96ebe084ba46bf53d507d746, type: 3}
   patternName:
   - Normal
   - Combo

@@ -5,12 +5,14 @@ using Unity.Mathematics;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 public class Player : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI shieldText;
     [SerializeField] private TextMeshProUGUI hpText;
     [SerializeField] private Image bloodImage;
+    [SerializeField] private Image clawImage;
     public StatusEffectHandler statusEffectHandler;
     private int displayHP;
     public int displayShield;
@@ -47,6 +49,10 @@ public class Player : MonoBehaviour
         {
             GameData.instance.playerCurrentHp = 0;
         }
+
+        clawImage.DOKill();
+        clawImage.rectTransform.rotation = Quaternion.Euler(0, Random.Range(0, 2) == 0 ? 0 : 180, 0);
+        clawImage.DOFade(0.6f,0.3f).SetEase(Ease.OutQuad).OnComplete(() => clawImage.DOFade(0f,0.7f));
         bloodImage.DOKill();
         bloodImage.color = new Color(1,1,1, Mathf.Clamp(damage/100f,0,1));
         bloodImage.DOFade(0f,1f).SetEase(Ease.OutQuad);

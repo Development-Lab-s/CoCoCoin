@@ -95,7 +95,7 @@ public class BattleManager : MonoBehaviour
 
     private void Start()
     {
-        enemy.Init(currentEnemySettiing.Data.enemySprite,currentEnemySettiing.Data.Health);
+        enemy.Init(currentEnemySettiing.Data);
         
         AmountDrawMax = GameData.instance.amountDrawMax;
         
@@ -128,7 +128,6 @@ public class BattleManager : MonoBehaviour
                 Debug.Log("이미 모든 카드를 다 뽑았습니다!");
                 return targetChip;
             }
-            drawMotionHandler.DrawChipMotion();
             targetChip = drawChips[Random.Range(0, drawChips.Count)];
             drawChips.Remove(targetChip);
             nowChips.Add(targetChip);
@@ -208,6 +207,7 @@ public class BattleManager : MonoBehaviour
         {
             DrawChip();
         }
+        drawMotionHandler.DrawChipMotion();
         foreach (StatusEffect statusEffect in player.statusEffectHandler.nowStatusEffectList)
         {
             statusEffect.OnStartTurn(player, enemy);

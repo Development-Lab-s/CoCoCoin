@@ -12,13 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ab833fd37e42eb48b8fbb686d40d810, type: 3}
   m_Name: NextTurnDefenseChip
   m_EditorClassIdentifier: 
-  Name: "\uC9C0\uC18D 10\uCE69"
-  Description: "[50% \uC55E\uBA74]\n<color=#AAAAFF>10\uC758 \uC274\uB4DC</color>\uB97C
-    \uC5BB\uC2B5\uB2C8\uB2E4\n\n[50% \uB4B7\uBA74]\n\uD604\uC7AC \uAC00\uC9C0\uACE0
-    \uC788\uB294 \uC274\uB4DC\uB9CC\uD07C \uB2E4\uC74C\uD134\uC5D0 \uC5BB\uC2B5\uB2C8\uB2E4\n"
-  Sprite: {fileID: -7502710690579546915, guid: 88cd6d10308574c4696760c23c213124, type: 3}
-  SpriteOnInventory: {fileID: 3426827930244345985, guid: 79f3433df6a2cc34281ed26d4dd13288, type: 3}
-  SpriteOnStack: {fileID: 7862119159083213105, guid: 8328d1c6c0f292544ac22e5e0aefb4b6, type: 3}
+  Name: "500\uC5D4"
+  Description: "[50% \uC55E\uBA74]\n\uBC29\uC5B4\uB3C4<color=#AAAAFF>+10</color>\n\n[50%
+    \uB4B7\uBA74]\n\uB2E4\uC74C \uD134 \uC2DC\uC791 \uC2DC \uD604\uC7AC \uBC29\uC5B4\uB3C4\uC758
+    50%\uB9CC\uD07C\uC744 \uC5BB\uC2B5\uB2C8\uB2E4\n"
+  Sprite: {fileID: 5203211375145971943, guid: 950eff6440a22e240af5dbd9ec521ff9, type: 3}
+  SpriteOnInventory: {fileID: -2277601842316072123, guid: 950eff6440a22e240af5dbd9ec521ff9, type: 3}
+  SpriteOnStack: {fileID: 5516001832015887561, guid: cba8af5620cbad6408369e9eddc78bf5, type: 3}
+  SpriteOnBack: {fileID: -4435626687425624955, guid: 950eff6440a22e240af5dbd9ec521ff9, type: 3}
   ChipEncounter: {fileID: 11400000, guid: 38c914389a8214546a9867a84f8a95fc, type: 2}
-  spriteLibrary: {fileID: 7108339969198208228, guid: e7ec5a0c439bc6344bf0c1fc3654560a, type: 3}
+  spriteLibrary: {fileID: 7108339969198208228, guid: 7dae0b192ddfd8c43b72e7807eb340b6, type: 3}
   rarity: 1
