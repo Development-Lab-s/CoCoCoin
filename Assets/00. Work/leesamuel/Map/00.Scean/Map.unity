@@ -311,7 +311,11 @@ MonoBehaviour:
   - {fileID: 750492222377320062, guid: 4d4982e060fbc2b4cafa3c05f842bc3f, type: 3}
   - {fileID: 750492222377320062, guid: 9dc8e169fd577214a9088e81bb83fd0a, type: 3}
   - {fileID: 750492222377320062, guid: 9aacc95c32c8e7442994853a4a0dad31, type: 3}
-  enemyData:
+  enemyDataFloor1:
+  - {fileID: 11400000, guid: 7f512a2bd44274e40a647c906867c6c5, type: 2}
+  enemyDataFloor2:
+  - {fileID: 11400000, guid: 7f512a2bd44274e40a647c906867c6c5, type: 2}
+  enemyDataFloor3:
   - {fileID: 11400000, guid: 7f512a2bd44274e40a647c906867c6c5, type: 2}
   maxFloor: 3
 --- !u!4 &847855605
