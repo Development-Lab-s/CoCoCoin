@@ -1,6 +1,8 @@
+using System;
 using System.Collections.Generic;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class MapManager : MonoBehaviour
 {
@@ -28,6 +30,7 @@ public class MapManager : MonoBehaviour
     public static int currentFloor = 1;     
     public int maxFloor = 3;
 
+    [Obsolete("Obsolete")]
     void Start()
     {   
         MapPlayer.Instance.isMoving = false;
@@ -194,6 +197,7 @@ public class MapManager : MonoBehaviour
         Connect(fightBL, spawn);
         Connect(fightBR, spawn);
     }
+    [Obsolete("Obsolete")]
     void GenerateMapVisuals()
     {
         foreach (MapNode node in allNodes)

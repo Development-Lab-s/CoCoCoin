@@ -27,7 +27,7 @@ public class CoinDrag : MonoBehaviour
     void OnMouseEnter()
     {
         
-        toolTip.ShowToolTip(so.Name, so.Description, transform.position, so.Sprite);
+        toolTip.ShowToolTip(so.Name, so.Description, transform.position, so.Sprite,so.rarity);
     }
 
     void OnMouseExit()
@@ -91,12 +91,12 @@ public class CoinDrag : MonoBehaviour
             _coinMover.Select(so);
             if (coinCount == 3)
             {
-                SceneManageHandler.instance.MoveScene(1);
+                _ = SceneManageHandler.instance.MoveScene(1);
             }
         }
         else
         {
-            toolTip.ShowToolTip(so.Name, so.Description, transform.position, so.Sprite);
+            toolTip.ShowToolTip(so.Name, so.Description, transform.position, so.Sprite,so.rarity);
             // 목표 지점이 아니면 복귀 및 크기 복원
             StartScaleEffect(_originalScale);
             _moveCoroutine = StartCoroutine(RoutineReturnToOrigin());

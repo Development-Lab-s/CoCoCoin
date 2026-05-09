@@ -41,7 +41,7 @@ public class ChipItem : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {
         rectTransform.DOMove(newPosition, 0.2f);
         Vector2 screenPos = Camera.main.WorldToScreenPoint(gameObject.transform.position);
-        toolTip.ShowToolTip(item.Name, item.Description, Vector2.zero, item.Sprite);
+        toolTip.ShowToolTip(item.Name, item.Description, Vector2.zero, item.Sprite,item.rarity);
     }
 
     public void OnPointerExit(PointerEventData eventData)

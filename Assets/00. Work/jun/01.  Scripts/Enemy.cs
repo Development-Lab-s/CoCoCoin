@@ -167,7 +167,8 @@ public class Enemy : MonoBehaviour
             isDead = true;
             Debug.Log("승리!");
             BattleManager.instance.currentState = BattleManager.State.End;
-            SceneManageHandler.instance.MoveScene(4);
+            if (!SceneManageHandler.instance.CanMove)
+                _ = SceneManageHandler.instance.MoveScene(4);
         }
     }
 

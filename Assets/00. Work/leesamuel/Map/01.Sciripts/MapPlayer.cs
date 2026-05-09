@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,6 +16,7 @@ public class MapPlayer : MonoBehaviour
         Instance = this;
     }
 
+    [Obsolete("Obsolete")]
     public void MoveTo(MapNode targetNode, Room targetRoomScript)
     {
         if (isMoving) return;
@@ -49,6 +51,8 @@ public class MapPlayer : MonoBehaviour
         }
         return false;
     }
+    // ReSharper disable Unity.PerformanceAnalysis
+    [Obsolete("Obsolete")]
     private IEnumerator FollowPathRoutine(List<MapNode> path, Room targetRoomScript)
     {
         isMoving = true;
