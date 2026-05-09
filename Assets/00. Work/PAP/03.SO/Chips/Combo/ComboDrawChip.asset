@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab833fd37e42eb48b8fbb686d40d810, type: 3}
+  m_Name: ComboDrawChip
+  m_EditorClassIdentifier: 
+  Name: "\uD310 \uD0A4\uC6B0\uAE30"
+  Description: "[50% \uC55E\uBA74]\n\uCF64\uBCF4 +1 \n\uCF54\uC778\uC744 \uD55C\uC7A5
+    \uBF51\uC2B5\uB2C8\uB2E4\n\n[50% \uB4B7\uBA74]\n<color=#999999>\uC2E4\uD328</color>
+    \uD569\uB2C8\uB2E4"
+  Sprite: {fileID: -6389691568410977307, guid: 0de1df47d6df8bc45b3ad9081069991c, type: 3}
+  SpriteOnInventory: {fileID: 8473360044434064404, guid: 4810ea7e6224a37459e13a5d77f3b5c1, type: 3}
+  SpriteOnStack: {fileID: 7276473429582343080, guid: 4810ea7e6224a37459e13a5d77f3b5c1, type: 3}
+  SpriteOnBack: {fileID: 1654218460725733181, guid: 0de1df47d6df8bc45b3ad9081069991c, type: 3}
+  ChipEncounter: {fileID: 11400000, guid: bcc00a4fb5f5f244c86044596a106ae5, type: 2}
+  spriteLibrary: {fileID: 7108339969198208228, guid: ddb8718585d238544ab20ac98f1c899a, type: 3}
+  rarity: 0

@@ -1,63 +1,52 @@
+using DG.Tweening;
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class ChipItem : MonoBehaviour
+public class ChipItem : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     private InventoryItemSO item;
     private InventoryToolTip toolTip;
-    private SpriteRenderer image;
+    public Image image;
+    private RectTransform rectTransform;
     private Vector3 originalPosition;
     private Vector3 newPosition;
+    [SerializeField]Material[] materials = new Material[3];
+    Dictionary<InventoryItemSO.Rarity, Material> rarityColor;
 
 
     public void Init(InventoryItemSO item,InventoryToolTip toolTip)
     {
+        rarityColor = new Dictionary<InventoryItemSO.Rarity, Material>()
+        {
+            { InventoryItemSO.Rarity.Common, materials[0] },
+            { InventoryItemSO.Rarity.Rare, materials[1] },
+            { InventoryItemSO.Rarity.Legendary, materials[2] }
+        };
+        rectTransform = GetComponent<RectTransform>();
         this.item = item;
         this.toolTip = toolTip;
-        originalPosition = transform.position;
-        newPosition = transform.position + new Vector3(0,0.1f,0);
-        Transform rectTrm = GetComponent<Transform>();
-        image = GetComponent<SpriteRenderer>();
+        originalPosition = rectTransform.position;
+        newPosition = rectTransform.position + new Vector3(0,0.15f);
         image.sprite = item.SpriteOnInventory;
+        image.material = rarityColor[item.rarity];
         gameObject.name = item.Name;
-        rectTrm.localScale = Vector3.one;
     }
 
 
-    public void OnMouseEnter()
+    public void OnPointerEnter(PointerEventData eventData)
     {
-        //칩 이름 & 설명 보여주기
-        StartCoroutine(MoveObject(newPosition, 0.1f));
+        rectTransform.DOMove(newPosition, 0.2f);
         Vector2 screenPos = Camera.main.WorldToScreenPoint(gameObject.transform.position);
-        toolTip.ShowToolTip(item.Name, item.Description, screenPos, item.Sprite);
+        toolTip.ShowToolTip(item.Name, item.Description, Vector2.zero, item.Sprite,item.rarity);
     }
 
-    public void OnMouseExit()   
+    public void OnPointerExit(PointerEventData eventData)
     {
-        StartCoroutine(MoveObject(originalPosition, 0.1f));
+        rectTransform.DOMove(originalPosition, 0.2f);
         toolTip.HideToolTip();
-    }
-    
-
-    IEnumerator MoveObject(Vector3 targetPosition, float duration)
-    {
-        float timeElasped = 0;
-        Vector3 startPosition = transform.position;
-
-        while (timeElasped < duration)
-        {
-            float t = timeElasped / duration;
-            //MotionHandle handle = LMotion.Create(0f, 1f, 0.25f).Bind(v => Debug.Log(v));
-
-            transform.position = Vector3.Lerp(startPosition, targetPosition, t);
-
-            timeElasped += Time.deltaTime;
-
-            yield return null;
-        }
-        transform.position = targetPosition;
     }
 }

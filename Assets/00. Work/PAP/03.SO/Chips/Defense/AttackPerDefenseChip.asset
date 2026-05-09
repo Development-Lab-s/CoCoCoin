@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab833fd37e42eb48b8fbb686d40d810, type: 3}
+  m_Name: AttackPerDefenseChip
+  m_EditorClassIdentifier: 
+  Name: "\uC601\uC6D0"
+  Description: "[50% \uC55E\uBA74]\n<color=#6666FF>\uBAA8\uB4E0 \uBC29\uC5B4\uB3C4\uB97C
+    \uC18C\uBAA8\uD558\uC5EC \uD53C\uD574</color>\uB97C \uC90D\uB2C8\uB2E4\n\n[50%
+    \uB4B7\uBA74]\n2\uD134 \uAC04 \uBC29\uC5B4\uB3C4\uB97C \uC5BB\uC744 \uB54C\uB9C8\uB2E4
+    \uADF8 \uC218\uCE58\uB9CC\uD07C \uD53C\uD574\uB97C \uAC00\uD569\uB2C8\uB2E4"
+  Sprite: {fileID: -6118324718318570953, guid: 950eff6440a22e240af5dbd9ec521ff9, type: 3}
+  SpriteOnInventory: {fileID: 7730652782685071239, guid: 950eff6440a22e240af5dbd9ec521ff9, type: 3}
+  SpriteOnStack: {fileID: -6255266778374520256, guid: cba8af5620cbad6408369e9eddc78bf5, type: 3}
+  SpriteOnBack: {fileID: 2389466791347955077, guid: 950eff6440a22e240af5dbd9ec521ff9, type: 3}
+  ChipEncounter: {fileID: 11400000, guid: a5cea33d4f6f519468946b9531a25d32, type: 2}
+  spriteLibrary: {fileID: 7108339969198208228, guid: 98d96102813fba945a5455023c5027a3, type: 3}
+  rarity: 1

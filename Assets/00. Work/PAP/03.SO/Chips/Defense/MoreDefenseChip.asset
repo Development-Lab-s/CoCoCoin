@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab833fd37e42eb48b8fbb686d40d810, type: 3}
+  m_Name: MoreDefenseChip
+  m_EditorClassIdentifier: 
+  Name: "10\uC6D0"
+  Description: "[50% \uC55E\uBA74]\n\uBC29\uC5B4\uB3C4<color=#AAAAFF>+10</color>\n\n[50%
+    \uB4B7\uBA74]\n<color=#999999>\uC2E4\uD328</color> \uD569\uB2C8\uB2E4"
+  Sprite: {fileID: 6142769255425773565, guid: 950eff6440a22e240af5dbd9ec521ff9, type: 3}
+  SpriteOnInventory: {fileID: 5114111836191555891, guid: 950eff6440a22e240af5dbd9ec521ff9, type: 3}
+  SpriteOnStack: {fileID: 93767261160266451, guid: cba8af5620cbad6408369e9eddc78bf5, type: 3}
+  SpriteOnBack: {fileID: 1446381128473850124, guid: 950eff6440a22e240af5dbd9ec521ff9, type: 3}
+  ChipEncounter: {fileID: 11400000, guid: ff35c2eb3ef0902438ef3afadb023536, type: 2}
+  spriteLibrary: {fileID: 7108339969198208228, guid: dc34fd87b76533c419504cc7a7f42787, type: 3}
+  rarity: 0
