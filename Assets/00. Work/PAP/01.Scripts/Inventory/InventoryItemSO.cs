@@ -13,6 +13,7 @@ public class InventoryItemSO : ScriptableObject
     public Sprite Sprite;
     public Sprite SpriteOnInventory;
     public Sprite SpriteOnStack;
+    public Sprite SpriteOnBack;
     public ChipEncounter ChipEncounter;
     public SpriteLibraryAsset spriteLibrary;
     public enum Rarity

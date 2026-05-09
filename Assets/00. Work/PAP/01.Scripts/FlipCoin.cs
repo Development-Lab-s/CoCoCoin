@@ -18,6 +18,7 @@ public class FlipCoin : MonoBehaviour
     [SerializeField] SpriteLibrary coinSpriteLibrary;
     [SerializeField] ParticleSystem coinParticle;
     [SerializeField] Animator coinAnimator;
+    [SerializeField] private SpriteRenderer showCoin;
 
     [Header("Others")]
     [SerializeField] Enemy enemy;
@@ -100,7 +101,10 @@ public class FlipCoin : MonoBehaviour
             yield return new WaitForSeconds(0.2f);
             handAnimator.SetTrigger("Turn");
             bool isHead = chip.ChipEncounter.FlipCoin(player, enemy);
-            yield return new WaitForSeconds(0.4f);
+            yield return new WaitForSeconds(0.3f);
+            showCoin.sprite = (isHead ? chip.SpriteOnStack : chip.SpriteOnBack);
+            showCoin.enabled = true;
+            yield return new WaitForSeconds(0.1f);
             if (isHead)
             {
                 resultUI.Head();
@@ -109,7 +113,9 @@ public class FlipCoin : MonoBehaviour
             {
                 resultUI.Tail();
             }
-            yield return new WaitForSeconds(0.6f);
+            yield return new WaitForSeconds(0.4f);
+            showCoin.enabled = false;
+            yield return new WaitForSeconds(0.2f);
             SkillChipUse(isHead);
         }
 

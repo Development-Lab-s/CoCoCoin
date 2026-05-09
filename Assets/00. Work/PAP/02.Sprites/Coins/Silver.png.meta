@@ -1,250 +1,250 @@
 fileFormatVersion: 2
-guid: ea7a78b3a3936f4498c304dc9178c2f0
+guid: 950eff6440a22e240af5dbd9ec521ff9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6614762452498050315
-    second: SilverChipsUpsidedown_0
+      213: -8584647517806083662
+    second: Silver_0
   - first:
-      213: 3491328544401763714
-    second: SilverChipsUpsidedown_1
+      213: 3338569852495511519
+    second: Silver_1
   - first:
-      213: -3252232181804386022
-    second: SilverChipsUpsidedown_2
+      213: 3229921398826955906
+    second: Silver_2
   - first:
-      213: 8402605656015613685
-    second: SilverChipsUpsidedown_3
+      213: 6892227642054826383
+    second: Silver_3
   - first:
-      213: 4313450631279941178
-    second: SilverChipsUpsidedown_4
+      213: 6650314159823477990
+    second: Silver_4
   - first:
-      213: 7540526672505811636
-    second: SilverChipsUpsidedown_5
+      213: 3982905460163716177
+    second: Silver_5
   - first:
-      213: 108031423205195260
-    second: SilverChipsUpsidedown_6
+      213: 2448640864490269230
+    second: Silver_6
   - first:
-      213: 2900227080202471462
-    second: SilverChipsUpsidedown_7
+      213: 4280330890314047303
+    second: Silver_7
   - first:
-      213: -6515621298818418587
-    second: SilverChipsUpsidedown_8
+      213: 3827829892776290270
+    second: Silver_8
   - first:
-      213: -5295852846446495160
-    second: SilverChipsUpsidedown_9
+      213: 6142769255425773565
+    second: Silver_9
   - first:
-      213: -203894643177086050
-    second: SilverChipsUpsidedown_10
+      213: -5286793810398145640
+    second: Silver_10
   - first:
-      213: -4862895922427905407
-    second: SilverChipsUpsidedown_11
+      213: 5114111836191555891
+    second: Silver_11
   - first:
-      213: 7850048573732699240
-    second: SilverChipsUpsidedown_12
+      213: -6916412211310216056
+    second: Silver_12
   - first:
-      213: 4531561511701966401
-    second: SilverChipsUpsidedown_13
+      213: -7024172151957349094
+    second: Silver_13
   - first:
-      213: -2496155882334908838
-    second: SilverChipsUpsidedown_14
+      213: 1446381128473850124
+    second: Silver_14
   - first:
-      213: -6535595742382011664
-    second: SilverChipsUpsidedown_15
+      213: 5774012275666223349
+    second: Silver_15
   - first:
-      213: -4451696993054336896
-    second: SilverChipsUpsidedown_16
+      213: -3288712730961885999
+    second: Silver_16
   - first:
-      213: 2932346424039961404
-    second: SilverChipsUpsidedown_17
+      213: -5844548812542761830
+    second: Silver_17
   - first:
-      213: 6798199731240350640
-    second: SilverChipsUpsidedown_18
+      213: 5041913675501878375
+    second: Silver_18
   - first:
-      213: 3802921139051980927
-    second: SilverChipsUpsidedown_19
+      213: -3510402154854481446
+    second: Silver_19
   - first:
-      213: -2978914882086864587
-    second: SilverChipsUpsidedown_20
+      213: 3952007494478281594
+    second: Silver_20
   - first:
-      213: -8340174350047318016
-    second: SilverChipsUpsidedown_21
+      213: -8969235169815379485
+    second: Silver_21
   - first:
-      213: -1257760287773112744
-    second: SilverChipsUpsidedown_22
+      213: 6483348228071020017
+    second: Silver_22
   - first:
-      213: 1388180749796408889
-    second: SilverChipsUpsidedown_23
+      213: -38065133529031745
+    second: Silver_23
   - first:
-      213: 8315026098388339486
-    second: SilverChipsUpsidedown_24
+      213: 4363423917475716081
+    second: Silver_24
   - first:
-      213: 8073179335546822859
-    second: SilverChipsUpsidedown_25
+      213: -8406526628268990094
+    second: Silver_25
   - first:
-      213: 7504208838349961927
-    second: SilverChipsUpsidedown_26
+      213: 2249687792652921661
+    second: Silver_26
   - first:
-      213: -4342804459651686941
-    second: SilverChipsUpsidedown_27
+      213: -2834393886116755487
+    second: Silver_27
   - first:
-      213: -8958526273867872677
-    second: SilverChipsUpsidedown_28
+      213: -6131146322036448035
+    second: Silver_28
   - first:
-      213: -2632703333389158277
-    second: SilverChipsUpsidedown_29
+      213: -7569478159983762624
+    second: Silver_29
   - first:
-      213: -2115646122234465962
-    second: SilverChipsUpsidedown_30
+      213: 2243235981161061876
+    second: Silver_30
   - first:
-      213: 6204672760021994781
-    second: SilverChipsUpsidedown_31
+      213: 6515960653898350394
+    second: Silver_31
   - first:
-      213: -3618696697168576957
-    second: SilverChipsUpsidedown_32
+      213: -8378135359702616125
+    second: Silver_32
   - first:
-      213: 221489133227255245
-    second: SilverChipsUpsidedown_33
+      213: 5439778215383368049
+    second: Silver_33
   - first:
-      213: 5009316523156463352
-    second: SilverChipsUpsidedown_34
+      213: 1154411473342499369
+    second: Silver_34
   - first:
-      213: -8455986070006015071
-    second: SilverChipsUpsidedown_35
+      213: 5029458346195144336
+    second: Silver_35
   - first:
-      213: -8457912244908661179
-    second: SilverChipsUpsidedown_36
+      213: 5203211375145971943
+    second: Silver_36
   - first:
-      213: 144712289462579228
-    second: SilverChipsUpsidedown_37
+      213: 1374777956589735041
+    second: Silver_37
   - first:
-      213: 4278580887570456860
-    second: SilverChipsUpsidedown_38
+      213: -2277601842316072123
+    second: Silver_38
   - first:
-      213: -4785777187094828501
-    second: SilverChipsUpsidedown_39
+      213: -2317320514579201146
+    second: Silver_39
   - first:
-      213: 7443026882734660761
-    second: SilverChipsUpsidedown_40
+      213: -183162008228206454
+    second: Silver_40
   - first:
-      213: -1037751749824953555
-    second: SilverChipsUpsidedown_41
+      213: -4435626687425624955
+    second: Silver_41
   - first:
-      213: -8309628693232787946
-    second: SilverChipsUpsidedown_42
+      213: -7116979994531701902
+    second: Silver_42
   - first:
-      213: -6506396749855916369
-    second: SilverChipsUpsidedown_43
+      213: -8233613275033757150
+    second: Silver_43
   - first:
-      213: 7267524461647521915
-    second: SilverChipsUpsidedown_44
+      213: -4402799349871490227
+    second: Silver_44
   - first:
-      213: -7570437446880748430
-    second: SilverChipsUpsidedown_45
+      213: 2922835646881739
+    second: Silver_45
   - first:
-      213: 6649650820197465271
-    second: SilverChipsUpsidedown_46
+      213: 8329454749723021573
+    second: Silver_46
   - first:
-      213: 1546224188018862947
-    second: SilverChipsUpsidedown_47
+      213: 4888227288506796615
+    second: Silver_47
   - first:
-      213: 1646213634305928901
-    second: SilverChipsUpsidedown_48
+      213: 6953831933083616938
+    second: Silver_48
   - first:
-      213: 3065400682521277167
-    second: SilverChipsUpsidedown_49
+      213: -5393410622462184845
+    second: Silver_49
   - first:
-      213: 2583608059730642845
-    second: SilverChipsUpsidedown_50
+      213: 2431464156743712985
+    second: Silver_50
   - first:
-      213: 7975191956126096064
-    second: SilverChipsUpsidedown_51
+      213: 4838856948672245729
+    second: Silver_51
   - first:
-      213: -8618316261715688580
-    second: SilverChipsUpsidedown_52
+      213: -5111978494167565839
+    second: Silver_52
   - first:
-      213: 2822428204448971522
-    second: SilverChipsUpsidedown_53
+      213: -691995945782568026
+    second: Silver_53
   - first:
-      213: -6774280574595441829
-    second: SilverChipsUpsidedown_54
+      213: 848641455897719515
+    second: Silver_54
   - first:
-      213: 738747620434852629
-    second: SilverChipsUpsidedown_55
+      213: -4543871901382913076
+    second: Silver_55
   - first:
-      213: 7764503824002127041
-    second: SilverChipsUpsidedown_56
+      213: 1924159440476294215
+    second: Silver_56
   - first:
-      213: 4609047172246362610
-    second: SilverChipsUpsidedown_57
+      213: 4317605283155009651
+    second: Silver_57
   - first:
-      213: 5629995995289504739
-    second: SilverChipsUpsidedown_58
+      213: -1709360095743678675
+    second: Silver_58
   - first:
-      213: -5750554544400907223
-    second: SilverChipsUpsidedown_59
+      213: 6468079328938179429
+    second: Silver_59
   - first:
-      213: -3854017478426651349
-    second: SilverChipsUpsidedown_60
+      213: 5203945040161390801
+    second: Silver_60
   - first:
-      213: -234885624984031310
-    second: SilverChipsUpsidedown_61
+      213: -514296910251632864
+    second: Silver_61
   - first:
-      213: -3708401002075163907
-    second: SilverChipsUpsidedown_62
+      213: -4383866381808582717
+    second: Silver_62
   - first:
-      213: 4282314696241637879
-    second: SilverChipsUpsidedown_63
+      213: -4804609543498392758
+    second: Silver_63
   - first:
-      213: -1471631635678322710
-    second: SilverChipsUpsidedown_64
+      213: 1040733542291026953
+    second: Silver_64
   - first:
-      213: -6058864065374140344
-    second: SilverChipsUpsidedown_65
+      213: 581358523173632599
+    second: Silver_65
   - first:
-      213: -5827808086699067610
-    second: SilverChipsUpsidedown_66
+      213: -7493408706654767762
+    second: Silver_66
   - first:
-      213: -1054284255616903903
-    second: SilverChipsUpsidedown_67
+      213: -7741863828792241804
+    second: Silver_67
   - first:
-      213: -4635578450827932608
-    second: SilverChipsUpsidedown_68
+      213: 3512554138284504887
+    second: Silver_68
   - first:
-      213: 8813882352804714572
-    second: SilverChipsUpsidedown_69
+      213: 7231754801327300041
+    second: Silver_69
   - first:
-      213: -6209579004997055166
-    second: SilverChipsUpsidedown_70
+      213: -4435225749179408835
+    second: Silver_70
   - first:
-      213: 7706839434591007911
-    second: SilverChipsUpsidedown_71
+      213: 9157864322865560829
+    second: Silver_71
   - first:
-      213: 7704454386910517915
-    second: SilverChipsUpsidedown_72
+      213: -6118324718318570953
+    second: Silver_72
   - first:
-      213: 9115269319493282482
-    second: SilverChipsUpsidedown_73
+      213: 269918915070040562
+    second: Silver_73
   - first:
-      213: -6588176076556483871
-    second: SilverChipsUpsidedown_74
+      213: 7730652782685071239
+    second: Silver_74
   - first:
-      213: 8010986148306286256
-    second: SilverChipsUpsidedown_75
+      213: 427626651272000379
+    second: Silver_75
   - first:
-      213: 2344936591571934278
-    second: SilverChipsUpsidedown_76
+      213: -802817280190035206
+    second: Silver_76
   - first:
-      213: -5899207802141654151
-    second: SilverChipsUpsidedown_77
+      213: 2389466791347955077
+    second: Silver_77
   - first:
-      213: -5572048691767024876
-    second: SilverChipsUpsidedown_78
+      213: -5523534236276107036
+    second: Silver_78
   - first:
-      213: 4675236688437772074
-    second: SilverChipsUpsidedown_79
+      213: -652704991405070989
+    second: Silver_79
   - first:
-      213: -6298323234334074610
-    second: SilverChipsUpsidedown_80
+      213: -3335777920234895823
+    second: Silver_80
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -366,7 +366,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_0
+      name: Silver_0
       rect:
         serializedVersion: 2
         x: 0
@@ -381,14 +381,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5f213419894a334a0800000000000000
-      internalID: -6614762452498050315
+      spriteID: 2b1ca33e0943dd880800000000000000
+      internalID: -8584647517806083662
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_1
+      name: Silver_1
       rect:
         serializedVersion: 2
         x: 212
@@ -403,14 +403,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 28daf3330d0b37030800000000000000
-      internalID: 3491328544401763714
+      spriteID: fdfb2d3a79bf45e20800000000000000
+      internalID: 3338569852495511519
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_2
+      name: Silver_2
       rect:
         serializedVersion: 2
         x: 424
@@ -425,14 +425,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a19b47ccf00cdd2d0800000000000000
-      internalID: -3252232181804386022
+      spriteID: 284738d366cf2dc20800000000000000
+      internalID: 3229921398826955906
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_3
+      name: Silver_3
       rect:
         serializedVersion: 2
         x: 636
@@ -447,14 +447,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5feaf72435d0c9470800000000000000
-      internalID: 8402605656015613685
+      spriteID: f895ecb168c16af50800000000000000
+      internalID: 6892227642054826383
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_4
+      name: Silver_4
       rect:
         serializedVersion: 2
         x: 848
@@ -469,14 +469,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a3610a9de747cdb30800000000000000
-      internalID: 4313450631279941178
+      spriteID: 6ec57055e79aa4c50800000000000000
+      internalID: 6650314159823477990
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_5
+      name: Silver_5
       rect:
         serializedVersion: 2
         x: 1060
@@ -491,14 +491,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4b23116ae0555a860800000000000000
-      internalID: 7540526672505811636
+      spriteID: 154a507e96f164730800000000000000
+      internalID: 3982905460163716177
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_6
+      name: Silver_6
       rect:
         serializedVersion: 2
         x: 1272
@@ -513,14 +513,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cfdb9bcc10ecf7100800000000000000
-      internalID: 108031423205195260
+      spriteID: e2aa27e84e15bf120800000000000000
+      internalID: 2448640864490269230
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_7
+      name: Silver_7
       rect:
         serializedVersion: 2
         x: 1484
@@ -535,14 +535,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 628cf63d92daf3820800000000000000
-      internalID: 2900227080202471462
+      spriteID: 74fdc4e344ac66b30800000000000000
+      internalID: 4280330890314047303
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_8
+      name: Silver_8
       rect:
         serializedVersion: 2
         x: 1696
@@ -557,14 +557,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 56875f033fcd395a0800000000000000
-      internalID: -6515621298818418587
+      spriteID: ed76d8bb10f2f1530800000000000000
+      internalID: 3827829892776290270
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_9
+      name: Silver_9
       rect:
         serializedVersion: 2
         x: 0
@@ -579,14 +579,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 84ab0d015e95186b0800000000000000
-      internalID: -5295852846446495160
+      spriteID: dff08de87108f3550800000000000000
+      internalID: 6142769255425773565
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_10
+      name: Silver_10
       rect:
         serializedVersion: 2
         x: 212
@@ -601,14 +601,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e9323ddf6ee9b2df0800000000000000
-      internalID: -203894643177086050
+      spriteID: 8931c724a0981a6b0800000000000000
+      internalID: -5286793810398145640
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_11
+      name: Silver_11
       rect:
         serializedVersion: 2
         x: 424
@@ -623,14 +623,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 18a3dfb5ce5838cb0800000000000000
-      internalID: -4862895922427905407
+      spriteID: 33181d98e99f8f640800000000000000
+      internalID: 5114111836191555891
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_12
+      name: Silver_12
       rect:
         serializedVersion: 2
         x: 636
@@ -645,14 +645,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 86c36e22699f0fc60800000000000000
-      internalID: 7850048573732699240
+      spriteID: 88c3ea01db7f300a0800000000000000
+      internalID: -6916412211310216056
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_13
+      name: Silver_13
       rect:
         serializedVersion: 2
         x: 848
@@ -667,14 +667,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 14ee3d68f2753ee30800000000000000
-      internalID: 4531561511701966401
+      spriteID: a1d1469b4a0258e90800000000000000
+      internalID: -7024172151957349094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_14
+      name: Silver_14
       rect:
         serializedVersion: 2
         x: 1060
@@ -689,14 +689,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a5e0d61437fdb5dd0800000000000000
-      internalID: -2496155882334908838
+      spriteID: c01338c19f3921410800000000000000
+      internalID: 1446381128473850124
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_15
+      name: Silver_15
       rect:
         serializedVersion: 2
         x: 1272
@@ -711,14 +711,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0fac3c3ac46ec45a0800000000000000
-      internalID: -6535595742382011664
+      spriteID: 5f084db9299612050800000000000000
+      internalID: 5774012275666223349
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_16
+      name: Silver_16
       rect:
         serializedVersion: 2
         x: 1484
@@ -733,14 +733,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0885251cb256832c0800000000000000
-      internalID: -4451696993054336896
+      spriteID: 1d446be02352c52d0800000000000000
+      internalID: -3288712730961885999
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_17
+      name: Silver_17
       rect:
         serializedVersion: 2
         x: 1696
@@ -755,14 +755,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c33f9435989c1b820800000000000000
-      internalID: 2932346424039961404
+      spriteID: a9425fb12ddf3eea0800000000000000
+      internalID: -5844548812542761830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_18
+      name: Silver_18
       rect:
         serializedVersion: 2
         x: 0
@@ -777,14 +777,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0b3bcbc13ae085e50800000000000000
-      internalID: 6798199731240350640
+      spriteID: 76c397056c978f540800000000000000
+      internalID: 5041913675501878375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_19
+      name: Silver_19
       rect:
         serializedVersion: 2
         x: 212
@@ -799,14 +799,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f78640290a0b6c430800000000000000
-      internalID: 3802921139051980927
+      spriteID: ad1022dc6db884fc0800000000000000
+      internalID: -3510402154854481446
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_20
+      name: Silver_20
       rect:
         serializedVersion: 2
         x: 424
@@ -821,14 +821,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 539761d92b4c8a6d0800000000000000
-      internalID: -2978914882086864587
+      spriteID: a7b3f0aa0e958d630800000000000000
+      internalID: 3952007494478281594
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_21
+      name: Silver_21
       rect:
         serializedVersion: 2
         x: 636
@@ -843,14 +843,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 000fa94ed9fb14c80800000000000000
-      internalID: -8340174350047318016
+      spriteID: 3e1c6345220e68380800000000000000
+      internalID: -8969235169815379485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_22
+      name: Silver_22
       rect:
         serializedVersion: 2
         x: 848
@@ -865,14 +865,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 856c0b2aea98b8ee0800000000000000
-      internalID: -1257760287773112744
+      spriteID: 1f5d459fcda79f950800000000000000
+      internalID: 6483348228071020017
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_23
+      name: Silver_23
       rect:
         serializedVersion: 2
         x: 1060
@@ -887,14 +887,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 93e76ab790fc34310800000000000000
-      internalID: 1388180749796408889
+      spriteID: fbb9ca576f3c87ff0800000000000000
+      internalID: -38065133529031745
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_24
+      name: Silver_24
       rect:
         serializedVersion: 2
         x: 1272
@@ -909,14 +909,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e1b0a8c7e28e46370800000000000000
-      internalID: 8315026098388339486
+      spriteID: 1fb559d3feefd8c30800000000000000
+      internalID: 4363423917475716081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_25
+      name: Silver_25
       rect:
         serializedVersion: 2
         x: 1484
@@ -931,14 +931,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bc0ea4705d1b90070800000000000000
-      internalID: 8073179335546822859
+      spriteID: 2712a2f3294065b80800000000000000
+      internalID: -8406526628268990094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_26
+      name: Silver_26
       rect:
         serializedVersion: 2
         x: 1696
@@ -953,14 +953,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7ca3232fd2e442860800000000000000
-      internalID: 7504208838349961927
+      spriteID: d3b2c98c02f783f10800000000000000
+      internalID: 2249687792652921661
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_27
+      name: Silver_27
       rect:
         serializedVersion: 2
         x: 0
@@ -975,14 +975,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3ed9a756a524bb3c0800000000000000
-      internalID: -4342804459651686941
+      spriteID: 1e7c87027c53aa8d0800000000000000
+      internalID: -2834393886116755487
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_28
+      name: Silver_28
       rect:
         serializedVersion: 2
         x: 212
@@ -997,14 +997,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b560a1771dbeca380800000000000000
-      internalID: -8958526273867872677
+      spriteID: dd4231187eac9eaa0800000000000000
+      internalID: -6131146322036448035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_29
+      name: Silver_29
       rect:
         serializedVersion: 2
         x: 424
@@ -1019,14 +1019,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b783a565442c67bd0800000000000000
-      internalID: -2632703333389158277
+      spriteID: 0432713e7bfc3f690800000000000000
+      internalID: -7569478159983762624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_30
+      name: Silver_30
       rect:
         serializedVersion: 2
         x: 636
@@ -1041,14 +1041,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 65138cd9f07b3a2e0800000000000000
-      internalID: -2115646122234465962
+      spriteID: 4fdda7c5d33912f10800000000000000
+      internalID: 2243235981161061876
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_31
+      name: Silver_31
       rect:
         serializedVersion: 2
         x: 848
@@ -1063,14 +1063,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d1d47a0600d6b1650800000000000000
-      internalID: 6204672760021994781
+      spriteID: a3f780211b75d6a50800000000000000
+      internalID: 6515960653898350394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_32
+      name: Silver_32
       rect:
         serializedVersion: 2
         x: 1060
@@ -1085,14 +1085,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 34e336fc68ec7cdc0800000000000000
-      internalID: -3618696697168576957
+      spriteID: 3c739c49742eabb80800000000000000
+      internalID: -8378135359702616125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_33
+      name: Silver_33
       rect:
         serializedVersion: 2
         x: 1272
@@ -1107,14 +1107,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dc5ae937133e21300800000000000000
-      internalID: 221489133227255245
+      spriteID: 17185d83779fd7b40800000000000000
+      internalID: 5439778215383368049
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_34
+      name: Silver_34
       rect:
         serializedVersion: 2
         x: 1484
@@ -1129,14 +1129,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8fe5c3a56daa48540800000000000000
-      internalID: 5009316523156463352
+      spriteID: 92a07316e1b450010800000000000000
+      internalID: 1154411473342499369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_35
+      name: Silver_35
       rect:
         serializedVersion: 2
         x: 1696
@@ -1151,14 +1151,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1abd3a7987d46aa80800000000000000
-      internalID: -8455986070006015071
+      spriteID: 09ec599f7b93cc540800000000000000
+      internalID: 5029458346195144336
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_36
+      name: Silver_36
       rect:
         serializedVersion: 2
         x: 0
@@ -1173,14 +1173,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 546eacc00a57f9a80800000000000000
-      internalID: -8457912244908661179
+      spriteID: 7e0f8da8d25853840800000000000000
+      internalID: 5203211375145971943
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_37
+      name: Silver_37
       rect:
         serializedVersion: 2
         x: 212
@@ -1195,14 +1195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c10fc008f0f120200800000000000000
-      internalID: 144712289462579228
+      spriteID: 18c81938441341310800000000000000
+      internalID: 1374777956589735041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_38
+      name: Silver_38
       rect:
         serializedVersion: 2
         x: 424
@@ -1217,14 +1217,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c11a96af5a2906b30800000000000000
-      internalID: 4278580887570456860
+      spriteID: 54ba9f011355460e0800000000000000
+      internalID: -2277601842316072123
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_39
+      name: Silver_39
       rect:
         serializedVersion: 2
         x: 636
@@ -1239,14 +1239,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b2a6b052101859db0800000000000000
-      internalID: -4785777187094828501
+      spriteID: 68308c9054937dfd0800000000000000
+      internalID: -2317320514579201146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_40
+      name: Silver_40
       rect:
         serializedVersion: 2
         x: 848
@@ -1261,14 +1261,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 99c1517d381fa4760800000000000000
-      internalID: 7443026882734660761
+      spriteID: a88e53bbf17457df0800000000000000
+      internalID: -183162008228206454
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_41
+      name: Silver_41
       rect:
         serializedVersion: 2
         x: 1060
@@ -1283,14 +1283,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d23c4a2284a2991f0800000000000000
-      internalID: -1037751749824953555
+      spriteID: 584c0cb570d7172c0800000000000000
+      internalID: -4435626687425624955
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_42
+      name: Silver_42
       rect:
         serializedVersion: 2
         x: 1272
@@ -1305,14 +1305,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 61e5774dab44eac80800000000000000
-      internalID: -8309628693232787946
+      spriteID: 27b506007686b3d90800000000000000
+      internalID: -7116979994531701902
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_43
+      name: Silver_43
       rect:
         serializedVersion: 2
         x: 1484
@@ -1327,14 +1327,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: faef41dd0a2a4b5a0800000000000000
-      internalID: -6506396749855916369
+      spriteID: 22a1ca399545cbd80800000000000000
+      internalID: -8233613275033757150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_44
+      name: Silver_44
       rect:
         serializedVersion: 2
         x: 1696
@@ -1349,14 +1349,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b7866fc2efe6bd460800000000000000
-      internalID: 7267524461647521915
+      spriteID: d4bc69d715d16e2c0800000000000000
+      internalID: -4402799349871490227
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_45
+      name: Silver_45
       rect:
         serializedVersion: 2
         x: 0
@@ -1371,14 +1371,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 27c9b50804760f690800000000000000
-      internalID: -7570437446880748430
+      spriteID: bcf1874bd426a0000800000000000000
+      internalID: 2922835646881739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_46
+      name: Silver_46
       rect:
         serializedVersion: 2
         x: 212
@@ -1393,14 +1393,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7bc314a803e484c50800000000000000
-      internalID: 6649650820197465271
+      spriteID: 5015ee9a6fa289370800000000000000
+      internalID: 8329454749723021573
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_47
+      name: Silver_47
       rect:
         serializedVersion: 2
         x: 424
@@ -1415,14 +1415,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 36b2bfde4ba457510800000000000000
-      internalID: 1546224188018862947
+      spriteID: 74a81d8e1d876d340800000000000000
+      internalID: 4888227288506796615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_48
+      name: Silver_48
       rect:
         serializedVersion: 2
         x: 636
@@ -1437,14 +1437,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5cea531149688d610800000000000000
-      internalID: 1646213634305928901
+      spriteID: aa68737dc49f08060800000000000000
+      internalID: 6953831933083616938
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_49
+      name: Silver_49
       rect:
         serializedVersion: 2
         x: 848
@@ -1459,14 +1459,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fe2bbe7fdad7a8a20800000000000000
-      internalID: 3065400682521277167
+      spriteID: 372b2584d91c625b0800000000000000
+      internalID: -5393410622462184845
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_50
+      name: Silver_50
       rect:
         serializedVersion: 2
         x: 1060
@@ -1481,14 +1481,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d97c41f77d1dad320800000000000000
-      internalID: 2583608059730642845
+      spriteID: 9d0cdc2a4cb4eb120800000000000000
+      internalID: 2431464156743712985
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_51
+      name: Silver_51
       rect:
         serializedVersion: 2
         x: 1272
@@ -1503,14 +1503,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0cad27864d29dae60800000000000000
-      internalID: 7975191956126096064
+      spriteID: 1ef2a88e1c2172340800000000000000
+      internalID: 4838856948672245729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_52
+      name: Silver_52
       rect:
         serializedVersion: 2
         x: 1484
@@ -1525,14 +1525,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c73c6729507956880800000000000000
-      internalID: -8618316261715688580
+      spriteID: 1f9b4bbd4aa9e09b0800000000000000
+      internalID: -5111978494167565839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_53
+      name: Silver_53
       rect:
         serializedVersion: 2
         x: 1696
@@ -1547,14 +1547,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 20b79328f774b2720800000000000000
-      internalID: 2822428204448971522
+      spriteID: 6ab9e998a598566f0800000000000000
+      internalID: -691995945782568026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_54
+      name: Silver_54
       rect:
         serializedVersion: 2
         x: 0
@@ -1569,14 +1569,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b5bd86685bbecf1a0800000000000000
-      internalID: -6774280574595441829
+      spriteID: bd2347868eaf6cb00800000000000000
+      internalID: 848641455897719515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_55
+      name: Silver_55
       rect:
         serializedVersion: 2
         x: 212
@@ -1591,14 +1591,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 51b3fa6fb0f804a00800000000000000
-      internalID: 738747620434852629
+      spriteID: cc35135849ce0f0c0800000000000000
+      internalID: -4543871901382913076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_56
+      name: Silver_56
       rect:
         serializedVersion: 2
         x: 424
@@ -1613,14 +1613,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1c41fcef61f01cb60800000000000000
-      internalID: 7764503824002127041
+      spriteID: 74ccdc401dcf3ba10800000000000000
+      internalID: 1924159440476294215
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_57
+      name: Silver_57
       rect:
         serializedVersion: 2
         x: 636
@@ -1635,14 +1635,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2f953cebbff96ff30800000000000000
-      internalID: 4609047172246362610
+      spriteID: 370edce11273beb30800000000000000
+      internalID: 4317605283155009651
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_58
+      name: Silver_58
       rect:
         serializedVersion: 2
         x: 848
@@ -1657,14 +1657,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3eb4a1a5783c12e40800000000000000
-      internalID: 5629995995289504739
+      spriteID: d2768fbac022748e0800000000000000
+      internalID: -1709360095743678675
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_59
+      name: Silver_59
       rect:
         serializedVersion: 2
         x: 1060
@@ -1679,14 +1679,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 924c97f0c1de130b0800000000000000
-      internalID: -5750554544400907223
+      spriteID: 56b386c51eb33c950800000000000000
+      internalID: 6468079328938179429
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_60
+      name: Silver_60
       rect:
         serializedVersion: 2
         x: 1272
@@ -1701,14 +1701,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b259b38d587c38ac0800000000000000
-      internalID: -3854017478426651349
+      spriteID: 1d0c97d3170283840800000000000000
+      internalID: 5203945040161390801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_61
+      name: Silver_61
       rect:
         serializedVersion: 2
         x: 1484
@@ -1723,14 +1723,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2bf2bffb4c48dbcf0800000000000000
-      internalID: -234885624984031310
+      spriteID: 027de5b5fa9dcd8f0800000000000000
+      internalID: -514296910251632864
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_62
+      name: Silver_62
       rect:
         serializedVersion: 2
         x: 1696
@@ -1745,14 +1745,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: df27b92cfec198cc0800000000000000
-      internalID: -3708401002075163907
+      spriteID: 3cfb581a0c06923c0800000000000000
+      internalID: -4383866381808582717
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_63
+      name: Silver_63
       rect:
         serializedVersion: 2
         x: 0
@@ -1767,14 +1767,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7f9eaed0786dd6b30800000000000000
-      internalID: 4282314696241637879
+      spriteID: a4b935b7319925db0800000000000000
+      internalID: -4804609543498392758
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_64
+      name: Silver_64
       rect:
         serializedVersion: 2
         x: 212
@@ -1789,14 +1789,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aef9a2b03d6b39be0800000000000000
-      internalID: -1471631635678322710
+      spriteID: 904371684ad617e00800000000000000
+      internalID: 1040733542291026953
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_65
+      name: Silver_65
       rect:
         serializedVersion: 2
         x: 424
@@ -1811,14 +1811,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 848cef8db379aeba0800000000000000
-      internalID: -6058864065374140344
+      spriteID: 75af8e42f76611800800000000000000
+      internalID: 581358523173632599
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_66
+      name: Silver_66
       rect:
         serializedVersion: 2
         x: 636
@@ -1833,14 +1833,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 62737251c677f1fa0800000000000000
-      internalID: -5827808086699067610
+      spriteID: e65f50bab70120890800000000000000
+      internalID: -7493408706654767762
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_67
+      name: Silver_67
       rect:
         serializedVersion: 2
         x: 848
@@ -1855,14 +1855,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 125daab2e0e6e51f0800000000000000
-      internalID: -1054284255616903903
+      spriteID: 4719469addf5f8490800000000000000
+      internalID: -7741863828792241804
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_68
+      name: Silver_68
       rect:
         serializedVersion: 2
         x: 1060
@@ -1877,14 +1877,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 04c02f595fd1bafb0800000000000000
-      internalID: -4635578450827932608
+      spriteID: 737b6c2e0691fb030800000000000000
+      internalID: 3512554138284504887
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_69
+      name: Silver_69
       rect:
         serializedVersion: 2
         x: 1272
@@ -1899,14 +1899,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c48520b4d43315a70800000000000000
-      internalID: 8813882352804714572
+      spriteID: 9cdd6d32daa5c5460800000000000000
+      internalID: 7231754801327300041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_70
+      name: Silver_70
       rect:
         serializedVersion: 2
         x: 1484
@@ -1921,14 +1921,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 24d4d627bc423d9a0800000000000000
-      internalID: -6209579004997055166
+      spriteID: d3ede711ea9e272c0800000000000000
+      internalID: -4435225749179408835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_71
+      name: Silver_71
       rect:
         serializedVersion: 2
         x: 1696
@@ -1943,14 +1943,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7a4f4c712a134fa60800000000000000
-      internalID: 7706839434591007911
+      spriteID: dfcff99c415471f70800000000000000
+      internalID: 9157864322865560829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_72
+      name: Silver_72
       rect:
         serializedVersion: 2
         x: 0
@@ -1965,14 +1965,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b9a5008e178bbea60800000000000000
-      internalID: 7704454386910517915
+      spriteID: 7323120c518571ba0800000000000000
+      internalID: -6118324718318570953
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_73
+      name: Silver_73
       rect:
         serializedVersion: 2
         x: 212
@@ -1987,14 +1987,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2bae96cb621ff7e70800000000000000
-      internalID: 9115269319493282482
+      spriteID: 2f998eab2d1feb300800000000000000
+      internalID: 269918915070040562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_74
+      name: Silver_74
       rect:
         serializedVersion: 2
         x: 424
@@ -2009,14 +2009,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e2cf1793c81294a0800000000000000
-      internalID: -6588176076556483871
+      spriteID: 78724d14fbbc84b60800000000000000
+      internalID: 7730652782685071239
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_75
+      name: Silver_75
       rect:
         serializedVersion: 2
         x: 636
@@ -2031,14 +2031,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0b6fe56357dbc2f60800000000000000
-      internalID: 8010986148306286256
+      spriteID: b73be857c2c3fe500800000000000000
+      internalID: 427626651272000379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_76
+      name: Silver_76
       rect:
         serializedVersion: 2
         x: 848
@@ -2053,14 +2053,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 64cd571f763ea8020800000000000000
-      internalID: 2344936591571934278
+      spriteID: afa4abaefe1dbd4f0800000000000000
+      internalID: -802817280190035206
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_77
+      name: Silver_77
       rect:
         serializedVersion: 2
         x: 1060
@@ -2075,14 +2075,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 973422162cdc12ea0800000000000000
-      internalID: -5899207802141654151
+      spriteID: 58523e40367192120800000000000000
+      internalID: 2389466791347955077
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_78
+      name: Silver_78
       rect:
         serializedVersion: 2
         x: 1272
@@ -2097,14 +2097,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 413eb00ac3b1ca2b0800000000000000
-      internalID: -5572048691767024876
+      spriteID: 4e8dd0680e67853b0800000000000000
+      internalID: -5523534236276107036
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_79
+      name: Silver_79
       rect:
         serializedVersion: 2
         x: 1484
@@ -2119,14 +2119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a2ff4376ff6c1e040800000000000000
-      internalID: 4675236688437772074
+      spriteID: 3752d2cb44021f6f0800000000000000
+      internalID: -652704991405070989
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverChipsUpsidedown_80
+      name: Silver_80
       rect:
         serializedVersion: 2
         x: 1696
@@ -2141,8 +2141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e099de8636cd798a0800000000000000
-      internalID: -6298323234334074610
+      spriteID: 136ceceb7afe4b1d0800000000000000
+      internalID: -3335777920234895823
       vertices: []
       indices: 
       edges: []
@@ -2151,7 +2151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 991b3778d7c4c534fbe12dc3086b3734
+    spriteID: 57ecd8e4057eec84e857012089e0d9f0
     internalID: 0
     vertices: []
     indices: 
@@ -2161,87 +2161,87 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SilverChipsUpsidedown_0: -6614762452498050315
-      SilverChipsUpsidedown_1: 3491328544401763714
-      SilverChipsUpsidedown_10: -203894643177086050
-      SilverChipsUpsidedown_11: -4862895922427905407
-      SilverChipsUpsidedown_12: 7850048573732699240
-      SilverChipsUpsidedown_13: 4531561511701966401
-      SilverChipsUpsidedown_14: -2496155882334908838
-      SilverChipsUpsidedown_15: -6535595742382011664
-      SilverChipsUpsidedown_16: -4451696993054336896
-      SilverChipsUpsidedown_17: 2932346424039961404
-      SilverChipsUpsidedown_18: 6798199731240350640
-      SilverChipsUpsidedown_19: 3802921139051980927
-      SilverChipsUpsidedown_2: -3252232181804386022
-      SilverChipsUpsidedown_20: -2978914882086864587
-      SilverChipsUpsidedown_21: -8340174350047318016
-      SilverChipsUpsidedown_22: -1257760287773112744
-      SilverChipsUpsidedown_23: 1388180749796408889
-      SilverChipsUpsidedown_24: 8315026098388339486
-      SilverChipsUpsidedown_25: 8073179335546822859
-      SilverChipsUpsidedown_26: 7504208838349961927
-      SilverChipsUpsidedown_27: -4342804459651686941
-      SilverChipsUpsidedown_28: -8958526273867872677
-      SilverChipsUpsidedown_29: -2632703333389158277
-      SilverChipsUpsidedown_3: 8402605656015613685
-      SilverChipsUpsidedown_30: -2115646122234465962
-      SilverChipsUpsidedown_31: 6204672760021994781
-      SilverChipsUpsidedown_32: -3618696697168576957
-      SilverChipsUpsidedown_33: 221489133227255245
-      SilverChipsUpsidedown_34: 5009316523156463352
-      SilverChipsUpsidedown_35: -8455986070006015071
-      SilverChipsUpsidedown_36: -8457912244908661179
-      SilverChipsUpsidedown_37: 144712289462579228
-      SilverChipsUpsidedown_38: 4278580887570456860
-      SilverChipsUpsidedown_39: -4785777187094828501
-      SilverChipsUpsidedown_4: 4313450631279941178
-      SilverChipsUpsidedown_40: 7443026882734660761
-      SilverChipsUpsidedown_41: -1037751749824953555
-      SilverChipsUpsidedown_42: -8309628693232787946
-      SilverChipsUpsidedown_43: -6506396749855916369
-      SilverChipsUpsidedown_44: 7267524461647521915
-      SilverChipsUpsidedown_45: -7570437446880748430
-      SilverChipsUpsidedown_46: 6649650820197465271
-      SilverChipsUpsidedown_47: 1546224188018862947
-      SilverChipsUpsidedown_48: 1646213634305928901
-      SilverChipsUpsidedown_49: 3065400682521277167
-      SilverChipsUpsidedown_5: 7540526672505811636
-      SilverChipsUpsidedown_50: 2583608059730642845
-      SilverChipsUpsidedown_51: 7975191956126096064
-      SilverChipsUpsidedown_52: -8618316261715688580
-      SilverChipsUpsidedown_53: 2822428204448971522
-      SilverChipsUpsidedown_54: -6774280574595441829
-      SilverChipsUpsidedown_55: 738747620434852629
-      SilverChipsUpsidedown_56: 7764503824002127041
-      SilverChipsUpsidedown_57: 4609047172246362610
-      SilverChipsUpsidedown_58: 5629995995289504739
-      SilverChipsUpsidedown_59: -5750554544400907223
-      SilverChipsUpsidedown_6: 108031423205195260
-      SilverChipsUpsidedown_60: -3854017478426651349
-      SilverChipsUpsidedown_61: -234885624984031310
-      SilverChipsUpsidedown_62: -3708401002075163907
-      SilverChipsUpsidedown_63: 4282314696241637879
-      SilverChipsUpsidedown_64: -1471631635678322710
-      SilverChipsUpsidedown_65: -6058864065374140344
-      SilverChipsUpsidedown_66: -5827808086699067610
-      SilverChipsUpsidedown_67: -1054284255616903903
-      SilverChipsUpsidedown_68: -4635578450827932608
-      SilverChipsUpsidedown_69: 8813882352804714572
-      SilverChipsUpsidedown_7: 2900227080202471462
-      SilverChipsUpsidedown_70: -6209579004997055166
-      SilverChipsUpsidedown_71: 7706839434591007911
-      SilverChipsUpsidedown_72: 7704454386910517915
-      SilverChipsUpsidedown_73: 9115269319493282482
-      SilverChipsUpsidedown_74: -6588176076556483871
-      SilverChipsUpsidedown_75: 8010986148306286256
-      SilverChipsUpsidedown_76: 2344936591571934278
-      SilverChipsUpsidedown_77: -5899207802141654151
-      SilverChipsUpsidedown_78: -5572048691767024876
-      SilverChipsUpsidedown_79: 4675236688437772074
-      SilverChipsUpsidedown_8: -6515621298818418587
-      SilverChipsUpsidedown_80: -6298323234334074610
-      SilverChipsUpsidedown_9: -5295852846446495160
+      Silver_0: -8584647517806083662
+      Silver_1: 3338569852495511519
+      Silver_10: -5286793810398145640
+      Silver_11: 5114111836191555891
+      Silver_12: -6916412211310216056
+      Silver_13: -7024172151957349094
+      Silver_14: 1446381128473850124
+      Silver_15: 5774012275666223349
+      Silver_16: -3288712730961885999
+      Silver_17: -5844548812542761830
+      Silver_18: 5041913675501878375
+      Silver_19: -3510402154854481446
+      Silver_2: 3229921398826955906
+      Silver_20: 3952007494478281594
+      Silver_21: -8969235169815379485
+      Silver_22: 6483348228071020017
+      Silver_23: -38065133529031745
+      Silver_24: 4363423917475716081
+      Silver_25: -8406526628268990094
+      Silver_26: 2249687792652921661
+      Silver_27: -2834393886116755487
+      Silver_28: -6131146322036448035
+      Silver_29: -7569478159983762624
+      Silver_3: 6892227642054826383
+      Silver_30: 2243235981161061876
+      Silver_31: 6515960653898350394
+      Silver_32: -8378135359702616125
+      Silver_33: 5439778215383368049
+      Silver_34: 1154411473342499369
+      Silver_35: 5029458346195144336
+      Silver_36: 5203211375145971943
+      Silver_37: 1374777956589735041
+      Silver_38: -2277601842316072123
+      Silver_39: -2317320514579201146
+      Silver_4: 6650314159823477990
+      Silver_40: -183162008228206454
+      Silver_41: -4435626687425624955
+      Silver_42: -7116979994531701902
+      Silver_43: -8233613275033757150
+      Silver_44: -4402799349871490227
+      Silver_45: 2922835646881739
+      Silver_46: 8329454749723021573
+      Silver_47: 4888227288506796615
+      Silver_48: 6953831933083616938
+      Silver_49: -5393410622462184845
+      Silver_5: 3982905460163716177
+      Silver_50: 2431464156743712985
+      Silver_51: 4838856948672245729
+      Silver_52: -5111978494167565839
+      Silver_53: -691995945782568026
+      Silver_54: 848641455897719515
+      Silver_55: -4543871901382913076
+      Silver_56: 1924159440476294215
+      Silver_57: 4317605283155009651
+      Silver_58: -1709360095743678675
+      Silver_59: 6468079328938179429
+      Silver_6: 2448640864490269230
+      Silver_60: 5203945040161390801
+      Silver_61: -514296910251632864
+      Silver_62: -4383866381808582717
+      Silver_63: -4804609543498392758
+      Silver_64: 1040733542291026953
+      Silver_65: 581358523173632599
+      Silver_66: -7493408706654767762
+      Silver_67: -7741863828792241804
+      Silver_68: 3512554138284504887
+      Silver_69: 7231754801327300041
+      Silver_7: 4280330890314047303
+      Silver_70: -4435225749179408835
+      Silver_71: 9157864322865560829
+      Silver_72: -6118324718318570953
+      Silver_73: 269918915070040562
+      Silver_74: 7730652782685071239
+      Silver_75: 427626651272000379
+      Silver_76: -802817280190035206
+      Silver_77: 2389466791347955077
+      Silver_78: -5523534236276107036
+      Silver_79: -652704991405070989
+      Silver_8: 3827829892776290270
+      Silver_80: -3335777920234895823
+      Silver_9: 6142769255425773565
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

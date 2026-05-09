@@ -1,250 +1,196 @@
 fileFormatVersion: 2
-guid: 7c039f086870c9146927b1f83736afb5
+guid: 56db09fc515fafb4091a57dbd22bf2ed
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5850603628638889976
-    second: SilverCoins_0
+      213: -2150391925166808807
+    second: Casino_0
   - first:
-      213: -609477094910776261
-    second: SilverCoins_1
+      213: 5235393095140630135
+    second: Casino_1
   - first:
-      213: -1512792464336617809
-    second: SilverCoins_2
+      213: 7606589654494262337
+    second: Casino_2
   - first:
-      213: -3821115891533325598
-    second: SilverCoins_3
+      213: -5470510719074399633
+    second: Casino_3
   - first:
-      213: 1775138774926601342
-    second: SilverCoins_4
+      213: -3671307487699262883
+    second: Casino_4
   - first:
-      213: 8805648542770447792
-    second: SilverCoins_5
+      213: -2597736309974085160
+    second: Casino_5
   - first:
-      213: -1910824762750107634
-    second: SilverCoins_6
+      213: -2254864802743148213
+    second: Casino_6
   - first:
-      213: -9192572159628375827
-    second: SilverCoins_7
+      213: 5728041627895611753
+    second: Casino_7
   - first:
-      213: 250715514788967265
-    second: SilverCoins_8
+      213: -5699824862604101363
+    second: Casino_8
   - first:
-      213: 8963935084653189055
-    second: SilverCoins_9
+      213: -5451684428717778207
+    second: Casino_9
   - first:
-      213: 3374691437361667930
-    second: SilverCoins_10
+      213: 2129062171410921729
+    second: Casino_10
   - first:
-      213: -6787451320271725956
-    second: SilverCoins_11
+      213: -6349946503341308980
+    second: Casino_11
   - first:
-      213: -5217817734961941889
-    second: SilverCoins_12
+      213: -2557126695137375169
+    second: Casino_12
   - first:
-      213: 3137266510029552070
-    second: SilverCoins_13
+      213: -4126897601660550684
+    second: Casino_13
   - first:
-      213: -3487587949607926214
-    second: SilverCoins_14
+      213: 3118219691184877672
+    second: Casino_14
   - first:
-      213: -5412443741547790515
-    second: SilverCoins_15
+      213: -8178472644362308624
+    second: Casino_15
   - first:
-      213: 1293736282325942105
-    second: SilverCoins_16
+      213: 6353534983575379594
+    second: Casino_16
   - first:
-      213: 2239067582010557686
-    second: SilverCoins_17
+      213: -8007003963841744801
+    second: Casino_17
   - first:
-      213: 3434551015164105537
-    second: SilverCoins_18
+      213: 4255757993287911681
+    second: Casino_18
   - first:
-      213: 3167556556385575113
-    second: SilverCoins_19
+      213: -5137910019974476015
+    second: Casino_19
   - first:
-      213: 3046889103230206619
-    second: SilverCoins_20
+      213: 3959237131297564063
+    second: Casino_20
   - first:
-      213: 899439247401817507
-    second: SilverCoins_21
+      213: -3547398298544630705
+    second: Casino_21
   - first:
-      213: 4746381036759830190
-    second: SilverCoins_22
+      213: -2264950130112135146
+    second: Casino_22
   - first:
-      213: -753681214139797152
-    second: SilverCoins_23
+      213: 519740548655822133
+    second: Casino_23
   - first:
-      213: -5166301444911954033
-    second: SilverCoins_24
+      213: -3621313926579890067
+    second: Casino_24
   - first:
-      213: -4918945977524623375
-    second: SilverCoins_25
+      213: -5561745475296352869
+    second: Casino_25
   - first:
-      213: 7646373557091088469
-    second: SilverCoins_26
+      213: -5705299160706639502
+    second: Casino_26
   - first:
-      213: 9071360681989949520
-    second: SilverCoins_27
+      213: -408239663999675423
+    second: Casino_27
   - first:
-      213: 994359129336512309
-    second: SilverCoins_28
+      213: 135936512515572296
+    second: Casino_28
   - first:
-      213: -7891624342341993499
-    second: SilverCoins_29
+      213: -8200616937476562929
+    second: Casino_29
   - first:
-      213: -8244358270295869270
-    second: SilverCoins_30
+      213: 3456636850534150393
+    second: Casino_30
   - first:
-      213: 4531654468902349210
-    second: SilverCoins_31
+      213: 5851365936945882392
+    second: Casino_31
   - first:
-      213: -924849425645623708
-    second: SilverCoins_32
+      213: 1039310701970073639
+    second: Casino_32
   - first:
-      213: 2961866072717410555
-    second: SilverCoins_33
+      213: 7436538488746834710
+    second: Casino_33
   - first:
-      213: 1426224815084693325
-    second: SilverCoins_34
+      213: 4392078437808699560
+    second: Casino_34
   - first:
-      213: 1687978306155873752
-    second: SilverCoins_35
+      213: 6766093852305126376
+    second: Casino_35
   - first:
-      213: 4194305133001026013
-    second: SilverCoins_36
+      213: -8216091143744407174
+    second: Casino_36
   - first:
-      213: 6268620586511572337
-    second: SilverCoins_37
+      213: -6618594210441405747
+    second: Casino_37
   - first:
-      213: -2080001478306717042
-    second: SilverCoins_38
+      213: -3792126831181262126
+    second: Casino_38
   - first:
-      213: 6893695449655009113
-    second: SilverCoins_39
+      213: -4224927452781506510
+    second: Casino_39
   - first:
-      213: -1453108189941608991
-    second: SilverCoins_40
+      213: -993928252932333449
+    second: Casino_40
   - first:
-      213: 6158244136515483686
-    second: SilverCoins_41
+      213: -1308971725624340960
+    second: Casino_41
   - first:
-      213: 4815555920408200731
-    second: SilverCoins_42
+      213: -6800152546401586903
+    second: Casino_42
   - first:
-      213: -7828286930180649101
-    second: SilverCoins_43
+      213: -8961794295791375370
+    second: Casino_43
   - first:
-      213: 4874847836540319028
-    second: SilverCoins_44
+      213: -2484259575826787856
+    second: Casino_44
   - first:
-      213: 5956932228837838979
-    second: SilverCoins_45
+      213: -9214543398606170885
+    second: Casino_45
   - first:
-      213: -3569522227339482058
-    second: SilverCoins_46
+      213: 108105701235532942
+    second: Casino_46
   - first:
-      213: 2505546258329718671
-    second: SilverCoins_47
+      213: -4657867357250399949
+    second: Casino_47
   - first:
-      213: -1869057654111700588
-    second: SilverCoins_48
+      213: 4828557670381302046
+    second: Casino_48
   - first:
-      213: -2718139061909998669
-    second: SilverCoins_49
+      213: 5691853471134403228
+    second: Casino_49
   - first:
-      213: -8668669896698285177
-    second: SilverCoins_50
+      213: -5424771539945053371
+    second: Casino_50
   - first:
-      213: -8199312545285337050
-    second: SilverCoins_51
+      213: 8624141436379971745
+    second: Casino_51
   - first:
-      213: 1070900460285325109
-    second: SilverCoins_52
+      213: -129689992060299134
+    second: Casino_52
   - first:
-      213: 4130672673471699904
-    second: SilverCoins_53
+      213: 8940703547303904910
+    second: Casino_53
   - first:
-      213: -454427740264049184
-    second: SilverCoins_54
+      213: -4197401083365637610
+    second: Casino_54
   - first:
-      213: 5520316689134107401
-    second: SilverCoins_55
+      213: 7212989892409129084
+    second: Casino_55
   - first:
-      213: -822873594388758809
-    second: SilverCoins_56
+      213: 109641078735515450
+    second: Casino_56
   - first:
-      213: -7948349352274805116
-    second: SilverCoins_57
+      213: 6242079656471275379
+    second: Casino_57
   - first:
-      213: -2374151421154506552
-    second: SilverCoins_58
+      213: 6117639904776746581
+    second: Casino_58
   - first:
-      213: 4861321908738830234
-    second: SilverCoins_59
+      213: -5190524646223770113
+    second: Casino_59
   - first:
-      213: 2574122442303624401
-    second: SilverCoins_60
+      213: -5417322433979685707
+    second: Casino_60
   - first:
-      213: -782556482002807108
-    second: SilverCoins_61
+      213: 7151906096006044577
+    second: Casino_61
   - first:
-      213: -5673639370127676183
-    second: SilverCoins_62
-  - first:
-      213: 745443538320583171
-    second: SilverCoins_63
-  - first:
-      213: 1242674257399517175
-    second: SilverCoins_64
-  - first:
-      213: -6760612820649357273
-    second: SilverCoins_65
-  - first:
-      213: 194415945208004087
-    second: SilverCoins_66
-  - first:
-      213: -6428487503664414534
-    second: SilverCoins_67
-  - first:
-      213: -5529673589748894131
-    second: SilverCoins_68
-  - first:
-      213: -3056973287301018831
-    second: SilverCoins_69
-  - first:
-      213: -8422030409615565482
-    second: SilverCoins_70
-  - first:
-      213: 6239393268677358590
-    second: SilverCoins_71
-  - first:
-      213: 6415528393531277625
-    second: SilverCoins_72
-  - first:
-      213: 8802606113538154944
-    second: SilverCoins_73
-  - first:
-      213: -4413602839118190149
-    second: SilverCoins_74
-  - first:
-      213: -6762608835599970748
-    second: SilverCoins_75
-  - first:
-      213: 443043999082737278
-    second: SilverCoins_76
-  - first:
-      213: -5793373967916703963
-    second: SilverCoins_77
-  - first:
-      213: 1720744921001516214
-    second: SilverCoins_78
-  - first:
-      213: 5313897634933976946
-    second: SilverCoins_79
-  - first:
-      213: 8294404191636385778
-    second: SilverCoins_80
+      213: 120379314917591929
+    second: Casino_62
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -366,7 +312,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SilverCoins_0
+      name: Casino_0
       rect:
         serializedVersion: 2
         x: 0
@@ -381,14 +327,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8081e516ffa7ecea0800000000000000
-      internalID: -5850603628638889976
+      spriteID: 9116094ffe54822e0800000000000000
+      internalID: -2150391925166808807
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_1
+      name: Casino_1
       rect:
         serializedVersion: 2
         x: 212
@@ -403,14 +349,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b3c2b13bfc3ba87f0800000000000000
-      internalID: -609477094910776261
+      spriteID: 77ed36f184ad7a840800000000000000
+      internalID: 5235393095140630135
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_2
+      name: Casino_2
       rect:
         serializedVersion: 2
         x: 424
@@ -425,14 +371,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: faef350d44b710be0800000000000000
-      internalID: -1512792464336617809
+      spriteID: 144ba444df8009960800000000000000
+      internalID: 7606589654494262337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_3
+      name: Casino_3
       rect:
         serializedVersion: 2
         x: 636
@@ -447,14 +393,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2ea5e8f775ba8fac0800000000000000
-      internalID: -3821115891533325598
+      spriteID: f6a8a992c77d414b0800000000000000
+      internalID: -5470510719074399633
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_4
+      name: Casino_4
       rect:
         serializedVersion: 2
         x: 848
@@ -469,14 +415,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e7ca58a8f4f82a810800000000000000
-      internalID: 1775138774926601342
+      spriteID: d5224769a45ec0dc0800000000000000
+      internalID: -3671307487699262883
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_5
+      name: Casino_5
       rect:
         serializedVersion: 2
         x: 1060
@@ -491,14 +437,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0b5c4c002b2f33a70800000000000000
-      internalID: 8805648542770447792
+      spriteID: 8d15cd7e69cf2fbd0800000000000000
+      internalID: -2597736309974085160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_6
+      name: Casino_6
       rect:
         serializedVersion: 2
         x: 1272
@@ -513,14 +459,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e00824490036b75e0800000000000000
-      internalID: -1910824762750107634
+      spriteID: b41a6ff986c15b0e0800000000000000
+      internalID: -2254864802743148213
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_7
+      name: Casino_7
       rect:
         serializedVersion: 2
         x: 1484
@@ -535,14 +481,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: de8843d335c6d6080800000000000000
-      internalID: -9192572159628375827
+      spriteID: 9614e5913871e7f40800000000000000
+      internalID: 5728041627895611753
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_8
+      name: Casino_8
       rect:
         serializedVersion: 2
         x: 1696
@@ -557,14 +503,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 163fcaeae68ba7300800000000000000
-      internalID: 250715514788967265
+      spriteID: d09fa868c7726e0b0800000000000000
+      internalID: -5699824862604101363
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_9
+      name: Casino_9
       rect:
         serializedVersion: 2
         x: 0
@@ -579,14 +525,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fb71a6e677b466c70800000000000000
-      internalID: 8963935084653189055
+      spriteID: 1ea9fb675e9b754b0800000000000000
+      internalID: -5451684428717778207
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_10
+      name: Casino_10
       rect:
         serializedVersion: 2
         x: 212
@@ -601,14 +547,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a5f9e7e7bff45de20800000000000000
-      internalID: 3374691437361667930
+      spriteID: 1097bafb3c2fb8d10800000000000000
+      internalID: 2129062171410921729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_11
+      name: Casino_11
       rect:
         serializedVersion: 2
         x: 424
@@ -623,14 +569,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c7a92f45cf02ec1a0800000000000000
-      internalID: -6787451320271725956
+      spriteID: cc38b957c4570e7a0800000000000000
+      internalID: -6349946503341308980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_12
+      name: Casino_12
       rect:
         serializedVersion: 2
         x: 636
@@ -645,14 +591,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f723cdc4a669697b0800000000000000
-      internalID: -5217817734961941889
+      spriteID: f3c0baaa1d2438cd0800000000000000
+      internalID: -2557126695137375169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_13
+      name: Casino_13
       rect:
         serializedVersion: 2
         x: 848
@@ -667,14 +613,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6c97a08d44fc98b20800000000000000
-      internalID: 3137266510029552070
+      spriteID: 4e18c9c1f705ab6c0800000000000000
+      internalID: -4126897601660550684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_14
+      name: Casino_14
       rect:
         serializedVersion: 2
         x: 1060
@@ -689,14 +635,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a36cfa4ec39999fc0800000000000000
-      internalID: -3487587949607926214
+      spriteID: 860f3b0c944264b20800000000000000
+      internalID: 3118219691184877672
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_15
+      name: Casino_15
       rect:
         serializedVersion: 2
         x: 1272
@@ -711,14 +657,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d4ff14ae71323e4b0800000000000000
-      internalID: -5412443741547790515
+      spriteID: 0f3f88b167a308e80800000000000000
+      internalID: -8178472644362308624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_16
+      name: Casino_16
       rect:
         serializedVersion: 2
         x: 1484
@@ -733,14 +679,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 95f72155b4644f110800000000000000
-      internalID: 1293736282325942105
+      spriteID: a8e1704b76a4c2850800000000000000
+      internalID: 6353534983575379594
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_17
+      name: Casino_17
       rect:
         serializedVersion: 2
         x: 1696
@@ -755,14 +701,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6f405dd4a14c21f10800000000000000
-      internalID: 2239067582010557686
+      spriteID: f50711c515861e090800000000000000
+      internalID: -8007003963841744801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_18
+      name: Casino_18
       rect:
         serializedVersion: 2
         x: 0
@@ -777,14 +723,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 14350d583f9f9af20800000000000000
-      internalID: 3434551015164105537
+      spriteID: 10984ffc85d7f0b30800000000000000
+      internalID: 4255757993287911681
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_19
+      name: Casino_19
       rect:
         serializedVersion: 2
         x: 212
@@ -799,14 +745,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9c06255d7eb65fb20800000000000000
-      internalID: 3167556556385575113
+      spriteID: 11f40830f0a72b8b0800000000000000
+      internalID: -5137910019974476015
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_20
+      name: Casino_20
       rect:
         serializedVersion: 2
         x: 424
@@ -821,14 +767,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b928b0c0f79b84a20800000000000000
-      internalID: 3046889103230206619
+      spriteID: f952788a13902f630800000000000000
+      internalID: 3959237131297564063
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_21
+      name: Casino_21
       rect:
         serializedVersion: 2
         x: 636
@@ -843,14 +789,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3a51e66ea337b7c00800000000000000
-      internalID: 899439247401817507
+      spriteID: f441c6ada0c15cec0800000000000000
+      internalID: -3547398298544630705
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_22
+      name: Casino_22
       rect:
         serializedVersion: 2
         x: 848
@@ -865,14 +811,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eae48b0d7688ed140800000000000000
-      internalID: 4746381036759830190
+      spriteID: 61001bc5bd74190e0800000000000000
+      internalID: -2264950130112135146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_23
+      name: Casino_23
       rect:
         serializedVersion: 2
         x: 1060
@@ -887,14 +833,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 061ff4dcde26a85f0800000000000000
-      internalID: -753681214139797152
+      spriteID: 5353ff9764d763700800000000000000
+      internalID: 519740548655822133
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_24
+      name: Casino_24
       rect:
         serializedVersion: 2
         x: 1272
@@ -909,14 +855,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f878f65453c9d48b0800000000000000
-      internalID: -5166301444911954033
+      spriteID: d68d70a9b228ebdc0800000000000000
+      internalID: -3621313926579890067
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_25
+      name: Casino_25
       rect:
         serializedVersion: 2
         x: 1484
@@ -931,14 +877,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f7ee44f1b46cbbb0800000000000000
-      internalID: -4918945977524623375
+      spriteID: b9523d525f5b0d2b0800000000000000
+      internalID: -5561745475296352869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_26
+      name: Casino_26
       rect:
         serializedVersion: 2
         x: 1696
@@ -953,14 +899,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 558ba5aec306d1a60800000000000000
-      internalID: 7646373557091088469
+      spriteID: 2791fbc24a4b2d0b0800000000000000
+      internalID: -5705299160706639502
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_27
+      name: Casino_27
       rect:
         serializedVersion: 2
         x: 0
@@ -975,14 +921,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 058c4776a72f3ed70800000000000000
-      internalID: 9071360681989949520
+      spriteID: 1e313144034a55af0800000000000000
+      internalID: -408239663999675423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_28
+      name: Casino_28
       rect:
         serializedVersion: 2
         x: 212
@@ -997,14 +943,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 53ff44b1c5caccd00800000000000000
-      internalID: 994359129336512309
+      spriteID: 8420f74b981f2e100800000000000000
+      internalID: 135936512515572296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_29
+      name: Casino_29
       rect:
         serializedVersion: 2
         x: 424
@@ -1019,14 +965,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5eb31e5e8715b7290800000000000000
-      internalID: -7891624342341993499
+      spriteID: f0068a6185e813e80800000000000000
+      internalID: -8200616937476562929
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_30
+      name: Casino_30
       rect:
         serializedVersion: 2
         x: 636
@@ -1041,14 +987,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aa8f5f965d7269d80800000000000000
-      internalID: -8244358270295869270
+      spriteID: 9f0fc99c6e078ff20800000000000000
+      internalID: 3456636850534150393
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_31
+      name: Casino_31
       rect:
         serializedVersion: 2
         x: 848
@@ -1063,14 +1009,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a996cbfcabba3ee30800000000000000
-      internalID: 4531654468902349210
+      spriteID: 815ea7a515a343150800000000000000
+      internalID: 5851365936945882392
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_32
+      name: Casino_32
       rect:
         serializedVersion: 2
         x: 1060
@@ -1085,14 +1031,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4662ba1f8564a23f0800000000000000
-      internalID: -924849425645623708
+      spriteID: 7282032b39f5c6e00800000000000000
+      internalID: 1039310701970073639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_33
+      name: Casino_33
       rect:
         serializedVersion: 2
         x: 1272
@@ -1107,14 +1053,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bf04a902089aa1920800000000000000
-      internalID: 2961866072717410555
+      spriteID: 61b7644ea54e33760800000000000000
+      internalID: 7436538488746834710
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_34
+      name: Casino_34
       rect:
         serializedVersion: 2
         x: 1484
@@ -1129,14 +1075,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d4768f0b9e7fac310800000000000000
-      internalID: 1426224815084693325
+      spriteID: 8a87d37a11cc3fc30800000000000000
+      internalID: 4392078437808699560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_35
+      name: Casino_35
       rect:
         serializedVersion: 2
         x: 1696
@@ -1151,14 +1097,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d58cfe7357ec6710800000000000000
-      internalID: 1687978306155873752
+      spriteID: 8e3f997a28ef5ed50800000000000000
+      internalID: 6766093852305126376
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_36
+      name: Casino_36
       rect:
         serializedVersion: 2
         x: 0
@@ -1173,14 +1119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dd9af1ccb4a253a30800000000000000
-      internalID: 4194305133001026013
+      spriteID: a79b1eea2a49afd80800000000000000
+      internalID: -8216091143744407174
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_37
+      name: Casino_37
       rect:
         serializedVersion: 2
         x: 212
@@ -1195,14 +1141,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 17d19baf53d9ef650800000000000000
-      internalID: 6268620586511572337
+      spriteID: dcade26e1a70624a0800000000000000
+      internalID: -6618594210441405747
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_38
+      name: Casino_38
       rect:
         serializedVersion: 2
         x: 424
@@ -1217,14 +1163,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e82ad310da95223e0800000000000000
-      internalID: -2080001478306717042
+      spriteID: 2d296341db8af5bc0800000000000000
+      internalID: -3792126831181262126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_39
+      name: Casino_39
       rect:
         serializedVersion: 2
         x: 636
@@ -1239,14 +1185,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 95fd962bc735baf50800000000000000
-      internalID: 6893695449655009113
+      spriteID: 2309927cdda0e55c0800000000000000
+      internalID: -4224927452781506510
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_40
+      name: Casino_40
       rect:
         serializedVersion: 2
         x: 848
@@ -1261,14 +1207,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1edc156dcc585dbe0800000000000000
-      internalID: -1453108189941608991
+      spriteID: 7706ebf158bd432f0800000000000000
+      internalID: -993928252932333449
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_41
+      name: Casino_41
       rect:
         serializedVersion: 2
         x: 1060
@@ -1283,14 +1229,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 62833251a6a767550800000000000000
-      internalID: 6158244136515483686
+      spriteID: 02e8129962995dde0800000000000000
+      internalID: -1308971725624340960
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_42
+      name: Casino_42
       rect:
         serializedVersion: 2
         x: 1272
@@ -1305,14 +1251,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b16c5ff789a44d240800000000000000
-      internalID: 4815555920408200731
+      spriteID: 921f34da94101a1a0800000000000000
+      internalID: -6800152546401586903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_43
+      name: Casino_43
       rect:
         serializedVersion: 2
         x: 1484
@@ -1327,14 +1273,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 37fcfb653865c5390800000000000000
-      internalID: -7828286930180649101
+      spriteID: 6fbab31d19f41a380800000000000000
+      internalID: -8961794295791375370
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_44
+      name: Casino_44
       rect:
         serializedVersion: 2
         x: 1696
@@ -1349,14 +1295,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 435311f7740f6a340800000000000000
-      internalID: 4874847836540319028
+      spriteID: 0f15bf4f313268dd0800000000000000
+      internalID: -2484259575826787856
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_45
+      name: Casino_45
       rect:
         serializedVersion: 2
         x: 0
@@ -1371,14 +1317,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 38094fa0d464ba250800000000000000
-      internalID: 5956932228837838979
+      spriteID: bf498a6899d5f1080800000000000000
+      internalID: -9214543398606170885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_46
+      name: Casino_46
       rect:
         serializedVersion: 2
         x: 212
@@ -1393,14 +1339,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 63ca1954272867ec0800000000000000
-      internalID: -3569522227339482058
+      spriteID: e84a6500091108100800000000000000
+      internalID: 108105701235532942
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_47
+      name: Casino_47
       rect:
         serializedVersion: 2
         x: 424
@@ -1415,14 +1361,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f8f4d080c0d75c220800000000000000
-      internalID: 2505546258329718671
+      spriteID: 331d338215eeb5fb0800000000000000
+      internalID: -4657867357250399949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_48
+      name: Casino_48
       rect:
         serializedVersion: 2
         x: 636
@@ -1437,14 +1383,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 49972fd57f5cf06e0800000000000000
-      internalID: -1869057654111700588
+      spriteID: e11b0905e9b720340800000000000000
+      internalID: 4828557670381302046
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_49
+      name: Casino_49
       rect:
         serializedVersion: 2
         x: 848
@@ -1459,14 +1405,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3b3bdbcacea374ad0800000000000000
-      internalID: -2718139061909998669
+      spriteID: c9a4a8443968dfe40800000000000000
+      internalID: 5691853471134403228
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_50
+      name: Casino_50
       rect:
         serializedVersion: 2
         x: 1060
@@ -1481,14 +1427,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7833d2458a2b2b780800000000000000
-      internalID: -8668669896698285177
+      spriteID: 5432deda60757b4b0800000000000000
+      internalID: -5424771539945053371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_51
+      name: Casino_51
       rect:
         serializedVersion: 2
         x: 1272
@@ -1503,14 +1449,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6201ddf8ea0363e80800000000000000
-      internalID: -8199312545285337050
+      spriteID: 1a0c72891fa1fa770800000000000000
+      internalID: 8624141436379971745
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_52
+      name: Casino_52
       rect:
         serializedVersion: 2
         x: 1484
@@ -1525,14 +1471,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 53feb157b4a9cde00800000000000000
-      internalID: 1070900460285325109
+      spriteID: 288925ca3af333ef0800000000000000
+      internalID: -129689992060299134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_53
+      name: Casino_53
       rect:
         serializedVersion: 2
         x: 1696
@@ -1547,14 +1493,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0cb91b949e8135930800000000000000
-      internalID: 4130672673471699904
+      spriteID: e86cf13a182c31c70800000000000000
+      internalID: 8940703547303904910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_54
+      name: Casino_54
       rect:
         serializedVersion: 2
         x: 0
@@ -1569,14 +1515,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0e55a7db06c81b9f0800000000000000
-      internalID: -454427740264049184
+      spriteID: 612c62614f5dfb5c0800000000000000
+      internalID: -4197401083365637610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_55
+      name: Casino_55
       rect:
         serializedVersion: 2
         x: 212
@@ -1591,14 +1537,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 90bbf77e7ca1c9c40800000000000000
-      internalID: 5520316689134107401
+      spriteID: c7877815710b91460800000000000000
+      internalID: 7212989892409129084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_56
+      name: Casino_56
       rect:
         serializedVersion: 2
         x: 424
@@ -1613,14 +1559,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7eeb86f53d09494f0800000000000000
-      internalID: -822873594388758809
+      spriteID: a3f22deeaf5858100800000000000000
+      internalID: 109641078735515450
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_57
+      name: Casino_57
       rect:
         serializedVersion: 2
         x: 636
@@ -1635,14 +1581,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 48e34f2506ac1b190800000000000000
-      internalID: -7948349352274805116
+      spriteID: 377a9a7206250a650800000000000000
+      internalID: 6242079656471275379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_58
+      name: Casino_58
       rect:
         serializedVersion: 2
         x: 848
@@ -1657,14 +1603,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8c8c81b7cd15d0fd0800000000000000
-      internalID: -2374151421154506552
+      spriteID: 556f8fba41936e450800000000000000
+      internalID: 6117639904776746581
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_59
+      name: Casino_59
       rect:
         serializedVersion: 2
         x: 1060
@@ -1679,14 +1625,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a9fa3350582e67340800000000000000
-      internalID: 4861321908738830234
+      spriteID: ffd0ce7b55d87f7b0800000000000000
+      internalID: -5190524646223770113
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_60
+      name: Casino_60
       rect:
         serializedVersion: 2
         x: 1272
@@ -1701,14 +1647,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1d45ed519be19b320800000000000000
-      internalID: 2574122442303624401
+      spriteID: 5b4e2e0d2fdc1d4b0800000000000000
+      internalID: -5417322433979685707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_61
+      name: Casino_61
       rect:
         serializedVersion: 2
         x: 1484
@@ -1723,14 +1669,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cb61b89960dc325f0800000000000000
-      internalID: -782556482002807108
+      spriteID: 1ab146fa3bca04360800000000000000
+      internalID: 7151906096006044577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverCoins_62
+      name: Casino_62
       rect:
         serializedVersion: 2
         x: 1696
@@ -1745,404 +1691,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9ec6ed79d0f2341b0800000000000000
-      internalID: -5673639370127676183
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SilverCoins_63
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 120
-        width: 212
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 30a65b5d2f8585a00800000000000000
-      internalID: 745443538320583171
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SilverCoins_64
-      rect:
-        serializedVersion: 2
-        x: 212
-        y: 120
-        width: 212
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7ff02d337adde3110800000000000000
-      internalID: 1242674257399517175
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SilverCoins_65
-      rect:
-        serializedVersion: 2
-        x: 424
-        y: 120
-        width: 212
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7205e39757a7d22a0800000000000000
-      internalID: -6760612820649357273
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SilverCoins_66
-      rect:
-        serializedVersion: 2
-        x: 636
-        y: 120
-        width: 212
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7fd7bc8a544b2b200800000000000000
-      internalID: 194415945208004087
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SilverCoins_67
-      rect:
-        serializedVersion: 2
-        x: 848
-        y: 120
-        width: 212
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ab08b0dccac69c6a0800000000000000
-      internalID: -6428487503664414534
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SilverCoins_68
-      rect:
-        serializedVersion: 2
-        x: 1060
-        y: 120
-        width: 212
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d467827ea27a243b0800000000000000
-      internalID: -5529673589748894131
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SilverCoins_69
-      rect:
-        serializedVersion: 2
-        x: 1272
-        y: 120
-        width: 212
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 13b8092edf27395d0800000000000000
-      internalID: -3056973287301018831
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SilverCoins_70
-      rect:
-        serializedVersion: 2
-        x: 1484
-        y: 120
-        width: 212
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 65d935bd6ffee1b80800000000000000
-      internalID: -8422030409615565482
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SilverCoins_71
-      rect:
-        serializedVersion: 2
-        x: 1696
-        y: 120
-        width: 212
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ef33a71ce17c69650800000000000000
-      internalID: 6239393268677358590
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SilverCoins_72
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 212
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9314dde3519880950800000000000000
-      internalID: 6415528393531277625
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SilverCoins_73
-      rect:
-        serializedVersion: 2
-        x: 212
-        y: 0
-        width: 212
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0c1af1f3f93292a70800000000000000
-      internalID: 8802606113538154944
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SilverCoins_74
-      rect:
-        serializedVersion: 2
-        x: 424
-        y: 0
-        width: 212
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bb964b22a9bbfb2c0800000000000000
-      internalID: -4413602839118190149
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SilverCoins_75
-      rect:
-        serializedVersion: 2
-        x: 636
-        y: 0
-        width: 212
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 44e452708136622a0800000000000000
-      internalID: -6762608835599970748
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SilverCoins_76
-      rect:
-        serializedVersion: 2
-        x: 848
-        y: 0
-        width: 212
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e7ee1397b22062600800000000000000
-      internalID: 443043999082737278
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SilverCoins_77
-      rect:
-        serializedVersion: 2
-        x: 1060
-        y: 0
-        width: 212
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 52f545f121dc99fa0800000000000000
-      internalID: -5793373967916703963
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SilverCoins_78
-      rect:
-        serializedVersion: 2
-        x: 1272
-        y: 0
-        width: 212
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6bc5a55836051e710800000000000000
-      internalID: 1720744921001516214
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SilverCoins_79
-      rect:
-        serializedVersion: 2
-        x: 1484
-        y: 0
-        width: 212
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 27f2707aeb1ceb940800000000000000
-      internalID: 5313897634933976946
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SilverCoins_80
-      rect:
-        serializedVersion: 2
-        x: 1696
-        y: 0
-        width: 212
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2ff6ff9aaa4ab1370800000000000000
-      internalID: 8294404191636385778
+      spriteID: 97bc7ff595caba100800000000000000
+      internalID: 120379314917591929
       vertices: []
       indices: 
       edges: []
@@ -2151,7 +1701,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: d3b86c853ce57484cabf692adaa3790a
+    spriteID: c6d1ab5efe9188f46a331d5b8dd60e10
     internalID: 0
     vertices: []
     indices: 
@@ -2161,87 +1711,69 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SilverCoins_0: -5850603628638889976
-      SilverCoins_1: -609477094910776261
-      SilverCoins_10: 3374691437361667930
-      SilverCoins_11: -6787451320271725956
-      SilverCoins_12: -5217817734961941889
-      SilverCoins_13: 3137266510029552070
-      SilverCoins_14: -3487587949607926214
-      SilverCoins_15: -5412443741547790515
-      SilverCoins_16: 1293736282325942105
-      SilverCoins_17: 2239067582010557686
-      SilverCoins_18: 3434551015164105537
-      SilverCoins_19: 3167556556385575113
-      SilverCoins_2: -1512792464336617809
-      SilverCoins_20: 3046889103230206619
-      SilverCoins_21: 899439247401817507
-      SilverCoins_22: 4746381036759830190
-      SilverCoins_23: -753681214139797152
-      SilverCoins_24: -5166301444911954033
-      SilverCoins_25: -4918945977524623375
-      SilverCoins_26: 7646373557091088469
-      SilverCoins_27: 9071360681989949520
-      SilverCoins_28: 994359129336512309
-      SilverCoins_29: -7891624342341993499
-      SilverCoins_3: -3821115891533325598
-      SilverCoins_30: -8244358270295869270
-      SilverCoins_31: 4531654468902349210
-      SilverCoins_32: -924849425645623708
-      SilverCoins_33: 2961866072717410555
-      SilverCoins_34: 1426224815084693325
-      SilverCoins_35: 1687978306155873752
-      SilverCoins_36: 4194305133001026013
-      SilverCoins_37: 6268620586511572337
-      SilverCoins_38: -2080001478306717042
-      SilverCoins_39: 6893695449655009113
-      SilverCoins_4: 1775138774926601342
-      SilverCoins_40: -1453108189941608991
-      SilverCoins_41: 6158244136515483686
-      SilverCoins_42: 4815555920408200731
-      SilverCoins_43: -7828286930180649101
-      SilverCoins_44: 4874847836540319028
-      SilverCoins_45: 5956932228837838979
-      SilverCoins_46: -3569522227339482058
-      SilverCoins_47: 2505546258329718671
-      SilverCoins_48: -1869057654111700588
-      SilverCoins_49: -2718139061909998669
-      SilverCoins_5: 8805648542770447792
-      SilverCoins_50: -8668669896698285177
-      SilverCoins_51: -8199312545285337050
-      SilverCoins_52: 1070900460285325109
-      SilverCoins_53: 4130672673471699904
-      SilverCoins_54: -454427740264049184
-      SilverCoins_55: 5520316689134107401
-      SilverCoins_56: -822873594388758809
-      SilverCoins_57: -7948349352274805116
-      SilverCoins_58: -2374151421154506552
-      SilverCoins_59: 4861321908738830234
-      SilverCoins_6: -1910824762750107634
-      SilverCoins_60: 2574122442303624401
-      SilverCoins_61: -782556482002807108
-      SilverCoins_62: -5673639370127676183
-      SilverCoins_63: 745443538320583171
-      SilverCoins_64: 1242674257399517175
-      SilverCoins_65: -6760612820649357273
-      SilverCoins_66: 194415945208004087
-      SilverCoins_67: -6428487503664414534
-      SilverCoins_68: -5529673589748894131
-      SilverCoins_69: -3056973287301018831
-      SilverCoins_7: -9192572159628375827
-      SilverCoins_70: -8422030409615565482
-      SilverCoins_71: 6239393268677358590
-      SilverCoins_72: 6415528393531277625
-      SilverCoins_73: 8802606113538154944
-      SilverCoins_74: -4413602839118190149
-      SilverCoins_75: -6762608835599970748
-      SilverCoins_76: 443043999082737278
-      SilverCoins_77: -5793373967916703963
-      SilverCoins_78: 1720744921001516214
-      SilverCoins_79: 5313897634933976946
-      SilverCoins_8: 250715514788967265
-      SilverCoins_80: 8294404191636385778
-      SilverCoins_9: 8963935084653189055
+      Casino_0: -2150391925166808807
+      Casino_1: 5235393095140630135
+      Casino_10: 2129062171410921729
+      Casino_11: -6349946503341308980
+      Casino_12: -2557126695137375169
+      Casino_13: -4126897601660550684
+      Casino_14: 3118219691184877672
+      Casino_15: -8178472644362308624
+      Casino_16: 6353534983575379594
+      Casino_17: -8007003963841744801
+      Casino_18: 4255757993287911681
+      Casino_19: -5137910019974476015
+      Casino_2: 7606589654494262337
+      Casino_20: 3959237131297564063
+      Casino_21: -3547398298544630705
+      Casino_22: -2264950130112135146
+      Casino_23: 519740548655822133
+      Casino_24: -3621313926579890067
+      Casino_25: -5561745475296352869
+      Casino_26: -5705299160706639502
+      Casino_27: -408239663999675423
+      Casino_28: 135936512515572296
+      Casino_29: -8200616937476562929
+      Casino_3: -5470510719074399633
+      Casino_30: 3456636850534150393
+      Casino_31: 5851365936945882392
+      Casino_32: 1039310701970073639
+      Casino_33: 7436538488746834710
+      Casino_34: 4392078437808699560
+      Casino_35: 6766093852305126376
+      Casino_36: -8216091143744407174
+      Casino_37: -6618594210441405747
+      Casino_38: -3792126831181262126
+      Casino_39: -4224927452781506510
+      Casino_4: -3671307487699262883
+      Casino_40: -993928252932333449
+      Casino_41: -1308971725624340960
+      Casino_42: -6800152546401586903
+      Casino_43: -8961794295791375370
+      Casino_44: -2484259575826787856
+      Casino_45: -9214543398606170885
+      Casino_46: 108105701235532942
+      Casino_47: -4657867357250399949
+      Casino_48: 4828557670381302046
+      Casino_49: 5691853471134403228
+      Casino_5: -2597736309974085160
+      Casino_50: -5424771539945053371
+      Casino_51: 8624141436379971745
+      Casino_52: -129689992060299134
+      Casino_53: 8940703547303904910
+      Casino_54: -4197401083365637610
+      Casino_55: 7212989892409129084
+      Casino_56: 109641078735515450
+      Casino_57: 6242079656471275379
+      Casino_58: 6117639904776746581
+      Casino_59: -5190524646223770113
+      Casino_6: -2254864802743148213
+      Casino_60: -5417322433979685707
+      Casino_61: 7151906096006044577
+      Casino_62: 120379314917591929
+      Casino_7: 5728041627895611753
+      Casino_8: -5699824862604101363
+      Casino_9: -5451684428717778207
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
