@@ -12,4 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f9e9af9a66956444b65a8488fae5e8e, type: 3}
   m_Name: DefaultChip
   m_EditorClassIdentifier: 
-  headChance: 50
+  headChance: 51
+  headChipMotion: 0
+  tailChipMotion: -10
+  type: 0
