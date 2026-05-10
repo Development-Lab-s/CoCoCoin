@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -26,7 +27,7 @@ public class CoinDrag : MonoBehaviour
     void OnMouseEnter()
     {
         
-        toolTip.ShowToolTip(so.Name, so.Description, transform.position, so.Sprite);
+        toolTip.ShowToolTip(so.Name, so.Description, transform.position, so.Sprite,so.rarity);
     }
 
     void OnMouseExit()
@@ -34,23 +35,24 @@ public class CoinDrag : MonoBehaviour
         toolTip.HideToolTip();
     }
 
-
     private void Start()
     {
-        _sr = GetComponent<SpriteRenderer>();
         _originalPosition = transform.position;
         _originalScale = transform.localScale;
+    }
+
+
+    public void Init(InventoryItemSO itemSo)
+    {
+        _sr = GetComponent<SpriteRenderer>();
         _coinMover = GameObject.Find("CoinMover").GetComponent<CoinMover>();
         toolTip = GameObject.Find("DrawingChipCanvas").GetComponent<ToolTip>();
         if (_targetLayer == 0)
         {
             _targetLayer = LayerMask.GetMask("OutPoint");
         }
-    }
-
-    public void Init(InventoryItemSO itemSo)
-    {
-        _sr .sprite = itemSo.Sprite;
+        so = itemSo;
+        _sr.sprite = so.Sprite;
         
     }
 
@@ -89,12 +91,12 @@ public class CoinDrag : MonoBehaviour
             _coinMover.Select(so);
             if (coinCount == 3)
             {
-                SceneManageHandler.instance.MoveScene(1);
+                _ = SceneManageHandler.instance.MoveScene(1);
             }
         }
         else
         {
-            toolTip.ShowToolTip(so.Name, so.Description, transform.position, so.Sprite);
+            toolTip.ShowToolTip(so.Name, so.Description, transform.position, so.Sprite,so.rarity);
             // 목표 지점이 아니면 복귀 및 크기 복원
             StartScaleEffect(_originalScale);
             _moveCoroutine = StartCoroutine(RoutineReturnToOrigin());

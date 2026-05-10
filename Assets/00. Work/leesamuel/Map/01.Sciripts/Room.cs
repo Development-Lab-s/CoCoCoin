@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
@@ -8,6 +9,7 @@ public class Room : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     [SerializeField] private CurrentEnemySetting enemySetting;
 
+    [Obsolete("Obsolete")]
     private void OnMouseDown()
     {
         if (MapPlayer.Instance != null)
@@ -24,6 +26,7 @@ public class Room : MonoBehaviour
     }
 
     // 플레이어가 이 방에 도착했을 때 호출될 함수
+    [Obsolete("Obsolete")]
     public void OnPlayerEnter()
     {
         if (myData.isCleared)
@@ -38,14 +41,14 @@ public class Room : MonoBehaviour
         {
             case RoomType.Fight:
                 enemySetting.Data = myData.enemyData;
-                SceneManageHandler.instance.MoveScene(3);
+                _ = SceneManageHandler.instance.MoveScene(3);
                 SetCleared();
                 break;
 
             case RoomType.Shop:
                 Debug.Log("상점에 입장했습니다. 물건을 구매하세요.");
                 // 상점 UI 띄우기 로직
-                SceneManageHandler.instance.MoveScene(2);
+                _=SceneManageHandler.instance.MoveScene(2);
                 SetCleared();
                 break;
 
@@ -93,6 +96,7 @@ public class Room : MonoBehaviour
         }
     }
 
+    [Obsolete("Obsolete")]
     private IEnumerator BossClearRoutine()
     {
         // 전투 연출이나 승리 대기 시간 (임시)

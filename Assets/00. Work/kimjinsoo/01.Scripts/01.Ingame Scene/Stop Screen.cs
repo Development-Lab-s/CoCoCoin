@@ -28,9 +28,9 @@ public class ScreenManager : MonoBehaviour
         if (instance == null)
         {
             instance = this;
-            esc.SetActive(false);
             Settingframe.SetActive(false);
-            stopCanvas.GetComponent<Canvas>().sortingOrder = 0;
+            esc.SetActive(false);
+            stopCanvas.GetComponent<Canvas>().sortingOrder = 2;
             DontDestroyOnLoad(gameObject);
             DontDestroyOnLoad(stopCanvas);
         }
@@ -44,14 +44,6 @@ public class ScreenManager : MonoBehaviour
     public void Backtogame()
     {
         esc.SetActive(!esc.activeSelf);
-        if(esc.activeSelf == true)
-        {
-            stopCanvas.GetComponent<Canvas>().sortingOrder = 2;
-        }
-        else
-        {
-            stopCanvas.GetComponent<Canvas>().sortingOrder = 0;
-        }
 
     }
 
@@ -66,6 +58,6 @@ public class ScreenManager : MonoBehaviour
         esc.SetActive(false);
         MapManager.isInitialized = false;
         MapManager.saveMapId = null;
-        SceneManageHandler.instance.MoveScene(0);
+        _ = SceneManageHandler.instance.MoveScene(0);
     }
 }

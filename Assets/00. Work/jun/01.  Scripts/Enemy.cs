@@ -35,31 +35,37 @@ public class Enemy : MonoBehaviour
 
     [SerializeField] private TextMeshProUGUI hpText;
     [SerializeField] EnemyMotionHandler motionHandler;
+    [SerializeField] private Transform soundManager;
 
     private Vector3 originScale;
     private Vector3 newScale;
 
     private Vector3 originPos;
     private Vector3 newPos;
+    private Sprite originSprite;
+    public Sprite hitSprite;
 
     [SerializeField] private CinemachineImpulseSource impulseSource;
     [SerializeField] DamageEncounter damageEncounter;
+    [SerializeField] private SpriteRenderer _sr;
     private Color shieldTextColor;
     bool enabledSmoothMove = true;
     float t = 0.0f;
     float speed = 2f;
     bool isDead = false;
 
-    public void Init(Sprite sprite, int hp)
+    public void Init(EnemyData enemyData)
     {
+        originSprite = enemyData.enemySprite;
+        hitSprite = enemyData.hitSprite;
         originPos = transform.position;
         newPos = transform.position + Vector3.down * 5;
         transform.position = newPos;
         hpText.transform.position += Vector3.down * 5;
         hpText.transform.DOMove(hpText.transform.position + Vector3.up * 5, 0.5f).SetEase(Ease.OutQuad);
         transform.DOMove(originPos, 0.5f).SetEase(Ease.OutQuad);
-        GetComponent<SpriteRenderer>().sprite = sprite;
-        this.hp = hp;
+        _sr.sprite = originSprite;
+        this.hp = enemyData.Health;
         displayHP = hp;
         shieldTextColor = shieldText.color;
         originScale = transform.localScale;
@@ -99,7 +105,23 @@ public class Enemy : MonoBehaviour
     {
         damageText.transform.DOScale(Vector3.zero, 0.2f);
         patternImage.transform.DOScale(Vector3.zero, 0.2f);
+        transform.DOMoveY(transform.position.y + 1, 0.2f).OnComplete(() =>
+        {
+            transform.DOMoveY(transform.position.y - 1, 0.2f);
+        });
         damageText.DOColor(new Color(1, 0, 0, 0), 0.2f);
+        switch (Random.Range(0, 3))
+        {
+            case 0:
+                soundManager.Find("Growl").GetComponent<AudioSource>().Play();
+                break;
+            case 1:
+                soundManager.Find("Growl (1)").GetComponent<AudioSource>().Play();
+                break;
+            case 2:
+                soundManager.Find("Growl (2)").GetComponent<AudioSource>().Play();
+                break;
+        }
         yield return motionHandler.PlayMotion("Normal",AttackPower);
     }
 
@@ -112,7 +134,8 @@ public class Enemy : MonoBehaviour
         dealDamage = Mathf.Clamp(dealDamage, 0, int.MaxValue);
         hpText.transform.DOShakeScale(2f, Mathf.Clamp(damage / 50f,0,10));
         hp -= dealDamage;
-        // 적의 HP를 Get함수로 확인
+        transform.DOShakePosition(0.35f, 1,100);
+        StartCoroutine(ChangeSprite());
         StartCoroutine(DecreaseHPAnimation(damage));
         StartCoroutine(DecreaseShieldAnimation(damage));
     }
@@ -144,7 +167,8 @@ public class Enemy : MonoBehaviour
             isDead = true;
             Debug.Log("승리!");
             BattleManager.instance.currentState = BattleManager.State.End;
-            SceneManageHandler.instance.MoveScene(4);
+            if (!SceneManageHandler.instance.CanMove)
+                _ = SceneManageHandler.instance.MoveScene(4);
         }
     }
 
@@ -180,6 +204,13 @@ public class Enemy : MonoBehaviour
             hpText.transform.DOScale(Vector3.one,0.2f);
             isDecreaseHp = false;
         }
+    }
+
+    IEnumerator ChangeSprite()
+    {
+        _sr.sprite = hitSprite;
+        yield return new WaitForSeconds(0.2f);
+        _sr.sprite = originSprite;
     }
 
     IEnumerator DecreaseShieldAnimation(int damage)

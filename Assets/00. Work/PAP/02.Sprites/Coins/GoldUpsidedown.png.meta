@@ -1,0 +1,2015 @@
+fileFormatVersion: 2
+guid: 4810ea7e6224a37459e13a5d77f3b5c1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7604596957855702109
+    second: GoldUpsidedown_0
+  - first:
+      213: 4126609450842134817
+    second: GoldUpsidedown_1
+  - first:
+      213: -2755068148721723140
+    second: GoldUpsidedown_2
+  - first:
+      213: -7456940729627196419
+    second: GoldUpsidedown_3
+  - first:
+      213: -4146798273577458963
+    second: GoldUpsidedown_4
+  - first:
+      213: 639859640121067899
+    second: GoldUpsidedown_5
+  - first:
+      213: -7823678942221082262
+    second: GoldUpsidedown_6
+  - first:
+      213: -1390811645386019293
+    second: GoldUpsidedown_7
+  - first:
+      213: 8857761547053681952
+    second: GoldUpsidedown_8
+  - first:
+      213: -2129707696705895002
+    second: GoldUpsidedown_9
+  - first:
+      213: 4114589665684636855
+    second: GoldUpsidedown_10
+  - first:
+      213: 8473360044434064404
+    second: GoldUpsidedown_11
+  - first:
+      213: -4484052531612631668
+    second: GoldUpsidedown_12
+  - first:
+      213: -6895932036979691551
+    second: GoldUpsidedown_13
+  - first:
+      213: -2299765162459136131
+    second: GoldUpsidedown_14
+  - first:
+      213: -7221828681863126878
+    second: GoldUpsidedown_15
+  - first:
+      213: 7069103382430370945
+    second: GoldUpsidedown_16
+  - first:
+      213: -9045659437518861796
+    second: GoldUpsidedown_17
+  - first:
+      213: 1314965714372558169
+    second: GoldUpsidedown_18
+  - first:
+      213: -432423857274103081
+    second: GoldUpsidedown_19
+  - first:
+      213: 7928421495561325616
+    second: GoldUpsidedown_20
+  - first:
+      213: -8165351142449746937
+    second: GoldUpsidedown_21
+  - first:
+      213: 2277230510625327183
+    second: GoldUpsidedown_22
+  - first:
+      213: -652271272162752376
+    second: GoldUpsidedown_23
+  - first:
+      213: 1819838917752746245
+    second: GoldUpsidedown_24
+  - first:
+      213: -3662996989483623236
+    second: GoldUpsidedown_25
+  - first:
+      213: -1629848373661619454
+    second: GoldUpsidedown_26
+  - first:
+      213: -6269599591634739591
+    second: GoldUpsidedown_27
+  - first:
+      213: -4102258794259539074
+    second: GoldUpsidedown_28
+  - first:
+      213: 3159153962316241485
+    second: GoldUpsidedown_29
+  - first:
+      213: -8797862569005856060
+    second: GoldUpsidedown_30
+  - first:
+      213: -7381481884815798050
+    second: GoldUpsidedown_31
+  - first:
+      213: 4478865568680087179
+    second: GoldUpsidedown_32
+  - first:
+      213: -2442469195794662629
+    second: GoldUpsidedown_33
+  - first:
+      213: 3774159200867453440
+    second: GoldUpsidedown_34
+  - first:
+      213: -7318174842576270978
+    second: GoldUpsidedown_35
+  - first:
+      213: 1667883418980494264
+    second: GoldUpsidedown_36
+  - first:
+      213: 5507283973172386516
+    second: GoldUpsidedown_37
+  - first:
+      213: 6651925622205802828
+    second: GoldUpsidedown_38
+  - first:
+      213: 1444343116979038223
+    second: GoldUpsidedown_39
+  - first:
+      213: 3316851347177227557
+    second: GoldUpsidedown_40
+  - first:
+      213: -6401134004463986297
+    second: GoldUpsidedown_41
+  - first:
+      213: 4916215193741852663
+    second: GoldUpsidedown_42
+  - first:
+      213: 277814090344210029
+    second: GoldUpsidedown_43
+  - first:
+      213: -5423959344879573522
+    second: GoldUpsidedown_44
+  - first:
+      213: -4902959318167464657
+    second: GoldUpsidedown_45
+  - first:
+      213: -1993828323843955099
+    second: GoldUpsidedown_46
+  - first:
+      213: 2938229559128118909
+    second: GoldUpsidedown_47
+  - first:
+      213: 8943247346855579307
+    second: GoldUpsidedown_48
+  - first:
+      213: 4594890635143722060
+    second: GoldUpsidedown_49
+  - first:
+      213: -7700257746063715306
+    second: GoldUpsidedown_50
+  - first:
+      213: -952488576414665676
+    second: GoldUpsidedown_51
+  - first:
+      213: 3535242939774556514
+    second: GoldUpsidedown_52
+  - first:
+      213: 8603671457334395836
+    second: GoldUpsidedown_53
+  - first:
+      213: 1885664720298229845
+    second: GoldUpsidedown_54
+  - first:
+      213: 7113171976766455093
+    second: GoldUpsidedown_55
+  - first:
+      213: 1454693827978911892
+    second: GoldUpsidedown_56
+  - first:
+      213: -6316450529743502443
+    second: GoldUpsidedown_57
+  - first:
+      213: 8502984187972269554
+    second: GoldUpsidedown_58
+  - first:
+      213: 7276473429582343080
+    second: GoldUpsidedown_59
+  - first:
+      213: -2303923187863605701
+    second: GoldUpsidedown_60
+  - first:
+      213: -4858194645644457679
+    second: GoldUpsidedown_61
+  - first:
+      213: 2025234299778547791
+    second: GoldUpsidedown_62
+  - first:
+      213: -6112012318509739168
+    second: GoldUpsidedown_63
+  - first:
+      213: -4157280783930625310
+    second: GoldUpsidedown_64
+  - first:
+      213: -8300179541493622489
+    second: GoldUpsidedown_65
+  - first:
+      213: -2112967420424471471
+    second: GoldUpsidedown_66
+  - first:
+      213: -8334442758956200265
+    second: GoldUpsidedown_67
+  - first:
+      213: -3487244194837107810
+    second: GoldUpsidedown_68
+  - first:
+      213: 5647765590613546118
+    second: GoldUpsidedown_69
+  - first:
+      213: 2328435932592831725
+    second: GoldUpsidedown_70
+  - first:
+      213: 7646703761876133146
+    second: GoldUpsidedown_71
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GoldUpsidedown_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c510d64a4f88960800000000000000
+      internalID: 7604596957855702109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_1
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129173c8e69a44930800000000000000
+      internalID: 4126609450842134817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_2
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf8d27f9d1804c9d0800000000000000
+      internalID: -2755068148721723140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_3
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3cd6b3aef938890800000000000000
+      internalID: -7456940729627196419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_4
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de2663cd0fc9376c0800000000000000
+      internalID: -4146798273577458963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_5
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b79868bd3fc31e800800000000000000
+      internalID: 639859640121067899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_6
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6165342475bc6390800000000000000
+      internalID: -7823678942221082262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_7
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32e2a476d28d2bce0800000000000000
+      internalID: -1390811645386019293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_8
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02dcf3552371dea70800000000000000
+      internalID: 8857761547053681952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a50e6e2222c172e0800000000000000
+      internalID: -2129707696705895002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_10
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b440ab3085f91930800000000000000
+      internalID: 4114589665684636855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_11
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4140b7e011c679570800000000000000
+      internalID: 8473360044434064404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_12
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8db903eaf175c1c0800000000000000
+      internalID: -4484052531612631668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_13
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1efe69c395abc40a0800000000000000
+      internalID: -6895932036979691551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_14
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ffdc8f4c79510e0800000000000000
+      internalID: -2299765162459136131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_15
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a022d4a319e6cb90800000000000000
+      internalID: -7221828681863126878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_16
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c464692108a1260800000000000000
+      internalID: 7069103382430370945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_17
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a4783eaac577280800000000000000
+      internalID: -9045659437518861796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d7ef8a952bf3210800000000000000
+      internalID: 1314965714372558169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_19
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dad5cafac8bff9f0800000000000000
+      internalID: -432423857274103081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_20
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c0188f759670e60800000000000000
+      internalID: 7928421495561325616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_21
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ce3f7d568deae80800000000000000
+      internalID: -8165351142449746937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_22
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48018985195a9f10800000000000000
+      internalID: 2277230510625327183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_23
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8880c8ddbbaa2f6f0800000000000000
+      internalID: -652271272162752376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_24
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50175119add514910800000000000000
+      internalID: 1819838917752746245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_25
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbcd08c35ab6a2dc0800000000000000
+      internalID: -3662996989483623236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_26
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20ba62a1a8d9169e0800000000000000
+      internalID: -1629848373661619454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e5da0a368edf8a0800000000000000
+      internalID: -6269599591634739591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_28
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b107f7c59d117c0800000000000000
+      internalID: -4102258794259539074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_29
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4a90a27ac197db20800000000000000
+      internalID: 3159153962316241485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_30
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca43b74b96b7e580800000000000000
+      internalID: -8797862569005856060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_31
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed0d293a555bf8990800000000000000
+      internalID: -7381481884815798050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_32
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e87e13180282e30800000000000000
+      internalID: 4478865568680087179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_33
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b33d9053b9a1ed0800000000000000
+      internalID: -2442469195794662629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_34
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00a0a7dfbc1806430800000000000000
+      internalID: 3774159200867453440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_35
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e798a0801ce907a90800000000000000
+      internalID: -7318174842576270978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bba81bf123852710800000000000000
+      internalID: 1667883418980494264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_37
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da5422489dcd6c40800000000000000
+      internalID: 5507283973172386516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_38
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4965e72c13605c50800000000000000
+      internalID: 6651925622205802828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_39
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08e05599665b0410800000000000000
+      internalID: 1444343116979038223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_40
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52546411ab2d70e20800000000000000
+      internalID: 3316851347177227557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_41
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7891040a98a9a27a0800000000000000
+      internalID: -6401134004463986297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_42
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff7c56eba7e93440800000000000000
+      internalID: 4916215193741852663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_43
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e9098717efad300800000000000000
+      internalID: 277814090344210029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_44
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5ea4496b93ab4b0800000000000000
+      internalID: -5423959344879573522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f25df642a7035fbb0800000000000000
+      internalID: -4902959318167464657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_46
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5662b2604bf7454e0800000000000000
+      internalID: -1993828323843955099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_47
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7652647730b6c820800000000000000
+      internalID: 2938229559128118909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_48
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae08cf141ccc1c70800000000000000
+      internalID: 8943247346855579307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_49
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c44b28910b454cf30800000000000000
+      internalID: 4594890635143722060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_50
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6141ceea060332590800000000000000
+      internalID: -7700257746063715306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_51
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 434bf2eafa418c2f0800000000000000
+      internalID: -952488576414665676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_52
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26958f329b4bf0130800000000000000
+      internalID: 3535242939774556514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_53
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb385923b91666770800000000000000
+      internalID: 8603671457334395836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 550ccda821a3b2a10800000000000000
+      internalID: 1885664720298229845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_55
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d7d65c93017b260800000000000000
+      internalID: 7113171976766455093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_56
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 490e2a9445c103410800000000000000
+      internalID: 1454693827978911892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_57
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5938f4d85b57758a0800000000000000
+      internalID: -6316450529743502443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_58
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f5b9d6711ba00670800000000000000
+      internalID: 8502984187972269554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_59
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8abe2d3280a3bf460800000000000000
+      internalID: 7276473429582343080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_60
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3eaa9d3112d600e0800000000000000
+      internalID: -2303923187863605701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_61
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13948a8a5b9349cb0800000000000000
+      internalID: -4858194645644457679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_62
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f40cc319dd31b1c10800000000000000
+      internalID: 2025234299778547791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0635a6cdd25cd2ba0800000000000000
+      internalID: -6112012318509739168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_64
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 120
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e2f14a372f5e46c0800000000000000
+      internalID: -4157280783930625310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_65
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 120
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 729de49eea6dfcc80800000000000000
+      internalID: -8300179541493622489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_66
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 120
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c30ab735b3da2e0800000000000000
+      internalID: -2112967420424471471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_67
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 120
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bec69fe77c165c80800000000000000
+      internalID: -8334442758956200265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_68
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 120
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9be0b981e1da9fc0800000000000000
+      internalID: -3487244194837107810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_69
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 120
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 684d13ba1e4e06e40800000000000000
+      internalID: 5647765590613546118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_70
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 120
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec7374e424405020800000000000000
+      internalID: 2328435932592831725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldUpsidedown_71
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 120
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a152545be8c8e1a60800000000000000
+      internalID: 7646703761876133146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8f582cfafe9d38a4297720842957fc2d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GoldUpsidedown_0: 7604596957855702109
+      GoldUpsidedown_1: 4126609450842134817
+      GoldUpsidedown_10: 4114589665684636855
+      GoldUpsidedown_11: 8473360044434064404
+      GoldUpsidedown_12: -4484052531612631668
+      GoldUpsidedown_13: -6895932036979691551
+      GoldUpsidedown_14: -2299765162459136131
+      GoldUpsidedown_15: -7221828681863126878
+      GoldUpsidedown_16: 7069103382430370945
+      GoldUpsidedown_17: -9045659437518861796
+      GoldUpsidedown_18: 1314965714372558169
+      GoldUpsidedown_19: -432423857274103081
+      GoldUpsidedown_2: -2755068148721723140
+      GoldUpsidedown_20: 7928421495561325616
+      GoldUpsidedown_21: -8165351142449746937
+      GoldUpsidedown_22: 2277230510625327183
+      GoldUpsidedown_23: -652271272162752376
+      GoldUpsidedown_24: 1819838917752746245
+      GoldUpsidedown_25: -3662996989483623236
+      GoldUpsidedown_26: -1629848373661619454
+      GoldUpsidedown_27: -6269599591634739591
+      GoldUpsidedown_28: -4102258794259539074
+      GoldUpsidedown_29: 3159153962316241485
+      GoldUpsidedown_3: -7456940729627196419
+      GoldUpsidedown_30: -8797862569005856060
+      GoldUpsidedown_31: -7381481884815798050
+      GoldUpsidedown_32: 4478865568680087179
+      GoldUpsidedown_33: -2442469195794662629
+      GoldUpsidedown_34: 3774159200867453440
+      GoldUpsidedown_35: -7318174842576270978
+      GoldUpsidedown_36: 1667883418980494264
+      GoldUpsidedown_37: 5507283973172386516
+      GoldUpsidedown_38: 6651925622205802828
+      GoldUpsidedown_39: 1444343116979038223
+      GoldUpsidedown_4: -4146798273577458963
+      GoldUpsidedown_40: 3316851347177227557
+      GoldUpsidedown_41: -6401134004463986297
+      GoldUpsidedown_42: 4916215193741852663
+      GoldUpsidedown_43: 277814090344210029
+      GoldUpsidedown_44: -5423959344879573522
+      GoldUpsidedown_45: -4902959318167464657
+      GoldUpsidedown_46: -1993828323843955099
+      GoldUpsidedown_47: 2938229559128118909
+      GoldUpsidedown_48: 8943247346855579307
+      GoldUpsidedown_49: 4594890635143722060
+      GoldUpsidedown_5: 639859640121067899
+      GoldUpsidedown_50: -7700257746063715306
+      GoldUpsidedown_51: -952488576414665676
+      GoldUpsidedown_52: 3535242939774556514
+      GoldUpsidedown_53: 8603671457334395836
+      GoldUpsidedown_54: 1885664720298229845
+      GoldUpsidedown_55: 7113171976766455093
+      GoldUpsidedown_56: 1454693827978911892
+      GoldUpsidedown_57: -6316450529743502443
+      GoldUpsidedown_58: 8502984187972269554
+      GoldUpsidedown_59: 7276473429582343080
+      GoldUpsidedown_6: -7823678942221082262
+      GoldUpsidedown_60: -2303923187863605701
+      GoldUpsidedown_61: -4858194645644457679
+      GoldUpsidedown_62: 2025234299778547791
+      GoldUpsidedown_63: -6112012318509739168
+      GoldUpsidedown_64: -4157280783930625310
+      GoldUpsidedown_65: -8300179541493622489
+      GoldUpsidedown_66: -2112967420424471471
+      GoldUpsidedown_67: -8334442758956200265
+      GoldUpsidedown_68: -3487244194837107810
+      GoldUpsidedown_69: 5647765590613546118
+      GoldUpsidedown_7: -1390811645386019293
+      GoldUpsidedown_70: 2328435932592831725
+      GoldUpsidedown_71: 7646703761876133146
+      GoldUpsidedown_8: 8857761547053681952
+      GoldUpsidedown_9: -2129707696705895002
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

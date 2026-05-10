@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   headChance: 51
   headChipMotion: 1
-  tailChipMotion: -10
-  type: 0
+  tailChipMotion: -1
+  type: 1

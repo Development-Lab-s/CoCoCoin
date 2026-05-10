@@ -11,6 +11,7 @@ public class SceneManageHandler: MonoBehaviour
     [SerializeField] private GameObject fadeInOutUI;
     [SerializeField] private Image fadeInOutImage;
     public static SceneManageHandler instance;
+    public bool CanMove { get; private set; } = true;
 
     private void Awake()
     {
@@ -29,9 +30,11 @@ public class SceneManageHandler: MonoBehaviour
     
     async public Task MoveScene(int sceneNumber)
     {
+        CanMove = false;
         await fadeInOutImage.DOFade(1f, 0.5f).AsyncWaitForCompletion();
         await SceneManager.LoadSceneAsync(sceneNumber);
         Time.timeScale = 1;
+        CanMove = true;
         fadeInOutImage.DOFade(0f, 0.5f);
         
     }

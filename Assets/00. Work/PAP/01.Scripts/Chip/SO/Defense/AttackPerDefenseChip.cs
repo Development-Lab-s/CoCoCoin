@@ -12,6 +12,6 @@ public class AttackPerDefenseChip : ChipEncounter
     public override void TailChip(Player player, Enemy enemy)
     {
         StatusEffect status = new AttackPerDefense();
-        player.statusEffectHandler.AddStatusEffect(status, 1);
+        player.statusEffectHandler.AddStatusEffect(status, 2);
     }
 }
