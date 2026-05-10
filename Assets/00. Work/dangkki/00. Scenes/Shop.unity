@@ -2364,10 +2364,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _ticketManager: {fileID: 428702072}
-  _chipList: {fileID: 11400000, guid: dcd90f3c865bbe841a60488bfb46ac03, type: 2}
-  _NormalChip: {fileID: 11400000, guid: 91cd13bfeedefa24a925e5e3feeec900, type: 2}
-  _RareChip: {fileID: 11400000, guid: 7d77a2b189c4cfd4baf4cc20c660ec32, type: 2}
-  _LegendaryChip: {fileID: 11400000, guid: a386d0a755751e54a8272cae0ab32f93, type: 2}
+  _chipList: {fileID: 11400000, guid: f6dd28bc1388f8347840678b2bf1c684, type: 2}
   _inventory: {fileID: 11400000, guid: f11d87304c8db0a4294bc81481fbcb03, type: 2}
   _itemList:
   - {fileID: 942530770}

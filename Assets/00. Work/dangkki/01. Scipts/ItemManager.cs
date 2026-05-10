@@ -7,14 +7,12 @@ using UnityEngine.UI;
 public class ItemManager : MonoBehaviour
 {
     public TicketManager _ticketManager;
-    public ShopItemListSO _chipList;
-    public InventorySO _NormalChip;
-    public InventorySO _RareChip;
-    public InventorySO _LegendaryChip;
+    //public ShopItemListSO _chipList;
+    public InventorySO _chipList;
     public InventorySO _inventory;
     public Transform[] _itemList;
     public Descripton _descripton;
-    public ShopItemSO[] _sellitem;
+    public InventoryItemSO[] _sellitem;
     
     private Image[] _itemList_Sprite;
     private Animator[] _itemList_Animation;
@@ -31,7 +29,7 @@ public class ItemManager : MonoBehaviour
         _itemList_SoldOut = new Image[_itemList.Length];
         _itemList_Animation = new Animator[_itemList.Length];
         _itemList_EventTrigger = new EventTrigger[_itemList.Length];
-        _sellitem = new ShopItemSO[_itemList.Length];
+        _sellitem = new InventoryItemSO[_itemList.Length];
         _isSold = new bool[_itemList.Length];
         for (int i = 0; i < _itemList.Length; i++)
         {
@@ -52,14 +50,14 @@ public class ItemManager : MonoBehaviour
     {
         for (int i = 0; i < _itemList.Length; i++)
         {
-            int randomNum = Random.Range(0, _chipList.ShopItemList.Count);
-            _itemList_Sprite[i].sprite = _chipList.ShopItemList[randomNum].Sprite;
-            _itemList_Animation[i].runtimeAnimatorController = _chipList.ShopItemList[randomNum].SelectSprite;
-            if(_chipList.ShopItemList[randomNum].ItemRarity == ShopItemSO.Rarity.Common) _itemList_Price[i].text = "3$";
-            else if(_chipList.ShopItemList[randomNum].ItemRarity == ShopItemSO.Rarity.Rare) _itemList_Price[i].text = "5$";
-            else if(_chipList.ShopItemList[randomNum].ItemRarity == ShopItemSO.Rarity.Legendary) _itemList_Price[i].text = "10$";
+            int randomNum = Random.Range(0, _chipList.inventoryItemList.Count - 1);
+            _itemList_Sprite[i].sprite = _chipList.inventoryItemList[randomNum].Sprite;
+            //_itemList_Animation[i].runtimeAnimatorController = _chipList.inventoryItemList[randomNum].SelectSprite;
+            if(_chipList.inventoryItemList[randomNum].rarity == InventoryItemSO.Rarity.Common) _itemList_Price[i].text = "3$";
+            else if(_chipList.inventoryItemList[randomNum].rarity == InventoryItemSO.Rarity.Rare) _itemList_Price[i].text = "5$";
+            else if(_chipList.inventoryItemList[randomNum].rarity == InventoryItemSO.Rarity.Legendary) _itemList_Price[i].text = "10$";
             //_itemList_Price[i].text = _chipList.ShopItemList[randomNum].Description;
-            _sellitem[i] = _chipList.ShopItemList[randomNum];
+            _sellitem[i] = _chipList.inventoryItemList[randomNum];
             //_descripton.SetDescription(i);
             //}
         }
@@ -69,8 +67,9 @@ public class ItemManager : MonoBehaviour
          if (_isSold[itemNumber - 1] == true)
         {
             Debug.Log("이미 구매한 아이템입니다.");
+            return;
         }
-        if (_sellitem[itemNumber - 1].ItemRarity == ShopItemSO.Rarity.Common)
+        if (_sellitem[itemNumber - 1].rarity == InventoryItemSO.Rarity.Common)
         {
             if (_ticketManager._ticket >= 3)
             {
@@ -78,10 +77,13 @@ public class ItemManager : MonoBehaviour
                 _inventory.inventoryItemList.Add(_sellitem[itemNumber - 1]);
             }
             else
-                Debug.Log("티켓이 부족합니다.");
+            {
+                Debug.Log("현제 티켓 : " + _ticketManager._ticket + " 티켓이 부족합니다.");
+                return;
+            }
 
         }
-        else if (_sellitem[itemNumber - 1].ItemRarity == ShopItemSO.Rarity.Rare)
+        else if (_sellitem[itemNumber - 1].rarity == InventoryItemSO.Rarity.Rare)
         {
             if (_ticketManager._ticket >= 5)
             {
@@ -89,9 +91,12 @@ public class ItemManager : MonoBehaviour
                 _inventory.inventoryItemList.Add(_sellitem[itemNumber - 1]);
             }
             else
-                Debug.Log("티켓이 부족합니다.");
+            {
+                Debug.Log("현제 티켓 : " + _ticketManager._ticket + " 티켓이 부족합니다.");
+                return;
+            }
         }
-        else if (_sellitem[itemNumber - 1].ItemRarity == ShopItemSO.Rarity.Legendary)
+        else if (_sellitem[itemNumber - 1].rarity == InventoryItemSO.Rarity.Legendary)
         {
             if (_ticketManager._ticket >= 10)
             {
@@ -99,7 +104,11 @@ public class ItemManager : MonoBehaviour
                 _inventory.inventoryItemList.Add(_sellitem[itemNumber - 1]);
             }
             else
+            {
                 Debug.Log("현제 티켓 : " + _ticketManager._ticket + " 티켓이 부족합니다.");
+                return;
+            }
+                
         }
         Debug.Log(_sellitem[itemNumber - 1].Name + "구매완료");
         _itemList_SoldOut[itemNumber - 1].enabled = true;
