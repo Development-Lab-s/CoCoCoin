@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: DiscardDrawSpecialChip
   m_EditorClassIdentifier: 
   Name: "\uD551\uD06C\uC0C9 \uCE69"
-  Description: "[50% \uC55E\uBA74]\n\uCF54\uC778\uC744 3\uC7A5 \uBF51\uACE0, \uD55C\uC7A5
-    \uBC84\uB9BD\uB2C8\uB2E4\n\n[50% \uB4B7\uBA74]\n\uC190 \uD328 \uC6A9\uB7C9 +3"
+  Description: "<color=#999999>[50% \uC55E\uBA74]</color>\n\uCE74\uB4DC\uB97C 3\uC7A5
+    \uBF51\uACE0, \uD55C\uC7A5 \uBC84\uB9BD\uB2C8\uB2E4\n\n<color=#999999>[50% \uB4B7\uBA74]</color>\n\uC190
+    \uD328 \uC6A9\uB7C9 +3"
   Sprite: {fileID: -408239663999675423, guid: 56db09fc515fafb4091a57dbd22bf2ed, type: 3}
   SpriteOnInventory: {fileID: -8200616937476562929, guid: 56db09fc515fafb4091a57dbd22bf2ed, type: 3}
   SpriteOnStack: {fileID: -7248854361046306054, guid: 268b23955f342cb4d8d53bd624bcb431, type: 3}
