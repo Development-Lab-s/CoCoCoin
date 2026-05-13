@@ -21,15 +21,14 @@ public class SlotMachine : MonoBehaviour
     }
     public void StartSpin()
     {
-        button.enabled = false;
-        //for (int i = 0; i < _contentRect.Length; i++)
-        //{
-            //StartCoroutine(SpinCoroutine(i));
+        if (TicketManager.instance._spins > 0)
+        {
+            button.enabled = false;
+            TicketManager.instance._spins -= 1;
             StartCoroutine(Delay());
-
-            
-        //}
-        //button.enabled = true;
+        }
+        else
+            Debug.Log("Spinning failed");
     }
 
     async void SpinSlot(int x)
