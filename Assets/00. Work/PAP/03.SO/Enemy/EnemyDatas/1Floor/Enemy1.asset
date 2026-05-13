@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 678473a4d799e3b498ec87b4228a7c4a, type: 3}
-  m_Name: Normal
+  m_Name: Enemy1
   m_EditorClassIdentifier: 
-  enemySprite: {fileID: -1684986574045993299, guid: fa5b9fda96ebe084ba46bf53d507d746, type: 3}
+  enemySprite: {fileID: 5762587475676437819, guid: d952f3d29cc608740804e7dbcff1ced3, type: 3}
   Health: 60
-  hitSprite: {fileID: -1684986574045993299, guid: fa5b9fda96ebe084ba46bf53d507d746, type: 3}
+  hitSprite: {fileID: -4298060572160370045, guid: d952f3d29cc608740804e7dbcff1ced3, type: 3}
   patternName:
   - Normal
   - Combo
