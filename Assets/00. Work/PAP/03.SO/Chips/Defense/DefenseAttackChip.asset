@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DefenseAttackChip
   m_EditorClassIdentifier: 
   Name: "100\uC6D0"
-  Description: "<color=#999999>[50% \uC55E\uBA74]</color>\n<color=#004AAD>\uBC29\uC5B4\uB3C4</color>
+  Description: "<color=#999999>[50% \uC55E\uBA74]</color>\n<color=#0D99FF>\uBC29\uC5B4\uB3C4</color>
     \uB9CC\uD07C\uC758 <color=#FF0000>\uD53C\uD574</color>\uB97C \uC90D\uB2C8\uB2E4.\n\n<color=#999999>[50%
     \uB4B7\uBA74]</color>\nX"
   Sprite: {fileID: -2834393886116755487, guid: 950eff6440a22e240af5dbd9ec521ff9, type: 3}

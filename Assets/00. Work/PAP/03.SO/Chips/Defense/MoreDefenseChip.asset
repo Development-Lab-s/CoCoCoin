@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: MoreDefenseChip
   m_EditorClassIdentifier: 
   Name: "10\uC6D0"
-  Description: "<color=#999999>[50% \uC55E\uBA74]</color>\n<color=#004AAD>\uBC29\uC5B4\uB3C4
+  Description: "<color=#999999>[50% \uC55E\uBA74]</color>\n<color=#0D99FF>\uBC29\uC5B4\uB3C4
     +10</color>\n\n<color=#999999>[50% \uB4B7\uBA74]</color>\nX"
   Sprite: {fileID: 6142769255425773565, guid: 950eff6440a22e240af5dbd9ec521ff9, type: 3}
   SpriteOnInventory: {fileID: 5114111836191555891, guid: 950eff6440a22e240af5dbd9ec521ff9, type: 3}
