@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: SaveComboChip
   m_EditorClassIdentifier: 
   Name: "\uC138\uCEE8\uB4DC \uCC2C\uC2A4"
-  Description: "<color=#999999>[50% \uC55E\uBA74]</color>\n<color=#AAAAFF>\uBC29\uC5B4\uB3C4
+  Description: "<color=#999999>[50% \uC55E\uBA74]</color>\n<color=#004AAD>\uBC29\uC5B4\uB3C4
     +7</color>\n\uB2E4\uC74C \uD55C\uBC88, \uCF64\uBCF4\uAC00 \uB04A\uAE30\uB294
-    \uAC78 \uB9C9\uC544\uC90D\uB2C8\uB2E4!\n\n\n<color=#999999>[50% \uB4B7\uBA74]</color>\n\uCF64\uBCF4
+    \uAC78 \uB9C9\uC544\uC90D\uB2C8\uB2E4!\n\n<color=#999999>[50% \uB4B7\uBA74]</color>\n\uCF64\uBCF4
     +2"
   Sprite: {fileID: 7014801860087611837, guid: 0de1df47d6df8bc45b3ad9081069991c, type: 3}
   SpriteOnInventory: {fileID: -3592490025539046033, guid: 0de1df47d6df8bc45b3ad9081069991c, type: 3}

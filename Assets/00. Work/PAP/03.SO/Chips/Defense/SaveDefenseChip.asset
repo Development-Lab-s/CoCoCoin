@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: SaveDefenseChip
   m_EditorClassIdentifier: 
   Name: "\uC624\uBC31\uC6D0"
-  Description: "[50% \uC55E\uBA74]\n\uBC29\uC5B4\uB3C4<color=#AAAAFF>+7</color>\n\uBC29\uC5B4\uB3C4\uAC00
-    \uB2E4\uC74C \uD134\uC5D0\uB3C4 \uC720\uC9C0 \uB429\uB2C8\uB2E4\n\n[50% \uB4B7\uBA74]\n<color=#999999>\uC2E4\uD328</color>
-    \uD569\uB2C8\uB2E4"
+  Description: "<color=#999999>[50% \uC55E\uBA74]</color>\n<color=#004AAD>\uBC29\uC5B4\uB3C4
+    +7</color>\n\uBC29\uC5B4\uB3C4\uAC00 \uB2E4\uC74C \uD134\uC5D0\uB3C4 \uC720\uC9C0
+    \uB429\uB2C8\uB2E4!\n\n<color=#999999>[50% \uB4B7\uBA74]</color>\nX"
   Sprite: {fileID: 2922835646881739, guid: 950eff6440a22e240af5dbd9ec521ff9, type: 3}
   SpriteOnInventory: {fileID: 4888227288506796615, guid: 950eff6440a22e240af5dbd9ec521ff9, type: 3}
   SpriteOnStack: {fileID: -454469756615814392, guid: cba8af5620cbad6408369e9eddc78bf5, type: 3}
