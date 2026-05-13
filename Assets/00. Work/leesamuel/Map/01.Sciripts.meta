@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 03d18761ca2ae294fbcb7dfdb5324f2a
+=======
+guid: 79c592536f222014ea3202a4e42756eb
+>>>>>>> parent of 483dcd2 (Merge branch 'LeeSamuel' into base)
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
