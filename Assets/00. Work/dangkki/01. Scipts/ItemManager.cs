@@ -6,8 +6,13 @@ using UnityEngine.UI;
 
 public class ItemManager : MonoBehaviour
 {
+    public static ItemManager instance;
     public TicketManager _ticketManager;
+    public ItemBox _itemBox;
     //public ShopItemListSO _chipList;
+    
+    public InventoryUI inventoryUI;
+    
     public InventorySO _chipList;
     public InventorySO _inventory;
     public Transform[] _itemList;
@@ -19,11 +24,13 @@ public class ItemManager : MonoBehaviour
     private TextMeshProUGUI[] _itemList_Price;
     private Image[] _itemList_SoldOut;
     private EventTrigger[] _itemList_EventTrigger;
-
+    
     string[] _sellList;
     bool[] _isSold;
     private void Awake()
-    { 
+    {
+        if (instance == null)
+            instance = this;
         _itemList_Sprite = new Image[_itemList.Length];
         _itemList_Price = new TextMeshProUGUI[_itemList.Length];
         _itemList_SoldOut = new Image[_itemList.Length];
@@ -74,7 +81,7 @@ public class ItemManager : MonoBehaviour
             if (_ticketManager._ticket >= 3)
             {
                 _ticketManager._ticket -= 3;
-                _inventory.inventoryItemList.Add(_sellitem[itemNumber - 1]);
+               // _inventory.inventoryItemList.Add(_sellitem[itemNumber - 1]);
             }
             else
             {
@@ -88,7 +95,7 @@ public class ItemManager : MonoBehaviour
             if (_ticketManager._ticket >= 5)
             {
                 _ticketManager._ticket -= 5;
-                _inventory.inventoryItemList.Add(_sellitem[itemNumber - 1]);
+             //   _inventory.inventoryItemList.Add(_sellitem[itemNumber - 1]);
             }
             else
             {
@@ -101,7 +108,7 @@ public class ItemManager : MonoBehaviour
             if (_ticketManager._ticket >= 10)
             {
                 _ticketManager._ticket -= 10;
-                _inventory.inventoryItemList.Add(_sellitem[itemNumber - 1]);
+               // _inventory.inventoryItemList.Add(_sellitem[itemNumber - 1]);
             }
             else
             {
@@ -110,6 +117,8 @@ public class ItemManager : MonoBehaviour
             }
                 
         }
+        _inventory.inventoryItemList.Add(_sellitem[itemNumber - 1]);
+        inventoryUI.ScrollView();
         Debug.Log(_sellitem[itemNumber - 1].Name + "구매완료");
         _itemList_SoldOut[itemNumber - 1].enabled = true;
         _itemList_Sprite[itemNumber - 1].color = Color.gray;

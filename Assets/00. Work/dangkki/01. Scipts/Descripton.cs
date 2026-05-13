@@ -26,7 +26,7 @@ public class Descripton : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        _mouseContainer.position = Input.mousePosition;
+        _mouseContainer.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
     }
     public void OnHover()
     {

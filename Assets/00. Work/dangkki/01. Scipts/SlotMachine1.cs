@@ -16,7 +16,17 @@ public class SlotMachine1 : MonoBehaviour
     }
     public void StartSpin()
     {
-        StartCoroutine(SpinCoroutine());
+        Debug.Log(TicketManager.instance._spins);
+        if (TicketManager.instance._spins > 0)
+        {
+            Debug.Log(TicketManager.instance._spins);
+            TicketManager.instance._spins -= 1;
+            StartCoroutine(SpinCoroutine());
+        }
+        else
+        {
+            Debug.Log("Spinning failed");
+        }
         
     }
 
