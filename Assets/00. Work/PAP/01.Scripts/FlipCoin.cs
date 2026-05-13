@@ -113,9 +113,9 @@ public class FlipCoin : MonoBehaviour
             {
                 resultUI.Tail();
             }
-            yield return new WaitForSeconds(0.4f);
+            yield return new WaitForSeconds(0.3f);
             showCoin.enabled = false;
-            yield return new WaitForSeconds(0.2f);
+            yield return new WaitForSeconds(0.3f);
             SkillChipUse(isHead);
         }
 

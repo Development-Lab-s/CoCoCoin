@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: DefenseChip
   m_EditorClassIdentifier: 
   Name: "\uCCAD\uB85D\uC0C9 \uCE69"
-  Description: "[50% \uC55E\uBA74]\n\uBC29\uC5B4\uB3C4 <color=#AAAAFF>+7</color>\n\n[50%
-    \uB4B7\uBA74]\n<color=#999999>\uC2E4\uD328</color> \uD569\uB2C8\uB2E4."
+  Description: "<color=#999999>[50% \uC55E\uBA74]</color>\n<color=#AAAAFF>\uBC29\uC5B4\uB3C4
+    +7</color>\n\n<color=#999999>[50% \uB4B7\uBA74]</color>\nX"
   Sprite: {fileID: -5451684428717778207, guid: 56db09fc515fafb4091a57dbd22bf2ed, type: 3}
   SpriteOnInventory: {fileID: -6349946503341308980, guid: 56db09fc515fafb4091a57dbd22bf2ed, type: 3}
   SpriteOnStack: {fileID: 7975077304525259990, guid: 268b23955f342cb4d8d53bd624bcb431, type: 3}

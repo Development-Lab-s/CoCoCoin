@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: AddComboChip
   m_EditorClassIdentifier: 
   Name: "\uD55C\uD0D5"
-  Description: "[50% \uC55E\uBA74]\n\uCF64\uBCF4 +2\n\n[50% \uB4B7\uBA74]\n<color=#999999>\uC2E4\uD328</color>
-    \uD569\uB2C8\uB2E4"
+  Description: "<color=#999999>[50% \uC55E\uBA74]</color>\n\uCF64\uBCF4 +2\n\n<color=#999999>[50%
+    \uB4B7\uBA74]</color>\nX"
   Sprite: {fileID: -1784818079223600701, guid: 0de1df47d6df8bc45b3ad9081069991c, type: 3}
   SpriteOnInventory: {fileID: 8394660545373626841, guid: 0de1df47d6df8bc45b3ad9081069991c, type: 3}
   SpriteOnStack: {fileID: 4478865568680087179, guid: 4810ea7e6224a37459e13a5d77f3b5c1, type: 3}

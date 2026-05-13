@@ -209,7 +209,7 @@ public class Enemy : MonoBehaviour
     IEnumerator ChangeSprite()
     {
         _sr.sprite = hitSprite;
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.4f);
         _sr.sprite = originSprite;
     }
 

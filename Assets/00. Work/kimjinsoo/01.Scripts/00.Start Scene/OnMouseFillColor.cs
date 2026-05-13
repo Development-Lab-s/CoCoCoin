@@ -8,15 +8,11 @@ using UnityEngine.UI;
 public class OnMouseFillColor : MonoBehaviour, IPointerEnterHandler ,IPointerExitHandler 
 {
     [SerializeField]private Slider slider;
-    private float chargingTime ;
+    [SerializeField] private float chargingTime ;
 
     private bool mouseEntered = false;
     private bool mouseExited = false;
-
-    private void Awake()
-    {
-        chargingTime = Time.deltaTime;
-    }
+    
 
     public void OnPointerEnter(PointerEventData pointerEventData)
     {
@@ -36,12 +32,12 @@ public class OnMouseFillColor : MonoBehaviour, IPointerEnterHandler ,IPointerExi
     {
         if(mouseEntered == true)
         {
-            slider.value += chargingTime;
+            slider.value += chargingTime * Time.deltaTime;
             
         }
         if (mouseExited == true)
         {
-            slider.value -= chargingTime;
+            slider.value -= chargingTime * Time.deltaTime;
         }
     }
 }
