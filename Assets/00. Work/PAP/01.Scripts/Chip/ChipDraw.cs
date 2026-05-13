@@ -39,7 +39,7 @@ public class ChipDraw : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     }
     public void OnPointerEnter(PointerEventData eventData)
     {
-        toolTip.ShowToolTip(chip.Name, chip.Description, transform.position + new Vector3(2,1,0), chip.Sprite,chip.rarity);
+        toolTip.ShowToolTip(chip.Name, chip.Description, transform.position + new Vector3(2,0.9f,0), chip.Sprite,chip.rarity);
         image.DOColor(Color.white, 0.1f);
     }
 
