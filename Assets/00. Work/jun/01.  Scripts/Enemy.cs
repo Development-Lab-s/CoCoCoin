@@ -53,9 +53,11 @@ public class Enemy : MonoBehaviour
     float t = 0.0f;
     float speed = 2f;
     bool isDead = false;
+    private EnemyData _enemy;
 
     public void Init(EnemyData enemyData)
     {
+        _enemy = enemyData;
         originSprite = enemyData.enemySprite;
         hitSprite = enemyData.hitSprite;
         originPos = transform.position;
@@ -103,11 +105,19 @@ public class Enemy : MonoBehaviour
     // 적의 턴 행동
     public IEnumerator DoTurn(Player player)
     {
+        if (_enemy.readyToAttack != null)
+        {
+            _sr.sprite = _enemy.readyToAttack;
+        }
         damageText.transform.DOScale(Vector3.zero, 0.2f);
         patternImage.transform.DOScale(Vector3.zero, 0.2f);
         transform.DOMoveY(transform.position.y + 1, 0.2f).OnComplete(() =>
         {
             transform.DOMoveY(transform.position.y - 1, 0.2f);
+            if (_enemy.Attack != null)
+            {
+                _sr.sprite = _enemy.Attack;
+            }
         });
         damageText.DOColor(new Color(1, 0, 0, 0), 0.2f);
         switch (Random.Range(0, 3))
@@ -123,6 +133,10 @@ public class Enemy : MonoBehaviour
                 break;
         }
         yield return motionHandler.PlayMotion("Normal",AttackPower);
+        if (_enemy.enemySprite != null)
+        {
+            _sr.sprite = _enemy.enemySprite;
+        }
     }
 
     public void TakeDamage(int damage)

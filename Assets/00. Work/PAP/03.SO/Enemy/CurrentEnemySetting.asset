@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1309e0880a34fb443bcfb7ed33ee931c, type: 3}
   m_Name: CurrentEnemySetting
   m_EditorClassIdentifier: 
-  Data: {fileID: 11400000, guid: 7f512a2bd44274e40a647c906867c6c5, type: 2}
+  Data: {fileID: 11400000, guid: 5e52ba75ce858ce4cb7815f847f75be4, type: 2}

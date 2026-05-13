@@ -58,7 +58,6 @@ public class Player : MonoBehaviour
         bloodImage.DOFade(0f,1f).SetEase(Ease.OutQuad);
         StartCoroutine(DecreaseHPAnimation(damage));
         StartCoroutine(ShieldAnimation(damage));
-        StartCoroutine(ScreenEffect(damage));
     }
 
     private Coroutine shieldTextAnimation;
@@ -148,10 +147,5 @@ public class Player : MonoBehaviour
         }
     }
 
-    IEnumerator ScreenEffect(int damage)
-    {
-        Time.timeScale = 0.5f;
-        yield return new WaitForSeconds(damage/20);
-        Time.timeScale = 1f;
-    }
+
 }

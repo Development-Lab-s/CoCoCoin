@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 678473a4d799e3b498ec87b4228a7c4a, type: 3}
+  m_Name: BossEnemy
+  m_EditorClassIdentifier: 
+  enemySprite: {fileID: -1310749929903063099, guid: b0db91aaa7a49bf41b4d67d27a3092b0, type: 3}
+  Health: 777
+  hitSprite: {fileID: -5730799910582564151, guid: 43e557cb5b8d7f04aa8928b807c23c4a, type: 3}
+  readyToAttack: {fileID: 361771581255198500, guid: c11b7000badfd1643a1e601e99f1c829, type: 3}
+  Attack: {fileID: -9017504863664026210, guid: c11b7000badfd1643a1e601e99f1c829, type: 3}
+  Title: "Mr. \uC544\uBE0C\uB77C\uCE74\uB2E4\uBE0C\uB0E5"
+  patternName: []
+  damage: 0100000043000000630000000f000000
