@@ -6,6 +6,7 @@ using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.Audio;
 using static UnityEngine.EventSystems.EventTrigger;
+using Random = UnityEngine.Random;
 
 public class MotionHandler : MonoBehaviour
 {
@@ -85,7 +86,15 @@ public class MotionHandler : MonoBehaviour
     }
     private IEnumerator NormalPunchMotion(Player player, Enemy enemy,ChipEncounter chip,bool isHead)
     {
-        animator.SetTrigger("Punch");
+        switch (Random.Range(0, 2))
+        {
+            case 0:
+                animator.SetTrigger("Punch");
+                break;
+            case 1:
+                animator.SetTrigger("Punch2");
+                break;
+        }
         yield return new WaitForSeconds(0.5f);
         spawnStar.Spawn();
         impulseSource.GenerateImpulseWithVelocity(new Vector3(0.2f, 0, 0));

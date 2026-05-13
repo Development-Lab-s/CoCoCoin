@@ -43,7 +43,7 @@ namespace _00._Work.PAP._01.Scripts
         {
             if (currentTuto > 9)
             {
-                    
+                _ = SceneManageHandler.instance.MoveScene(1);
             }
             else
             {
