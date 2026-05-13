@@ -282,7 +282,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 847855603}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f52db4b364aa6ed408bb74bc17fcc910, type: 3}
+  m_Script: {fileID: 11500000, guid: e7453ca6990b99a4a90469691fd2cd09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   linePrefab: {fileID: 4346092777419424090, guid: 7b3d8915f36e6634ab3c5328e0424784, type: 3}
@@ -319,9 +319,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: fc1a2cefa6871664ea06cdd6b68b3522, type: 2}
   - {fileID: 11400000, guid: 1a68b77028f3ca245aee0124395ba7c7, type: 2}
   enemyDataFloor2:
-  - {fileID: 11400000, guid: 7f512a2bd44274e40a647c906867c6c5, type: 2}
+  - {fileID: 11400000, guid: ae428e074b4285342914803ec87825aa, type: 2}
   enemyDataFloor3:
-  - {fileID: 11400000, guid: 7f512a2bd44274e40a647c906867c6c5, type: 2}
+  - {fileID: 11400000, guid: fad70d2575fe560499be13d8b1b01ee4, type: 2}
   maxFloor: 3
 --- !u!4 &847855605
 Transform:
