@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: MultiplierDefenseChip
   m_EditorClassIdentifier: 
   Name: "\uC77C\uC6D0"
-  Description: "[50% \uC55E\uBA74]\n\uD604\uC7AC \uC274\uB4DC\uAC00 2\uBC30\uAC00
-    \uB429\uB2C8\uB2E4\n\n[50% \uB4B7\uBA74]\n\uC774\uBC88\uD134\uC5D0 \uCE69\uC73C\uB85C
-    \uC5BB\uB294 \uBC29\uC5B4\uB3C4\uAC00 2\uBC30 \uB429\uB2C8\uB2E4"
+  Description: "<color=#999999>[50% \uC55E\uBA74]</color>\n<color=#004AAD>\uD604\uC7AC
+    \uBC29\uC5B4\uB3C4</color>\uAC00 2\uBC30\uAC00 \uB429\uB2C8\uB2E4.\n\n<color=#999999>[50%
+    \uB4B7\uBA74]</color>\n\uC774\uBC88 \uD134\uC5D0 \uCE69\uC73C\uB85C \uC5BB\uB294
+    <color=#004AAD>\uBC29\uC5B4\uB3C4</color>\uAC00 2\uBC30\uAC00 \uB429\uB2C8\uB2E4!"
   Sprite: {fileID: -8584647517806083662, guid: 950eff6440a22e240af5dbd9ec521ff9, type: 3}
   SpriteOnInventory: {fileID: 3229921398826955906, guid: 950eff6440a22e240af5dbd9ec521ff9, type: 3}
   SpriteOnStack: {fileID: 4218028578388696214, guid: cba8af5620cbad6408369e9eddc78bf5, type: 3}

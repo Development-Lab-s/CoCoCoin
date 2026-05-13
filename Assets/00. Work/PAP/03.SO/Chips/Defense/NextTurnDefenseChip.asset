@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: NextTurnDefenseChip
   m_EditorClassIdentifier: 
   Name: "500\uC5D4"
-  Description: "[50% \uC55E\uBA74]\n\uBC29\uC5B4\uB3C4<color=#AAAAFF>+10</color>\n\n[50%
-    \uB4B7\uBA74]\n\uB2E4\uC74C \uD134 \uC2DC\uC791 \uC2DC \uD604\uC7AC \uBC29\uC5B4\uB3C4\uC758
-    50%\uB9CC\uD07C\uC744 \uC5BB\uC2B5\uB2C8\uB2E4\n"
+  Description: "<color=#999999>[50% \uC55E\uBA74]</color>\n<color=#004AAD>\uBC29\uC5B4\uB3C4
+    +10</color>\n\n<color=#999999>[50% \uB4B7\uBA74]</color>\n\uB2E4\uC74C \uD134
+    \uC2DC\uC791 \uC2DC <color=#004AAD>\uBC29\uC5B4\uB3C4\uC758 50%</color> \uB9CC\uD07C\uC744
+    \uC5BB\uC2B5\uB2C8\uB2E4."
   Sprite: {fileID: 5203211375145971943, guid: 950eff6440a22e240af5dbd9ec521ff9, type: 3}
   SpriteOnInventory: {fileID: -2277601842316072123, guid: 950eff6440a22e240af5dbd9ec521ff9, type: 3}
   SpriteOnStack: {fileID: 5516001832015887561, guid: cba8af5620cbad6408369e9eddc78bf5, type: 3}
