@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: TurnDefenseChip
   m_EditorClassIdentifier: 
   Name: "\uCC9C\uC6D0"
-  Description: "[50% \uC55E\uBA74]\n<color=#AAAAFF>20\uC758 \uC274\uB4DC</color>\uB97C
-    \uC5BB\uC2B5\uB2C8\uB2E4\n\uC774\uD6C4 \uCE69\uC744 \uC4F8\uB54C\uB9C8\uB2E4
-    5\uC758 \uC274\uB4DC\uB97C \uC783\uC2B5\uB2C8\uB2E4\n\n[50% \uB4B7\uBA74]\n\uC774\uD6C4
-    \uCE69\uC744 \uC4F8\uB54C\uB9C8\uB2E4 5\uC758 \uC274\uB4DC\uB97C \uC5BB\uC2B5\uB2C8\uB2E4"
+  Description: "<color=#999999>[50% \uC55E\uBA74]</color>\n<color=#0D99FF>\uBC29\uC5B4\uB3C4
+    +20</color>\n\uC774\uD6C4 \uCE69\uC744 \uC4F8\uB54C\uB9C8\uB2E4 <color=#004AAD>\uBC29\uC5B4\uB3C4\uB97C
+    5</color> \uC783\uC2B5\uB2C8\uB2E4.\n\n<color=#999999>[50% \uB4B7\uBA74]</color>\n\uC774\uD6C4
+    \uCE69\uC744 \uC4F8\uB54C\uB9C8\uB2E4 <color=#0D99FF>\uBC29\uC5B4\uB3C4\uB97C
+    5</color> \uC5BB\uC2B5\uB2C8\uB2E4."
   Sprite: {fileID: -4804609543498392758, guid: 950eff6440a22e240af5dbd9ec521ff9, type: 3}
   SpriteOnInventory: {fileID: 581358523173632599, guid: 950eff6440a22e240af5dbd9ec521ff9, type: 3}
   SpriteOnStack: {fileID: 391890617369329681, guid: cba8af5620cbad6408369e9eddc78bf5, type: 3}

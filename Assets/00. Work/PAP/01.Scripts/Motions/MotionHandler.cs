@@ -13,7 +13,6 @@ public class MotionHandler : MonoBehaviour
     [SerializeField] GameObject rightHand;
     [SerializeField] LeftMotionHandler leftMotionHandler;
     [SerializeField] private Transform SoundManager;
-    [SerializeField] private StarTrigger starTrigger;
     private AudioSource _hitSFX;
     private AudioSource _tableSFX;
 
@@ -89,7 +88,6 @@ public class MotionHandler : MonoBehaviour
         impulseSource.GenerateImpulseWithVelocity(new Vector3(0.2f, 0, 0));
         ChipAbility(player, enemy, chip, isHead);
         _hitSFX.Play();
-        starTrigger.SowhanStar();
         yield return new WaitForSeconds(0.5f);
         SetEnable(chip);
 
