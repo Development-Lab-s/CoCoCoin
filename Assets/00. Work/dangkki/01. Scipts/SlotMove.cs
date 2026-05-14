@@ -35,7 +35,11 @@ public class SlotMove : MonoBehaviour
             //ExitButton.gameObject.SetActive(true);
         })));;
         seq.Append(BlackBack.DOFade(1, 0.2f));
-        seq.Append(BlackBack.DOFade(0, 0.5f).OnComplete(() => BlackBack.gameObject.SetActive(false)));
+        seq.Append(BlackBack.DOFade(0, 0.5f).OnComplete(() =>
+        {
+            
+            BlackBack.gameObject.SetActive(false);
+        }));
         seq.Play();
     }
 
@@ -52,7 +56,10 @@ public class SlotMove : MonoBehaviour
             
         })));
         seq.Append(BlackBack.DOFade(1, 0.2f));
-        seq.Append(BlackBack.DOFade(0, 0f).OnComplete(() => BlackBack.gameObject.SetActive(false)));
+        seq.Append(BlackBack.DOFade(0, 0f).OnComplete(() =>
+        {
+            BlackBack.gameObject.SetActive(false);
+        }));
         seq.Play();
     }
 }

@@ -4077,7 +4077,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1951614078}
   m_HandleRect: {fileID: 1951614077}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -5594,6 +5594,7 @@ MonoBehaviour:
   - {fileID: 32900000, guid: c95ae89d85348b94ea44a5060f6106a9, type: 3}
   - {fileID: 32900000, guid: 0063a0e52b766504eb6ef6714037a261, type: 3}
   - {fileID: 32900000, guid: a45a9b1e1f9c2a6469382f23ec50843d, type: 3}
+  slotButton: {fileID: 1018997100}
 --- !u!224 &1648861225 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1459473237075837153, guid: bbf4672d240f40f4b86756c8aa8ef5e4, type: 3}
