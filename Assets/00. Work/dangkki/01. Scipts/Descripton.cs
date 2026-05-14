@@ -23,18 +23,14 @@ public class Descripton : MonoBehaviour
         _descriptionPanel_Name = _descriptionPanel.GetChild(0).GetComponent<TextMeshProUGUI>();
         _descriptionPanel_Description = _descriptionPanel.GetChild(1).GetComponent<TextMeshProUGUI>();
         _descriptionPanel_Sprite = _descriptionPanel.GetChild(2).GetComponent<Image>();
-
     }
     private void FixedUpdate()
     {
-        
-        _mouseContainer.position = Input.mousePosition;
+        _mouseContainer.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
     }
     public void OnHover()
     {
-
         _descriptionPanel.gameObject.SetActive(true);
-        
     }
     public void OnExit()
     {
@@ -43,8 +39,6 @@ public class Descripton : MonoBehaviour
             _descriptionPanel.gameObject.SetActive(false);
         }
     }
-   
-
     public void SetDescription(int itemNumber)
     {
         if (_descriptionPanel != null)
@@ -52,10 +46,6 @@ public class Descripton : MonoBehaviour
             _descriptionPanel_Name.text = _itemManager._sellitem[itemNumber-1].Description;
             _descriptionPanel_Description.text = _itemManager._sellitem[itemNumber-1].Name;
             _descriptionPanel_Sprite.sprite = _itemManager._sellitem[itemNumber-1].Sprite;
-        }
-        else
-        {
-            Debug.LogError("ㅗㅗㅗ");
         }
     }
 

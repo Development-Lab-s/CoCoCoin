@@ -32,6 +32,7 @@ public class SceneManageHandler: MonoBehaviour
     {
         CanMove = false;
         await fadeInOutImage.DOFade(1f, 0.5f).AsyncWaitForCompletion();
+        DOTween.KillAll();
         await SceneManager.LoadSceneAsync(sceneNumber);
         Time.timeScale = 1;
         CanMove = true;

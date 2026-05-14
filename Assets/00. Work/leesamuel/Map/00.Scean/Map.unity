@@ -159,15 +159,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 70c68ae835da617428035ac767dd3966, type: 2}
+  m_sharedMaterial: {fileID: 6795064112359760801, guid: 70c68ae835da617428035ac767dd3966, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -282,7 +282,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 847855603}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f52db4b364aa6ed408bb74bc17fcc910, type: 3}
+  m_Script: {fileID: 11500000, guid: e7453ca6990b99a4a90469691fd2cd09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   linePrefab: {fileID: 4346092777419424090, guid: 7b3d8915f36e6634ab3c5328e0424784, type: 3}
@@ -313,10 +313,18 @@ MonoBehaviour:
   - {fileID: 750492222377320062, guid: 9aacc95c32c8e7442994853a4a0dad31, type: 3}
   enemyDataFloor1:
   - {fileID: 11400000, guid: 7f512a2bd44274e40a647c906867c6c5, type: 2}
+  - {fileID: 11400000, guid: ae428e074b4285342914803ec87825aa, type: 2}
+  - {fileID: 11400000, guid: fad70d2575fe560499be13d8b1b01ee4, type: 2}
+  - {fileID: 11400000, guid: 2414c8c9c859e124bac3b7f256ceb5f9, type: 2}
+  - {fileID: 11400000, guid: fc1a2cefa6871664ea06cdd6b68b3522, type: 2}
+  - {fileID: 11400000, guid: 1a68b77028f3ca245aee0124395ba7c7, type: 2}
   enemyDataFloor2:
-  - {fileID: 11400000, guid: 7f512a2bd44274e40a647c906867c6c5, type: 2}
+  - {fileID: 11400000, guid: ae428e074b4285342914803ec87825aa, type: 2}
   enemyDataFloor3:
-  - {fileID: 11400000, guid: 7f512a2bd44274e40a647c906867c6c5, type: 2}
+  - {fileID: 11400000, guid: fad70d2575fe560499be13d8b1b01ee4, type: 2}
+  bossEnemyFloor1: {fileID: 11400000, guid: 7b9852a814c6ac740b7974c19ee0f06c, type: 2}
+  bossEnemyFloor2: {fileID: 0}
+  bossEnemyFloor3: {fileID: 0}
   maxFloor: 3
 --- !u!4 &847855605
 Transform:
@@ -725,8 +733,8 @@ Camera:
   m_GameObject: {fileID: 1902918847}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0

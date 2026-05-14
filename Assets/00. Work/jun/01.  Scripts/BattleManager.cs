@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using _00._Work.PAP._01.Scripts;
 using _00._Work.PAP._01.Scripts.Motions;
 using TMPro;
 using Unity.Cinemachine;
@@ -61,6 +62,8 @@ public class BattleManager : MonoBehaviour
     [SerializeField] private CurrentEnemySetting currentEnemySettiing;
 
     [SerializeField] private TurnHandMotionHandler turnMotionHandler;
+    
+    [SerializeField] private BellNextTurn bellNextTurn;
 
     public List<InventoryItemSO> drawChips = new List<InventoryItemSO>();
     public List<InventoryItemSO> nowChips =  new List<InventoryItemSO>();
@@ -148,12 +151,17 @@ public class BattleManager : MonoBehaviour
         chipModels.Remove(chipModel);
         Destroy(chipModel);
         ChangeNowChips();
+        if (nowChips.Count <= 0)
+        {
+            bellNextTurn.Bright();
+        }
     }
     public void PassTurn()
     {
-        if (currentState != State.PlayerTurn)
+        if (currentState != State.PlayerTurn && needDiscard > 0)
             return;
         currentState = State.Wait;
+        bellNextTurn.Normal();
         TurnMotion();
     }
 
@@ -202,7 +210,6 @@ public class BattleManager : MonoBehaviour
     private void StartPlayerTurn()
     {
         enemy.AttackPower = currentEnemySettiing.Data.damage[Random.Range(0,currentEnemySettiing.Data.damage.Count)];
-        currentState = State.PlayerTurn;
         for (int i = 0; i < GameData.instance.amountDrawOnce; i++)
         {
             DrawChip();

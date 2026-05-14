@@ -2,43 +2,55 @@ using UnityEngine;
 
 public class SlotCheck : MonoBehaviour
 {
+    public static SlotCheck instance;
     SlotMachine1 _slotMachine;
 
     [SerializeField] Transform _slot0;
     [SerializeField] Transform _slot1;
     [SerializeField] Transform _slot2;
-     public TicketManager _ticketManager;
+    TicketManager _ticketManager;
 
 
 
     private void Awake()
     {
+        if (instance == null) { 
+        instance = this;
+        }
         _slotMachine = GetComponent<SlotMachine1>();
-        //_ticketManager = GetComponent<TicketManager>();
     }
-    private void Update()
-    {
-        //_slot0.GetChild(_slot0.childCount - 1);
-    }
-
     public void CheckSlot()
     {
-        if (_slot0.GetChild(_slot0.childCount - 2).name == _slot1.GetChild(_slot1.childCount - 2).name &&
-         _slot0.GetChild(_slot0.childCount - 2).name == _slot2.GetChild(_slot2.childCount - 2).name)
-        {
-            if (_slot0.GetChild(_slot0.childCount - 2).name == "Bell")
+        string Slot0 = _slot0.GetChild(_slot0.childCount - 2).name;
+        string Slot1 = _slot1.GetChild(_slot0.childCount - 2).name;
+        string Slot2 = _slot2.GetChild(_slot0.childCount - 2).name;
+        if (Slot0 == Slot1 &&
+         Slot0 == Slot2)
+        { 
+            switch(Slot0)
             {
-                _ticketManager.AddTicket(20);
-            }
-            else if (_slot0.GetChild(_slot0.childCount - 2).name == "Cherry")
-            {
-                _ticketManager.AddTicket(30);
-            }
-            else if (_slot0.GetChild(_slot0.childCount - 2).name == "JackPot")
-            {
-                _ticketManager.AddTicket(50);
+                case "Bell":
+                    TicketManager.instance.AddTicket(20);
+                    break;
+                case "Cherry":
+                    TicketManager.instance.AddTicket(30);
+                    break;
+                case "JackPot":
+                    TicketManager.instance.AddTicket(50);
+                    break;
             }
         }
-    }
+        else if (Slot0 == Slot1 ||Slot0 == Slot2 || Slot1 == Slot2)
+        {
+            if (Slot0 == "JackPot")
+                TicketManager.instance.AddTicket(5);
+            else 
+                TicketManager.instance.AddTicket(2);
+        }
+        else
+        {
+            TicketManager.instance.AddTicket(1);
+        }
+        }
 
 }

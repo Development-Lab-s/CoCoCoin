@@ -36,11 +36,11 @@ public class CoinSpawner : MonoBehaviour
         {
             Coin.GetComponent<CoinDrag>().Init(_rareCoinDatas[Random.Range(0, _rareCoinDatas.Count)]);
         }
-        else if (Rare_probability >= Rarity_probability)//Rare등급 코인 
+        else if (Common_probability <= Rarity_probability && Rare_probability >= Rarity_probability)//Rare등급 코인 
         {
             Coin.GetComponent<CoinDrag>().Init(_rareCoinDatas[Random.Range(0, _rareCoinDatas.Count)]);
         }
-        else if (Legendery_probability >= Rarity_probability)//Legendary등급 코인 
+        else if (Rare_probability <= Rarity_probability && Legendery_probability >= Rarity_probability)//Legendary등급 코인 
         {
 
         }
