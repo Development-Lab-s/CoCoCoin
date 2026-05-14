@@ -2,6 +2,7 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.U2D.Animation;
 using UnityEngine.UI;
 
 public class ItemManager : MonoBehaviour
@@ -23,6 +24,7 @@ public class ItemManager : MonoBehaviour
     private Animator[] _itemList_Animation;
     private TextMeshProUGUI[] _itemList_Price;
     private Image[] _itemList_SoldOut;
+    private SpriteLibrary[] _itemList_Spin;
     private EventTrigger[] _itemList_EventTrigger;
     
     string[] _sellList;
@@ -36,6 +38,7 @@ public class ItemManager : MonoBehaviour
         _itemList_SoldOut = new Image[_itemList.Length];
         _itemList_Animation = new Animator[_itemList.Length];
         _itemList_EventTrigger = new EventTrigger[_itemList.Length];
+        _itemList_Spin = new SpriteLibrary[_itemList.Length];
         _sellitem = new InventoryItemSO[_itemList.Length];
         _isSold = new bool[_itemList.Length];
         for (int i = 0; i < _itemList.Length; i++)
@@ -45,6 +48,7 @@ public class ItemManager : MonoBehaviour
             _itemList_Animation[i] = _itemList[i].GetChild(0).GetComponent<Animator>();
             _itemList_SoldOut[i] = _itemList[i].GetChild(0).GetChild(0).GetComponent<Image>();
             _itemList_EventTrigger[i] = _itemList[i].GetChild(0).GetComponent<EventTrigger>();
+            _itemList_Spin[i] = _itemList[i].GetChild(0).GetComponent<SpriteLibrary>();
             _itemList_SoldOut[i].enabled = false;
             _itemList_Sprite[i].color = Color.white;
         }
@@ -59,6 +63,7 @@ public class ItemManager : MonoBehaviour
         {
             int randomNum = Random.Range(0, _chipList.inventoryItemList.Count - 1);
             _itemList_Sprite[i].sprite = _chipList.inventoryItemList[randomNum].Sprite;
+            _itemList_Spin[i].spriteLibraryAsset = _chipList.inventoryItemList[randomNum].spriteLibrary;
             //_itemList_Animation[i].runtimeAnimatorController = _chipList.inventoryItemList[randomNum].SelectSprite;
             if(_chipList.inventoryItemList[randomNum].rarity == InventoryItemSO.Rarity.Common) _itemList_Price[i].text = "3$";
             else if(_chipList.inventoryItemList[randomNum].rarity == InventoryItemSO.Rarity.Rare) _itemList_Price[i].text = "5$";
