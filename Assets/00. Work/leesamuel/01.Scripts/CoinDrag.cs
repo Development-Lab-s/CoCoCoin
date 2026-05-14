@@ -92,6 +92,7 @@ public class CoinDrag : MonoBehaviour
             if (coinCount == 3)
             {
                 _ = SceneManageHandler.instance.MoveScene(1);
+                coinCount = 0;
             }
         }
         else
