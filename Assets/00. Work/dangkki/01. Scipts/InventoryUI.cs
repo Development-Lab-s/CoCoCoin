@@ -6,7 +6,6 @@ public class InventoryUI : MonoBehaviour
     [SerializeField] private InventorySO inventorySO;
     [SerializeField] private Transform content;
     [SerializeField] private GameObject itemSlotPrefab;
-    [SerializeField] private InventoryItemSO[] inventoryItems;
 
     void Start()
     {
@@ -19,7 +18,7 @@ public class InventoryUI : MonoBehaviour
             Destroy(child.gameObject);
 
 
-        foreach (var item in inventorySO.inventoryItemList)
+        foreach (InventoryItemSO item in inventorySO.inventoryItemList)
         {
             var slot = Instantiate(itemSlotPrefab, content);
             slot.GetComponent<ItemBox>().Setup(item);
