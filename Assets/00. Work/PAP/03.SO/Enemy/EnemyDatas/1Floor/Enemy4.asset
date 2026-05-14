@@ -17,6 +17,6 @@ MonoBehaviour:
   hitSprite: {fileID: 6359148831547515406, guid: d952f3d29cc608740804e7dbcff1ced3, type: 3}
   patternName:
   - Normal
-  - Combo
+  - Normal
   - Normal
   damage: 0c0000000e0000000f000000

@@ -26,6 +26,9 @@ public class MapManager : MonoBehaviour
     [SerializeField] private List<EnemyData> enemyDataFloor1 = new List<EnemyData>();
     [SerializeField] private List<EnemyData> enemyDataFloor2 = new List<EnemyData>();
     [SerializeField] private List<EnemyData> enemyDataFloor3 = new List<EnemyData>();
+    [SerializeField] private EnemyData bossEnemyFloor1;
+    [SerializeField] private EnemyData bossEnemyFloor2;
+    [SerializeField] private EnemyData bossEnemyFloor3;
 
     public static int currentFloor = 1;     
     public int maxFloor = 3;

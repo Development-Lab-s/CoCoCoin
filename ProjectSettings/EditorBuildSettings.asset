@@ -23,6 +23,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/00. Work/PAP/00.Scenes/Defeat.unity
     guid: 1363292ba26ec4a4bb5394206c39771f
+  - enabled: 1
+    path: Assets/00. Work/PAP/00.Scenes/Tutorial.unity
+    guid: 3a3450efa6b51844a99797c8d2bb0fe2
+  - enabled: 1
+    path: Assets/00. Work/PAP/00.Scenes/Ending.unity
+    guid: fa08064babe93cd4797e25dc9a24753b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

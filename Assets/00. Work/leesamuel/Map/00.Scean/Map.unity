@@ -322,6 +322,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ae428e074b4285342914803ec87825aa, type: 2}
   enemyDataFloor3:
   - {fileID: 11400000, guid: fad70d2575fe560499be13d8b1b01ee4, type: 2}
+  bossEnemyFloor1: {fileID: 11400000, guid: 7b9852a814c6ac740b7974c19ee0f06c, type: 2}
+  bossEnemyFloor2: {fileID: 0}
+  bossEnemyFloor3: {fileID: 0}
   maxFloor: 3
 --- !u!4 &847855605
 Transform:

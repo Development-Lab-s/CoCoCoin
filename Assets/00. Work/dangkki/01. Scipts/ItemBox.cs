@@ -7,12 +7,15 @@ using UnityEngine.UI;
 
 public class ItemBox : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
+    public Image itemImage;
     [SerializeField] private Image iconImage;
     [SerializeField] private TMP_Text nameText;
 
     public InventoryItemSO item {get; private set;}
     public GameObject dragGhost;
     private Canvas rootcanvas;
+    
+    
 
     private void Awake()
     {
@@ -44,11 +47,12 @@ public class ItemBox : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragH
         dragGhost.transform.SetParent(rootcanvas.transform, false);
         dragGhost.transform.SetAsLastSibling();
         Image img = dragGhost.AddComponent<Image>();
+        img.preserveAspect = true;
         img.sprite = iconImage.sprite;
         img.raycastTarget = false;
 
         RectTransform rect = dragGhost.GetComponent<RectTransform>();
-        rect.sizeDelta = new Vector2(100, 100);
+        rect.sizeDelta = new Vector2(120, 120);
 
         iconImage.color = new Color(1, 1, 1, 0.4f);
     }

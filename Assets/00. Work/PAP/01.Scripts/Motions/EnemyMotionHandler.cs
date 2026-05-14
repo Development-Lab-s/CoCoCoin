@@ -8,6 +8,7 @@ public class EnemyMotionHandler : MonoBehaviour
     [SerializeField] CinemachineImpulseSource impulseSource;
     [SerializeField] Player player;
     [SerializeField] private Transform soundManager;
+    [SerializeField] private CurrentEnemySetting currentEnemy;
     public IEnumerator PlayMotion(string motionName,int attackPower)
     {
         yield return StartCoroutine(motionName,attackPower);

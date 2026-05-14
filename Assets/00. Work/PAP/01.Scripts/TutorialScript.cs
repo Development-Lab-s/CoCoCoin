@@ -30,15 +30,25 @@ namespace _00._Work.PAP._01.Scripts
             if (Input.GetMouseButtonUp(0))
             {
                 currentTuto++;
-                if (currentTuto > 8)
-                {
-                    
-                }
-                else
-                {
-                    ClearTuto();
-                    ShowTuto();
-                }
+                sss();
+            }
+            else if (Input.GetMouseButtonUp(1))
+            {
+                currentTuto = Mathf.Max(currentTuto-1,1);
+                sss();
+            }
+        }
+
+        private void sss()
+        {
+            if (currentTuto > 9)
+            {
+                _ = SceneManageHandler.instance.MoveScene(1);
+            }
+            else
+            {
+                ClearTuto();
+                ShowTuto();
             }
         }
     }

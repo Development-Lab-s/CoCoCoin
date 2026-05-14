@@ -4,7 +4,6 @@ public class GameData : MonoBehaviour
 {
     public static GameData instance;
     public int playerCurrentHp = 100;
-    public int playerMaxHp = 100;
     public int amountDrawOnce = 5;
     public int amountDrawMax = 10;
     private void Awake()

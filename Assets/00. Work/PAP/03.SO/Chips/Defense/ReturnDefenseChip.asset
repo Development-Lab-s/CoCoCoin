@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: ReturnDefenseChip
   m_EditorClassIdentifier: 
   Name: "\uC624\uC2ED\uC6D0"
-  Description: "[50% \uC55E\uBA74]\n\uBC29\uC5B4\uB3C4<color=#AAAAFF>+7</color>\n\uC774\uBC88
-    \uD134 \uB9C9\uC740 \uACF5\uACA9\uC744 \uC801\uC5D0\uAC8C \uBC18\uC0AC\uD569\uB2C8\uB2E4\n\n[50%
-    \uB4B7\uBA74]\n<color=#999999>\uC2E4\uD328</color> \uD569\uB2C8\uB2E4"
+  Description: "<color=#999999>[50% \uC55E\uBA74]</color>\n\uC774\uBC88 \uD134 \uB9C9\uC740
+    \uACF5\uACA9\uC744 \uC801\uC5D0\uAC8C \uBC18\uC0AC\uD569\uB2C8\uB2E4!\n\n<color=#999999>[50%
+    \uB4B7\uBA74]</color>\nX"
   Sprite: {fileID: 5041913675501878375, guid: 950eff6440a22e240af5dbd9ec521ff9, type: 3}
   SpriteOnInventory: {fileID: 3952007494478281594, guid: 950eff6440a22e240af5dbd9ec521ff9, type: 3}
   SpriteOnStack: {fileID: 774852578437857060, guid: cba8af5620cbad6408369e9eddc78bf5, type: 3}
