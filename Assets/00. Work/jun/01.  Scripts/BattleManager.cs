@@ -158,7 +158,7 @@ public class BattleManager : MonoBehaviour
     }
     public void PassTurn()
     {
-        if (currentState != State.PlayerTurn)
+        if (currentState != State.PlayerTurn && needDiscard > 0)
             return;
         currentState = State.Wait;
         bellNextTurn.Normal();

@@ -22,6 +22,8 @@ public abstract class StatusEffect
     }
 
     public abstract void Setting(Player player, Enemy enemy);
+    
+    public virtual void Minus() {power--;}
 
     public void AddTurn(int val)
     {

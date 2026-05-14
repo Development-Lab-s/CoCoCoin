@@ -36,5 +36,11 @@ public class StatusEffectHandler : MonoBehaviour
     {
         status.AddTurn(turn);
     }
+
+    public void Discount(StatusEffect status)
+    {
+        status.Minus();
+        status.statusEffectUI.UpdateUI(status.contents,status.leftTurns,status.textColor);
+    }
 }
 
