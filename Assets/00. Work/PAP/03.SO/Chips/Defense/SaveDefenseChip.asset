@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab833fd37e42eb48b8fbb686d40d810, type: 3}
+  m_Name: SaveDefenseChip
+  m_EditorClassIdentifier: 
+  Name: "\uC624\uBC31\uC6D0"
+  Description: "<color=#999999>[50% \uC55E\uBA74]</color>\n<color=#0D99FF>\uBC29\uC5B4\uB3C4
+    +7</color>\n\uBC29\uC5B4\uB3C4\uAC00 \uB2E4\uC74C \uD134\uC5D0\uB3C4 \uC720\uC9C0
+    \uB429\uB2C8\uB2E4!\n\n<color=#999999>[50% \uB4B7\uBA74]</color>\nX"
+  Sprite: {fileID: 2922835646881739, guid: 950eff6440a22e240af5dbd9ec521ff9, type: 3}
+  SpriteOnInventory: {fileID: 4888227288506796615, guid: 950eff6440a22e240af5dbd9ec521ff9, type: 3}
+  SpriteOnStack: {fileID: -454469756615814392, guid: cba8af5620cbad6408369e9eddc78bf5, type: 3}
+  SpriteOnBack: {fileID: 2431464156743712985, guid: 950eff6440a22e240af5dbd9ec521ff9, type: 3}
+  ChipEncounter: {fileID: 11400000, guid: e02644dbc687e38449c36d9db5b96a94, type: 2}
+  spriteLibrary: {fileID: 7108339969198208228, guid: 647ae4be3098b5e4fa6bbebead57d4b5, type: 3}
+  rarity: 0

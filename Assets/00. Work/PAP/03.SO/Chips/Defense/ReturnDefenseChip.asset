@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab833fd37e42eb48b8fbb686d40d810, type: 3}
+  m_Name: ReturnDefenseChip
+  m_EditorClassIdentifier: 
+  Name: "\uC624\uC2ED\uC6D0"
+  Description: "<color=#999999>[50% \uC55E\uBA74]</color>\n\uC774\uBC88 \uD134 \uB9C9\uC740
+    \uACF5\uACA9\uC744 \uC801\uC5D0\uAC8C \uBC18\uC0AC\uD569\uB2C8\uB2E4!\n\n<color=#999999>[50%
+    \uB4B7\uBA74]</color>\nX"
+  Sprite: {fileID: 5041913675501878375, guid: 950eff6440a22e240af5dbd9ec521ff9, type: 3}
+  SpriteOnInventory: {fileID: 3952007494478281594, guid: 950eff6440a22e240af5dbd9ec521ff9, type: 3}
+  SpriteOnStack: {fileID: 774852578437857060, guid: cba8af5620cbad6408369e9eddc78bf5, type: 3}
+  SpriteOnBack: {fileID: -38065133529031745, guid: 950eff6440a22e240af5dbd9ec521ff9, type: 3}
+  ChipEncounter: {fileID: 11400000, guid: b863501ac46da47429a058e9d8b6420d, type: 2}
+  spriteLibrary: {fileID: 7108339969198208228, guid: 310be69466b6bb24a89dc65cc7db3a4a, type: 3}
+  rarity: 0

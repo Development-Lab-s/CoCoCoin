@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33d612cebf034763b18aadfb8f699cfb, type: 3}
+  m_Name: Sans
+  m_EditorClassIdentifier: 
+  choiceText: "\uC548\uB155\uD558\uC138\uC694 \uBE44\uC0C1\uC774\uC5D0\uC694 \uC0CC\uC988\uD2F0\uBE44\uAC00
+    \uCC3E\uC654\uC5B4\uC694 \uADF8\uB7EC\uC790 \uC0CC\uC988\uD2F0\uBE44\uAC00 \uB9D0\uD574\uC694\n\n\uC5D0\uD5E4\uC5D0\uD5E4
+    \uCE5C\uAD6C\uC57C \uCF00\uCC39 \uC870\uAE08\uC788\uB2C8? \uB0B4\uAC00 \uAD49\uC7A5\uD788
+    \uC9C0\uAE08 \uD544\uC694\uD55C\uB370..."
+  choiceImage: {fileID: -4331156834911528034, guid: 5f580f95f3041714a8b2d53c23df4bbe, type: 3}
+  choiceButtons:
+  - "\uCF00\uCC39\uC744 \uC900\uB2E4."
+  - "\uCF00\uCC42\uC744 \uC900\uB2E4."
+  - "\uCE90\uCC39\uC744 \uC900\uB2E4."

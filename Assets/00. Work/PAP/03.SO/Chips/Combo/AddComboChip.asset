@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab833fd37e42eb48b8fbb686d40d810, type: 3}
+  m_Name: AddComboChip
+  m_EditorClassIdentifier: 
+  Name: "\uD55C\uD0D5"
+  Description: "<color=#999999>[50% \uC55E\uBA74]</color>\n\uCF64\uBCF4 +2\n\n<color=#999999>[50%
+    \uB4B7\uBA74]</color>\nX"
+  Sprite: {fileID: -1784818079223600701, guid: 0de1df47d6df8bc45b3ad9081069991c, type: 3}
+  SpriteOnInventory: {fileID: 8394660545373626841, guid: 0de1df47d6df8bc45b3ad9081069991c, type: 3}
+  SpriteOnStack: {fileID: 4478865568680087179, guid: 4810ea7e6224a37459e13a5d77f3b5c1, type: 3}
+  SpriteOnBack: {fileID: -8440127596729735460, guid: 0de1df47d6df8bc45b3ad9081069991c, type: 3}
+  ChipEncounter: {fileID: 11400000, guid: cf64c096515847941a3774ad19e59775, type: 2}
+  spriteLibrary: {fileID: 7108339969198208228, guid: 063f213ac5cd7ed4c882e3c4245d84a1, type: 3}
+  rarity: 0

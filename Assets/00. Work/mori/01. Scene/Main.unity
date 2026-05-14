@@ -1548,10 +1548,6 @@ MonoBehaviour:
   HandAnim: {fileID: 1569394126}
   chipModel: {fileID: 11400000, guid: be697d1a6d976b240a3ebf3cc203baed, type: 2}
   enemy: {fileID: 370539981}
-  audio: {fileID: 1932078444}
-  Spinning: {fileID: 8300000, guid: e3fbc9f5272baeb46bcfc05cf05746f7, type: 3}
-  Failed: {fileID: 8300000, guid: bbc26ff41801beb42a0add7ac7ffaddc, type: 3}
-  Success: {fileID: 8300000, guid: c1e5a5890133ffe468444faa1ac3a9bd, type: 3}
 --- !u!82 &1932078444
 AudioSource:
   m_ObjectHideFlags: 0
