@@ -16,7 +16,7 @@ public class CoinDrag : MonoBehaviour
     private Vector3 _originalPosition;
     private Vector3 _originalScale;
     public static bool _isDragging = false;
-    private static int coinCount = 0;
+    private int coinCount = 0;
     private Coroutine _scaleCoroutine;
     private Coroutine _moveCoroutine;
 
