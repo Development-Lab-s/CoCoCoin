@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3419bb83d854022a4d7cf1c97428c67, type: 3}
   m_Name: Laverage
   m_EditorClassIdentifier: 
-  headChance: 51
-  headChipMotion: 1
-  tailChipMotion: 0
+  headChance: 100
+  headChipMotion: 0
+  tailChipMotion: 1
   type: 0

@@ -9,10 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33a05787653d4edc8cf76bdd4fb769f5, type: 3}
-  m_Name: Long
+  m_Script: {fileID: 11500000, guid: 5f399dc2f7ad4a97b4dd862e2a5cd740, type: 3}
+  m_Name: Current choice
   m_EditorClassIdentifier: 
-  headChance: 51
-  headChipMotion: 0
-  tailChipMotion: -10
-  type: 0
+  choiceData: {fileID: 11400000, guid: 4e5d69b15fb5cc743ab07cb8ab80d6f2, type: 2}

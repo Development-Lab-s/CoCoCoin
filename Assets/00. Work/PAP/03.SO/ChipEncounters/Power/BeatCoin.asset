@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: BeatCoin
   m_EditorClassIdentifier: 
   headChance: 51
-  headChipMotion: 1
+  headChipMotion: 0
   tailChipMotion: -10
   type: 0

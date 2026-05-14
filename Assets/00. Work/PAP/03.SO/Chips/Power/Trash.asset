@@ -12,15 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ab833fd37e42eb48b8fbb686d40d810, type: 3}
   m_Name: Trash
   m_EditorClassIdentifier: 
-  Name: "2X \uB808\uBC84\uB9AC\uC9C0"
+  Name: "\uC0C1\uC7A5\uD3D0\uC9C0"
   Description: "<color=#999999>[50% \uC55E\uBA74]</color>\n<color=#FF0000>\uD53C\uD574\uB97C
-    25</color> \uC90D\uB2C8\uB2E4.\n\uD53C\uD574 \uC99D\uAC00\uB97C 0\uC73C\uB85C
-    \uB9CC\uB4ED\uB2C8\uB2E4. \n\n<color=#999999>[50% \uB4B7\uBA74]</color>\n\uD798\uC744
-    \uB450 \uBC30\uB85C \uB9CC\uB4ED\uB2C8\uB2E4."
+    20</color> \uC90D\uB2C8\uB2E4.\n\uCE69\uC744 \uBAA8\uB450 \uBC84\uB9BD\uB2C8\uB2E4.\n\n<color=#999999>[50%
+    \uB4B7\uBA74]</color>\n\uD798 +5"
   Sprite: {fileID: -9214543398606170885, guid: 56db09fc515fafb4091a57dbd22bf2ed, type: 3}
   SpriteOnInventory: {fileID: -4657867357250399949, guid: 56db09fc515fafb4091a57dbd22bf2ed, type: 3}
   SpriteOnStack: {fileID: -2489945409775083033, guid: 268b23955f342cb4d8d53bd624bcb431, type: 3}
   SpriteOnBack: {fileID: -5424771539945053371, guid: 56db09fc515fafb4091a57dbd22bf2ed, type: 3}
-  ChipEncounter: {fileID: 11400000, guid: cab82fd19d1f2da40a00aeb3ab76f15a, type: 2}
+  ChipEncounter: {fileID: 11400000, guid: 7ea4e09b75a03f84f886544828de7dc9, type: 2}
   spriteLibrary: {fileID: 7108339969198208228, guid: e7ec5a0c439bc6344bf0c1fc3654560a, type: 3}
   rarity: 1
