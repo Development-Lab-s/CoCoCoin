@@ -326,4 +326,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myData: {fileID: 0}
-  enemySetting: {fileID: 0}
+  enemySetting: {fileID: 11400000, guid: 414864045450ba443903182cfda8bf17, type: 2}

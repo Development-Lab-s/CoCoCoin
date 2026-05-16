@@ -251,23 +251,47 @@ public class MapManager : MonoBehaviour
         node.type = type;
         node.mapType = savedMapType;
         node.roomShapeType = savedShapeIndex;
-        List<EnemyData> targetList = null;
-        switch (currentFloor)
+        if (type == RoomType.Fight)
         {
-            case 1:
-                targetList = enemyDataFloor1;
-                break;
-            case 2:
-                targetList = enemyDataFloor2;
-                break;
-            case 3:
-                targetList = enemyDataFloor3;
-                break;
-            default:
-                targetList = enemyDataFloor1;
-                break;
+            List<EnemyData> targetList = null;
+            switch (currentFloor)
+            {
+                case 1:
+                    targetList = enemyDataFloor1;
+                    break;
+                case 2:
+                    targetList = enemyDataFloor2;
+                    break;
+                case 3:
+                    targetList = enemyDataFloor3;
+                    break;
+                default:
+                    targetList = enemyDataFloor1;
+                    break;
+            }
+            node.enemyData = targetList[Random.Range(0, targetList.Count)];
         }
-        node.enemyData = targetList[Random.Range(0, targetList.Count)];
+        else if(type == RoomType.Boss)
+        {
+            EnemyData target= null;
+            switch (currentFloor)
+            {
+                case 1:
+                    target = bossEnemyFloor1;
+                    break;
+                case 2:
+                    target = bossEnemyFloor2;
+                    break;
+                case 3:
+                    target = bossEnemyFloor3;
+                    break;
+                default:
+                    target = bossEnemyFloor1;
+                    break;
+            }
+            node.enemyData = target;
+        }
+
 
         // [수정] 스폰룸이거나 이미 클리어 리스트에 있다면 true
         if (type == RoomType.Spawn || clearedNodeIDs.Contains(id))

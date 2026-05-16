@@ -59,9 +59,8 @@ public class Room : MonoBehaviour
                 break;
 
             case RoomType.Boss:
-                Debug.Log("보스 전투 시작!");
-                // 실제로는 보스 전투 씬으로 보낸 뒤, 승리하고 돌아와서 이 함수가 실행되어야 함
-                StartCoroutine(BossClearRoutine());
+                enemySetting.Data = myData.enemyData;
+                _ = SceneManageHandler.instance.MoveScene(3);
                 break;
 
             case RoomType.Huge:
