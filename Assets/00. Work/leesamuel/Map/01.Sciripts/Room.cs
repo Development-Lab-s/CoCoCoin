@@ -61,7 +61,12 @@ public class Room : MonoBehaviour
             case RoomType.Boss:
                 enemySetting.Data = myData.enemyData;
                 _ = SceneManageHandler.instance.MoveScene(3);
-                break;
+                MapManager mapMgr = FindObjectOfType<MapManager>();
+                if (mapMgr != null)
+                {
+                    mapMgr.OnBossCleared();
+                }
+                break;;
 
             case RoomType.Huge:
                 Debug.Log("넓은 방에 들어왔습니다.");
@@ -94,20 +99,5 @@ public class Room : MonoBehaviour
             }
         }
     }
-
-    [Obsolete("Obsolete")]
-    private IEnumerator BossClearRoutine()
-    {
-        // 전투 연출이나 승리 대기 시간 (임시)
-        yield return new WaitForSeconds(1.5f);
-
-        SetCleared(); // 현재 방 클리어 처리
-
-        // 맵 매니저를 찾아서 다음 층 로직 실행
-        MapManager mapMgr = FindObjectOfType<MapManager>();
-        if (mapMgr != null)
-        {
-            mapMgr.OnBossCleared();
-        }
-    }
+    
 }

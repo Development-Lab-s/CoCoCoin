@@ -57,8 +57,10 @@ public class MapManager : MonoBehaviour
         {
             savedMapType = Random.Range(0, 3); // 0 또는 1
             savedShapeIndex = Random.Range(0, 3);
+            saveMapId = null;
             clearedNodeIDs = new List<string>();
             isInitialized = true; // 이 변수를 true로 바꿔야 다음 씬 로드 때 랜덤이 안 돌아갑니다.
+            GameData.instance.playerCurrentHp = 100;
         }
     }
 
@@ -347,16 +349,11 @@ public class MapManager : MonoBehaviour
             // 맵 데이터 초기화 (클리어 기록 삭제)
             clearedNodeIDs.Clear();
             isInitialized = false; // 새로운 맵 타입을 정하기 위해 초기화
-
-            // 현재 맵 씬을 다시 로드 (그러면 Start가 실행되며 새 맵이 생성됨)
-            UnityEngine.SceneManagement.SceneManager.LoadScene(
-                UnityEngine.SceneManagement.SceneManager.GetActiveScene().name
-            );
         }
         else
         {
             // 마지막 층 보스를 깼다면 엔딩으로
-            Debug.Log("축하합니다! 모든 층을 클리어하여 엔딩 씬으로 이동합니다.");
+            
             //UnityEngine.SceneManagement.SceneManager.LoadScene("EndingScene");
         }
     }

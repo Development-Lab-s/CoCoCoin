@@ -13,4 +13,6 @@ public class EnemyData : ScriptableObject
     
     public List<string> patternName = new List<string>();
     public List<int> damage = new List<int>();
+
+    public bool isLast = false;
 }
