@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class Descripton : MonoBehaviour
 {
+    public static Descripton instance;
     TextMeshProUGUI _descriptionPanel_Name;
     TextMeshProUGUI _descriptionPanel_Description;
     Image _descriptionPanel_Sprite;
@@ -19,9 +20,11 @@ public class Descripton : MonoBehaviour
     Vector3 _pos;
     private void Awake()
     {
+        if (instance == null)
+            instance = this;
         _descriptionPanel.gameObject.SetActive(false);
-        _descriptionPanel_Name = _descriptionPanel.GetChild(0).GetComponent<TextMeshProUGUI>();
-        _descriptionPanel_Description = _descriptionPanel.GetChild(1).GetComponent<TextMeshProUGUI>();
+        _descriptionPanel_Name = _descriptionPanel.GetChild(1).GetComponent<TextMeshProUGUI>();
+        _descriptionPanel_Description = _descriptionPanel.GetChild(0).GetComponent<TextMeshProUGUI>();
         _descriptionPanel_Sprite = _descriptionPanel.GetChild(2).GetComponent<Image>();
     }
     private void FixedUpdate()
@@ -43,10 +46,21 @@ public class Descripton : MonoBehaviour
     {
         if (_descriptionPanel != null)
         {
-            _descriptionPanel_Name.text = _itemManager._sellitem[itemNumber-1].Description;
-            _descriptionPanel_Description.text = _itemManager._sellitem[itemNumber-1].Name;
+            _descriptionPanel_Name.text = _itemManager._sellitem[itemNumber-1].Name;
+            _descriptionPanel_Description.text = _itemManager._sellitem[itemNumber-1].Description;
             _descriptionPanel_Sprite.sprite = _itemManager._sellitem[itemNumber-1].Sprite;
         }
+        
+    }
+
+    public void SetSlotDes(InventoryItemSO item)
+    {
+        if (_descriptionPanel != null)
+        {
+            _descriptionPanel_Name.text = item.Name;
+            _descriptionPanel_Description.text = item.Description;
+            _descriptionPanel_Sprite.sprite = item.Sprite;
+         }
     }
 
 

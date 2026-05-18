@@ -86,6 +86,7 @@ public class ItemManager : MonoBehaviour
             if (_ticketManager._ticket >= 3)
             {
                 _ticketManager._ticket -= 3;
+                
                // _inventory.inventoryItemList.Add(_sellitem[itemNumber - 1]);
             }
             else
@@ -122,6 +123,7 @@ public class ItemManager : MonoBehaviour
             }
                 
         }
+        _ticketManager.SetTicketText();
         _inventory.inventoryItemList.Add(_sellitem[itemNumber - 1]);
         inventoryUI.ScrollView();
         Debug.Log(_sellitem[itemNumber - 1].Name + "구매완료");

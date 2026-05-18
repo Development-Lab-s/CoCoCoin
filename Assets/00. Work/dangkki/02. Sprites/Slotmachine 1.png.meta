@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1102550864b791743b65ba5b5c6c2c5e
+guid: 014e308263f57f84fb90d4399531594a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 497600754102043572
-    second: Table_0
+      213: 3825689542339221719
+    second: Slotmachine 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Table_0
+      name: Slotmachine 1_0
       rect:
         serializedVersion: 2
-        x: 1011
-        y: 69
-        width: 1311
-        height: 536
+        x: 41
+        y: 0
+        width: 304
+        height: 415
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4b3083cdf35d7e600800000000000000
-      internalID: 497600754102043572
+      spriteID: 7d85e009e54971530800000000000000
+      internalID: 3825689542339221719
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Table_0: 497600754102043572
+      Slotmachine 1_0: 3825689542339221719
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

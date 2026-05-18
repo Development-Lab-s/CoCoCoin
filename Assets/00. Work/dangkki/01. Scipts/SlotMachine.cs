@@ -21,10 +21,12 @@ public class SlotMachine : MonoBehaviour
     }
     public void StartSpin()
     {
+        
         if (TicketManager.instance._spins > 0)
         {
             button.enabled = false;
             TicketManager.instance._spins -= 1;
+            TicketManager.instance.SetSpinText();
             StartCoroutine(Delay());
         }
         else

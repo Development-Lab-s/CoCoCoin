@@ -1,11 +1,12 @@
 using System;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEditor.Rendering;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class ItemBox : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
+public class ItemBox : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerEnterHandler, IPointerExitHandler
 {
     public Image itemImage;
     [SerializeField] private Image iconImage;
@@ -14,6 +15,7 @@ public class ItemBox : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragH
     public InventoryItemSO item {get; private set;}
     public GameObject dragGhost;
     private Canvas rootcanvas;
+    public Canvas shopCanvas;
     
     
 
@@ -26,7 +28,7 @@ public class ItemBox : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragH
     {
         item = itemData;
         iconImage.sprite = itemData.Sprite;
-        nameText.text = itemData.rarity.ToString();
+        nameText.text = itemData.name.ToString();
         switch (itemData.rarity.ToString())
         {
             case "Common":
@@ -52,7 +54,7 @@ public class ItemBox : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragH
         img.raycastTarget = false;
 
         RectTransform rect = dragGhost.GetComponent<RectTransform>();
-        rect.sizeDelta = new Vector2(120, 120);
+        rect.sizeDelta = new Vector2(220, 220);
 
         iconImage.color = new Color(1, 1, 1, 0.4f);
     }
@@ -78,6 +80,17 @@ public class ItemBox : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragH
     {
         if (dragGhost != null)
             Destroy(dragGhost);
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        Descripton.instance.OnHover();
+        Descripton.instance.SetSlotDes(item);
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        Descripton.instance.OnExit();
     }
 }
 
