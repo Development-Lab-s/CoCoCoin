@@ -1,0 +1,2223 @@
+fileFormatVersion: 2
+guid: 326edcef18837c64da0fa0d6a343fd3c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1194607132802647243
+    second: SilverCoin UpsideDown_0
+  - first:
+      213: 8254995861285484303
+    second: SilverCoin UpsideDown_1
+  - first:
+      213: 4295081165738602833
+    second: SilverCoin UpsideDown_2
+  - first:
+      213: -1046049448493084940
+    second: SilverCoin UpsideDown_3
+  - first:
+      213: -5553538667317593444
+    second: SilverCoin UpsideDown_4
+  - first:
+      213: -3167540119932442848
+    second: SilverCoin UpsideDown_5
+  - first:
+      213: 760087322337796589
+    second: SilverCoin UpsideDown_6
+  - first:
+      213: -1775372412693369319
+    second: SilverCoin UpsideDown_7
+  - first:
+      213: 6129519867480578573
+    second: SilverCoin UpsideDown_8
+  - first:
+      213: -2376847680831221155
+    second: SilverCoin UpsideDown_9
+  - first:
+      213: 5221665972942228351
+    second: SilverCoin UpsideDown_10
+  - first:
+      213: -6126181994576389312
+    second: SilverCoin UpsideDown_11
+  - first:
+      213: 7001347172504770363
+    second: SilverCoin UpsideDown_12
+  - first:
+      213: -4550130646943194015
+    second: SilverCoin UpsideDown_13
+  - first:
+      213: 9108113281962968763
+    second: SilverCoin UpsideDown_14
+  - first:
+      213: -3600530623110546035
+    second: SilverCoin UpsideDown_15
+  - first:
+      213: 336366483017042218
+    second: SilverCoin UpsideDown_16
+  - first:
+      213: -5057928300635868042
+    second: SilverCoin UpsideDown_17
+  - first:
+      213: -6623644735454612718
+    second: SilverCoin UpsideDown_18
+  - first:
+      213: 1056741947728292334
+    second: SilverCoin UpsideDown_19
+  - first:
+      213: 4393925199067976880
+    second: SilverCoin UpsideDown_20
+  - first:
+      213: 4384637742282653325
+    second: SilverCoin UpsideDown_21
+  - first:
+      213: -2401798242249239741
+    second: SilverCoin UpsideDown_22
+  - first:
+      213: -6947089432560455251
+    second: SilverCoin UpsideDown_23
+  - first:
+      213: -6185428559586916263
+    second: SilverCoin UpsideDown_24
+  - first:
+      213: -5872647080451026059
+    second: SilverCoin UpsideDown_25
+  - first:
+      213: -6811214593511475250
+    second: SilverCoin UpsideDown_26
+  - first:
+      213: 3692333282563815427
+    second: SilverCoin UpsideDown_27
+  - first:
+      213: -7822942641802818823
+    second: SilverCoin UpsideDown_28
+  - first:
+      213: 1759186323612066876
+    second: SilverCoin UpsideDown_29
+  - first:
+      213: 8564963595901010909
+    second: SilverCoin UpsideDown_30
+  - first:
+      213: 6349897475340541302
+    second: SilverCoin UpsideDown_31
+  - first:
+      213: -2701539832625912704
+    second: SilverCoin UpsideDown_32
+  - first:
+      213: 1325569760192818229
+    second: SilverCoin UpsideDown_33
+  - first:
+      213: -5868293157530569389
+    second: SilverCoin UpsideDown_34
+  - first:
+      213: 155916440700228519
+    second: SilverCoin UpsideDown_35
+  - first:
+      213: 8221652666946828040
+    second: SilverCoin UpsideDown_36
+  - first:
+      213: 5190910544526995253
+    second: SilverCoin UpsideDown_37
+  - first:
+      213: 28444853139728906
+    second: SilverCoin UpsideDown_38
+  - first:
+      213: 7253318679206618007
+    second: SilverCoin UpsideDown_39
+  - first:
+      213: 2636538857962628442
+    second: SilverCoin UpsideDown_40
+  - first:
+      213: 5834754715542899221
+    second: SilverCoin UpsideDown_41
+  - first:
+      213: -8298517612616701937
+    second: SilverCoin UpsideDown_42
+  - first:
+      213: -4680477545271825188
+    second: SilverCoin UpsideDown_43
+  - first:
+      213: -3293595557285217236
+    second: SilverCoin UpsideDown_44
+  - first:
+      213: 215597894259386801
+    second: SilverCoin UpsideDown_45
+  - first:
+      213: -1548450740301623568
+    second: SilverCoin UpsideDown_46
+  - first:
+      213: -949534232197256466
+    second: SilverCoin UpsideDown_47
+  - first:
+      213: -7135472594785091685
+    second: SilverCoin UpsideDown_48
+  - first:
+      213: 7664885562934100103
+    second: SilverCoin UpsideDown_49
+  - first:
+      213: -2121140309979354532
+    second: SilverCoin UpsideDown_50
+  - first:
+      213: 4098439135458131185
+    second: SilverCoin UpsideDown_51
+  - first:
+      213: -5291339486518564896
+    second: SilverCoin UpsideDown_52
+  - first:
+      213: 5952785505209060144
+    second: SilverCoin UpsideDown_53
+  - first:
+      213: -7152172696097751274
+    second: SilverCoin UpsideDown_54
+  - first:
+      213: 7357511319676491207
+    second: SilverCoin UpsideDown_55
+  - first:
+      213: -1560179941560769261
+    second: SilverCoin UpsideDown_56
+  - first:
+      213: -7044525144436569058
+    second: SilverCoin UpsideDown_57
+  - first:
+      213: 7276579286205210468
+    second: SilverCoin UpsideDown_58
+  - first:
+      213: -4888980807625062402
+    second: SilverCoin UpsideDown_59
+  - first:
+      213: -8873127069004896276
+    second: SilverCoin UpsideDown_60
+  - first:
+      213: -8451956678275129990
+    second: SilverCoin UpsideDown_61
+  - first:
+      213: -5333873350099373647
+    second: SilverCoin UpsideDown_62
+  - first:
+      213: 5375718638960824359
+    second: SilverCoin UpsideDown_63
+  - first:
+      213: 3994928474051982757
+    second: SilverCoin UpsideDown_64
+  - first:
+      213: -6177794085224757600
+    second: SilverCoin UpsideDown_65
+  - first:
+      213: -8992415469540360345
+    second: SilverCoin UpsideDown_66
+  - first:
+      213: -4036767038405357359
+    second: SilverCoin UpsideDown_67
+  - first:
+      213: 2991973951137485997
+    second: SilverCoin UpsideDown_68
+  - first:
+      213: -6453762918554801623
+    second: SilverCoin UpsideDown_69
+  - first:
+      213: -8426645666493577554
+    second: SilverCoin UpsideDown_70
+  - first:
+      213: -6021477541339366023
+    second: SilverCoin UpsideDown_71
+  - first:
+      213: 4618167386828565070
+    second: SilverCoin UpsideDown_72
+  - first:
+      213: -9118308317524708810
+    second: SilverCoin UpsideDown_73
+  - first:
+      213: 7873637292986101812
+    second: SilverCoin UpsideDown_74
+  - first:
+      213: -6909666116063089925
+    second: SilverCoin UpsideDown_75
+  - first:
+      213: -101928413488627639
+    second: SilverCoin UpsideDown_76
+  - first:
+      213: 5484443979699898131
+    second: SilverCoin UpsideDown_77
+  - first:
+      213: -2896552797571051013
+    second: SilverCoin UpsideDown_78
+  - first:
+      213: -7737554996559178240
+    second: SilverCoin UpsideDown_79
+  - first:
+      213: 3458812695835350559
+    second: SilverCoin UpsideDown_80
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b762b5427eb6fe0800000000000000
+      internalID: -1194607132802647243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_1
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f07bd3ebff2af8270800000000000000
+      internalID: 8254995861285484303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_2
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 151f15d50913b9b30800000000000000
+      internalID: 4295081165738602833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_3
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe831d919fab71f0800000000000000
+      internalID: -1046049448493084940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_4
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a7328810edde2b0800000000000000
+      internalID: -5553538667317593444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_5
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 027e0a31b03aa04d0800000000000000
+      internalID: -3167540119932442848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_6
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1e83e746f5c8a00800000000000000
+      internalID: 760087322337796589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_7
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e226d623c9c57e0800000000000000
+      internalID: -1775372412693369319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_8
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a11e808dd601550800000000000000
+      internalID: 6129519867480578573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5218da90adb30fd0800000000000000
+      internalID: -2376847680831221155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_10
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b47fc6985177840800000000000000
+      internalID: 5221665972942228351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_11
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04b51ef0fed6bfaa0800000000000000
+      internalID: -6126181994576389312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_12
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37155e9828c92160800000000000000
+      internalID: 7001347172504770363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_13
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1642553c840bad0c0800000000000000
+      internalID: -4550130646943194015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_14
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb68b69e5c4866e70800000000000000
+      internalID: 9108113281962968763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_15
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d74968978580ec0800000000000000
+      internalID: -3600530623110546035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_16
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a29049eb8830ba400800000000000000
+      internalID: 336366483017042218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_17
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67434353201aec9b0800000000000000
+      internalID: -5057928300635868042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21377d8e4361414a0800000000000000
+      internalID: -6623644735454612718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_19
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9699dd33d4aae00800000000000000
+      internalID: 1056741947728292334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_20
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b4951440bb5afc30800000000000000
+      internalID: 4393925199067976880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_21
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e3789bbcc59dc30800000000000000
+      internalID: 4384637742282653325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_22
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 343939459391baed0800000000000000
+      internalID: -2401798242249239741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_23
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da13d55e7faf69f90800000000000000
+      internalID: -6947089432560455251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_24
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95804423f71f82aa0800000000000000
+      internalID: -6185428559586916263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_25
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5735b7e489a208ea0800000000000000
+      internalID: -5872647080451026059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_26
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec7bac02a64b971a0800000000000000
+      internalID: -6811214593511475250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3087193ce8dcd3330800000000000000
+      internalID: 3692333282563815427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_28
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa46117d135f6390800000000000000
+      internalID: -7822942641802818823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_29
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c346f9804a2e96810800000000000000
+      internalID: 1759186323612066876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_30
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd305d7e20ddcd670800000000000000
+      internalID: 8564963595901010909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_31
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d92d15c1e5f1850800000000000000
+      internalID: 6349897475340541302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_32
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 084a3c9e5d3328ad0800000000000000
+      internalID: -2701539832625912704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_33
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53cea497cae556210800000000000000
+      internalID: 1325569760192818229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_34
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 355f88bf672af8ea0800000000000000
+      internalID: -5868293157530569389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_35
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a3949e3d2de92200800000000000000
+      internalID: 155916440700228519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80732085a8d291270800000000000000
+      internalID: 8221652666946828040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_37
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f6c5b33a1d90840800000000000000
+      internalID: 5190910544526995253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_38
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ae417717e056000800000000000000
+      internalID: 28444853139728906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_39
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 793e0d4b8e6f8a460800000000000000
+      internalID: 7253318679206618007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_40
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5560615f1ed69420800000000000000
+      internalID: 2636538857962628442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_41
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a487bff7639f050800000000000000
+      internalID: 5834754715542899221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_42
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08a8a1e23eb5dc80800000000000000
+      internalID: -8298517612616701937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_43
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc61e6887a9b0fb0800000000000000
+      internalID: -4680477545271825188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_44
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2cb5367a4cca42d0800000000000000
+      internalID: -3293595557285217236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b927ad7425fdf200800000000000000
+      internalID: 215597894259386801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_46
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe8128714cc28ae0800000000000000
+      internalID: -1548450740301623568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_47
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea2fcb85a392d2f0800000000000000
+      internalID: -949534232197256466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_48
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9fbc4bfa75b9fc90800000000000000
+      internalID: -7135472594785091685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_49
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78005b62fc42f5a60800000000000000
+      internalID: 7664885562934100103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_50
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a2be850223092e0800000000000000
+      internalID: -2121140309979354532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_51
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc7a82eda490e830800000000000000
+      internalID: 4098439135458131185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_52
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e7201095c26196b0800000000000000
+      internalID: -5291339486518564896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_53
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b8416b0ea8c9250800000000000000
+      internalID: 5952785505209060144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f78d4a3d06ebc90800000000000000
+      internalID: -7152172696097751274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_55
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c59b3040912b1660800000000000000
+      internalID: 7357511319676491207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_56
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 315a49dfb90295ae0800000000000000
+      internalID: -1560179941560769261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_57
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c0d8264b1dc3e90800000000000000
+      internalID: -7044525144436569058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_58
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f1a3ece4a9bf460800000000000000
+      internalID: 7276579286205210468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_59
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef74ecfbbd9d62cb0800000000000000
+      internalID: -4888980807625062402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_60
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce76f0d41f15cd480800000000000000
+      internalID: -8873127069004896276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_61
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d9b667e2e94ba80800000000000000
+      internalID: -8451956678275129990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_62
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1776ab2764af5b0800000000000000
+      internalID: -5333873350099373647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 720d4bfce936a9a40800000000000000
+      internalID: 5375718638960824359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_64
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 120
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a536f6f746d07730800000000000000
+      internalID: 3994928474051982757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_65
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 120
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a64ba6c201144aa0800000000000000
+      internalID: -6177794085224757600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_66
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 120
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76fb15936c5843380800000000000000
+      internalID: -8992415469540360345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_67
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 120
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d0d7da24c58af7c0800000000000000
+      internalID: -4036767038405357359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_68
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 120
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da495c6d470a58920800000000000000
+      internalID: 2991973951137485997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_69
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 120
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ae3fea1d0af66a0800000000000000
+      internalID: -6453762918554801623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_70
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 120
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6c090a96a8e0b80800000000000000
+      internalID: -8426645666493577554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_71
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 120
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97d797d441a6f6ca0800000000000000
+      internalID: -6021477541339366023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4ae53d25c6071040800000000000000
+      internalID: 4618167386828565070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_73
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 0
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 632337565e2457180800000000000000
+      internalID: -9118308317524708810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_74
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 0
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43074b2d667c44d60800000000000000
+      internalID: 7873637292986101812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_75
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 0
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfaa183c64feb10a0800000000000000
+      internalID: -6909666116063089925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_76
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 0
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940cd71e5a0e59ef0800000000000000
+      internalID: -101928413488627639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_77
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 0
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317ca80edb8ac1c40800000000000000
+      internalID: 5484443979699898131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_78
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 0
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf11d93c3906dc7d0800000000000000
+      internalID: -2896552797571051013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_79
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 0
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0069a08d9beae9490800000000000000
+      internalID: -7737554996559178240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin UpsideDown_80
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 0
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1690ef32db200030800000000000000
+      internalID: 3458812695835350559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d1e0a4b6b0b701a4097e9a5bd4d49c6d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SilverCoin UpsideDown_0: -1194607132802647243
+      SilverCoin UpsideDown_1: 8254995861285484303
+      SilverCoin UpsideDown_10: 5221665972942228351
+      SilverCoin UpsideDown_11: -6126181994576389312
+      SilverCoin UpsideDown_12: 7001347172504770363
+      SilverCoin UpsideDown_13: -4550130646943194015
+      SilverCoin UpsideDown_14: 9108113281962968763
+      SilverCoin UpsideDown_15: -3600530623110546035
+      SilverCoin UpsideDown_16: 336366483017042218
+      SilverCoin UpsideDown_17: -5057928300635868042
+      SilverCoin UpsideDown_18: -6623644735454612718
+      SilverCoin UpsideDown_19: 1056741947728292334
+      SilverCoin UpsideDown_2: 4295081165738602833
+      SilverCoin UpsideDown_20: 4393925199067976880
+      SilverCoin UpsideDown_21: 4384637742282653325
+      SilverCoin UpsideDown_22: -2401798242249239741
+      SilverCoin UpsideDown_23: -6947089432560455251
+      SilverCoin UpsideDown_24: -6185428559586916263
+      SilverCoin UpsideDown_25: -5872647080451026059
+      SilverCoin UpsideDown_26: -6811214593511475250
+      SilverCoin UpsideDown_27: 3692333282563815427
+      SilverCoin UpsideDown_28: -7822942641802818823
+      SilverCoin UpsideDown_29: 1759186323612066876
+      SilverCoin UpsideDown_3: -1046049448493084940
+      SilverCoin UpsideDown_30: 8564963595901010909
+      SilverCoin UpsideDown_31: 6349897475340541302
+      SilverCoin UpsideDown_32: -2701539832625912704
+      SilverCoin UpsideDown_33: 1325569760192818229
+      SilverCoin UpsideDown_34: -5868293157530569389
+      SilverCoin UpsideDown_35: 155916440700228519
+      SilverCoin UpsideDown_36: 8221652666946828040
+      SilverCoin UpsideDown_37: 5190910544526995253
+      SilverCoin UpsideDown_38: 28444853139728906
+      SilverCoin UpsideDown_39: 7253318679206618007
+      SilverCoin UpsideDown_4: -5553538667317593444
+      SilverCoin UpsideDown_40: 2636538857962628442
+      SilverCoin UpsideDown_41: 5834754715542899221
+      SilverCoin UpsideDown_42: -8298517612616701937
+      SilverCoin UpsideDown_43: -4680477545271825188
+      SilverCoin UpsideDown_44: -3293595557285217236
+      SilverCoin UpsideDown_45: 215597894259386801
+      SilverCoin UpsideDown_46: -1548450740301623568
+      SilverCoin UpsideDown_47: -949534232197256466
+      SilverCoin UpsideDown_48: -7135472594785091685
+      SilverCoin UpsideDown_49: 7664885562934100103
+      SilverCoin UpsideDown_5: -3167540119932442848
+      SilverCoin UpsideDown_50: -2121140309979354532
+      SilverCoin UpsideDown_51: 4098439135458131185
+      SilverCoin UpsideDown_52: -5291339486518564896
+      SilverCoin UpsideDown_53: 5952785505209060144
+      SilverCoin UpsideDown_54: -7152172696097751274
+      SilverCoin UpsideDown_55: 7357511319676491207
+      SilverCoin UpsideDown_56: -1560179941560769261
+      SilverCoin UpsideDown_57: -7044525144436569058
+      SilverCoin UpsideDown_58: 7276579286205210468
+      SilverCoin UpsideDown_59: -4888980807625062402
+      SilverCoin UpsideDown_6: 760087322337796589
+      SilverCoin UpsideDown_60: -8873127069004896276
+      SilverCoin UpsideDown_61: -8451956678275129990
+      SilverCoin UpsideDown_62: -5333873350099373647
+      SilverCoin UpsideDown_63: 5375718638960824359
+      SilverCoin UpsideDown_64: 3994928474051982757
+      SilverCoin UpsideDown_65: -6177794085224757600
+      SilverCoin UpsideDown_66: -8992415469540360345
+      SilverCoin UpsideDown_67: -4036767038405357359
+      SilverCoin UpsideDown_68: 2991973951137485997
+      SilverCoin UpsideDown_69: -6453762918554801623
+      SilverCoin UpsideDown_7: -1775372412693369319
+      SilverCoin UpsideDown_70: -8426645666493577554
+      SilverCoin UpsideDown_71: -6021477541339366023
+      SilverCoin UpsideDown_72: 4618167386828565070
+      SilverCoin UpsideDown_73: -9118308317524708810
+      SilverCoin UpsideDown_74: 7873637292986101812
+      SilverCoin UpsideDown_75: -6909666116063089925
+      SilverCoin UpsideDown_76: -101928413488627639
+      SilverCoin UpsideDown_77: 5484443979699898131
+      SilverCoin UpsideDown_78: -2896552797571051013
+      SilverCoin UpsideDown_79: -7737554996559178240
+      SilverCoin UpsideDown_8: 6129519867480578573
+      SilverCoin UpsideDown_80: 3458812695835350559
+      SilverCoin UpsideDown_9: -2376847680831221155
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
