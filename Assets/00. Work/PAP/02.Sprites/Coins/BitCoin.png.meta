@@ -1,0 +1,1521 @@
+fileFormatVersion: 2
+guid: 057edcc3ca4c38c4ba825c445affc912
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6270953770400647376
+    second: 14_0
+  - first:
+      213: 4394673570059883492
+    second: 14_1
+  - first:
+      213: 8820753214136849641
+    second: 14_2
+  - first:
+      213: 5012592636484453320
+    second: 14_3
+  - first:
+      213: -1161698649178992294
+    second: 14_4
+  - first:
+      213: -4881893219409772905
+    second: 14_5
+  - first:
+      213: -4687894121768713983
+    second: 14_6
+  - first:
+      213: -1799597369187350353
+    second: 14_7
+  - first:
+      213: -1967430008469538281
+    second: 14_8
+  - first:
+      213: 4384072003004625500
+    second: 14_9
+  - first:
+      213: 5139420355458994968
+    second: 14_10
+  - first:
+      213: -6843661051750638908
+    second: 14_11
+  - first:
+      213: 6989942963304680650
+    second: 14_12
+  - first:
+      213: -614817545678289052
+    second: 14_13
+  - first:
+      213: -4483750691521899449
+    second: 14_14
+  - first:
+      213: -9088770682773378653
+    second: 14_15
+  - first:
+      213: -628654604895864472
+    second: 14_16
+  - first:
+      213: 5369351281638274315
+    second: 14_17
+  - first:
+      213: 6950358170895609674
+    second: 14_18
+  - first:
+      213: -6073541298900592052
+    second: 14_19
+  - first:
+      213: -807097900578307510
+    second: 14_20
+  - first:
+      213: -482957412732153055
+    second: 14_21
+  - first:
+      213: 6016222359124418582
+    second: 14_22
+  - first:
+      213: 610850884735108609
+    second: 14_23
+  - first:
+      213: -4437054631301841785
+    second: 14_24
+  - first:
+      213: -512058805035820117
+    second: 14_25
+  - first:
+      213: 8740576119834037672
+    second: 14_26
+  - first:
+      213: 8697051976923664703
+    second: 14_27
+  - first:
+      213: -2258402514305115864
+    second: 14_28
+  - first:
+      213: 2899807182266860356
+    second: 14_29
+  - first:
+      213: 1049404464757676155
+    second: 14_30
+  - first:
+      213: 2445857745062899708
+    second: 14_31
+  - first:
+      213: -2442888134853942200
+    second: 14_32
+  - first:
+      213: 2207584607774863531
+    second: 14_33
+  - first:
+      213: 1188163833497446422
+    second: 14_34
+  - first:
+      213: -6937748620792578908
+    second: 14_35
+  - first:
+      213: 1631327994892751412
+    second: 14_36
+  - first:
+      213: 1578227546645681966
+    second: 14_37
+  - first:
+      213: -722614316863874672
+    second: 14_38
+  - first:
+      213: -6284461456522852164
+    second: 14_39
+  - first:
+      213: -7392227127423205576
+    second: 14_40
+  - first:
+      213: -2689287821693810866
+    second: 14_41
+  - first:
+      213: -7444170699139178546
+    second: 14_42
+  - first:
+      213: -3806661900553579909
+    second: 14_43
+  - first:
+      213: 456970290313380092
+    second: 14_44
+  - first:
+      213: -4486417139411529765
+    second: 14_45
+  - first:
+      213: -7962235016857645924
+    second: 14_46
+  - first:
+      213: -3196415763279386946
+    second: 14_47
+  - first:
+      213: 2055723654381384389
+    second: 14_48
+  - first:
+      213: -5804630050648447809
+    second: 14_49
+  - first:
+      213: 2081352724108457641
+    second: 14_50
+  - first:
+      213: 2284488894371933814
+    second: 14_51
+  - first:
+      213: -2190030519504168377
+    second: 14_52
+  - first:
+      213: 6140481356074967570
+    second: 14_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BitCoin_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfec3060d95250e46b43ea15cfd25f06
+      internalID: -342805082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_1
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1433a59f793774d8fa6b0e64e143c4
+      internalID: 1051099964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_2
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0912ce60d45152429dbe3c5af087e42
+      internalID: -44468106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_3
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258825de906f9d548a414dffc962315d
+      internalID: -1989514433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_4
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8209e8d473b5f4640b57963fcd17eead
+      internalID: -703861125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_5
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a46786e89d8a694193ac6f61aad02b4
+      internalID: 1900539777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_6
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27323246adf57844dbc9a29cda60595a
+      internalID: 1826403236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_7
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a77b788f5b295408190f2a28ed9192
+      internalID: 507611544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_8
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c2bd6201e211442be1fbb7cbc61cc7
+      internalID: -1197481808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88fa91b1df800c449bdf2865c115f9c
+      internalID: -1937815524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_10
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4db387ac9b43e0498f9d21b9e23839f
+      internalID: 15190513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_11
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf966286a92179e4196a5900776a5de3
+      internalID: -2054972217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_12
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97d269ad7196874f9a0f413cd9f8342
+      internalID: 1968084860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_13
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c74aaad91f8544e80fb04d863e6c39
+      internalID: -1530904707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_14
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff8d463ddea44c44aaeebe5dc6a0c15
+      internalID: 8298751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_15
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf232b30cdc0e549ab200d276d4726c
+      internalID: 950425633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_16
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766891daca8890b4c8bedd4c87b4e759
+      internalID: -1274555389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_17
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a999c5cef04db7646a458217617ed391
+      internalID: 1715492357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba8420513d441874f905791ecf3ee995
+      internalID: -343599029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_19
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ead341f3ff32ec49a2033a12c76f2e6
+      internalID: -706208366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_20
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e475448d3604b53488e27b3a9ff94c73
+      internalID: -1885048132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_21
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efea4044ff512294eab7b74ce43c0396
+      internalID: -100114527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_22
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de15f0897a59f044a4c664d5f69d594
+      internalID: -1095445246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_23
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6677ac55bc0814aa5ffc45d700217e
+      internalID: 1156538729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_24
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdcce0bbaffe47143ae3f91aadef91fa
+      internalID: 1309542500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_25
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975328a966084f6439a64d4f0153f45c
+      internalID: -1233121420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_26
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe156a7f6635cd34c974c636e278fe2c
+      internalID: -626951721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53932214d4b2cb488f3cbb506de080f
+      internalID: -2144241874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_28
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4ea095e2b2d424f9c543081fbcf681
+      internalID: 1917294241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_29
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6cc56bb4580304bb0937e6c082e702
+      internalID: 1544023600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_30
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b388b74a87abfb44ab561b2411e53c1
+      internalID: 1437604491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_31
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02475ff9dae00804fbcea1a855252d6f
+      internalID: 1800579531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_32
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4112e1ea023491b40b9baa7d46d6473b
+      internalID: 64778096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_33
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee637118a3fc5244afce6f9fd3692b1
+      internalID: 1050830789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_34
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436b9eba2fbd90648850dfe59053fb71
+      internalID: 1236940759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_35
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08568ebf268b73543a1141277267cc2e
+      internalID: 734234274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63d4a57bb9d2aa4b8bb4f1b7a5c845c
+      internalID: 1793135101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_37
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33560af757a201c4cbb38a4ddeee0f5f
+      internalID: -861915037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_38
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac4994809cba7d46870764a191cf090
+      internalID: -210515857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_39
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb18c896039dabc4589d81fd5fca64f7
+      internalID: 294851919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_40
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d7f5d8031609e47825536eb3ce7e37
+      internalID: 1036654508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_41
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8fadfbf6a2124148afe4d8752fb1a05
+      internalID: 1774797386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_42
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a802b75b7975c74bbf318eeb08853c0
+      internalID: -726031371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_43
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84de0f77f8198e4784d4bbb1059672a
+      internalID: 830432972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_44
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d90129a30cdf1147805135f4e317647
+      internalID: -498312766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae4a2ec8f4c97e489797a66598e7472
+      internalID: 1830140576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_46
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc082c6f7592a564eada73377c6657b5
+      internalID: 1015120303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_47
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc6bf0461c6f3e43934324a47c25147
+      internalID: 188444890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_48
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca834146e1ad85409cdf12d081d51c1
+      internalID: 1354911485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_49
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58483e212b1201e488c6379a917c563b
+      internalID: 48991562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_50
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97808bd32695544db3c17d92c35124d
+      internalID: 1546237055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_51
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f910d65e316974397339cbfb4e6fff
+      internalID: -1332811101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_52
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2562c3244f57ae24db99a31a473634bc
+      internalID: -459073205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BitCoin_53
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4485ee2ef930cf24ca1a6a8f9905065b
+      internalID: 1552030206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5521bbfe9e58cb148b57d03d300c2cad
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BitCoin_0: -342805082
+      BitCoin_1: 1051099964
+      BitCoin_10: 15190513
+      BitCoin_11: -2054972217
+      BitCoin_12: 1968084860
+      BitCoin_13: -1530904707
+      BitCoin_14: 8298751
+      BitCoin_15: 950425633
+      BitCoin_16: -1274555389
+      BitCoin_17: 1715492357
+      BitCoin_18: -343599029
+      BitCoin_19: -706208366
+      BitCoin_2: -44468106
+      BitCoin_20: -1885048132
+      BitCoin_21: -100114527
+      BitCoin_22: -1095445246
+      BitCoin_23: 1156538729
+      BitCoin_24: 1309542500
+      BitCoin_25: -1233121420
+      BitCoin_26: -626951721
+      BitCoin_27: -2144241874
+      BitCoin_28: 1917294241
+      BitCoin_29: 1544023600
+      BitCoin_3: -1989514433
+      BitCoin_30: 1437604491
+      BitCoin_31: 1800579531
+      BitCoin_32: 64778096
+      BitCoin_33: 1050830789
+      BitCoin_34: 1236940759
+      BitCoin_35: 734234274
+      BitCoin_36: 1793135101
+      BitCoin_37: -861915037
+      BitCoin_38: -210515857
+      BitCoin_39: 294851919
+      BitCoin_4: -703861125
+      BitCoin_40: 1036654508
+      BitCoin_41: 1774797386
+      BitCoin_42: -726031371
+      BitCoin_43: 830432972
+      BitCoin_44: -498312766
+      BitCoin_45: 1830140576
+      BitCoin_46: 1015120303
+      BitCoin_47: 188444890
+      BitCoin_48: 1354911485
+      BitCoin_49: 48991562
+      BitCoin_5: 1900539777
+      BitCoin_50: 1546237055
+      BitCoin_51: -1332811101
+      BitCoin_52: -459073205
+      BitCoin_53: 1552030206
+      BitCoin_6: 1826403236
+      BitCoin_7: 507611544
+      BitCoin_8: -1197481808
+      BitCoin_9: -1937815524
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

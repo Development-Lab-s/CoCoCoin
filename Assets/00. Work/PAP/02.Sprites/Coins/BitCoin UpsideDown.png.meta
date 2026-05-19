@@ -1,196 +1,169 @@
 fileFormatVersion: 2
-guid: 268b23955f342cb4d8d53bd624bcb431
+guid: 595c6e10b5f2d044f846df04f1b67b7a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6568753379521861350
-    second: CasinoUpsidedown_0
+      213: 4349915267927364619
+    second: 15_0
   - first:
-      213: 761102529612274937
-    second: CasinoUpsidedown_1
+      213: -8095896006545369725
+    second: 15_1
   - first:
-      213: 6040920472445278429
-    second: CasinoUpsidedown_2
+      213: 5739011196802332283
+    second: 15_2
   - first:
-      213: 7396339970727086692
-    second: CasinoUpsidedown_3
+      213: 4055332100673554613
+    second: 15_3
   - first:
-      213: 6717650565996444737
-    second: CasinoUpsidedown_4
+      213: -9045062984340565635
+    second: 15_4
   - first:
-      213: 7030768844668089519
-    second: CasinoUpsidedown_5
+      213: 2424684528825360195
+    second: 15_5
   - first:
-      213: 1469280959536248403
-    second: CasinoUpsidedown_6
+      213: 1958067786081142177
+    second: 15_6
   - first:
-      213: -8327445447403620925
-    second: CasinoUpsidedown_7
+      213: -3685531567728649988
+    second: 15_7
   - first:
-      213: 7175636449004555036
-    second: CasinoUpsidedown_8
+      213: 8412928589905984161
+    second: 15_8
   - first:
-      213: -3622939065188134193
-    second: CasinoUpsidedown_9
+      213: 556598423532726551
+    second: 15_9
   - first:
-      213: 4531565999748198112
-    second: CasinoUpsidedown_10
+      213: -5743391127459954582
+    second: 15_10
   - first:
-      213: -7096808520473563196
-    second: CasinoUpsidedown_11
+      213: 7238578200006622106
+    second: 15_11
   - first:
-      213: -4774162920687023438
-    second: CasinoUpsidedown_12
+      213: 7991427610711934705
+    second: 15_12
   - first:
-      213: 4662981516606158022
-    second: CasinoUpsidedown_13
+      213: 5655224232382242747
+    second: 15_13
   - first:
-      213: 7975077304525259990
-    second: CasinoUpsidedown_14
+      213: 8994074728852891891
+    second: 15_14
   - first:
-      213: 2490606707691557170
-    second: CasinoUpsidedown_15
+      213: 1249625619672311181
+    second: 15_15
   - first:
-      213: -9009935044323190677
-    second: CasinoUpsidedown_16
+      213: -2272421275803280776
+    second: 15_16
   - first:
-      213: 8894313407372971109
-    second: CasinoUpsidedown_17
+      213: -4019377275444750216
+    second: 15_17
   - first:
-      213: 7134241463715623575
-    second: CasinoUpsidedown_18
+      213: 5757631070157673531
+    second: 15_18
   - first:
-      213: 5825219400770386289
-    second: CasinoUpsidedown_19
+      213: -5684278109116695644
+    second: 15_19
   - first:
-      213: 6890808716708582028
-    second: CasinoUpsidedown_20
+      213: -6423418785478683468
+    second: 15_20
   - first:
-      213: 8146339007848756317
-    second: CasinoUpsidedown_21
+      213: 726529132914005511
+    second: 15_21
   - first:
-      213: 5020005931074441531
-    second: CasinoUpsidedown_22
+      213: -1665185964395400839
+    second: 15_22
   - first:
-      213: 6520564341782890201
-    second: CasinoUpsidedown_23
+      213: -7145430587240273213
+    second: 15_23
   - first:
-      213: -2936301476349200190
-    second: CasinoUpsidedown_24
+      213: -4027701119638858227
+    second: 15_24
   - first:
-      213: -5725865501954846214
-    second: CasinoUpsidedown_25
+      213: -3570364107679546812
+    second: 15_25
   - first:
-      213: -3621340263917119500
-    second: CasinoUpsidedown_26
+      213: 3173679903443473962
+    second: 15_26
   - first:
-      213: 333560812662791258
-    second: CasinoUpsidedown_27
+      213: -4646668553851767009
+    second: 15_27
   - first:
-      213: -7718633693546730999
-    second: CasinoUpsidedown_28
+      213: 7148104001667847603
+    second: 15_28
   - first:
-      213: -2161545626629160158
-    second: CasinoUpsidedown_29
+      213: 6861338553191955970
+    second: 15_29
   - first:
-      213: -8932781545039419418
-    second: CasinoUpsidedown_30
+      213: -7453443945912863635
+    second: 15_30
   - first:
-      213: 7995143157087891929
-    second: CasinoUpsidedown_31
+      213: 5037497043400460091
+    second: 15_31
   - first:
-      213: -7248854361046306054
-    second: CasinoUpsidedown_32
+      213: 7485676631222198405
+    second: 15_32
   - first:
-      213: -3382931924615409846
-    second: CasinoUpsidedown_33
+      213: -7651791461212541122
+    second: 15_33
   - first:
-      213: 4029170111320516909
-    second: CasinoUpsidedown_34
+      213: 3697123749394212602
+    second: 15_34
   - first:
-      213: 5963417227894260871
-    second: CasinoUpsidedown_35
+      213: 8657034456457198466
+    second: 15_35
   - first:
-      213: 5322073012452246290
-    second: CasinoUpsidedown_36
+      213: -994889829705206993
+    second: 15_36
   - first:
-      213: 5853161459152517030
-    second: CasinoUpsidedown_37
+      213: -3680822277731104755
+    second: 15_37
   - first:
-      213: 8550774616597246924
-    second: CasinoUpsidedown_38
+      213: -1663375316010928464
+    second: 15_38
   - first:
-      213: -4454178166339529797
-    second: CasinoUpsidedown_39
+      213: 8409939165311112303
+    second: 15_39
   - first:
-      213: -3573449639704813031
-    second: CasinoUpsidedown_40
+      213: 7252148599177268435
+    second: 15_40
   - first:
-      213: -3885939216895715493
-    second: CasinoUpsidedown_41
+      213: 3120727835711965376
+    second: 15_41
   - first:
-      213: 8174889666463571671
-    second: CasinoUpsidedown_42
+      213: -8269230784962914910
+    second: 15_42
   - first:
-      213: -7092115880158209191
-    second: CasinoUpsidedown_43
+      213: -2972678564096017386
+    second: 15_43
   - first:
-      213: -6766743966925573824
-    second: CasinoUpsidedown_44
+      213: 6536988270793074906
+    second: 15_44
   - first:
-      213: 923497517334711339
-    second: CasinoUpsidedown_45
+      213: -4518572235624471921
+    second: 15_45
   - first:
-      213: 1380964748792760651
-    second: CasinoUpsidedown_46
+      213: -5124019034536304277
+    second: 15_46
   - first:
-      213: -1408196905781848087
-    second: CasinoUpsidedown_47
+      213: -900797379090602086
+    second: 15_47
   - first:
-      213: -5759836222348710244
-    second: CasinoUpsidedown_48
+      213: 5924534414437343959
+    second: 15_48
   - first:
-      213: 6327676361489581973
-    second: CasinoUpsidedown_49
+      213: 2021850567818737786
+    second: 15_49
   - first:
-      213: -2489945409775083033
-    second: CasinoUpsidedown_50
+      213: 6840165732579847271
+    second: 15_50
   - first:
-      213: 8540998878615735209
-    second: CasinoUpsidedown_51
+      213: -6927732671112319329
+    second: 15_51
   - first:
-      213: 1432975770064104957
-    second: CasinoUpsidedown_52
+      213: -7145075901437974313
+    second: 15_52
   - first:
-      213: -915540899124916243
-    second: CasinoUpsidedown_53
-  - first:
-      213: 3835179653042129556
-    second: CasinoUpsidedown_54
-  - first:
-      213: -2476715884780092701
-    second: CasinoUpsidedown_55
-  - first:
-      213: 1167665962685842914
-    second: CasinoUpsidedown_56
-  - first:
-      213: 319231136460095315
-    second: CasinoUpsidedown_57
-  - first:
-      213: -380533975471321922
-    second: CasinoUpsidedown_58
-  - first:
-      213: 5488722258617810835
-    second: CasinoUpsidedown_59
-  - first:
-      213: 7757260209297138545
-    second: CasinoUpsidedown_60
-  - first:
-      213: 5784941612682917191
-    second: CasinoUpsidedown_61
-  - first:
-      213: 834682587828240569
-    second: CasinoUpsidedown_62
+      213: -734181141070709978
+    second: 15_53
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -282,37 +255,11 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CasinoUpsidedown_0
+      name: BitCoin UpsideDown_0
       rect:
         serializedVersion: 2
         x: 0
@@ -325,16 +272,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a19e374aa9917d4a0800000000000000
-      internalID: -6568753379521861350
+      spriteID: ecfc4021334673240be478814a2df266
+      internalID: 399011801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_1
+      name: BitCoin UpsideDown_1
       rect:
         serializedVersion: 2
         x: 212
@@ -347,16 +294,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9fcd03bd7baff8a00800000000000000
-      internalID: 761102529612274937
+      spriteID: 75fdbfbde6e608a4b8c9b66c96024cb3
+      internalID: -239379925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_2
+      name: BitCoin UpsideDown_2
       rect:
         serializedVersion: 2
         x: 424
@@ -369,16 +316,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dd85c7cd929a5d350800000000000000
-      internalID: 6040920472445278429
+      spriteID: 1484f13cd9949864da0d1a2af8814e5a
+      internalID: 151877270
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_3
+      name: BitCoin UpsideDown_3
       rect:
         serializedVersion: 2
         x: 636
@@ -391,16 +338,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 46a0631140415a660800000000000000
-      internalID: 7396339970727086692
+      spriteID: 58f4a0e0ce990424da5476571b59636e
+      internalID: 1607273253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_4
+      name: BitCoin UpsideDown_4
       rect:
         serializedVersion: 2
         x: 848
@@ -413,16 +360,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 14c7b6f1993e93d50800000000000000
-      internalID: 6717650565996444737
+      spriteID: 2d4e8f5d2d9494449b921a57542663b1
+      internalID: -2111626520
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_5
+      name: BitCoin UpsideDown_5
       rect:
         serializedVersion: 2
         x: 1060
@@ -435,16 +382,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fa4335c730f429160800000000000000
-      internalID: 7030768844668089519
+      spriteID: 9969645906fd634479fb91dfa773a94e
+      internalID: -870948860
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_6
+      name: BitCoin UpsideDown_6
       rect:
         serializedVersion: 2
         x: 1272
@@ -457,16 +404,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 35637648f3fe36410800000000000000
-      internalID: 1469280959536248403
+      spriteID: 17d11768d42158d4aaf5b25e4c3ba889
+      internalID: 1502403478
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_7
+      name: BitCoin UpsideDown_7
       rect:
         serializedVersion: 2
         x: 1484
@@ -479,16 +426,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3c5301d7c78fe6c80800000000000000
-      internalID: -8327445447403620925
+      spriteID: d229205ca6b62ba4eb3f0f52f4ec4d43
+      internalID: -1472746262
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_8
+      name: BitCoin UpsideDown_8
       rect:
         serializedVersion: 2
         x: 1696
@@ -501,16 +448,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c1b034c055bf49360800000000000000
-      internalID: 7175636449004555036
+      spriteID: e1a9343c329968749bc2c75e1c2f944d
+      internalID: 57811641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_9
+      name: BitCoin UpsideDown_9
       rect:
         serializedVersion: 2
         x: 0
@@ -523,16 +470,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fc253988d1cb8bdc0800000000000000
-      internalID: -3622939065188134193
+      spriteID: 252089dda2f89444c895737cc28c0f93
+      internalID: 1685929008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_10
+      name: BitCoin UpsideDown_10
       rect:
         serializedVersion: 2
         x: 212
@@ -545,16 +492,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0eeaa3b744b53ee30800000000000000
-      internalID: 4531565999748198112
+      spriteID: 59b6daae319f2524cb23ca7223a24157
+      internalID: 942075740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_11
+      name: BitCoin UpsideDown_11
       rect:
         serializedVersion: 2
         x: 424
@@ -567,16 +514,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4cf253a4042138d90800000000000000
-      internalID: -7096808520473563196
+      spriteID: c65ae75fba65b124e8d8694ba6c4d1fc
+      internalID: -6380213
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_12
+      name: BitCoin UpsideDown_12
       rect:
         serializedVersion: 2
         x: 636
@@ -589,16 +536,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2bacb944e14cebdb0800000000000000
-      internalID: -4774162920687023438
+      spriteID: b638753c7959e654bb94b53279d8a3e4
+      internalID: -986056880
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_13
+      name: BitCoin UpsideDown_13
       rect:
         serializedVersion: 2
         x: 848
@@ -611,16 +558,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6c4b58bdbfc36b040800000000000000
-      internalID: 4662981516606158022
+      spriteID: 8f047aca74ed6424ea7f9b5d6e49b64d
+      internalID: -842244801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_14
+      name: BitCoin UpsideDown_14
       rect:
         serializedVersion: 2
         x: 1060
@@ -633,16 +580,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6d402800e8a2dae60800000000000000
-      internalID: 7975077304525259990
+      spriteID: 1faa1e0eea306eb409b98607fc758c76
+      internalID: -407597068
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_15
+      name: BitCoin UpsideDown_15
       rect:
         serializedVersion: 2
         x: 1272
@@ -655,16 +602,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2311927da99609220800000000000000
-      internalID: 2490606707691557170
+      spriteID: 7b3b1d09bd3e0ed4e963aeee8933eebb
+      internalID: 343911534
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_16
+      name: BitCoin UpsideDown_16
       rect:
         serializedVersion: 2
         x: 1484
@@ -677,16 +624,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b68d5c950d746f280800000000000000
-      internalID: -9009935044323190677
+      spriteID: 89799c677f4f1144398e4cc1548dacc4
+      internalID: 838098069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_17
+      name: BitCoin UpsideDown_17
       rect:
         serializedVersion: 2
         x: 1696
@@ -699,16 +646,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 56cc57f7be2fe6b70800000000000000
-      internalID: 8894313407372971109
+      spriteID: f7671b7d9633125459e528feffa85c2e
+      internalID: 662230500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_18
+      name: BitCoin UpsideDown_18
       rect:
         serializedVersion: 2
         x: 0
@@ -721,16 +668,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 792f1aaffcae10360800000000000000
-      internalID: 7134241463715623575
+      spriteID: a7c7df8e8ca6be7409c2243c2780750e
+      internalID: -203806008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_19
+      name: BitCoin UpsideDown_19
       rect:
         serializedVersion: 2
         x: 212
@@ -743,16 +690,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 179f1a18e2657d050800000000000000
-      internalID: 5825219400770386289
+      spriteID: df4d9d39ea7d3a646927674d88f21ea1
+      internalID: 906723569
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_20
+      name: BitCoin UpsideDown_20
       rect:
         serializedVersion: 2
         x: 424
@@ -765,16 +712,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c82949ec40211af50800000000000000
-      internalID: 6890808716708582028
+      spriteID: b5d653a5086735d4eb9472bbfbf4dc84
+      internalID: 1382225782
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_21
+      name: BitCoin UpsideDown_21
       rect:
         serializedVersion: 2
         x: 636
@@ -787,16 +734,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d54bbbe9a2c9d0170800000000000000
-      internalID: 8146339007848756317
+      spriteID: bf452f5a503f6774289419fab3bb1d47
+      internalID: 2096790667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_22
+      name: BitCoin UpsideDown_22
       rect:
         serializedVersion: 2
         x: 848
@@ -809,16 +756,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b31db041cc4aaa540800000000000000
-      internalID: 5020005931074441531
+      spriteID: 5877dbbe621f61a4887a8abfea5baf4b
+      internalID: -1818658119
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_23
+      name: BitCoin UpsideDown_23
       rect:
         serializedVersion: 2
         x: 1060
@@ -831,16 +778,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9d64c0fa8b2bd7a50800000000000000
-      internalID: 6520564341782890201
+      spriteID: 1ef33dcb1f5aa6e41b08f1653d1d37bb
+      internalID: 770928234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_24
+      name: BitCoin UpsideDown_24
       rect:
         serializedVersion: 2
         x: 1272
@@ -853,16 +800,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2c830cc4d592047d0800000000000000
-      internalID: -2936301476349200190
+      spriteID: c86a455dbbc754343b87cf00ed94ff1b
+      internalID: 1292557686
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_25
+      name: BitCoin UpsideDown_25
       rect:
         serializedVersion: 2
         x: 1484
@@ -875,16 +822,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: af15154b9a3a980b0800000000000000
-      internalID: -5725865501954846214
+      spriteID: 74722a505f8d31f4889ecc5fd0ae7b1e
+      internalID: -499402229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_26
+      name: BitCoin UpsideDown_26
       rect:
         serializedVersion: 2
         x: 1696
@@ -897,16 +844,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4f79666773a6ebdc0800000000000000
-      internalID: -3621340263917119500
+      spriteID: 3db05210ac7c7cb428e004cfa38a9736
+      internalID: 1699539621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_27
+      name: BitCoin UpsideDown_27
       rect:
         serializedVersion: 2
         x: 0
@@ -919,16 +866,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a5c91c5bacb01a400800000000000000
-      internalID: 333560812662791258
+      spriteID: c72c3a09c5a66ad4fb50f42fae2bde65
+      internalID: 1484302281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_28
+      name: BitCoin UpsideDown_28
       rect:
         serializedVersion: 2
         x: 212
@@ -941,16 +888,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 90a29c00d87e1e490800000000000000
-      internalID: -7718633693546730999
+      spriteID: ce77c617e61a93441a41bb41cc2837fc
+      internalID: 2004914947
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_29
+      name: BitCoin UpsideDown_29
       rect:
         serializedVersion: 2
         x: 424
@@ -963,16 +910,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 22348f674b5a002e0800000000000000
-      internalID: -2161545626629160158
+      spriteID: d9d0d185abc861b4087559d101965123
+      internalID: 905744939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_30
+      name: BitCoin UpsideDown_30
       rect:
         serializedVersion: 2
         x: 636
@@ -985,16 +932,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6e7a2cf3382680480800000000000000
-      internalID: -8932781545039419418
+      spriteID: b79feea6cf0933e40b5dbf3507bee75b
+      internalID: -1517904229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_31
+      name: BitCoin UpsideDown_31
       rect:
         serializedVersion: 2
         x: 848
@@ -1007,16 +954,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9d17e9e575474fe60800000000000000
-      internalID: 7995143157087891929
+      spriteID: fc7997d30cdfb8b44be65b6482020fa7
+      internalID: 1215416351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_32
+      name: BitCoin UpsideDown_32
       rect:
         serializedVersion: 2
         x: 1060
@@ -1029,16 +976,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: af23b4d5d55e66b90800000000000000
-      internalID: -7248854361046306054
+      spriteID: dec47c3ac41490f479f788a9ad0a1a5e
+      internalID: -682172732
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_33
+      name: BitCoin UpsideDown_33
       rect:
         serializedVersion: 2
         x: 1272
@@ -1051,16 +998,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a4f48fd86596d01d0800000000000000
-      internalID: -3382931924615409846
+      spriteID: a1dc2d467c383f049bad555c8cfa6bc5
+      internalID: -1934279616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_34
+      name: BitCoin UpsideDown_34
       rect:
         serializedVersion: 2
         x: 1484
@@ -1073,16 +1020,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d2961e86edc7ae730800000000000000
-      internalID: 4029170111320516909
+      spriteID: 250b2cba40ce6d14a8bdc2cf7b7bd76f
+      internalID: 851423643
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_35
+      name: BitCoin UpsideDown_35
       rect:
         serializedVersion: 2
         x: 1696
@@ -1095,16 +1042,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 784051c8f5052c250800000000000000
-      internalID: 5963417227894260871
+      spriteID: 8ba3d22589e374c4c82ac604defdb83c
+      internalID: -55642575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_36
+      name: BitCoin UpsideDown_36
       rect:
         serializedVersion: 2
         x: 0
@@ -1117,16 +1064,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 213c8ef053dcbd940800000000000000
-      internalID: 5322073012452246290
+      spriteID: 59ddb25898fd8fb43a93640cdea37d69
+      internalID: -1506255310
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_37
+      name: BitCoin UpsideDown_37
       rect:
         serializedVersion: 2
         x: 212
@@ -1139,16 +1086,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6a7fac1f55b9a3150800000000000000
-      internalID: 5853161459152517030
+      spriteID: 30653a4719e159f44ada9841f1c78f4d
+      internalID: -2024681907
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_38
+      name: BitCoin UpsideDown_38
       rect:
         serializedVersion: 2
         x: 424
@@ -1161,16 +1108,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cc3b4b8b5347aa670800000000000000
-      internalID: 8550774616597246924
+      spriteID: 357a000949f0677498189ec46461d05f
+      internalID: 4229168
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_39
+      name: BitCoin UpsideDown_39
       rect:
         serializedVersion: 2
         x: 636
@@ -1183,16 +1130,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bb318059e849f22c0800000000000000
-      internalID: -4454178166339529797
+      spriteID: dcdc8835f115ec641ada05ccc7018751
+      internalID: 841755311
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_40
+      name: BitCoin UpsideDown_40
       rect:
         serializedVersion: 2
         x: 848
@@ -1205,16 +1152,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 912a5a25c7e886ec0800000000000000
-      internalID: -3573449639704813031
+      spriteID: 6a6b017b82c7a4949ba03bf91ab5b761
+      internalID: 998441450
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_41
+      name: BitCoin UpsideDown_41
       rect:
         serializedVersion: 2
         x: 1060
@@ -1227,16 +1174,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b57db2eeede521ac0800000000000000
-      internalID: -3885939216895715493
+      spriteID: 63a8e3d1f938edf418d7ab97b8a6530f
+      internalID: 486665271
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_42
+      name: BitCoin UpsideDown_42
       rect:
         serializedVersion: 2
         x: 1272
@@ -1249,16 +1196,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7de9297d6da037170800000000000000
-      internalID: 8174889666463571671
+      spriteID: b94fb02d4f4a50b44b3025fbb5dfdccc
+      internalID: -1183768828
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_43
+      name: BitCoin UpsideDown_43
       rect:
         serializedVersion: 2
         x: 1484
@@ -1271,16 +1218,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 95b5341ce2eb39d90800000000000000
-      internalID: -7092115880158209191
+      spriteID: 3b364e325524daa49808039090cbee55
+      internalID: 1904834238
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_44
+      name: BitCoin UpsideDown_44
       rect:
         serializedVersion: 2
         x: 1696
@@ -1293,16 +1240,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 041326db632b712a0800000000000000
-      internalID: -6766743966925573824
+      spriteID: 6f242a028342c804a9c293cdb922a000
+      internalID: -1319018337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_45
+      name: BitCoin UpsideDown_45
       rect:
         serializedVersion: 2
         x: 0
@@ -1315,16 +1262,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b2cc0bf591ce0dc00800000000000000
-      internalID: 923497517334711339
+      spriteID: 483fe9b6ab9d5e949ac4eeee8051dc4d
+      internalID: 1135815195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_46
+      name: BitCoin UpsideDown_46
       rect:
         serializedVersion: 2
         x: 212
@@ -1337,16 +1284,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b4901235f1c2a2310800000000000000
-      internalID: 1380964748792760651
+      spriteID: 7fbcbc3ff0149fa45b68df87d0636ce9
+      internalID: -1175716608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_47
+      name: BitCoin UpsideDown_47
       rect:
         serializedVersion: 2
         x: 424
@@ -1359,16 +1306,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9e791190064157ce0800000000000000
-      internalID: -1408196905781848087
+      spriteID: 47a648a15390db94bb7837b5997f8ca8
+      internalID: 589675511
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_48
+      name: BitCoin UpsideDown_48
       rect:
         serializedVersion: 2
         x: 636
@@ -1381,16 +1328,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c9e2a720973f010b0800000000000000
-      internalID: -5759836222348710244
+      spriteID: fa03732a7abb56140a208f2f21619c86
+      internalID: -425019050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_49
+      name: BitCoin UpsideDown_49
       rect:
         serializedVersion: 2
         x: 848
@@ -1403,16 +1350,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5970934102c60d750800000000000000
-      internalID: 6327676361489581973
+      spriteID: 07dd4ee839035b343a8e661d36b2e294
+      internalID: -274430217
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_50
+      name: BitCoin UpsideDown_50
       rect:
         serializedVersion: 2
         x: 1060
@@ -1425,16 +1372,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7e1ed3497dfe17dd0800000000000000
-      internalID: -2489945409775083033
+      spriteID: cfd449d80ea15e646a6cec460af5ffce
+      internalID: 1875090034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_51
+      name: BitCoin UpsideDown_51
       rect:
         serializedVersion: 2
         x: 1272
@@ -1447,16 +1394,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9ab86ea5a39b78670800000000000000
-      internalID: 8540998878615735209
+      spriteID: 1f49bafb237804d44850f9da70a7e561
+      internalID: 1118864924
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_52
+      name: BitCoin UpsideDown_52
       rect:
         serializedVersion: 2
         x: 1484
@@ -1469,16 +1416,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dfda962eed3f2e310800000000000000
-      internalID: 1432975770064104957
+      spriteID: 7e585ed746278bd478b19a73cabf2690
+      internalID: 1774796904
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CasinoUpsidedown_53
+      name: BitCoin UpsideDown_53
       rect:
         serializedVersion: 2
         x: 1696
@@ -1491,208 +1438,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: def415a27685b43f0800000000000000
-      internalID: -915540899124916243
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CasinoUpsidedown_54
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 240
-        width: 212
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 49ac165239b493530800000000000000
-      internalID: 3835179653042129556
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CasinoUpsidedown_55
-      rect:
-        serializedVersion: 2
-        x: 212
-        y: 240
-        width: 212
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3e28d166600f0add0800000000000000
-      internalID: -2476715884780092701
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CasinoUpsidedown_56
-      rect:
-        serializedVersion: 2
-        x: 424
-        y: 240
-        width: 212
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2e5443aa102643010800000000000000
-      internalID: 1167665962685842914
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CasinoUpsidedown_57
-      rect:
-        serializedVersion: 2
-        x: 636
-        y: 240
-        width: 212
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 35fb2f9f6032e6400800000000000000
-      internalID: 319231136460095315
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CasinoUpsidedown_58
-      rect:
-        serializedVersion: 2
-        x: 848
-        y: 240
-        width: 212
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ebc801f8d5218baf0800000000000000
-      internalID: -380533975471321922
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CasinoUpsidedown_59
-      rect:
-        serializedVersion: 2
-        x: 1060
-        y: 240
-        width: 212
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 39fb1bf40dbdb2c40800000000000000
-      internalID: 5488722258617810835
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CasinoUpsidedown_60
-      rect:
-        serializedVersion: 2
-        x: 1272
-        y: 240
-        width: 212
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 173ad658f0357ab60800000000000000
-      internalID: 7757260209297138545
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CasinoUpsidedown_61
-      rect:
-        serializedVersion: 2
-        x: 1484
-        y: 240
-        width: 212
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 745375e2fbd384050800000000000000
-      internalID: 5784941612682917191
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CasinoUpsidedown_62
-      rect:
-        serializedVersion: 2
-        x: 1696
-        y: 240
-        width: 212
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9b0c4bb2463659b00800000000000000
-      internalID: 834682587828240569
+      spriteID: 23f38ac0a5e84934b9bc529338c7d652
+      internalID: -869346164
       vertices: []
       indices: 
       edges: []
@@ -1701,7 +1450,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 57c569024240d5f4fb0c9771da2a2acf
+    spriteID: e538e355c5f21634881631df4978323e
     internalID: 0
     vertices: []
     indices: 
@@ -1711,69 +1460,60 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      CasinoUpsidedown_0: -6568753379521861350
-      CasinoUpsidedown_1: 761102529612274937
-      CasinoUpsidedown_10: 4531565999748198112
-      CasinoUpsidedown_11: -7096808520473563196
-      CasinoUpsidedown_12: -4774162920687023438
-      CasinoUpsidedown_13: 4662981516606158022
-      CasinoUpsidedown_14: 7975077304525259990
-      CasinoUpsidedown_15: 2490606707691557170
-      CasinoUpsidedown_16: -9009935044323190677
-      CasinoUpsidedown_17: 8894313407372971109
-      CasinoUpsidedown_18: 7134241463715623575
-      CasinoUpsidedown_19: 5825219400770386289
-      CasinoUpsidedown_2: 6040920472445278429
-      CasinoUpsidedown_20: 6890808716708582028
-      CasinoUpsidedown_21: 8146339007848756317
-      CasinoUpsidedown_22: 5020005931074441531
-      CasinoUpsidedown_23: 6520564341782890201
-      CasinoUpsidedown_24: -2936301476349200190
-      CasinoUpsidedown_25: -5725865501954846214
-      CasinoUpsidedown_26: -3621340263917119500
-      CasinoUpsidedown_27: 333560812662791258
-      CasinoUpsidedown_28: -7718633693546730999
-      CasinoUpsidedown_29: -2161545626629160158
-      CasinoUpsidedown_3: 7396339970727086692
-      CasinoUpsidedown_30: -8932781545039419418
-      CasinoUpsidedown_31: 7995143157087891929
-      CasinoUpsidedown_32: -7248854361046306054
-      CasinoUpsidedown_33: -3382931924615409846
-      CasinoUpsidedown_34: 4029170111320516909
-      CasinoUpsidedown_35: 5963417227894260871
-      CasinoUpsidedown_36: 5322073012452246290
-      CasinoUpsidedown_37: 5853161459152517030
-      CasinoUpsidedown_38: 8550774616597246924
-      CasinoUpsidedown_39: -4454178166339529797
-      CasinoUpsidedown_4: 6717650565996444737
-      CasinoUpsidedown_40: -3573449639704813031
-      CasinoUpsidedown_41: -3885939216895715493
-      CasinoUpsidedown_42: 8174889666463571671
-      CasinoUpsidedown_43: -7092115880158209191
-      CasinoUpsidedown_44: -6766743966925573824
-      CasinoUpsidedown_45: 923497517334711339
-      CasinoUpsidedown_46: 1380964748792760651
-      CasinoUpsidedown_47: -1408196905781848087
-      CasinoUpsidedown_48: -5759836222348710244
-      CasinoUpsidedown_49: 6327676361489581973
-      CasinoUpsidedown_5: 7030768844668089519
-      CasinoUpsidedown_50: -2489945409775083033
-      CasinoUpsidedown_51: 8540998878615735209
-      CasinoUpsidedown_52: 1432975770064104957
-      CasinoUpsidedown_53: -915540899124916243
-      CasinoUpsidedown_54: 3835179653042129556
-      CasinoUpsidedown_55: -2476715884780092701
-      CasinoUpsidedown_56: 1167665962685842914
-      CasinoUpsidedown_57: 319231136460095315
-      CasinoUpsidedown_58: -380533975471321922
-      CasinoUpsidedown_59: 5488722258617810835
-      CasinoUpsidedown_6: 1469280959536248403
-      CasinoUpsidedown_60: 7757260209297138545
-      CasinoUpsidedown_61: 5784941612682917191
-      CasinoUpsidedown_62: 834682587828240569
-      CasinoUpsidedown_7: -8327445447403620925
-      CasinoUpsidedown_8: 7175636449004555036
-      CasinoUpsidedown_9: -3622939065188134193
+      BitCoin UpsideDown_0: 399011801
+      BitCoin UpsideDown_1: -239379925
+      BitCoin UpsideDown_10: 942075740
+      BitCoin UpsideDown_11: -6380213
+      BitCoin UpsideDown_12: -986056880
+      BitCoin UpsideDown_13: -842244801
+      BitCoin UpsideDown_14: -407597068
+      BitCoin UpsideDown_15: 343911534
+      BitCoin UpsideDown_16: 838098069
+      BitCoin UpsideDown_17: 662230500
+      BitCoin UpsideDown_18: -203806008
+      BitCoin UpsideDown_19: 906723569
+      BitCoin UpsideDown_2: 151877270
+      BitCoin UpsideDown_20: 1382225782
+      BitCoin UpsideDown_21: 2096790667
+      BitCoin UpsideDown_22: -1818658119
+      BitCoin UpsideDown_23: 770928234
+      BitCoin UpsideDown_24: 1292557686
+      BitCoin UpsideDown_25: -499402229
+      BitCoin UpsideDown_26: 1699539621
+      BitCoin UpsideDown_27: 1484302281
+      BitCoin UpsideDown_28: 2004914947
+      BitCoin UpsideDown_29: 905744939
+      BitCoin UpsideDown_3: 1607273253
+      BitCoin UpsideDown_30: -1517904229
+      BitCoin UpsideDown_31: 1215416351
+      BitCoin UpsideDown_32: -682172732
+      BitCoin UpsideDown_33: -1934279616
+      BitCoin UpsideDown_34: 851423643
+      BitCoin UpsideDown_35: -55642575
+      BitCoin UpsideDown_36: -1506255310
+      BitCoin UpsideDown_37: -2024681907
+      BitCoin UpsideDown_38: 4229168
+      BitCoin UpsideDown_39: 841755311
+      BitCoin UpsideDown_4: -2111626520
+      BitCoin UpsideDown_40: 998441450
+      BitCoin UpsideDown_41: 486665271
+      BitCoin UpsideDown_42: -1183768828
+      BitCoin UpsideDown_43: 1904834238
+      BitCoin UpsideDown_44: -1319018337
+      BitCoin UpsideDown_45: 1135815195
+      BitCoin UpsideDown_46: -1175716608
+      BitCoin UpsideDown_47: 589675511
+      BitCoin UpsideDown_48: -425019050
+      BitCoin UpsideDown_49: -274430217
+      BitCoin UpsideDown_5: -870948860
+      BitCoin UpsideDown_50: 1875090034
+      BitCoin UpsideDown_51: 1118864924
+      BitCoin UpsideDown_52: 1774796904
+      BitCoin UpsideDown_53: -869346164
+      BitCoin UpsideDown_6: 1502403478
+      BitCoin UpsideDown_7: -1472746262
+      BitCoin UpsideDown_8: 57811641
+      BitCoin UpsideDown_9: 1685929008
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
