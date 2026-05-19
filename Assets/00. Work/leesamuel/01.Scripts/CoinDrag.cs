@@ -16,7 +16,7 @@ public class CoinDrag : MonoBehaviour
     private Vector3 _originalPosition;
     private Vector3 _originalScale;
     public static bool _isDragging = false;
-    private int coinCount = 0;
+    private static int coinCount = 0;
     private Coroutine _scaleCoroutine;
     private Coroutine _moveCoroutine;
 
@@ -92,6 +92,7 @@ public class CoinDrag : MonoBehaviour
             if (coinCount == 3)
             {
                 _ = SceneManageHandler.instance.MoveScene(1);
+                coinCount = 0;
             }
         }
         else

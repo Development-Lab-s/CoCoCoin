@@ -1,250 +1,250 @@
 fileFormatVersion: 2
-guid: 950eff6440a22e240af5dbd9ec521ff9
+guid: 11c4d46ebc442c84dabff3a22e3c8e35
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8584647517806083662
-    second: Silver_0
+      213: -4976079567497121232
+    second: SilverCoin_0
   - first:
-      213: 3338569852495511519
-    second: Silver_1
+      213: 9117548841064295767
+    second: SilverCoin_1
   - first:
-      213: 3229921398826955906
-    second: Silver_2
+      213: 4383389458023778659
+    second: SilverCoin_2
   - first:
-      213: 6892227642054826383
-    second: Silver_3
+      213: 130084099174672254
+    second: SilverCoin_3
   - first:
-      213: 6650314159823477990
-    second: Silver_4
+      213: -2662169338165303921
+    second: SilverCoin_4
   - first:
-      213: 3982905460163716177
-    second: Silver_5
+      213: -654592551647356727
+    second: SilverCoin_5
   - first:
-      213: 2448640864490269230
-    second: Silver_6
+      213: -1593037038548204820
+    second: SilverCoin_6
   - first:
-      213: 4280330890314047303
-    second: Silver_7
+      213: 7525775398839095873
+    second: SilverCoin_7
   - first:
-      213: 3827829892776290270
-    second: Silver_8
+      213: 3084874092628519536
+    second: SilverCoin_8
   - first:
-      213: 6142769255425773565
-    second: Silver_9
+      213: -7247080858018220021
+    second: SilverCoin_9
   - first:
-      213: -5286793810398145640
-    second: Silver_10
+      213: -1397603885618288772
+    second: SilverCoin_10
   - first:
-      213: 5114111836191555891
-    second: Silver_11
+      213: -7404209757121512339
+    second: SilverCoin_11
   - first:
-      213: -6916412211310216056
-    second: Silver_12
+      213: -4794764853255290076
+    second: SilverCoin_12
   - first:
-      213: -7024172151957349094
-    second: Silver_13
+      213: -6468331022755694370
+    second: SilverCoin_13
   - first:
-      213: 1446381128473850124
-    second: Silver_14
+      213: -3989946866031661307
+    second: SilverCoin_14
   - first:
-      213: 5774012275666223349
-    second: Silver_15
+      213: -2725904813106674426
+    second: SilverCoin_15
   - first:
-      213: -3288712730961885999
-    second: Silver_16
+      213: 7598286571833597184
+    second: SilverCoin_16
   - first:
-      213: -5844548812542761830
-    second: Silver_17
+      213: 2453971243336337616
+    second: SilverCoin_17
   - first:
-      213: 5041913675501878375
-    second: Silver_18
+      213: 8984707007927260109
+    second: SilverCoin_18
   - first:
-      213: -3510402154854481446
-    second: Silver_19
+      213: -1476164441446171578
+    second: SilverCoin_19
   - first:
-      213: 3952007494478281594
-    second: Silver_20
+      213: 7709855361172846178
+    second: SilverCoin_20
   - first:
-      213: -8969235169815379485
-    second: Silver_21
+      213: -4943175105201688113
+    second: SilverCoin_21
   - first:
-      213: 6483348228071020017
-    second: Silver_22
+      213: 7752971516945636667
+    second: SilverCoin_22
   - first:
-      213: -38065133529031745
-    second: Silver_23
+      213: 6166222820120680626
+    second: SilverCoin_23
   - first:
-      213: 4363423917475716081
-    second: Silver_24
+      213: 7355459430054929659
+    second: SilverCoin_24
   - first:
-      213: -8406526628268990094
-    second: Silver_25
+      213: -6497529383323648249
+    second: SilverCoin_25
   - first:
-      213: 2249687792652921661
-    second: Silver_26
+      213: 4883360551099591438
+    second: SilverCoin_26
   - first:
-      213: -2834393886116755487
-    second: Silver_27
+      213: -481301128635674422
+    second: SilverCoin_27
   - first:
-      213: -6131146322036448035
-    second: Silver_28
+      213: -5193919582971385052
+    second: SilverCoin_28
   - first:
-      213: -7569478159983762624
-    second: Silver_29
+      213: 7468562858804808961
+    second: SilverCoin_29
   - first:
-      213: 2243235981161061876
-    second: Silver_30
+      213: -10227215436912617
+    second: SilverCoin_30
   - first:
-      213: 6515960653898350394
-    second: Silver_31
+      213: 2492671765106170757
+    second: SilverCoin_31
   - first:
-      213: -8378135359702616125
-    second: Silver_32
+      213: 7989535774158346575
+    second: SilverCoin_32
   - first:
-      213: 5439778215383368049
-    second: Silver_33
+      213: -2236270362620462448
+    second: SilverCoin_33
   - first:
-      213: 1154411473342499369
-    second: Silver_34
+      213: 3560264052691096410
+    second: SilverCoin_34
   - first:
-      213: 5029458346195144336
-    second: Silver_35
+      213: -320879877888513035
+    second: SilverCoin_35
   - first:
-      213: 5203211375145971943
-    second: Silver_36
+      213: -9146610554940727694
+    second: SilverCoin_36
   - first:
-      213: 1374777956589735041
-    second: Silver_37
+      213: -6572823422665362778
+    second: SilverCoin_37
   - first:
-      213: -2277601842316072123
-    second: Silver_38
+      213: -8542397800289928805
+    second: SilverCoin_38
   - first:
-      213: -2317320514579201146
-    second: Silver_39
+      213: 5381016420652497448
+    second: SilverCoin_39
   - first:
-      213: -183162008228206454
-    second: Silver_40
+      213: -4363148948169986658
+    second: SilverCoin_40
   - first:
-      213: -4435626687425624955
-    second: Silver_41
+      213: 6324672317458523430
+    second: SilverCoin_41
   - first:
-      213: -7116979994531701902
-    second: Silver_42
+      213: -9213339295708074165
+    second: SilverCoin_42
   - first:
-      213: -8233613275033757150
-    second: Silver_43
+      213: -3363322123849372293
+    second: SilverCoin_43
   - first:
-      213: -4402799349871490227
-    second: Silver_44
+      213: -2664056738987886754
+    second: SilverCoin_44
   - first:
-      213: 2922835646881739
-    second: Silver_45
+      213: 2126116894653100126
+    second: SilverCoin_45
   - first:
-      213: 8329454749723021573
-    second: Silver_46
+      213: 8424274261112409676
+    second: SilverCoin_46
   - first:
-      213: 4888227288506796615
-    second: Silver_47
+      213: -9012469996468257690
+    second: SilverCoin_47
   - first:
-      213: 6953831933083616938
-    second: Silver_48
+      213: -1620549703034227065
+    second: SilverCoin_48
   - first:
-      213: -5393410622462184845
-    second: Silver_49
+      213: 6831230066525632295
+    second: SilverCoin_49
   - first:
-      213: 2431464156743712985
-    second: Silver_50
+      213: -8492866457103159317
+    second: SilverCoin_50
   - first:
-      213: 4838856948672245729
-    second: Silver_51
+      213: 4365044517891081797
+    second: SilverCoin_51
   - first:
-      213: -5111978494167565839
-    second: Silver_52
+      213: 1468644374754947069
+    second: SilverCoin_52
   - first:
-      213: -691995945782568026
-    second: Silver_53
+      213: 7967520026135025797
+    second: SilverCoin_53
   - first:
-      213: 848641455897719515
-    second: Silver_54
+      213: 4987702902950341972
+    second: SilverCoin_54
   - first:
-      213: -4543871901382913076
-    second: Silver_55
+      213: -2160756804792755372
+    second: SilverCoin_55
   - first:
-      213: 1924159440476294215
-    second: Silver_56
+      213: -2356391551509493897
+    second: SilverCoin_56
   - first:
-      213: 4317605283155009651
-    second: Silver_57
+      213: 1616706009375619325
+    second: SilverCoin_57
   - first:
-      213: -1709360095743678675
-    second: Silver_58
+      213: -4530330421898707720
+    second: SilverCoin_58
   - first:
-      213: 6468079328938179429
-    second: Silver_59
+      213: 3511426022655310257
+    second: SilverCoin_59
   - first:
-      213: 5203945040161390801
-    second: Silver_60
+      213: 623455547719336309
+    second: SilverCoin_60
   - first:
-      213: -514296910251632864
-    second: Silver_61
+      213: -1097328009316672423
+    second: SilverCoin_61
   - first:
-      213: -4383866381808582717
-    second: Silver_62
+      213: 6858357741205403379
+    second: SilverCoin_62
   - first:
-      213: -4804609543498392758
-    second: Silver_63
+      213: -3994906273901430074
+    second: SilverCoin_63
   - first:
-      213: 1040733542291026953
-    second: Silver_64
+      213: 7634751108509529214
+    second: SilverCoin_64
   - first:
-      213: 581358523173632599
-    second: Silver_65
+      213: -8910686970353851776
+    second: SilverCoin_65
   - first:
-      213: -7493408706654767762
-    second: Silver_66
+      213: -6697091620667095363
+    second: SilverCoin_66
   - first:
-      213: -7741863828792241804
-    second: Silver_67
+      213: 1037778734962915010
+    second: SilverCoin_67
   - first:
-      213: 3512554138284504887
-    second: Silver_68
+      213: -8325028983651784566
+    second: SilverCoin_68
   - first:
-      213: 7231754801327300041
-    second: Silver_69
+      213: -6495327959483096092
+    second: SilverCoin_69
   - first:
-      213: -4435225749179408835
-    second: Silver_70
+      213: -8810891334471935241
+    second: SilverCoin_70
   - first:
-      213: 9157864322865560829
-    second: Silver_71
+      213: 8076839573545251857
+    second: SilverCoin_71
   - first:
-      213: -6118324718318570953
-    second: Silver_72
+      213: -7628764631567235074
+    second: SilverCoin_72
   - first:
-      213: 269918915070040562
-    second: Silver_73
+      213: 8003110596447006395
+    second: SilverCoin_73
   - first:
-      213: 7730652782685071239
-    second: Silver_74
+      213: -414095270585978562
+    second: SilverCoin_74
   - first:
-      213: 427626651272000379
-    second: Silver_75
+      213: 4136500333499428976
+    second: SilverCoin_75
   - first:
-      213: -802817280190035206
-    second: Silver_76
+      213: -3755574762064183714
+    second: SilverCoin_76
   - first:
-      213: 2389466791347955077
-    second: Silver_77
+      213: 4350610654972439911
+    second: SilverCoin_77
   - first:
-      213: -5523534236276107036
-    second: Silver_78
+      213: 6683671587100779567
+    second: SilverCoin_78
   - first:
-      213: -652704991405070989
-    second: Silver_79
+      213: 5146420145339031411
+    second: SilverCoin_79
   - first:
-      213: -3335777920234895823
-    second: Silver_80
+      213: 1236863391074301365
+    second: SilverCoin_80
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -336,37 +336,11 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Silver_0
+      name: SilverCoin_0
       rect:
         serializedVersion: 2
         x: 0
@@ -381,14 +355,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2b1ca33e0943dd880800000000000000
-      internalID: -8584647517806083662
+      spriteID: 032314d6ff961fab0800000000000000
+      internalID: -4976079567497121232
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_1
+      name: SilverCoin_1
       rect:
         serializedVersion: 2
         x: 212
@@ -403,14 +377,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fdfb2d3a79bf45e20800000000000000
-      internalID: 3338569852495511519
+      spriteID: 75d69e53d5a088e70800000000000000
+      internalID: 9117548841064295767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_2
+      name: SilverCoin_2
       rect:
         serializedVersion: 2
         x: 424
@@ -425,14 +399,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 284738d366cf2dc20800000000000000
-      internalID: 3229921398826955906
+      spriteID: 36903b5ec7de4dc30800000000000000
+      internalID: 4383389458023778659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_3
+      name: SilverCoin_3
       rect:
         serializedVersion: 2
         x: 636
@@ -447,14 +421,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f895ecb168c16af50800000000000000
-      internalID: 6892227642054826383
+      spriteID: e77ab3a8cc62ec100800000000000000
+      internalID: 130084099174672254
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_4
+      name: SilverCoin_4
       rect:
         serializedVersion: 2
         x: 848
@@ -469,14 +443,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6ec57055e79aa4c50800000000000000
-      internalID: 6650314159823477990
+      spriteID: f8568ba77131e0bd0800000000000000
+      internalID: -2662169338165303921
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_5
+      name: SilverCoin_5
       rect:
         serializedVersion: 2
         x: 1060
@@ -491,14 +465,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 154a507e96f164730800000000000000
-      internalID: 3982905460163716177
+      spriteID: 9c8517eda8b6ae6f0800000000000000
+      internalID: -654592551647356727
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_6
+      name: SilverCoin_6
       rect:
         serializedVersion: 2
         x: 1272
@@ -513,14 +487,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e2aa27e84e15bf120800000000000000
-      internalID: 2448640864490269230
+      spriteID: ce24b43f04564e9e0800000000000000
+      internalID: -1593037038548204820
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_7
+      name: SilverCoin_7
       rect:
         serializedVersion: 2
         x: 1484
@@ -535,14 +509,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 74fdc4e344ac66b30800000000000000
-      internalID: 4280330890314047303
+      spriteID: 1429d2b1adce07860800000000000000
+      internalID: 7525775398839095873
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_8
+      name: SilverCoin_8
       rect:
         serializedVersion: 2
         x: 1696
@@ -557,14 +531,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ed76d8bb10f2f1530800000000000000
-      internalID: 3827829892776290270
+      spriteID: 07aade394acafca20800000000000000
+      internalID: 3084874092628519536
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_9
+      name: SilverCoin_9
       rect:
         serializedVersion: 2
         x: 0
@@ -579,14 +553,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dff08de87108f3550800000000000000
-      internalID: 6142769255425773565
+      spriteID: b087a473b523d6b90800000000000000
+      internalID: -7247080858018220021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_10
+      name: SilverCoin_10
       rect:
         serializedVersion: 2
         x: 212
@@ -601,14 +575,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8931c724a0981a6b0800000000000000
-      internalID: -5286793810398145640
+      spriteID: c77240dbba6ba9ce0800000000000000
+      internalID: -1397603885618288772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_11
+      name: SilverCoin_11
       rect:
         serializedVersion: 2
         x: 424
@@ -623,14 +597,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 33181d98e99f8f640800000000000000
-      internalID: 5114111836191555891
+      spriteID: d6c7a408476fe3990800000000000000
+      internalID: -7404209757121512339
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_12
+      name: SilverCoin_12
       rect:
         serializedVersion: 2
         x: 636
@@ -645,14 +619,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 88c3ea01db7f300a0800000000000000
-      internalID: -6916412211310216056
+      spriteID: 423c03c05c2957db0800000000000000
+      internalID: -4794764853255290076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_13
+      name: SilverCoin_13
       rect:
         serializedVersion: 2
         x: 848
@@ -667,14 +641,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a1d1469b4a0258e90800000000000000
-      internalID: -7024172151957349094
+      spriteID: ed8f10b943fdb36a0800000000000000
+      internalID: -6468331022755694370
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_14
+      name: SilverCoin_14
       rect:
         serializedVersion: 2
         x: 1060
@@ -689,14 +663,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c01338c19f3921410800000000000000
-      internalID: 1446381128473850124
+      spriteID: 50fef79077cd0a8c0800000000000000
+      internalID: -3989946866031661307
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_15
+      name: SilverCoin_15
       rect:
         serializedVersion: 2
         x: 1272
@@ -711,14 +685,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5f084db9299612050800000000000000
-      internalID: 5774012275666223349
+      spriteID: 605cf33d304ab2ad0800000000000000
+      internalID: -2725904813106674426
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_16
+      name: SilverCoin_16
       rect:
         serializedVersion: 2
         x: 1484
@@ -733,14 +707,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1d446be02352c52d0800000000000000
-      internalID: -3288712730961885999
+      spriteID: 00d13cf2169827960800000000000000
+      internalID: 7598286571833597184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_17
+      name: SilverCoin_17
       rect:
         serializedVersion: 2
         x: 1696
@@ -755,14 +729,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a9425fb12ddf3eea0800000000000000
-      internalID: -5844548812542761830
+      spriteID: 0d8061818d14e0220800000000000000
+      internalID: 2453971243336337616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_18
+      name: SilverCoin_18
       rect:
         serializedVersion: 2
         x: 0
@@ -777,14 +751,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 76c397056c978f540800000000000000
-      internalID: 5041913675501878375
+      spriteID: dc39772bb6710bc70800000000000000
+      internalID: 8984707007927260109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_19
+      name: SilverCoin_19
       rect:
         serializedVersion: 2
         x: 212
@@ -799,14 +773,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad1022dc6db884fc0800000000000000
-      internalID: -3510402154854481446
+      spriteID: 64cb985f24c938be0800000000000000
+      internalID: -1476164441446171578
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_20
+      name: SilverCoin_20
       rect:
         serializedVersion: 2
         x: 424
@@ -821,14 +795,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a7b3f0aa0e958d630800000000000000
-      internalID: 3952007494478281594
+      spriteID: 26639583a98eefa60800000000000000
+      internalID: 7709855361172846178
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_21
+      name: SilverCoin_21
       rect:
         serializedVersion: 2
         x: 636
@@ -843,14 +817,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3e1c6345220e68380800000000000000
-      internalID: -8969235169815379485
+      spriteID: fc136ef8e60566bb0800000000000000
+      internalID: -4943175105201688113
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_22
+      name: SilverCoin_22
       rect:
         serializedVersion: 2
         x: 848
@@ -865,14 +839,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f5d459fcda79f950800000000000000
-      internalID: 6483348228071020017
+      spriteID: b3d14458486189b60800000000000000
+      internalID: 7752971516945636667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_23
+      name: SilverCoin_23
       rect:
         serializedVersion: 2
         x: 1060
@@ -887,14 +861,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fbb9ca576f3c87ff0800000000000000
-      internalID: -38065133529031745
+      spriteID: 2b8533f1cf2d29550800000000000000
+      internalID: 6166222820120680626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_24
+      name: SilverCoin_24
       rect:
         serializedVersion: 2
         x: 1272
@@ -909,14 +883,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1fb559d3feefd8c30800000000000000
-      internalID: 4363423917475716081
+      spriteID: bf4a8387167d31660800000000000000
+      internalID: 7355459430054929659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_25
+      name: SilverCoin_25
       rect:
         serializedVersion: 2
         x: 1484
@@ -931,14 +905,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2712a2f3294065b80800000000000000
-      internalID: -8406526628268990094
+      spriteID: 70fb455837324d5a0800000000000000
+      internalID: -6497529383323648249
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_26
+      name: SilverCoin_26
       rect:
         serializedVersion: 2
         x: 1696
@@ -953,14 +927,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d3b2c98c02f783f10800000000000000
-      internalID: 2249687792652921661
+      spriteID: e0b627e4c8e25c340800000000000000
+      internalID: 4883360551099591438
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_27
+      name: SilverCoin_27
       rect:
         serializedVersion: 2
         x: 0
@@ -975,14 +949,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e7c87027c53aa8d0800000000000000
-      internalID: -2834393886116755487
+      spriteID: ac01dad6c231259f0800000000000000
+      internalID: -481301128635674422
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_28
+      name: SilverCoin_28
       rect:
         serializedVersion: 2
         x: 212
@@ -997,14 +971,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dd4231187eac9eaa0800000000000000
-      internalID: -6131146322036448035
+      spriteID: 42bab0968ad7be7b0800000000000000
+      internalID: -5193919582971385052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_29
+      name: SilverCoin_29
       rect:
         serializedVersion: 2
         x: 424
@@ -1019,14 +993,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0432713e7bfc3f690800000000000000
-      internalID: -7569478159983762624
+      spriteID: 10d8cb5995aa5a760800000000000000
+      internalID: 7468562858804808961
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_30
+      name: SilverCoin_30
       rect:
         serializedVersion: 2
         x: 636
@@ -1041,14 +1015,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4fdda7c5d33912f10800000000000000
-      internalID: 2243235981161061876
+      spriteID: 71867d8d66aabdff0800000000000000
+      internalID: -10227215436912617
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_31
+      name: SilverCoin_31
       rect:
         serializedVersion: 2
         x: 848
@@ -1063,14 +1037,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a3f780211b75d6a50800000000000000
-      internalID: 6515960653898350394
+      spriteID: 58b9ccc73cfb79220800000000000000
+      internalID: 2492671765106170757
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_32
+      name: SilverCoin_32
       rect:
         serializedVersion: 2
         x: 1060
@@ -1085,14 +1059,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3c739c49742eabb80800000000000000
-      internalID: -8378135359702616125
+      spriteID: f49dbfac47880ee60800000000000000
+      internalID: 7989535774158346575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_33
+      name: SilverCoin_33
       rect:
         serializedVersion: 2
         x: 1272
@@ -1107,14 +1081,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 17185d83779fd7b40800000000000000
-      internalID: 5439778215383368049
+      spriteID: 09af54614fb27f0e0800000000000000
+      internalID: -2236270362620462448
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_34
+      name: SilverCoin_34
       rect:
         serializedVersion: 2
         x: 1484
@@ -1129,14 +1103,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 92a07316e1b450010800000000000000
-      internalID: 1154411473342499369
+      spriteID: a53de37fa49986130800000000000000
+      internalID: 3560264052691096410
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_35
+      name: SilverCoin_35
       rect:
         serializedVersion: 2
         x: 1696
@@ -1151,14 +1125,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 09ec599f7b93cc540800000000000000
-      internalID: 5029458346195144336
+      spriteID: 5fb62ee73710c8bf0800000000000000
+      internalID: -320879877888513035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_36
+      name: SilverCoin_36
       rect:
         serializedVersion: 2
         x: 0
@@ -1173,14 +1147,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7e0f8da8d25853840800000000000000
-      internalID: 5203211375145971943
+      spriteID: 27e5bed3926b01180800000000000000
+      internalID: -9146610554940727694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_37
+      name: SilverCoin_37
       rect:
         serializedVersion: 2
         x: 212
@@ -1195,14 +1169,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 18c81938441341310800000000000000
-      internalID: 1374777956589735041
+      spriteID: 6a2f9a0ebe3a8c4a0800000000000000
+      internalID: -6572823422665362778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_38
+      name: SilverCoin_38
       rect:
         serializedVersion: 2
         x: 424
@@ -1217,14 +1191,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 54ba9f011355460e0800000000000000
-      internalID: -2277601842316072123
+      spriteID: b99f3afc57e437980800000000000000
+      internalID: -8542397800289928805
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_39
+      name: SilverCoin_39
       rect:
         serializedVersion: 2
         x: 636
@@ -1239,14 +1213,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 68308c9054937dfd0800000000000000
-      internalID: -2317320514579201146
+      spriteID: 82a398bbce53daa40800000000000000
+      internalID: 5381016420652497448
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_40
+      name: SilverCoin_40
       rect:
         serializedVersion: 2
         x: 848
@@ -1261,14 +1235,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a88e53bbf17457df0800000000000000
-      internalID: -183162008228206454
+      spriteID: e9d653a062bf273c0800000000000000
+      internalID: -4363148948169986658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_41
+      name: SilverCoin_41
       rect:
         serializedVersion: 2
         x: 1060
@@ -1283,14 +1257,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 584c0cb570d7172c0800000000000000
-      internalID: -4435626687425624955
+      spriteID: 625acd296ffb5c750800000000000000
+      internalID: 6324672317458523430
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_42
+      name: SilverCoin_42
       rect:
         serializedVersion: 2
         x: 1272
@@ -1305,14 +1279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 27b506007686b3d90800000000000000
-      internalID: -7116979994531701902
+      spriteID: b4f2c2499b4a32080800000000000000
+      internalID: -9213339295708074165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_43
+      name: SilverCoin_43
       rect:
         serializedVersion: 2
         x: 1484
@@ -1327,14 +1301,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 22a1ca399545cbd80800000000000000
-      internalID: -8233613275033757150
+      spriteID: b7deeb619541351d0800000000000000
+      internalID: -3363322123849372293
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_44
+      name: SilverCoin_44
       rect:
         serializedVersion: 2
         x: 1696
@@ -1349,14 +1323,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d4bc69d715d16e2c0800000000000000
-      internalID: -4402799349871490227
+      spriteID: e57342bb28e570bd0800000000000000
+      internalID: -2664056738987886754
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_45
+      name: SilverCoin_45
       rect:
         serializedVersion: 2
         x: 0
@@ -1371,14 +1345,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bcf1874bd426a0000800000000000000
-      internalID: 2922835646881739
+      spriteID: e5031c01d0c718d10800000000000000
+      internalID: 2126116894653100126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_46
+      name: SilverCoin_46
       rect:
         serializedVersion: 2
         x: 212
@@ -1393,14 +1367,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5015ee9a6fa289370800000000000000
-      internalID: 8329454749723021573
+      spriteID: c4e42188ec809e470800000000000000
+      internalID: 8424274261112409676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_47
+      name: SilverCoin_47
       rect:
         serializedVersion: 2
         x: 424
@@ -1415,14 +1389,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 74a81d8e1d876d340800000000000000
-      internalID: 4888227288506796615
+      spriteID: 66cb4afc9464de280800000000000000
+      internalID: -9012469996468257690
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_48
+      name: SilverCoin_48
       rect:
         serializedVersion: 2
         x: 636
@@ -1437,14 +1411,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aa68737dc49f08060800000000000000
-      internalID: 6953831933083616938
+      spriteID: 786b7c191a6a289e0800000000000000
+      internalID: -1620549703034227065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_49
+      name: SilverCoin_49
       rect:
         serializedVersion: 2
         x: 848
@@ -1459,14 +1433,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 372b2584d91c625b0800000000000000
-      internalID: -5393410622462184845
+      spriteID: 7277a365d876dce50800000000000000
+      internalID: 6831230066525632295
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_50
+      name: SilverCoin_50
       rect:
         serializedVersion: 2
         x: 1060
@@ -1481,14 +1455,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9d0cdc2a4cb4eb120800000000000000
-      internalID: 2431464156743712985
+      spriteID: bef298354f6432a80800000000000000
+      internalID: -8492866457103159317
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_51
+      name: SilverCoin_51
       rect:
         serializedVersion: 2
         x: 1272
@@ -1503,14 +1477,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1ef2a88e1c2172340800000000000000
-      internalID: 4838856948672245729
+      spriteID: 5460aadacd0c39c30800000000000000
+      internalID: 4365044517891081797
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_52
+      name: SilverCoin_52
       rect:
         serializedVersion: 2
         x: 1484
@@ -1525,14 +1499,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f9b4bbd4aa9e09b0800000000000000
-      internalID: -5111978494167565839
+      spriteID: dffe4a2174ca16410800000000000000
+      internalID: 1468644374754947069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_53
+      name: SilverCoin_53
       rect:
         serializedVersion: 2
         x: 1696
@@ -1547,14 +1521,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6ab9e998a598566f0800000000000000
-      internalID: -691995945782568026
+      spriteID: 588d6920041529e60800000000000000
+      internalID: 7967520026135025797
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_54
+      name: SilverCoin_54
       rect:
         serializedVersion: 2
         x: 0
@@ -1569,14 +1543,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bd2347868eaf6cb00800000000000000
-      internalID: 848641455897719515
+      spriteID: 45d2a8f3d51e73540800000000000000
+      internalID: 4987702902950341972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_55
+      name: SilverCoin_55
       rect:
         serializedVersion: 2
         x: 212
@@ -1591,14 +1565,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cc35135849ce0f0c0800000000000000
-      internalID: -4543871901382913076
+      spriteID: 45bd15c52237302e0800000000000000
+      internalID: -2160756804792755372
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_56
+      name: SilverCoin_56
       rect:
         serializedVersion: 2
         x: 424
@@ -1613,14 +1587,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 74ccdc401dcf3ba10800000000000000
-      internalID: 1924159440476294215
+      spriteID: 7778b8c5e5a6c4fd0800000000000000
+      internalID: -2356391551509493897
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_57
+      name: SilverCoin_57
       rect:
         serializedVersion: 2
         x: 636
@@ -1635,14 +1609,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 370edce11273beb30800000000000000
-      internalID: 4317605283155009651
+      spriteID: df8b213cc81bf6610800000000000000
+      internalID: 1616706009375619325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_58
+      name: SilverCoin_58
       rect:
         serializedVersion: 2
         x: 848
@@ -1657,14 +1631,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d2768fbac022748e0800000000000000
-      internalID: -1709360095743678675
+      spriteID: 8fcf497eb780121c0800000000000000
+      internalID: -4530330421898707720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_59
+      name: SilverCoin_59
       rect:
         serializedVersion: 2
         x: 1060
@@ -1679,14 +1653,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 56b386c51eb33c950800000000000000
-      internalID: 6468079328938179429
+      spriteID: 1b9be6ffc571bb030800000000000000
+      internalID: 3511426022655310257
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_60
+      name: SilverCoin_60
       rect:
         serializedVersion: 2
         x: 1272
@@ -1701,14 +1675,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1d0c97d3170283840800000000000000
-      internalID: 5203945040161390801
+      spriteID: 571ce077485f6a800800000000000000
+      internalID: 623455547719336309
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_61
+      name: SilverCoin_61
       rect:
         serializedVersion: 2
         x: 1484
@@ -1723,14 +1697,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 027de5b5fa9dcd8f0800000000000000
-      internalID: -514296910251632864
+      spriteID: 95cd79a4df185c0f0800000000000000
+      internalID: -1097328009316672423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_62
+      name: SilverCoin_62
       rect:
         serializedVersion: 2
         x: 1696
@@ -1745,14 +1719,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3cfb581a0c06923c0800000000000000
-      internalID: -4383866381808582717
+      spriteID: 3f6391b4708cd2f50800000000000000
+      internalID: 6858357741205403379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_63
+      name: SilverCoin_63
       rect:
         serializedVersion: 2
         x: 0
@@ -1767,14 +1741,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a4b935b7319925db0800000000000000
-      internalID: -4804609543498392758
+      spriteID: 6ca3029e8ed3f88c0800000000000000
+      internalID: -3994906273901430074
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_64
+      name: SilverCoin_64
       rect:
         serializedVersion: 2
         x: 212
@@ -1789,14 +1763,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 904371684ad617e00800000000000000
-      internalID: 1040733542291026953
+      spriteID: e74fa3bbea514f960800000000000000
+      internalID: 7634751108509529214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_65
+      name: SilverCoin_65
       rect:
         serializedVersion: 2
         x: 424
@@ -1811,14 +1785,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 75af8e42f76611800800000000000000
-      internalID: 581358523173632599
+      spriteID: 0826b5b4961e65480800000000000000
+      internalID: -8910686970353851776
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_66
+      name: SilverCoin_66
       rect:
         serializedVersion: 2
         x: 636
@@ -1833,14 +1807,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e65f50bab70120890800000000000000
-      internalID: -7493408706654767762
+      spriteID: db684e957a62f03a0800000000000000
+      internalID: -6697091620667095363
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_67
+      name: SilverCoin_67
       rect:
         serializedVersion: 2
         x: 848
@@ -1855,14 +1829,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4719469addf5f8490800000000000000
-      internalID: -7741863828792241804
+      spriteID: 2c63be4d24ee66e00800000000000000
+      internalID: 1037778734962915010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_68
+      name: SilverCoin_68
       rect:
         serializedVersion: 2
         x: 1060
@@ -1877,14 +1851,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 737b6c2e0691fb030800000000000000
-      internalID: 3512554138284504887
+      spriteID: a88aa9c4f3e877c80800000000000000
+      internalID: -8325028983651784566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_69
+      name: SilverCoin_69
       rect:
         serializedVersion: 2
         x: 1272
@@ -1899,14 +1873,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9cdd6d32daa5c5460800000000000000
-      internalID: 7231754801327300041
+      spriteID: 4e3e85372a5fbd5a0800000000000000
+      internalID: -6495327959483096092
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_70
+      name: SilverCoin_70
       rect:
         serializedVersion: 2
         x: 1484
@@ -1921,14 +1895,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d3ede711ea9e272c0800000000000000
-      internalID: -4435225749179408835
+      spriteID: 7fa9b3e630d69b580800000000000000
+      internalID: -8810891334471935241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_71
+      name: SilverCoin_71
       rect:
         serializedVersion: 2
         x: 1696
@@ -1943,14 +1917,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dfcff99c415471f70800000000000000
-      internalID: 9157864322865560829
+      spriteID: 1147bf89cc2b61070800000000000000
+      internalID: 8076839573545251857
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_72
+      name: SilverCoin_72
       rect:
         serializedVersion: 2
         x: 0
@@ -1965,14 +1939,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7323120c518571ba0800000000000000
-      internalID: -6118324718318570953
+      spriteID: ef70f5c8cfe212690800000000000000
+      internalID: -7628764631567235074
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_73
+      name: SilverCoin_73
       rect:
         serializedVersion: 2
         x: 212
@@ -1987,14 +1961,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2f998eab2d1feb300800000000000000
-      internalID: 269918915070040562
+      spriteID: bbe63676fa2c01f60800000000000000
+      internalID: 8003110596447006395
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_74
+      name: SilverCoin_74
       rect:
         serializedVersion: 2
         x: 424
@@ -2009,14 +1983,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 78724d14fbbc84b60800000000000000
-      internalID: 7730652782685071239
+      spriteID: e31bd8d9b86d04af0800000000000000
+      internalID: -414095270585978562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_75
+      name: SilverCoin_75
       rect:
         serializedVersion: 2
         x: 636
@@ -2031,14 +2005,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b73be857c2c3fe500800000000000000
-      internalID: 427626651272000379
+      spriteID: 070b48f132dc76930800000000000000
+      internalID: 4136500333499428976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_76
+      name: SilverCoin_76
       rect:
         serializedVersion: 2
         x: 848
@@ -2053,14 +2027,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: afa4abaefe1dbd4f0800000000000000
-      internalID: -802817280190035206
+      spriteID: e5efdbbd6a481ebc0800000000000000
+      internalID: -3755574762064183714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_77
+      name: SilverCoin_77
       rect:
         serializedVersion: 2
         x: 1060
@@ -2075,14 +2049,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 58523e40367192120800000000000000
-      internalID: 2389466791347955077
+      spriteID: 76d69a51759706c30800000000000000
+      internalID: 4350610654972439911
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_78
+      name: SilverCoin_78
       rect:
         serializedVersion: 2
         x: 1272
@@ -2097,14 +2071,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4e8dd0680e67853b0800000000000000
-      internalID: -5523534236276107036
+      spriteID: f24638895eb21cc50800000000000000
+      internalID: 6683671587100779567
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_79
+      name: SilverCoin_79
       rect:
         serializedVersion: 2
         x: 1484
@@ -2119,14 +2093,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3752d2cb44021f6f0800000000000000
-      internalID: -652704991405070989
+      spriteID: 37fd8d3fad1cb6740800000000000000
+      internalID: 5146420145339031411
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silver_80
+      name: SilverCoin_80
       rect:
         serializedVersion: 2
         x: 1696
@@ -2141,8 +2115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 136ceceb7afe4b1d0800000000000000
-      internalID: -3335777920234895823
+      spriteID: 5b53ba473b83a2110800000000000000
+      internalID: 1236863391074301365
       vertices: []
       indices: 
       edges: []
@@ -2151,7 +2125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 57ecd8e4057eec84e857012089e0d9f0
+    spriteID: aa45a77acaeb83046a3c6dd86d6f0535
     internalID: 0
     vertices: []
     indices: 
@@ -2161,87 +2135,87 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Silver_0: -8584647517806083662
-      Silver_1: 3338569852495511519
-      Silver_10: -5286793810398145640
-      Silver_11: 5114111836191555891
-      Silver_12: -6916412211310216056
-      Silver_13: -7024172151957349094
-      Silver_14: 1446381128473850124
-      Silver_15: 5774012275666223349
-      Silver_16: -3288712730961885999
-      Silver_17: -5844548812542761830
-      Silver_18: 5041913675501878375
-      Silver_19: -3510402154854481446
-      Silver_2: 3229921398826955906
-      Silver_20: 3952007494478281594
-      Silver_21: -8969235169815379485
-      Silver_22: 6483348228071020017
-      Silver_23: -38065133529031745
-      Silver_24: 4363423917475716081
-      Silver_25: -8406526628268990094
-      Silver_26: 2249687792652921661
-      Silver_27: -2834393886116755487
-      Silver_28: -6131146322036448035
-      Silver_29: -7569478159983762624
-      Silver_3: 6892227642054826383
-      Silver_30: 2243235981161061876
-      Silver_31: 6515960653898350394
-      Silver_32: -8378135359702616125
-      Silver_33: 5439778215383368049
-      Silver_34: 1154411473342499369
-      Silver_35: 5029458346195144336
-      Silver_36: 5203211375145971943
-      Silver_37: 1374777956589735041
-      Silver_38: -2277601842316072123
-      Silver_39: -2317320514579201146
-      Silver_4: 6650314159823477990
-      Silver_40: -183162008228206454
-      Silver_41: -4435626687425624955
-      Silver_42: -7116979994531701902
-      Silver_43: -8233613275033757150
-      Silver_44: -4402799349871490227
-      Silver_45: 2922835646881739
-      Silver_46: 8329454749723021573
-      Silver_47: 4888227288506796615
-      Silver_48: 6953831933083616938
-      Silver_49: -5393410622462184845
-      Silver_5: 3982905460163716177
-      Silver_50: 2431464156743712985
-      Silver_51: 4838856948672245729
-      Silver_52: -5111978494167565839
-      Silver_53: -691995945782568026
-      Silver_54: 848641455897719515
-      Silver_55: -4543871901382913076
-      Silver_56: 1924159440476294215
-      Silver_57: 4317605283155009651
-      Silver_58: -1709360095743678675
-      Silver_59: 6468079328938179429
-      Silver_6: 2448640864490269230
-      Silver_60: 5203945040161390801
-      Silver_61: -514296910251632864
-      Silver_62: -4383866381808582717
-      Silver_63: -4804609543498392758
-      Silver_64: 1040733542291026953
-      Silver_65: 581358523173632599
-      Silver_66: -7493408706654767762
-      Silver_67: -7741863828792241804
-      Silver_68: 3512554138284504887
-      Silver_69: 7231754801327300041
-      Silver_7: 4280330890314047303
-      Silver_70: -4435225749179408835
-      Silver_71: 9157864322865560829
-      Silver_72: -6118324718318570953
-      Silver_73: 269918915070040562
-      Silver_74: 7730652782685071239
-      Silver_75: 427626651272000379
-      Silver_76: -802817280190035206
-      Silver_77: 2389466791347955077
-      Silver_78: -5523534236276107036
-      Silver_79: -652704991405070989
-      Silver_8: 3827829892776290270
-      Silver_80: -3335777920234895823
-      Silver_9: 6142769255425773565
+      SilverCoin_0: -4976079567497121232
+      SilverCoin_1: 9117548841064295767
+      SilverCoin_10: -1397603885618288772
+      SilverCoin_11: -7404209757121512339
+      SilverCoin_12: -4794764853255290076
+      SilverCoin_13: -6468331022755694370
+      SilverCoin_14: -3989946866031661307
+      SilverCoin_15: -2725904813106674426
+      SilverCoin_16: 7598286571833597184
+      SilverCoin_17: 2453971243336337616
+      SilverCoin_18: 8984707007927260109
+      SilverCoin_19: -1476164441446171578
+      SilverCoin_2: 4383389458023778659
+      SilverCoin_20: 7709855361172846178
+      SilverCoin_21: -4943175105201688113
+      SilverCoin_22: 7752971516945636667
+      SilverCoin_23: 6166222820120680626
+      SilverCoin_24: 7355459430054929659
+      SilverCoin_25: -6497529383323648249
+      SilverCoin_26: 4883360551099591438
+      SilverCoin_27: -481301128635674422
+      SilverCoin_28: -5193919582971385052
+      SilverCoin_29: 7468562858804808961
+      SilverCoin_3: 130084099174672254
+      SilverCoin_30: -10227215436912617
+      SilverCoin_31: 2492671765106170757
+      SilverCoin_32: 7989535774158346575
+      SilverCoin_33: -2236270362620462448
+      SilverCoin_34: 3560264052691096410
+      SilverCoin_35: -320879877888513035
+      SilverCoin_36: -9146610554940727694
+      SilverCoin_37: -6572823422665362778
+      SilverCoin_38: -8542397800289928805
+      SilverCoin_39: 5381016420652497448
+      SilverCoin_4: -2662169338165303921
+      SilverCoin_40: -4363148948169986658
+      SilverCoin_41: 6324672317458523430
+      SilverCoin_42: -9213339295708074165
+      SilverCoin_43: -3363322123849372293
+      SilverCoin_44: -2664056738987886754
+      SilverCoin_45: 2126116894653100126
+      SilverCoin_46: 8424274261112409676
+      SilverCoin_47: -9012469996468257690
+      SilverCoin_48: -1620549703034227065
+      SilverCoin_49: 6831230066525632295
+      SilverCoin_5: -654592551647356727
+      SilverCoin_50: -8492866457103159317
+      SilverCoin_51: 4365044517891081797
+      SilverCoin_52: 1468644374754947069
+      SilverCoin_53: 7967520026135025797
+      SilverCoin_54: 4987702902950341972
+      SilverCoin_55: -2160756804792755372
+      SilverCoin_56: -2356391551509493897
+      SilverCoin_57: 1616706009375619325
+      SilverCoin_58: -4530330421898707720
+      SilverCoin_59: 3511426022655310257
+      SilverCoin_6: -1593037038548204820
+      SilverCoin_60: 623455547719336309
+      SilverCoin_61: -1097328009316672423
+      SilverCoin_62: 6858357741205403379
+      SilverCoin_63: -3994906273901430074
+      SilverCoin_64: 7634751108509529214
+      SilverCoin_65: -8910686970353851776
+      SilverCoin_66: -6697091620667095363
+      SilverCoin_67: 1037778734962915010
+      SilverCoin_68: -8325028983651784566
+      SilverCoin_69: -6495327959483096092
+      SilverCoin_7: 7525775398839095873
+      SilverCoin_70: -8810891334471935241
+      SilverCoin_71: 8076839573545251857
+      SilverCoin_72: -7628764631567235074
+      SilverCoin_73: 8003110596447006395
+      SilverCoin_74: -414095270585978562
+      SilverCoin_75: 4136500333499428976
+      SilverCoin_76: -3755574762064183714
+      SilverCoin_77: 4350610654972439911
+      SilverCoin_78: 6683671587100779567
+      SilverCoin_79: 5146420145339031411
+      SilverCoin_8: 3084874092628519536
+      SilverCoin_80: 1236863391074301365
+      SilverCoin_9: -7247080858018220021
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

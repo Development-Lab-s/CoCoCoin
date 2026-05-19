@@ -1,250 +1,250 @@
 fileFormatVersion: 2
-guid: cba8af5620cbad6408369e9eddc78bf5
+guid: 16ae373521144504aa5b0e9d8eca1702
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1807411320868188590
-    second: SilverUpsideDown_0
+      213: -8421549097708596774
+    second: Goldcoin UpsideDown_0
   - first:
-      213: -2742300334656314612
-    second: SilverUpsideDown_1
+      213: -4169435967482196803
+    second: Goldcoin UpsideDown_1
   - first:
-      213: -6687260201340382290
-    second: SilverUpsideDown_2
+      213: 6537126897575310754
+    second: Goldcoin UpsideDown_2
   - first:
-      213: 1386849969145299952
-    second: SilverUpsideDown_3
+      213: 4487693819123525161
+    second: Goldcoin UpsideDown_3
   - first:
-      213: -6587191690630725534
-    second: SilverUpsideDown_4
+      213: 2999622594477745204
+    second: Goldcoin UpsideDown_4
   - first:
-      213: 4218028578388696214
-    second: SilverUpsideDown_5
+      213: 7002259656049348504
+    second: Goldcoin UpsideDown_5
   - first:
-      213: -476383827221943605
-    second: SilverUpsideDown_6
+      213: 1694774481269976439
+    second: Goldcoin UpsideDown_6
   - first:
-      213: 1256948151162453322
-    second: SilverUpsideDown_7
+      213: -8924727421183202200
+    second: Goldcoin UpsideDown_7
   - first:
-      213: 2190908028507982921
-    second: SilverUpsideDown_8
+      213: 1958295919309271615
+    second: Goldcoin UpsideDown_8
   - first:
-      213: -1450748500141151410
-    second: SilverUpsideDown_9
+      213: 1884058730778838756
+    second: Goldcoin UpsideDown_9
   - first:
-      213: 2334926899716947314
-    second: SilverUpsideDown_10
+      213: -570243624714005178
+    second: Goldcoin UpsideDown_10
   - first:
-      213: -2523078724049921584
-    second: SilverUpsideDown_11
+      213: 6726651746137906413
+    second: Goldcoin UpsideDown_11
   - first:
-      213: -1303541426320662174
-    second: SilverUpsideDown_12
+      213: 4643954595087414163
+    second: Goldcoin UpsideDown_12
   - first:
-      213: -9200093339585778768
-    second: SilverUpsideDown_13
+      213: 8920930793018409103
+    second: Goldcoin UpsideDown_13
   - first:
-      213: 93767261160266451
-    second: SilverUpsideDown_14
+      213: 5353718555998773620
+    second: Goldcoin UpsideDown_14
   - first:
-      213: 2249126987319318530
-    second: SilverUpsideDown_15
+      213: 295908183540542521
+    second: Goldcoin UpsideDown_15
   - first:
-      213: 4043395913776586082
-    second: SilverUpsideDown_16
+      213: 7964728408805496279
+    second: Goldcoin UpsideDown_16
   - first:
-      213: -1532690295897542443
-    second: SilverUpsideDown_17
+      213: -4665017499173189354
+    second: Goldcoin UpsideDown_17
   - first:
-      213: 327605963729608493
-    second: SilverUpsideDown_18
+      213: -5258670094220823996
+    second: Goldcoin UpsideDown_18
   - first:
-      213: 2904745886203385848
-    second: SilverUpsideDown_19
+      213: 5246482643671633338
+    second: Goldcoin UpsideDown_19
   - first:
-      213: 3853466966054641522
-    second: SilverUpsideDown_20
+      213: -8457138612741471810
+    second: Goldcoin UpsideDown_20
   - first:
-      213: -7969295126952533914
-    second: SilverUpsideDown_21
+      213: 558993789099557177
+    second: Goldcoin UpsideDown_21
   - first:
-      213: 4220209703861913036
-    second: SilverUpsideDown_22
+      213: 8411606013560429931
+    second: Goldcoin UpsideDown_22
   - first:
-      213: 774852578437857060
-    second: SilverUpsideDown_23
+      213: 2466278114169957986
+    second: Goldcoin UpsideDown_23
   - first:
-      213: 303933312094832890
-    second: SilverUpsideDown_24
+      213: 3625413535170701135
+    second: Goldcoin UpsideDown_24
   - first:
-      213: -3647533202152889040
-    second: SilverUpsideDown_25
+      213: 3010609971975362656
+    second: Goldcoin UpsideDown_25
   - first:
-      213: -2496641100546603140
-    second: SilverUpsideDown_26
+      213: 2061910453747960643
+    second: Goldcoin UpsideDown_26
   - first:
-      213: -8778888560285166076
-    second: SilverUpsideDown_27
+      213: -5848759752208633940
+    second: Goldcoin UpsideDown_27
   - first:
-      213: 6031485705767752434
-    second: SilverUpsideDown_28
+      213: 3224879887340360111
+    second: Goldcoin UpsideDown_28
   - first:
-      213: -4562150087103897965
-    second: SilverUpsideDown_29
+      213: 7484678181716828415
+    second: Goldcoin UpsideDown_29
   - first:
-      213: 5957271707296678122
-    second: SilverUpsideDown_30
+      213: -644964096046747097
+    second: Goldcoin UpsideDown_30
   - first:
-      213: 6423804127662464108
-    second: SilverUpsideDown_31
+      213: 7142587645749570797
+    second: Goldcoin UpsideDown_31
   - first:
-      213: 4580014543496034121
-    second: SilverUpsideDown_32
+      213: 1358346309951687103
+    second: Goldcoin UpsideDown_32
   - first:
-      213: 2534618223541495929
-    second: SilverUpsideDown_33
+      213: -3442369924683684322
+    second: Goldcoin UpsideDown_33
   - first:
-      213: -1620446982620075615
-    second: SilverUpsideDown_34
+      213: -5234111574950715046
+    second: Goldcoin UpsideDown_34
   - first:
-      213: 2087566862544903104
-    second: SilverUpsideDown_35
+      213: 5412781720048037261
+    second: Goldcoin UpsideDown_35
   - first:
-      213: 6761391690268315935
-    second: SilverUpsideDown_36
+      213: 4204151920940100409
+    second: Goldcoin UpsideDown_36
   - first:
-      213: -2092302447388393054
-    second: SilverUpsideDown_37
+      213: -7638328294806771519
+    second: Goldcoin UpsideDown_37
   - first:
-      213: -654142085567289138
-    second: SilverUpsideDown_38
+      213: -5682395964842616230
+    second: Goldcoin UpsideDown_38
   - first:
-      213: -4803346580821750006
-    second: SilverUpsideDown_39
+      213: 2422375927672679921
+    second: Goldcoin UpsideDown_39
   - first:
-      213: 2194070960950824130
-    second: SilverUpsideDown_40
+      213: -1847533813931844368
+    second: Goldcoin UpsideDown_40
   - first:
-      213: 5516001832015887561
-    second: SilverUpsideDown_41
+      213: -2699574301285655443
+    second: Goldcoin UpsideDown_41
   - first:
-      213: 6259530436160171783
-    second: SilverUpsideDown_42
+      213: -6591647322617878637
+    second: Goldcoin UpsideDown_42
   - first:
-      213: 7175851758610498545
-    second: SilverUpsideDown_43
+      213: 2086253081635839823
+    second: Goldcoin UpsideDown_43
   - first:
-      213: 7099988435718374045
-    second: SilverUpsideDown_44
+      213: 1580770906687110805
+    second: Goldcoin UpsideDown_44
   - first:
-      213: 9222033751685162085
-    second: SilverUpsideDown_45
+      213: 1907329821897654052
+    second: Goldcoin UpsideDown_45
   - first:
-      213: -1180984853005589753
-    second: SilverUpsideDown_46
+      213: 725933315426013665
+    second: Goldcoin UpsideDown_46
   - first:
-      213: 212304171338720575
-    second: SilverUpsideDown_47
+      213: -9104487808161266559
+    second: Goldcoin UpsideDown_47
   - first:
-      213: 2108380278262690932
-    second: SilverUpsideDown_48
+      213: -7607457662280345740
+    second: Goldcoin UpsideDown_48
   - first:
-      213: 9125437796037497014
-    second: SilverUpsideDown_49
+      213: 8849234370712212616
+    second: Goldcoin UpsideDown_49
   - first:
-      213: -454469756615814392
-    second: SilverUpsideDown_50
+      213: -679395618993339323
+    second: Goldcoin UpsideDown_50
   - first:
-      213: -8827249064509342664
-    second: SilverUpsideDown_51
+      213: 1110447517880429540
+    second: Goldcoin UpsideDown_51
   - first:
-      213: 1311813057878026383
-    second: SilverUpsideDown_52
+      213: -4505463682880175804
+    second: Goldcoin UpsideDown_52
   - first:
-      213: -4861596500890721743
-    second: SilverUpsideDown_53
+      213: 6104287438332663616
+    second: Goldcoin UpsideDown_53
   - first:
-      213: 294484763519726742
-    second: SilverUpsideDown_54
+      213: 1285123299733924353
+    second: Goldcoin UpsideDown_54
   - first:
-      213: 7999792120831274154
-    second: SilverUpsideDown_55
+      213: 6704248006491640763
+    second: Goldcoin UpsideDown_55
   - first:
-      213: -6159609116928836970
-    second: SilverUpsideDown_56
+      213: 1053192277235894520
+    second: Goldcoin UpsideDown_56
   - first:
-      213: 1987916942000020148
-    second: SilverUpsideDown_57
+      213: 4012846398515574987
+    second: Goldcoin UpsideDown_57
   - first:
-      213: -7886729737614820349
-    second: SilverUpsideDown_58
+      213: 5441969063132283968
+    second: Goldcoin UpsideDown_58
   - first:
-      213: 343088790428471380
-    second: SilverUpsideDown_59
+      213: -2619621746876840665
+    second: Goldcoin UpsideDown_59
   - first:
-      213: 2314751938927344796
-    second: SilverUpsideDown_60
+      213: -7077710570835991182
+    second: Goldcoin UpsideDown_60
   - first:
-      213: 1527877066782967424
-    second: SilverUpsideDown_61
+      213: 6833283858500126373
+    second: Goldcoin UpsideDown_61
   - first:
-      213: 9205975611654319917
-    second: SilverUpsideDown_62
+      213: -6734733218579396054
+    second: Goldcoin UpsideDown_62
   - first:
-      213: -5952351372749608390
-    second: SilverUpsideDown_63
+      213: -3428845009043363453
+    second: Goldcoin UpsideDown_63
   - first:
-      213: 1960128378089829267
-    second: SilverUpsideDown_64
+      213: -2623906304171268868
+    second: Goldcoin UpsideDown_64
   - first:
-      213: -9123979345061197814
-    second: SilverUpsideDown_65
+      213: -1044082307993092053
+    second: Goldcoin UpsideDown_65
   - first:
-      213: -1937148490036051837
-    second: SilverUpsideDown_66
+      213: -6142303526076631989
+    second: Goldcoin UpsideDown_66
   - first:
-      213: 1421280841060389452
-    second: SilverUpsideDown_67
+      213: -609703774222483546
+    second: Goldcoin UpsideDown_67
   - first:
-      213: 391890617369329681
-    second: SilverUpsideDown_68
+      213: 3231785140511531717
+    second: Goldcoin UpsideDown_68
   - first:
-      213: 8424180416652975391
-    second: SilverUpsideDown_69
+      213: 5934508865646721634
+    second: Goldcoin UpsideDown_69
   - first:
-      213: -2842294302437101724
-    second: SilverUpsideDown_70
+      213: -696991997941491884
+    second: Goldcoin UpsideDown_70
   - first:
-      213: -8430565916129938088
-    second: SilverUpsideDown_71
+      213: 1602080817563990994
+    second: Goldcoin UpsideDown_71
   - first:
-      213: -3371228443327699156
-    second: SilverUpsideDown_72
+      213: 8858633146617862414
+    second: Goldcoin UpsideDown_72
   - first:
-      213: 2261101717698678534
-    second: SilverUpsideDown_73
+      213: -6119781622807228411
+    second: Goldcoin UpsideDown_73
   - first:
-      213: 10253192939525253
-    second: SilverUpsideDown_74
+      213: -4336516962026376843
+    second: Goldcoin UpsideDown_74
   - first:
-      213: 6414346350547949019
-    second: SilverUpsideDown_75
+      213: 157875967758176933
+    second: Goldcoin UpsideDown_75
   - first:
-      213: -5636428025166460629
-    second: SilverUpsideDown_76
+      213: -3202008757063781823
+    second: Goldcoin UpsideDown_76
   - first:
-      213: -6255266778374520256
-    second: SilverUpsideDown_77
+      213: -9080982819073997229
+    second: Goldcoin UpsideDown_77
   - first:
-      213: -3216060504036861949
-    second: SilverUpsideDown_78
+      213: 2462063982987784723
+    second: Goldcoin UpsideDown_78
   - first:
-      213: 3836546370113493095
-    second: SilverUpsideDown_79
+      213: -7715107974163811545
+    second: Goldcoin UpsideDown_79
   - first:
-      213: 188527566247101471
-    second: SilverUpsideDown_80
+      213: 3678451603316749140
+    second: Goldcoin UpsideDown_80
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -336,37 +336,11 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SilverUpsideDown_0
+      name: Goldcoin UpsideDown_0
       rect:
         serializedVersion: 2
         x: 0
@@ -381,14 +355,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ea13e5f2507351910800000000000000
-      internalID: 1807411320868188590
+      spriteID: ad1519407b5a02b80800000000000000
+      internalID: -8421549097708596774
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_1
+      name: Goldcoin UpsideDown_1
       rect:
         serializedVersion: 2
         x: 212
@@ -403,14 +377,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c03206dff5461f9d0800000000000000
-      internalID: -2742300334656314612
+      spriteID: dbc8c7404103326c0800000000000000
+      internalID: -4169435967482196803
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_2
+      name: Goldcoin UpsideDown_2
       rect:
         serializedVersion: 2
         x: 424
@@ -425,14 +399,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ea3df7a07441233a0800000000000000
-      internalID: -6687260201340382290
+      spriteID: 2a5b0a5374a88ba50800000000000000
+      internalID: 6537126897575310754
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_3
+      name: Goldcoin UpsideDown_3
       rect:
         serializedVersion: 2
         x: 636
@@ -447,14 +421,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0f3caa7f2b41f3310800000000000000
-      internalID: 1386849969145299952
+      spriteID: 926e29d60cd774e30800000000000000
+      internalID: 4487693819123525161
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_4
+      name: Goldcoin UpsideDown_4
       rect:
         serializedVersion: 2
         x: 848
@@ -469,14 +443,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2600d8cce089594a0800000000000000
-      internalID: -6587191690630725534
+      spriteID: 434e4146bdcc0a920800000000000000
+      internalID: 2999622594477745204
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_5
+      name: Goldcoin UpsideDown_5
       rect:
         serializedVersion: 2
         x: 1060
@@ -491,14 +465,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 69cdd4bd4a2798a30800000000000000
-      internalID: 4218028578388696214
+      spriteID: 89fcedfbe060d2160800000000000000
+      internalID: 7002259656049348504
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_6
+      name: Goldcoin UpsideDown_6
       rect:
         serializedVersion: 2
         x: 1272
@@ -513,14 +487,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bcae1b1ee6b8369f0800000000000000
-      internalID: -476383827221943605
+      spriteID: 77d6e72596c058710800000000000000
+      internalID: 1694774481269976439
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_7
+      name: Goldcoin UpsideDown_7
       rect:
         serializedVersion: 2
         x: 1484
@@ -535,14 +509,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a4d3f131fa3917110800000000000000
-      internalID: 1256948151162453322
+      spriteID: 86cef2712bff42480800000000000000
+      internalID: -8924727421183202200
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_8
+      name: Goldcoin UpsideDown_8
       rect:
         serializedVersion: 2
         x: 1696
@@ -557,14 +531,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 94c05c67e3ba76e10800000000000000
-      internalID: 2190908028507982921
+      spriteID: f32b68b53c34d2b10800000000000000
+      internalID: 1958295919309271615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_9
+      name: Goldcoin UpsideDown_9
       rect:
         serializedVersion: 2
         x: 0
@@ -579,14 +553,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e4be7aeece7eddbe0800000000000000
-      internalID: -1450748500141151410
+      spriteID: 4e6cb08fe65852a10800000000000000
+      internalID: 1884058730778838756
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_10
+      name: Goldcoin UpsideDown_10
       rect:
         serializedVersion: 2
         x: 212
@@ -601,14 +575,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 27df122f4a3576020800000000000000
-      internalID: 2334926899716947314
+      spriteID: 6459d71d1761618f0800000000000000
+      internalID: -570243624714005178
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_11
+      name: Goldcoin UpsideDown_11
       rect:
         serializedVersion: 2
         x: 424
@@ -623,14 +597,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0d998a0b4493cfcd0800000000000000
-      internalID: -2523078724049921584
+      spriteID: dec9f40bf1ed95d50800000000000000
+      internalID: 6726651746137906413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_12
+      name: Goldcoin UpsideDown_12
       rect:
         serializedVersion: 2
         x: 636
@@ -645,14 +619,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 261a62eaaf3e8ede0800000000000000
-      internalID: -1303541426320662174
+      spriteID: 3937a397914a27040800000000000000
+      internalID: 4643954595087414163
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_13
+      name: Goldcoin UpsideDown_13
       rect:
         serializedVersion: 2
         x: 848
@@ -667,14 +641,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0bb6d811ad3b25080800000000000000
-      internalID: -9200093339585778768
+      spriteID: f80c4b78a438dcb70800000000000000
+      internalID: 8920930793018409103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_14
+      name: Goldcoin UpsideDown_14
       rect:
         serializedVersion: 2
         x: 1060
@@ -689,14 +663,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3dad405c3d02d4100800000000000000
-      internalID: 93767261160266451
+      spriteID: 47169b559aa3c4a40800000000000000
+      internalID: 5353718555998773620
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_15
+      name: Goldcoin UpsideDown_15
       rect:
         serializedVersion: 2
         x: 1272
@@ -711,14 +685,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 20899ed1411863f10800000000000000
-      internalID: 2249126987319318530
+      spriteID: 93ca016dce64b1400800000000000000
+      internalID: 295908183540542521
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_16
+      name: Goldcoin UpsideDown_16
       rect:
         serializedVersion: 2
         x: 1484
@@ -733,14 +707,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 26d5be629270d1830800000000000000
-      internalID: 4043395913776586082
+      spriteID: 7d55053f946688e60800000000000000
+      internalID: 7964728408805496279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_17
+      name: Goldcoin UpsideDown_17
       rect:
         serializedVersion: 2
         x: 1696
@@ -755,14 +729,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5d0b652eb4acabae0800000000000000
-      internalID: -1532690295897542443
+      spriteID: 6190dc20d47824fb0800000000000000
+      internalID: -4665017499173189354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_18
+      name: Goldcoin UpsideDown_18
       rect:
         serializedVersion: 2
         x: 0
@@ -777,14 +751,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d2f176663e3eb8400800000000000000
-      internalID: 327605963729608493
+      spriteID: 4427ff239637507b0800000000000000
+      internalID: -5258670094220823996
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_19
+      name: Goldcoin UpsideDown_19
       rect:
         serializedVersion: 2
         x: 212
@@ -799,14 +773,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8f71ee55efabf4820800000000000000
-      internalID: 2904745886203385848
+      spriteID: abdcc48da204fc840800000000000000
+      internalID: 5246482643671633338
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_20
+      name: Goldcoin UpsideDown_20
       rect:
         serializedVersion: 2
         x: 424
@@ -821,14 +795,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 27f93610ac34a7530800000000000000
-      internalID: 3853466966054641522
+      spriteID: eb10e435d3532aa80800000000000000
+      internalID: -8457138612741471810
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_21
+      name: Goldcoin UpsideDown_21
       rect:
         serializedVersion: 2
         x: 636
@@ -843,14 +817,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6602ebf1e40676190800000000000000
-      internalID: -7969295126952533914
+      spriteID: 931cde6b3e1f1c700800000000000000
+      internalID: 558993789099557177
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_22
+      name: Goldcoin UpsideDown_22
       rect:
         serializedVersion: 2
         x: 848
@@ -865,14 +839,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cc58854bd52319a30800000000000000
-      internalID: 4220209703861913036
+      spriteID: b6d1fcc4a170cb470800000000000000
+      internalID: 8411606013560429931
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_23
+      name: Goldcoin UpsideDown_23
       rect:
         serializedVersion: 2
         x: 1060
@@ -887,14 +861,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 42f75139054d0ca00800000000000000
-      internalID: 774852578437857060
+      spriteID: 26eab60c0eaf93220800000000000000
+      internalID: 2466278114169957986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_24
+      name: Goldcoin UpsideDown_24
       rect:
         serializedVersion: 2
         x: 1272
@@ -909,14 +883,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: af802deacb9c73400800000000000000
-      internalID: 303933312094832890
+      spriteID: f472eb7e66e005230800000000000000
+      internalID: 3625413535170701135
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_25
+      name: Goldcoin UpsideDown_25
       rect:
         serializedVersion: 2
         x: 1484
@@ -931,14 +905,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 035eb3bc0eb516dc0800000000000000
-      internalID: -3647533202152889040
+      spriteID: 06817d091d5d7c920800000000000000
+      internalID: 3010609971975362656
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_26
+      name: Goldcoin UpsideDown_26
       rect:
         serializedVersion: 2
         x: 1696
@@ -953,14 +927,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c77874695262a5dd0800000000000000
-      internalID: -2496641100546603140
+      spriteID: 34bcf4a12a06d9c10800000000000000
+      internalID: 2061910453747960643
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_27
+      name: Goldcoin UpsideDown_27
       rect:
         serializedVersion: 2
         x: 0
@@ -975,14 +949,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4065671fd5f1b2680800000000000000
-      internalID: -8778888560285166076
+      spriteID: cafa0015ef705dea0800000000000000
+      internalID: -5848759752208633940
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_28
+      name: Goldcoin UpsideDown_28
       rect:
         serializedVersion: 2
         x: 212
@@ -997,14 +971,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2f212201b4424b350800000000000000
-      internalID: 6031485705767752434
+      spriteID: fa15930eb2311cc20800000000000000
+      internalID: 3224879887340360111
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_29
+      name: Goldcoin UpsideDown_29
       rect:
         serializedVersion: 2
         x: 424
@@ -1019,14 +993,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 39e9726caacffa0c0800000000000000
-      internalID: -4562150087103897965
+      spriteID: ff02957962beed760800000000000000
+      internalID: 7484678181716828415
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_30
+      name: Goldcoin UpsideDown_30
       rect:
         serializedVersion: 2
         x: 636
@@ -1041,14 +1015,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ae047e70e0b7ca250800000000000000
-      internalID: 5957271707296678122
+      spriteID: 722b0426290ac07f0800000000000000
+      internalID: -644964096046747097
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_31
+      name: Goldcoin UpsideDown_31
       rect:
         serializedVersion: 2
         x: 848
@@ -1063,14 +1037,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c6c5200c1dfe52950800000000000000
-      internalID: 6423804127662464108
+      spriteID: dec2ff9ee919f1360800000000000000
+      internalID: 7142587645749570797
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_32
+      name: Goldcoin UpsideDown_32
       rect:
         serializedVersion: 2
         x: 1060
@@ -1085,14 +1059,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 947343b16fa7f8f30800000000000000
-      internalID: 4580014543496034121
+      spriteID: fb902a6a5c0d9d210800000000000000
+      internalID: 1358346309951687103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_33
+      name: Goldcoin UpsideDown_33
       rect:
         serializedVersion: 2
         x: 1272
@@ -1107,14 +1081,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9782c6768d5cc2320800000000000000
-      internalID: 2534618223541495929
+      spriteID: e16adbdbace3a30d0800000000000000
+      internalID: -3442369924683684322
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_34
+      name: Goldcoin UpsideDown_34
       rect:
         serializedVersion: 2
         x: 1484
@@ -1129,14 +1103,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1a9a3970e040389e0800000000000000
-      internalID: -1620446982620075615
+      spriteID: a516d4c0143bc57b0800000000000000
+      internalID: -5234111574950715046
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_35
+      name: Goldcoin UpsideDown_35
       rect:
         serializedVersion: 2
         x: 1696
@@ -1151,14 +1125,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0cb9dd6400788fc10800000000000000
-      internalID: 2087566862544903104
+      spriteID: d8de036db401e1b40800000000000000
+      internalID: 5412781720048037261
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_36
+      name: Goldcoin UpsideDown_36
       rect:
         serializedVersion: 2
         x: 0
@@ -1173,14 +1147,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f1198bd3be945dd50800000000000000
-      internalID: 6761391690268315935
+      spriteID: 93b2965c5e5285a30800000000000000
+      internalID: 4204151920940100409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_37
+      name: Goldcoin UpsideDown_37
       rect:
         serializedVersion: 2
         x: 212
@@ -1195,14 +1169,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2a10cb47206a6f2e0800000000000000
-      internalID: -2092302447388393054
+      spriteID: 1c82a3ea2e43ff590800000000000000
+      internalID: -7638328294806771519
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_38
+      name: Goldcoin UpsideDown_38
       rect:
         serializedVersion: 2
         x: 424
@@ -1217,14 +1191,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ec8e02d2d350ce6f0800000000000000
-      internalID: -654142085567289138
+      spriteID: a5a51720af21421b0800000000000000
+      internalID: -5682395964842616230
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_39
+      name: Goldcoin UpsideDown_39
       rect:
         serializedVersion: 2
         x: 636
@@ -1239,14 +1213,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a0f4805ebb5175db0800000000000000
-      internalID: -4803346580821750006
+      spriteID: 1fd236962120e9120800000000000000
+      internalID: 2422375927672679921
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_40
+      name: Goldcoin UpsideDown_40
       rect:
         serializedVersion: 2
         x: 848
@@ -1261,14 +1235,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2cc497f0ae7e27e10800000000000000
-      internalID: 2194070960950824130
+      spriteID: 0fcd11ee8cd3c56e0800000000000000
+      internalID: -1847533813931844368
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_41
+      name: Goldcoin UpsideDown_41
       rect:
         serializedVersion: 2
         x: 1060
@@ -1283,14 +1257,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9ccf5b1f076cc8c40800000000000000
-      internalID: 5516001832015887561
+      spriteID: d6c5817d97f298ad0800000000000000
+      internalID: -2699574301285655443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_42
+      name: Goldcoin UpsideDown_42
       rect:
         serializedVersion: 2
         x: 1272
@@ -1305,14 +1279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 70fa21c64c15ed650800000000000000
-      internalID: 6259530436160171783
+      spriteID: 397e4b22fa3c584a0800000000000000
+      internalID: -6591647322617878637
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_43
+      name: Goldcoin UpsideDown_43
       rect:
         serializedVersion: 2
         x: 1484
@@ -1327,14 +1301,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f347d8b72fb59360800000000000000
-      internalID: 7175851758610498545
+      spriteID: f4fd772df1cd3fc10800000000000000
+      internalID: 2086253081635839823
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_44
+      name: Goldcoin UpsideDown_44
       rect:
         serializedVersion: 2
         x: 1696
@@ -1349,14 +1323,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d92006c6dd9388260800000000000000
-      internalID: 7099988435718374045
+      spriteID: 59e7b5ca3c600f510800000000000000
+      internalID: 1580770906687110805
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_45
+      name: Goldcoin UpsideDown_45
       rect:
         serializedVersion: 2
         x: 0
@@ -1371,14 +1345,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5646bd336de3bff70800000000000000
-      internalID: 9222033751685162085
+      spriteID: 42ff7b71e52387a10800000000000000
+      internalID: 1907329821897654052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_46
+      name: Goldcoin UpsideDown_46
       rect:
         serializedVersion: 2
         x: 212
@@ -1393,14 +1367,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7032c77888c4c9fe0800000000000000
-      internalID: -1180984853005589753
+      spriteID: 1e1d6941188031a00800000000000000
+      internalID: 725933315426013665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_47
+      name: Goldcoin UpsideDown_47
       rect:
         serializedVersion: 2
         x: 424
@@ -1415,14 +1389,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f356afcd48142f200800000000000000
-      internalID: 212304171338720575
+      spriteID: 1844cac739c56a180800000000000000
+      internalID: -9104487808161266559
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_48
+      name: Goldcoin UpsideDown_48
       rect:
         serializedVersion: 2
         x: 636
@@ -1437,14 +1411,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 474794141b8724d10800000000000000
-      internalID: 2108380278262690932
+      spriteID: 477d4fbef81ec6690800000000000000
+      internalID: -7607457662280345740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_49
+      name: Goldcoin UpsideDown_49
       rect:
         serializedVersion: 2
         x: 848
@@ -1459,14 +1433,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6b01dbca35114ae70800000000000000
-      internalID: 9125437796037497014
+      spriteID: 8849a7066cbceca70800000000000000
+      internalID: 8849234370712212616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_50
+      name: Goldcoin UpsideDown_50
       rect:
         serializedVersion: 2
         x: 1060
@@ -1481,14 +1455,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 80391cb0a2661b9f0800000000000000
-      internalID: -454469756615814392
+      spriteID: 54402fbb84d4296f0800000000000000
+      internalID: -679395618993339323
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_51
+      name: Goldcoin UpsideDown_51
       rect:
         serializedVersion: 2
         x: 1272
@@ -1503,14 +1477,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 83c750e9ebf4f7580800000000000000
-      internalID: -8827249064509342664
+      spriteID: 4eb2af4522a196f00800000000000000
+      internalID: 1110447517880429540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_52
+      name: Goldcoin UpsideDown_52
       rect:
         serializedVersion: 2
         x: 1484
@@ -1525,14 +1499,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f88e98e960f743210800000000000000
-      internalID: 1311813057878026383
+      spriteID: 4410181c6a06971c0800000000000000
+      internalID: -4505463682880175804
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_53
+      name: Goldcoin UpsideDown_53
       rect:
         serializedVersion: 2
         x: 1696
@@ -1547,14 +1521,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 13260238db3288cb0800000000000000
-      internalID: -4861596500890721743
+      spriteID: 04792b05519c6b450800000000000000
+      internalID: 6104287438332663616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_54
+      name: Goldcoin UpsideDown_54
       rect:
         serializedVersion: 2
         x: 0
@@ -1569,14 +1543,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 694bb590558361400800000000000000
-      internalID: 294484763519726742
+      spriteID: 10ae73d05dca5d110800000000000000
+      internalID: 1285123299733924353
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_55
+      name: Goldcoin UpsideDown_55
       rect:
         serializedVersion: 2
         x: 212
@@ -1591,14 +1565,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aaced179c88f40f60800000000000000
-      internalID: 7999792120831274154
+      spriteID: bb31e019a064a0d50800000000000000
+      internalID: 6704248006491640763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_56
+      name: Goldcoin UpsideDown_56
       rect:
         serializedVersion: 2
         x: 424
@@ -1613,14 +1587,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 69af236a42ca48aa0800000000000000
-      internalID: -6159609116928836970
+      spriteID: 8f884dccbc0bd9e00800000000000000
+      internalID: 1053192277235894520
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_57
+      name: Goldcoin UpsideDown_57
       rect:
         serializedVersion: 2
         x: 636
@@ -1635,14 +1609,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4ba54e22def769b10800000000000000
-      internalID: 1987916942000020148
+      spriteID: bc8f9b9d98e70b730800000000000000
+      internalID: 4012846398515574987
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_58
+      name: Goldcoin UpsideDown_58
       rect:
         serializedVersion: 2
         x: 848
@@ -1657,14 +1631,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 30c75fdd615bc8290800000000000000
-      internalID: -7886729737614820349
+      spriteID: 0444aa6b702c58b40800000000000000
+      internalID: 5441969063132283968
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_59
+      name: Goldcoin UpsideDown_59
       rect:
         serializedVersion: 2
         x: 1060
@@ -1679,14 +1653,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 45058e7ef65e2c400800000000000000
-      internalID: 343088790428471380
+      spriteID: 725848b86eb35abd0800000000000000
+      internalID: -2619621746876840665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_60
+      name: Goldcoin UpsideDown_60
       rect:
         serializedVersion: 2
         x: 1272
@@ -1701,14 +1675,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c9c39e6df96af1020800000000000000
-      internalID: 2314751938927344796
+      spriteID: 2752b423cbbe6cd90800000000000000
+      internalID: -7077710570835991182
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_61
+      name: Goldcoin UpsideDown_61
       rect:
         serializedVersion: 2
         x: 1484
@@ -1723,14 +1697,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0868012e81c143510800000000000000
-      internalID: 1527877066782967424
+      spriteID: 5a68f4b0773b4de50800000000000000
+      internalID: 6833283858500126373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_62
+      name: Goldcoin UpsideDown_62
       rect:
         serializedVersion: 2
         x: 1696
@@ -1745,14 +1719,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d2fa09f1b0232cf70800000000000000
-      internalID: 9205975611654319917
+      spriteID: a2a4d81e1db6982a0800000000000000
+      internalID: -6734733218579396054
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_63
+      name: Goldcoin UpsideDown_63
       rect:
         serializedVersion: 2
         x: 0
@@ -1767,14 +1741,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a3a63f0a6fff46da0800000000000000
-      internalID: -5952351372749608390
+      spriteID: 389691e81ab4a60d0800000000000000
+      internalID: -3428845009043363453
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_64
+      name: Goldcoin UpsideDown_64
       rect:
         serializedVersion: 2
         x: 212
@@ -1789,14 +1763,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 393f43aef56c33b10800000000000000
-      internalID: 1960128378089829267
+      spriteID: cf4a6ff4e13069bd0800000000000000
+      internalID: -2623906304171268868
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_65
+      name: Goldcoin UpsideDown_65
       rect:
         serializedVersion: 2
         x: 424
@@ -1811,14 +1785,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a0840a7602d116180800000000000000
-      internalID: -9123979345061197814
+      spriteID: b204dc33caca281f0800000000000000
+      internalID: -1044082307993092053
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_66
+      name: Goldcoin UpsideDown_66
       rect:
         serializedVersion: 2
         x: 636
@@ -1833,14 +1807,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 380873636bddd15e0800000000000000
-      internalID: -1937148490036051837
+      spriteID: b44b2918c7722caa0800000000000000
+      internalID: -6142303526076631989
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_67
+      name: Goldcoin UpsideDown_67
       rect:
         serializedVersion: 2
         x: 848
@@ -1855,14 +1829,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c421979056769b310800000000000000
-      internalID: 1421280841060389452
+      spriteID: 6aff04fc5a5e987f0800000000000000
+      internalID: -609703774222483546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_68
+      name: Goldcoin UpsideDown_68
       rect:
         serializedVersion: 2
         x: 1060
@@ -1877,14 +1851,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1108b1fa076407500800000000000000
-      internalID: 391890617369329681
+      spriteID: 5c2639a667b99dc20800000000000000
+      internalID: 3231785140511531717
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_69
+      name: Goldcoin UpsideDown_69
       rect:
         serializedVersion: 2
         x: 1272
@@ -1899,14 +1873,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f1d176aa473b8e470800000000000000
-      internalID: 8424180416652975391
+      spriteID: 26a7745fe5c9b5250800000000000000
+      internalID: 5934508865646721634
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_70
+      name: Goldcoin UpsideDown_70
       rect:
         serializedVersion: 2
         x: 1484
@@ -1921,14 +1895,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 46fae1c14642e88d0800000000000000
-      internalID: -2842294302437101724
+      spriteID: 457586f7879c356f0800000000000000
+      internalID: -696991997941491884
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_71
+      name: Goldcoin UpsideDown_71
       rect:
         serializedVersion: 2
         x: 1696
@@ -1943,14 +1917,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8553f8167fc900b80800000000000000
-      internalID: -8430565916129938088
+      spriteID: 2db7e50f30cbb3610800000000000000
+      internalID: 1602080817563990994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_72
+      name: Goldcoin UpsideDown_72
       rect:
         serializedVersion: 2
         x: 0
@@ -1965,14 +1939,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c2762c2a79df631d0800000000000000
-      internalID: -3371228443327699156
+      spriteID: e0998ab69ef20fa70800000000000000
+      internalID: 8858633146617862414
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_73
+      name: Goldcoin UpsideDown_73
       rect:
         serializedVersion: 2
         x: 212
@@ -1987,14 +1961,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 60f847c480c016f10800000000000000
-      internalID: 2261101717698678534
+      spriteID: 5009c9db90b221ba0800000000000000
+      internalID: -6119781622807228411
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_74
+      name: Goldcoin UpsideDown_74
       rect:
         serializedVersion: 2
         x: 424
@@ -2009,14 +1983,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 58459f2893d642000800000000000000
-      internalID: 10253192939525253
+      spriteID: 57136f38cc891d3c0800000000000000
+      internalID: -4336516962026376843
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_75
+      name: Goldcoin UpsideDown_75
       rect:
         serializedVersion: 2
         x: 636
@@ -2031,14 +2005,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bd5dbba6506540950800000000000000
-      internalID: 6414346350547949019
+      spriteID: 5a21cc03b53e03200800000000000000
+      internalID: 157875967758176933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_76
+      name: Goldcoin UpsideDown_76
       rect:
         serializedVersion: 2
         x: 848
@@ -2053,14 +2027,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b2985edf29267c1b0800000000000000
-      internalID: -5636428025166460629
+      spriteID: 142f58b100e2093d0800000000000000
+      internalID: -3202008757063781823
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_77
+      name: Goldcoin UpsideDown_77
       rect:
         serializedVersion: 2
         x: 1060
@@ -2075,14 +2049,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0424fa3c104d039a0800000000000000
-      internalID: -6255266778374520256
+      spriteID: 3564ba93d3ed9f180800000000000000
+      internalID: -9080982819073997229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_78
+      name: Goldcoin UpsideDown_78
       rect:
         serializedVersion: 2
         x: 1272
@@ -2097,14 +2071,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 30818b0d2024e53d0800000000000000
-      internalID: -3216060504036861949
+      spriteID: 3123540e5220b2220800000000000000
+      internalID: 2462063982987784723
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_79
+      name: Goldcoin UpsideDown_79
       rect:
         serializedVersion: 2
         x: 1484
@@ -2119,14 +2093,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 768dde2c8962e3530800000000000000
-      internalID: 3836546370113493095
+      spriteID: 723be248c2e6ee490800000000000000
+      internalID: -7715107974163811545
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SilverUpsideDown_80
+      name: Goldcoin UpsideDown_80
       rect:
         serializedVersion: 2
         x: 1696
@@ -2141,8 +2115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f14078892d8cd9200800000000000000
-      internalID: 188527566247101471
+      spriteID: 45339237e3c7c0330800000000000000
+      internalID: 3678451603316749140
       vertices: []
       indices: 
       edges: []
@@ -2151,7 +2125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b605fa0c7170e2547bb5e8373a9ceed6
+    spriteID: 137ae2194e03118418a276a85f53ab79
     internalID: 0
     vertices: []
     indices: 
@@ -2161,87 +2135,87 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SilverUpsideDown_0: 1807411320868188590
-      SilverUpsideDown_1: -2742300334656314612
-      SilverUpsideDown_10: 2334926899716947314
-      SilverUpsideDown_11: -2523078724049921584
-      SilverUpsideDown_12: -1303541426320662174
-      SilverUpsideDown_13: -9200093339585778768
-      SilverUpsideDown_14: 93767261160266451
-      SilverUpsideDown_15: 2249126987319318530
-      SilverUpsideDown_16: 4043395913776586082
-      SilverUpsideDown_17: -1532690295897542443
-      SilverUpsideDown_18: 327605963729608493
-      SilverUpsideDown_19: 2904745886203385848
-      SilverUpsideDown_2: -6687260201340382290
-      SilverUpsideDown_20: 3853466966054641522
-      SilverUpsideDown_21: -7969295126952533914
-      SilverUpsideDown_22: 4220209703861913036
-      SilverUpsideDown_23: 774852578437857060
-      SilverUpsideDown_24: 303933312094832890
-      SilverUpsideDown_25: -3647533202152889040
-      SilverUpsideDown_26: -2496641100546603140
-      SilverUpsideDown_27: -8778888560285166076
-      SilverUpsideDown_28: 6031485705767752434
-      SilverUpsideDown_29: -4562150087103897965
-      SilverUpsideDown_3: 1386849969145299952
-      SilverUpsideDown_30: 5957271707296678122
-      SilverUpsideDown_31: 6423804127662464108
-      SilverUpsideDown_32: 4580014543496034121
-      SilverUpsideDown_33: 2534618223541495929
-      SilverUpsideDown_34: -1620446982620075615
-      SilverUpsideDown_35: 2087566862544903104
-      SilverUpsideDown_36: 6761391690268315935
-      SilverUpsideDown_37: -2092302447388393054
-      SilverUpsideDown_38: -654142085567289138
-      SilverUpsideDown_39: -4803346580821750006
-      SilverUpsideDown_4: -6587191690630725534
-      SilverUpsideDown_40: 2194070960950824130
-      SilverUpsideDown_41: 5516001832015887561
-      SilverUpsideDown_42: 6259530436160171783
-      SilverUpsideDown_43: 7175851758610498545
-      SilverUpsideDown_44: 7099988435718374045
-      SilverUpsideDown_45: 9222033751685162085
-      SilverUpsideDown_46: -1180984853005589753
-      SilverUpsideDown_47: 212304171338720575
-      SilverUpsideDown_48: 2108380278262690932
-      SilverUpsideDown_49: 9125437796037497014
-      SilverUpsideDown_5: 4218028578388696214
-      SilverUpsideDown_50: -454469756615814392
-      SilverUpsideDown_51: -8827249064509342664
-      SilverUpsideDown_52: 1311813057878026383
-      SilverUpsideDown_53: -4861596500890721743
-      SilverUpsideDown_54: 294484763519726742
-      SilverUpsideDown_55: 7999792120831274154
-      SilverUpsideDown_56: -6159609116928836970
-      SilverUpsideDown_57: 1987916942000020148
-      SilverUpsideDown_58: -7886729737614820349
-      SilverUpsideDown_59: 343088790428471380
-      SilverUpsideDown_6: -476383827221943605
-      SilverUpsideDown_60: 2314751938927344796
-      SilverUpsideDown_61: 1527877066782967424
-      SilverUpsideDown_62: 9205975611654319917
-      SilverUpsideDown_63: -5952351372749608390
-      SilverUpsideDown_64: 1960128378089829267
-      SilverUpsideDown_65: -9123979345061197814
-      SilverUpsideDown_66: -1937148490036051837
-      SilverUpsideDown_67: 1421280841060389452
-      SilverUpsideDown_68: 391890617369329681
-      SilverUpsideDown_69: 8424180416652975391
-      SilverUpsideDown_7: 1256948151162453322
-      SilverUpsideDown_70: -2842294302437101724
-      SilverUpsideDown_71: -8430565916129938088
-      SilverUpsideDown_72: -3371228443327699156
-      SilverUpsideDown_73: 2261101717698678534
-      SilverUpsideDown_74: 10253192939525253
-      SilverUpsideDown_75: 6414346350547949019
-      SilverUpsideDown_76: -5636428025166460629
-      SilverUpsideDown_77: -6255266778374520256
-      SilverUpsideDown_78: -3216060504036861949
-      SilverUpsideDown_79: 3836546370113493095
-      SilverUpsideDown_8: 2190908028507982921
-      SilverUpsideDown_80: 188527566247101471
-      SilverUpsideDown_9: -1450748500141151410
+      Goldcoin UpsideDown_0: -8421549097708596774
+      Goldcoin UpsideDown_1: -4169435967482196803
+      Goldcoin UpsideDown_10: -570243624714005178
+      Goldcoin UpsideDown_11: 6726651746137906413
+      Goldcoin UpsideDown_12: 4643954595087414163
+      Goldcoin UpsideDown_13: 8920930793018409103
+      Goldcoin UpsideDown_14: 5353718555998773620
+      Goldcoin UpsideDown_15: 295908183540542521
+      Goldcoin UpsideDown_16: 7964728408805496279
+      Goldcoin UpsideDown_17: -4665017499173189354
+      Goldcoin UpsideDown_18: -5258670094220823996
+      Goldcoin UpsideDown_19: 5246482643671633338
+      Goldcoin UpsideDown_2: 6537126897575310754
+      Goldcoin UpsideDown_20: -8457138612741471810
+      Goldcoin UpsideDown_21: 558993789099557177
+      Goldcoin UpsideDown_22: 8411606013560429931
+      Goldcoin UpsideDown_23: 2466278114169957986
+      Goldcoin UpsideDown_24: 3625413535170701135
+      Goldcoin UpsideDown_25: 3010609971975362656
+      Goldcoin UpsideDown_26: 2061910453747960643
+      Goldcoin UpsideDown_27: -5848759752208633940
+      Goldcoin UpsideDown_28: 3224879887340360111
+      Goldcoin UpsideDown_29: 7484678181716828415
+      Goldcoin UpsideDown_3: 4487693819123525161
+      Goldcoin UpsideDown_30: -644964096046747097
+      Goldcoin UpsideDown_31: 7142587645749570797
+      Goldcoin UpsideDown_32: 1358346309951687103
+      Goldcoin UpsideDown_33: -3442369924683684322
+      Goldcoin UpsideDown_34: -5234111574950715046
+      Goldcoin UpsideDown_35: 5412781720048037261
+      Goldcoin UpsideDown_36: 4204151920940100409
+      Goldcoin UpsideDown_37: -7638328294806771519
+      Goldcoin UpsideDown_38: -5682395964842616230
+      Goldcoin UpsideDown_39: 2422375927672679921
+      Goldcoin UpsideDown_4: 2999622594477745204
+      Goldcoin UpsideDown_40: -1847533813931844368
+      Goldcoin UpsideDown_41: -2699574301285655443
+      Goldcoin UpsideDown_42: -6591647322617878637
+      Goldcoin UpsideDown_43: 2086253081635839823
+      Goldcoin UpsideDown_44: 1580770906687110805
+      Goldcoin UpsideDown_45: 1907329821897654052
+      Goldcoin UpsideDown_46: 725933315426013665
+      Goldcoin UpsideDown_47: -9104487808161266559
+      Goldcoin UpsideDown_48: -7607457662280345740
+      Goldcoin UpsideDown_49: 8849234370712212616
+      Goldcoin UpsideDown_5: 7002259656049348504
+      Goldcoin UpsideDown_50: -679395618993339323
+      Goldcoin UpsideDown_51: 1110447517880429540
+      Goldcoin UpsideDown_52: -4505463682880175804
+      Goldcoin UpsideDown_53: 6104287438332663616
+      Goldcoin UpsideDown_54: 1285123299733924353
+      Goldcoin UpsideDown_55: 6704248006491640763
+      Goldcoin UpsideDown_56: 1053192277235894520
+      Goldcoin UpsideDown_57: 4012846398515574987
+      Goldcoin UpsideDown_58: 5441969063132283968
+      Goldcoin UpsideDown_59: -2619621746876840665
+      Goldcoin UpsideDown_6: 1694774481269976439
+      Goldcoin UpsideDown_60: -7077710570835991182
+      Goldcoin UpsideDown_61: 6833283858500126373
+      Goldcoin UpsideDown_62: -6734733218579396054
+      Goldcoin UpsideDown_63: -3428845009043363453
+      Goldcoin UpsideDown_64: -2623906304171268868
+      Goldcoin UpsideDown_65: -1044082307993092053
+      Goldcoin UpsideDown_66: -6142303526076631989
+      Goldcoin UpsideDown_67: -609703774222483546
+      Goldcoin UpsideDown_68: 3231785140511531717
+      Goldcoin UpsideDown_69: 5934508865646721634
+      Goldcoin UpsideDown_7: -8924727421183202200
+      Goldcoin UpsideDown_70: -696991997941491884
+      Goldcoin UpsideDown_71: 1602080817563990994
+      Goldcoin UpsideDown_72: 8858633146617862414
+      Goldcoin UpsideDown_73: -6119781622807228411
+      Goldcoin UpsideDown_74: -4336516962026376843
+      Goldcoin UpsideDown_75: 157875967758176933
+      Goldcoin UpsideDown_76: -3202008757063781823
+      Goldcoin UpsideDown_77: -9080982819073997229
+      Goldcoin UpsideDown_78: 2462063982987784723
+      Goldcoin UpsideDown_79: -7715107974163811545
+      Goldcoin UpsideDown_8: 1958295919309271615
+      Goldcoin UpsideDown_80: 3678451603316749140
+      Goldcoin UpsideDown_9: 1884058730778838756
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

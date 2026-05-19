@@ -15,6 +15,7 @@ public class ShopPopup : MonoBehaviour
     public Texture2D backgroundImage;
     public RenderTexture BackAnim;
     public VideoClip[] Vid;
+    public Button slotButton;
     void Start()
     {
         DOTween.Init();
@@ -46,6 +47,7 @@ public class ShopPopup : MonoBehaviour
         {
             Shop.gameObject.SetActive(true);
             ExitButton.gameObject.SetActive(true);
+            slotButton.gameObject.SetActive(false);
         })));;
         seq.Append(BlackBack.DOFade(1, 0.2f));
         seq.Append(BlackBack.DOFade(0, 1f));
@@ -71,6 +73,7 @@ public class ShopPopup : MonoBehaviour
         {
             Shop.gameObject.SetActive(false);
             ExitButton.gameObject.SetActive(false);
+            slotButton.gameObject.SetActive(true);
             
         })));
         seq.Append(BlackBack.DOFade(1, 0.2f));
