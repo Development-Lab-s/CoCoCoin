@@ -13,6 +13,7 @@ public class Player : MonoBehaviour
     [SerializeField] private TextMeshProUGUI hpText;
     [SerializeField] private Image bloodImage;
     [SerializeField] private Image clawImage;
+    [SerializeField] private Animator animator;
     public StatusEffectHandler statusEffectHandler;
     private int displayHP;
     public int displayShield;
@@ -50,6 +51,18 @@ public class Player : MonoBehaviour
             GameData.instance.playerCurrentHp = 0;
         }
 
+        if (shieldHP > 0)
+        {
+            switch (Random.Range(0, 2))
+            {
+                case 0:
+                    animator.SetTrigger("Parry");
+                    break;
+                case 1:
+                    animator.SetTrigger("Deflect");
+                    break;
+            }
+        }
         clawImage.DOKill();
         clawImage.rectTransform.rotation = Quaternion.Euler(0, Random.Range(0, 2) == 0 ? 0 : 180, 0);
         clawImage.DOFade(0.6f,0.3f).SetEase(Ease.OutQuad).OnComplete(() => clawImage.DOFade(0f,0.7f));

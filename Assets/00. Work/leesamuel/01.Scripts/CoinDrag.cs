@@ -16,7 +16,8 @@ public class CoinDrag : MonoBehaviour
     private Vector3 _originalPosition;
     private Vector3 _originalScale;
     public static bool _isDragging = false;
-    private int coinCount = 0;
+    private static int coinCount = 0;
+    private static bool coinResetEn = true;
     private Coroutine _scaleCoroutine;
     private Coroutine _moveCoroutine;
 
@@ -39,6 +40,11 @@ public class CoinDrag : MonoBehaviour
     {
         _originalPosition = transform.position;
         _originalScale = transform.localScale;
+        if (coinResetEn)
+        {
+            coinCount = 0;
+            coinResetEn = false;
+        }
     }
 
 
@@ -83,7 +89,7 @@ public class CoinDrag : MonoBehaviour
         // 드롭 위치에 목표 지점이 있는지 체크 (Collider2D 필요)
         Collider2D hit = Physics2D.OverlapCircle(transform.position, 0.5f, _targetLayer);
         _sr.sortingLayerName = "Default";
-        if (hit != null)
+        if (hit != null && coinCount != 3)
         {
             //목표 지점이면 파괴
             coinCount++;
@@ -92,6 +98,7 @@ public class CoinDrag : MonoBehaviour
             if (coinCount == 3)
             {
                 _ = SceneManageHandler.instance.MoveScene(1);
+                coinResetEn = true;
             }
         }
         else
