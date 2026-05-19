@@ -28,7 +28,7 @@ public class ItemBox : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragH
     {
         item = itemData;
         iconImage.sprite = itemData.Sprite;
-        nameText.text = itemData.name.ToString();
+        nameText.text = itemData.Name.ToString();
         switch (itemData.rarity.ToString())
         {
             case "Common":

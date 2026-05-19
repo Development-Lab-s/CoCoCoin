@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Threading.Tasks;
+using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.InputSystem.Composites;
 using UnityEngine.UI;
@@ -14,6 +15,7 @@ public class SlotMachine : MonoBehaviour
     public Transform _slot2;
     SlotMachine1 slotMachine;
     public Button button;
+    public CinemachineCamera Camera;
 
     private void Awake()
     {
@@ -74,6 +76,7 @@ public class SlotMachine : MonoBehaviour
             bottomSymbol.SetAsFirstSibling();
             _contentRect[x].anchoredPosition += new Vector2(0, _symbolHeight);
         }
+        
         if (x == _contentRect.Length - 1)
         {
             button.enabled = true;
