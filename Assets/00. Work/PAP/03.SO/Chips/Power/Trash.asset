@@ -21,5 +21,5 @@ MonoBehaviour:
   SpriteOnStack: {fileID: 486665271, guid: 595c6e10b5f2d044f846df04f1b67b7a, type: 3}
   SpriteOnBack: {fileID: 1774797386, guid: 057edcc3ca4c38c4ba825c445affc912, type: 3}
   ChipEncounter: {fileID: 11400000, guid: 7ea4e09b75a03f84f886544828de7dc9, type: 2}
-  spriteLibrary: {fileID: 7108339969198208228, guid: e7ec5a0c439bc6344bf0c1fc3654560a, type: 3}
+  spriteLibrary: {fileID: 7108339969198208228, guid: 27ec1f48c35c12243bfada883570030d, type: 3}
   rarity: 1
