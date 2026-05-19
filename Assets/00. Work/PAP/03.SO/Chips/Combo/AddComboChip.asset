@@ -15,17 +15,10 @@ MonoBehaviour:
   Name: "\uD55C\uD0D5"
   Description: "<color=#999999>[50% \uC55E\uBA74]</color>\n\uCF64\uBCF4 +2\n\n<color=#999999>[50%
     \uB4B7\uBA74]</color>\nX"
-<<<<<<< HEAD
-  Sprite: {fileID: 4102872194244992748, guid: 8b18449ed72274741823c545fa16422b, type: 3}
-  SpriteOnInventory: {fileID: 8394660545373626841, guid: 0de1df47d6df8bc45b3ad9081069991c, type: 3}
-  SpriteOnStack: {fileID: 4478865568680087179, guid: 4810ea7e6224a37459e13a5d77f3b5c1, type: 3}
-  SpriteOnBack: {fileID: -8440127596729735460, guid: 0de1df47d6df8bc45b3ad9081069991c, type: 3}
-=======
-  Sprite: {fileID: 1040151669594901223, guid: 8b18449ed72274741823c545fa16422b, type: 3}
-  SpriteOnInventory: {fileID: 8879619227230462451, guid: 8b18449ed72274741823c545fa16422b, type: 3}
-  SpriteOnStack: {fileID: 4102872194244992748, guid: 8b18449ed72274741823c545fa16422b, type: 3}
-  SpriteOnBack: {fileID: 1358346309951687103, guid: 16ae373521144504aa5b0e9d8eca1702, type: 3}
->>>>>>> newJun
+  Sprite: {fileID: -5006437576945231258, guid: 8b18449ed72274741823c545fa16422b, type: 3}
+  SpriteOnInventory: {fileID: -5900379140426500668, guid: 8b18449ed72274741823c545fa16422b, type: 3}
+  SpriteOnStack: {fileID: 6943991743506428863, guid: 8b18449ed72274741823c545fa16422b, type: 3}
+  SpriteOnBack: {fileID: -9080982819073997229, guid: 16ae373521144504aa5b0e9d8eca1702, type: 3}
   ChipEncounter: {fileID: 11400000, guid: cf64c096515847941a3774ad19e59775, type: 2}
-  spriteLibrary: {fileID: 7108339969198208228, guid: 063f213ac5cd7ed4c882e3c4245d84a1, type: 3}
+  spriteLibrary: {fileID: 7108339969198208228, guid: b354c18ffe8ba00499b00c1905bb375d, type: 3}
   rarity: 0
