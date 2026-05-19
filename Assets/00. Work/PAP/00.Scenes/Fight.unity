@@ -2852,6 +2852,7 @@ MonoBehaviour:
   hpText: {fileID: 302508422}
   bloodImage: {fileID: 340903034}
   clawImage: {fileID: 776186387}
+  animator: {fileID: 1569394126}
   statusEffectHandler: {fileID: 1194053239}
   displayShield: 0
   shieldHP: 0
@@ -4870,6 +4871,8 @@ MonoBehaviour:
   itemChipPrefab: {fileID: 5356513599432525884, guid: c867849c9eb51ec4f867e140d9919c99, type: 3}
   toolTip: {fileID: 1266991624}
   moveModelRTrm: {fileID: 1520774379}
+  inventoryData: {fileID: 0}
+  isBattle: 1
 --- !u!1 &1268146102
 GameObject:
   m_ObjectHideFlags: 0

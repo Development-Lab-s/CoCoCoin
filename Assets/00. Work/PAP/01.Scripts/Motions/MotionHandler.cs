@@ -107,8 +107,9 @@ public class MotionHandler : MonoBehaviour
     private IEnumerator DefenseMotion(Player player, Enemy enemy,ChipEncounter chip, bool isHead)
     {
         animator.SetTrigger("GetBuff");
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
         ChipAbility(player, enemy, chip, isHead);
+        yield return new WaitForSeconds(0.5f);
         SetEnable(chip);
 
     }

@@ -54,8 +54,8 @@ public class Room : MonoBehaviour
 
             case RoomType.Interaction:
                 Debug.Log("신비한 비석을 발견했습니다.");
+                _=SceneManageHandler.instance.MoveScene(8);
                 SetCleared();
-                MapPlayer.Instance.isMoving = false;
                 break;
 
             case RoomType.Boss:
