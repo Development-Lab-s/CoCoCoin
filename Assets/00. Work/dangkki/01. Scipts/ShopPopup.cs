@@ -12,8 +12,6 @@ public class ShopPopup : MonoBehaviour
     public Image BlackBack;
     public GameObject Shop;
     public Button ExitButton;
-    public RawImage Background;
-    public Texture2D backgroundImage;
     public Button slotButton;
     public WalkCam walkCam;
     void Start()
@@ -86,7 +84,6 @@ public class ShopPopup : MonoBehaviour
         seq.Append(BlackBack.DOFade(0, 1f).OnComplete(() => BlackBack.gameObject.SetActive(false)));
         StartCoroutine(Delay(true));
         //seq.Play().OnComplete(() => gameObject.SetActive(false));
-        Background.texture = backgroundImage;
     }
 
     public IEnumerator Delay(bool flag)
