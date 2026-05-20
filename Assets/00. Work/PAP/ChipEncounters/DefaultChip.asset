@@ -9,7 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f9e9af9a66956444b65a8488fae5e8e, type: 3}
-  m_Name: DefaultChip
+  m_Script: {fileID: 11500000, guid: 5878a7ef4e614438a8a4ebe981fcfc37, type: 3}
+  m_Name: Vibecoding
   m_EditorClassIdentifier: 
-  headChance: 50
+  headChance: 51
+  headChipMotion: 105
+  tailChipMotion: 106
+  type: 1
