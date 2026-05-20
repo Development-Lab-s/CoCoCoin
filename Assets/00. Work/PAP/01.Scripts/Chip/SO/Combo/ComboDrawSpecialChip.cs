@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace _00._Work.PAP._01.Scripts.Chip.SO.Combo
 {
@@ -16,12 +15,13 @@ namespace _00._Work.PAP._01.Scripts.Chip.SO.Combo
 
         public override void TailChip(Player player, Enemy enemy)
         {
-            player.combo.SetCombo(BattleManager.instance.nowChips.Count);
-            List<InventoryItemSO> a = new List<InventoryItemSO>(BattleManager.instance.nowChips);
-            foreach (InventoryItemSO item in a)
+            BattleManager.instance.isLocked = true;
+            BattleManager.instance.needDiscard = BattleManager.instance.nowChips.Count;
+            if (BattleManager.instance.needDiscard <= 0)
             {
-                BattleManager.instance.DiscardChip(item,BattleManager.instance.chipModels[(BattleManager.instance.nowChips.IndexOf(item))]);
+                BattleManager.instance.isLocked = false;
             }
+            player.combo.SetCombo(BattleManager.instance.nowChips.Count);
         }
     }
 }

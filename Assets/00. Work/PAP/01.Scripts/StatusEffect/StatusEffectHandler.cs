@@ -1,6 +1,5 @@
 using NUnit.Framework;
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 
 public class StatusEffectHandler : MonoBehaviour
@@ -13,8 +12,6 @@ public class StatusEffectHandler : MonoBehaviour
     public void AddStatusEffect(StatusEffect status,int setTurn)
     {
         StatusEffect nowStatus = status;
-        if (nowStatusEffectList.Any(effect => effect.checkValue == "Death"))
-            return;
         StatusEffect removeStatus = null;
         foreach (StatusEffect effect in nowStatusEffectList)
         {
