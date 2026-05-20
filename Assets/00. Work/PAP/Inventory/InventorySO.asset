@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Jackpot
   m_EditorClassIdentifier: 
   headChance: 51
-  headChipMotion: 100
-  tailChipMotion: 101
-  type: 1
+  headChipMotion: 1
+  tailChipMotion: -10
+  type: 0

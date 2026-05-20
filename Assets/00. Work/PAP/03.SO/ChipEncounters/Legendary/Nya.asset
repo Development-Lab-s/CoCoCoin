@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Nya
   m_EditorClassIdentifier: 
   headChance: 51
-  headChipMotion: 107
+  headChipMotion: 0
   tailChipMotion: -10
-  type: 1
+  type: 0
   NaviEffect: {fileID: 2550031651879788907, guid: 8ba0841a74957d44fb22ff65fcda2b0d, type: 3}
   impulseSource: {fileID: 4645142144144777889, guid: 8ba0841a74957d44fb22ff65fcda2b0d, type: 3}

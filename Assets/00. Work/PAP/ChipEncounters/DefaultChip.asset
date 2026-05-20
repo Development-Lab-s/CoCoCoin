@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Vibecoding
   m_EditorClassIdentifier: 
   headChance: 51
-  headChipMotion: 105
-  tailChipMotion: 106
-  type: 1
+  headChipMotion: 0
+  tailChipMotion: 0
+  type: 0

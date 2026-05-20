@@ -243,6 +243,7 @@ public class BattleManager : MonoBehaviour
 
         if (GameData.instance.playerCurrentHp <= 0)
         {
+            _ = SceneManageHandler.instance.MoveScene(5);
             currentState = State.End;
         }
         else
