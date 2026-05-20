@@ -48,10 +48,6 @@ public class Player : MonoBehaviour
         if (statusEffectHandler.nowStatusEffectList.Exists(effect => effect.checkValue == "ReturnDefense"))
             BattleManager.instance.enemy.TakeDamage(damage - dealDamage);
         GameData.instance.playerCurrentHp = Mathf.Max(GameData.instance.playerCurrentHp-dealDamage,0);
-        if (GameData.instance.playerCurrentHp == 0)
-        {
-            GameData.instance.playerCurrentHp = 0;
-        }
 
         if (shieldHP > 0)
         {
@@ -73,6 +69,10 @@ public class Player : MonoBehaviour
         bloodImage.DOFade(0f,1f).SetEase(Ease.OutQuad);
         StartCoroutine(DecreaseHPAnimation(dealDamage));
         StartCoroutine(ShieldAnimation(dealDamage));
+        if (GameData.instance.playerCurrentHp == 0)
+        {
+            _ = SceneManageHandler.instance.MoveScene(5);
+        }
     }
 
     private Coroutine shieldTextAnimation;

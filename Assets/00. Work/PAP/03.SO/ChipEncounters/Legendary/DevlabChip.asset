@@ -15,4 +15,4 @@ MonoBehaviour:
   headChance: 99
   headChipMotion: -10
   tailChipMotion: 1
-  type: 0
+  type: 1

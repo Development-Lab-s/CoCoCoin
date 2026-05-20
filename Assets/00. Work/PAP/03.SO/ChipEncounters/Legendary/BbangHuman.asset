@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: BbangHuman
   m_EditorClassIdentifier: 
   headChance: 51
-  headChipMotion: -1
-  tailChipMotion: 1
-  type: 0
+  headChipMotion: 102
+  tailChipMotion: -10
+  type: 1
