@@ -13,6 +13,7 @@ public class SlotMove : MonoBehaviour
     public CinemachineCamera Camera;
     public WalkCam WalkCam;
     public Transform SlotEnter;
+    [SerializeField] private GameObject disableObject;
     private void Awake()
     {
         WalkCam = Camera.gameObject.GetComponent<WalkCam>();
@@ -35,14 +36,14 @@ public class SlotMove : MonoBehaviour
         WalkCam.moveDuration = 1f;
         WalkCam.Play(true);
         SlotEnter.gameObject.SetActive(false);
+        disableObject.SetActive(false);
+        ExitButton.gameObject.SetActive(false);
         if (!BlackBack.gameObject.active) BlackBack.gameObject.SetActive(true);
         Sequence seq = DOTween.Sequence();
         //seq.Append(BlackBack.DOFade(0, 0.5f));
         seq.Append(BlackBack.DOFade(1, 0.7f));
         seq.Append(transform.DOMoveX(0, 0.3f)/*.SetEase(Ease.OutBack , 0.5f,3)*/.OnComplete((() =>
         {
-            //Shop.gameObject.SetActive(true);
-            //ExitButton.gameObject.SetActive(true);
         })));;
         seq.Append(BlackBack.DOFade(1, 0.2f));
         seq.Append(BlackBack.DOFade(0, 0.5f).OnComplete(() =>
@@ -55,7 +56,9 @@ public class SlotMove : MonoBehaviour
     public void Hide()
     {
         if (!BlackBack.gameObject.active) BlackBack.gameObject.SetActive(true);
+        disableObject.SetActive(true);
         Sequence seq = DOTween.Sequence();
+        ExitButton.gameObject.SetActive(true);
         seq.Append(BlackBack.DOFade(1, 0.5f));
         seq.Append(transform.DOMoveX(-30, 0.3f)/*.SetEase(Ease.InBack, 0.3f , 2)*/.OnComplete((() =>
         {
