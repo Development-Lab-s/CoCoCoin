@@ -10,17 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ab833fd37e42eb48b8fbb686d40d810, type: 3}
-  m_Name: MultiplierDefenseChip
+  m_Name: FingerSnap
   m_EditorClassIdentifier: 
-  Name: "\uC77C\uC6D0"
-  Description: "<color=#999999>[50% \uC55E\uBA74]</color>\n<color=#0D99FF>\uD604\uC7AC
-    \uBC29\uC5B4\uB3C4</color>\uAC00 2\uBC30\uAC00 \uB429\uB2C8\uB2E4!\n\n<color=#999999>[50%
-    \uB4B7\uBA74]</color>\n\uC774\uBC88 \uD134\uC5D0 \uCE69\uC73C\uB85C \uC5BB\uB294
-    <color=#0D99FF>\uBC29\uC5B4\uB3C4</color>\uAC00 2\uBC30\uAC00 \uB429\uB2C8\uB2E4!"
+  Name: "\uBC14\uC774\uBE0C\uCF54\uB529"
+  Description: "<color=#999999>[50% \uC55E\uBA74]</color>\n\uC801\uC758 \uCCB4\uB825\uC744
+    \uBC18\uC73C\uB85C \uB9CC\uB4ED\uB2C8\uB2E4.\n\n<color=#999999>[50% \uB4B7\uBA74]</color>\n\uC790\uC2E0\uC758
+    \uCCB4\uB825\uC744 \uBC18\uC73C\uB85C \uB9CC\uB4ED\uB2C8\uB2E4."
   Sprite: {fileID: -4976079567497121232, guid: 11c4d46ebc442c84dabff3a22e3c8e35, type: 3}
-  SpriteOnInventory: {fileID: 4383389458023778659, guid: 11c4d46ebc442c84dabff3a22e3c8e35, type: 3}
+  SpriteOnInventory: {fileID: -10227215436912617, guid: 11c4d46ebc442c84dabff3a22e3c8e35, type: 3}
   SpriteOnStack: {fileID: -3167540119932442848, guid: 326edcef18837c64da0fa0d6a343fd3c, type: 3}
   SpriteOnBack: {fileID: -654592551647356727, guid: 11c4d46ebc442c84dabff3a22e3c8e35, type: 3}
-  ChipEncounter: {fileID: 11400000, guid: 792d1fa55f4d6d948b995f07c10cf80c, type: 2}
+  ChipEncounter: {fileID: 11400000, guid: 0689126359e4ac448bd9fb51cc294ec8, type: 2}
   spriteLibrary: {fileID: 7108339969198208228, guid: 224f2b660aecc2048b2dc23191f2854f, type: 3}
-  rarity: 1
+  rarity: 2

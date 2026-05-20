@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Unity.Jobs;
 using UnityEngine;
 
@@ -14,12 +15,11 @@ public class WhiteChip : ChipEncounter
 
     public override void TailChip(Player player, Enemy enemy)
     {
-        BattleManager.instance.isLocked = true;
-        BattleManager.instance.needDiscard = BattleManager.instance.nowChips.Count;
-        if (BattleManager.instance.needDiscard <= 0)
+        BattleManager.instance.AmountDrawMax += BattleManager.instance.nowChips.Count;
+        List<InventoryItemSO> a = new List<InventoryItemSO>(BattleManager.instance.nowChips);
+        foreach (InventoryItemSO item in a)
         {
-            BattleManager.instance.isLocked = false;
+            BattleManager.instance.DiscardChip(item,BattleManager.instance.chipModels[(BattleManager.instance.nowChips.IndexOf(item))]);
         }
-        BattleManager.instance.AmountDrawMax += BattleManager.instance.needDiscard;
     }
 }
