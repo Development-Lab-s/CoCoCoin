@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3706b2c6ed94f15a618aebed606c7e9, type: 3}
-  m_Name: FindArtSelect
+  m_Script: {fileID: 11500000, guid: 5dd4c9488a244c0496db81dd79749487, type: 3}
+  m_Name: CatFactorySelect
   m_EditorClassIdentifier: 
   chips:
   - {fileID: 11400000, guid: be697d1a6d976b240a3ebf3cc203baed, type: 2}
