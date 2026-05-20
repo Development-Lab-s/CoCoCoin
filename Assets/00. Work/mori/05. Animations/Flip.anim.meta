@@ -1,17 +1,9 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/00. Work/mori/05. Animations/Idle.anim.meta
 guid: 7ba94f4511e399e4d8503d0c52c0afba
 ========
 guid: 35acdaa29e19d0b4d8cb9dc23000cecd
 >>>>>>>> parent of a299877 (Merge branch 'mori' into base):Assets/00. Work/mori/05. Animations/Flip.anim.meta
-=======
-<<<<<<<< HEAD:Assets/00. Work/PAP/07.Animations/Flip.anim.meta
-guid: 35acdaa29e19d0b4d8cb9dc23000cecd
-========
-guid: 1fca023a3ba4739458419b931df439a7
->>>>>>>> parent of a299877 (Merge branch 'mori' into base):Assets/00. Work/mori/05. Animations/Idle.anim.meta
->>>>>>> parent of a299877 (Merge branch 'mori' into base)
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 7400000
