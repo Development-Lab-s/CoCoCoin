@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3706b2c6ed94f15a618aebed606c7e9, type: 3}
-  m_Name: FindArtSelect
+  m_Script: {fileID: 11500000, guid: 574df567f67cca844a378a29bcccc0f2, type: 3}
+  m_Name: BrokenShopSelect
   m_EditorClassIdentifier: 
   chips:
   - {fileID: 11400000, guid: be697d1a6d976b240a3ebf3cc203baed, type: 2}

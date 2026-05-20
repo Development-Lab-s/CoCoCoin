@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 [CreateAssetMenu(fileName = "EnemyData", menuName = "Scriptable Objects/EnemyData")]
 public class EnemyData : ScriptableObject
@@ -15,4 +16,5 @@ public class EnemyData : ScriptableObject
     public List<int> damage = new List<int>();
 
     public bool isLast = false;
+    public AudioResource Theme;
 }
