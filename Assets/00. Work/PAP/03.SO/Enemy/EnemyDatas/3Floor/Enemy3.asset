@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 678473a4d799e3b498ec87b4228a7c4a, type: 3}
-  m_Name: Enemy6
+  m_Name: Enemy3
   m_EditorClassIdentifier: 
-  enemySprite: {fileID: -4165132947770738898, guid: d952f3d29cc608740804e7dbcff1ced3, type: 3}
-  Health: 86
-  hitSprite: {fileID: 1066704185936736885, guid: d952f3d29cc608740804e7dbcff1ced3, type: 3}
+  enemySprite: {fileID: 3812347417670118587, guid: 936fd7bc71be59d4fb3cb54e0a4d5419, type: 3}
+  Health: 140
+  hitSprite: {fileID: -2070184182114375528, guid: 936fd7bc71be59d4fb3cb54e0a4d5419, type: 3}
   readyToAttack: {fileID: 0}
   Attack: {fileID: 0}
   Title: 
@@ -22,5 +22,5 @@ MonoBehaviour:
   - Normal
   - Normal
   - Normal
-  damage: 09000000110000000b000000
+  damage: 170000001900000012000000
   isLast: 0
