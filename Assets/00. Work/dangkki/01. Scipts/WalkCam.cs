@@ -50,9 +50,9 @@ public class WalkCam : MonoBehaviour
                    .OnUpdate(() =>
                    {
                        if (expand == true) 
-                           _cam.Lens.OrthographicSize -= camExpand;
+                           _cam.Lens.OrthographicSize = 7.3f -(2f * elapsed/moveDuration);
                        else
-                           _cam.Lens.OrthographicSize += camExpand;
+                           _cam.Lens.OrthographicSize = 7.3f * elapsed/moveDuration;
 
                        float t = elapsed / moveDuration;
                        basePos = Vector3.Lerp(_startPos, _startPos + forward, t);
