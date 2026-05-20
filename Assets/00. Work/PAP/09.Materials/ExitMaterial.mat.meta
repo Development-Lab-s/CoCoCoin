@@ -1,12 +1,16 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/00. Work/PAP/09.Materials/ExitMaterial.mat.meta
 guid: 8651d928b3d67ca469095ffe67feb24d
 ========
 guid: 08713885a18e6414f9635c40b32e5545
 >>>>>>>> mori:Assets/00. Work/PAP/Chips/AbilityChip.asset.meta
+=======
+guid: e040bb0f2ac68cb40961f1fedde0c703
+>>>>>>> parent of 9a0b48e (a)
 NativeFormatImporter:
   externalObjects: {}
-  mainObjectFileID: 11400000
+  mainObjectFileID: 2100000
   userData: 
   assetBundleName: 
   assetBundleVariant: 
