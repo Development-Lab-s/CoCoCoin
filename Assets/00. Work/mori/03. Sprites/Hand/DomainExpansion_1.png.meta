@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d6629f9427e5f16499d1b59af77cbf99
+guid: b1fead5421a4159418929c4df94bb0d0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4394224940868669811
-    second: Gojo_0_0
+      213: -6086090977375922766
+    second: Gojo_1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,8 +49,8 @@ TextureImporter:
   spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 0
-  alignment: 9
-  spritePivot: {x: 0.6, y: 0}
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gojo_0_0
+      name: Gojo_1_0
       rect:
         serializedVersion: 2
-        x: 162
+        x: 144
         y: 0
-        width: 141
-        height: 296
+        width: 165
+        height: 369
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d8e6c58a2b39403c0800000000000000
-      internalID: -4394224940868669811
+      spriteID: 2b55cc6608cd98ba0800000000000000
+      internalID: -6086090977375922766
       vertices: []
       indices: 
       edges: []
@@ -126,7 +126,7 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Gojo_0_0: -4394224940868669811
+      Gojo_1_0: -6086090977375922766
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
