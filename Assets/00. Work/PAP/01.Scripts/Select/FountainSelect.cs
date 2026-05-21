@@ -20,12 +20,12 @@ namespace _00._Work.PAP._01.Scripts.Select
                 inventory.inventoryItemList.Add(item);
                 stringBuilder.Append(i == 1 ? item.Name : $"{item.Name}, ");
             } 
-            targetText.SetText($"<color=#FF0000>{item1.Name}을 던지고</color> 한동안 아무 일도 없었다\n돈을 버렸구나 생각하며 나서자 밑에 무언가 밟힌다\n정말 행운을 가져다주었다.\n<color=#FFFF00>{stringBuilder}들을 가져갈수 있었다.</color>");
+            targetText.SetText($"<color=#FFFF00>{item1.Name} 코인</color>을 던졌으나, 한동안 아무 일도 없었다..\n돈을 버렸구나 생각하며 나서자 밑에 무언가 밟힌다.\n횡재다! <color=#FFFF00>{stringBuilder} 코인</color>들을 가져갈수 있었다!");
         }
 
         public override void Select2(TextMeshProUGUI targetText)
         {
-            targetText.SetText($"당신은 저런 미신을 믿지 않는 사람이다.\n아무일도 일어나지 않았다");
+            targetText.SetText($"당신은 저런 미신을 믿지 않는 사람이다.\n아무일도 일어나지 않았다..");
         }
 
         public override void Select3(TextMeshProUGUI targetText)
