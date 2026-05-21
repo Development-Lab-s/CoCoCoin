@@ -5,9 +5,10 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "DomainExpansion", menuName = "ChipEncounterSO/DomainExpansion")]
 public class DomainExpansion : ChipEncounter
 {
-
+    [SerializeField] private GameObject effect;
     public override void HeadChip(Player player, Enemy enemy)
     {
+        Instantiate(effect, Vector3.zero, Quaternion.identity);
         DamageHandler.CalculateDamage(player,enemy,BattleManager.instance.nowChips.Count * 20);
         List<InventoryItemSO> a = new List<InventoryItemSO>(BattleManager.instance.nowChips);
         foreach (InventoryItemSO item in a)

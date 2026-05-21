@@ -71,6 +71,9 @@ public class MotionHandler : MonoBehaviour
             case 107:
                 StartCoroutine(Pat(player, enemy, chip,isHead));
                 break;
+            case 108:
+                StartCoroutine(DomainExpansion(player, enemy, chip,isHead));
+                break;
         }
     }
 
@@ -230,6 +233,14 @@ public class MotionHandler : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         ChipAbility(player, enemy, chip, isHead);
         yield return new WaitForSeconds(0.5f);
+        SetEnable(chip);
+    }
+    
+    private IEnumerator DomainExpansion(Player player, Enemy enemy,ChipEncounter chip, bool isHead)
+    {
+        animator.SetTrigger("DomainExpansion");
+        ChipAbility(player, enemy, chip, isHead);
+        yield return new WaitForSeconds(2f);
         SetEnable(chip);
     }
 }

@@ -89,12 +89,12 @@ public class CheckChipList : MonoBehaviour
         openActive = false;
         if (nowOpened)
         {
-            audio.Play();
             nowOpened = false;
             moveModelRTrm.DOMove(moveModelNewPos, 0.5f).OnComplete(() => { openActive = true; moveModelRTrm.gameObject.SetActive(false); moveModelRTrm.position = moveModelOriginPos; ClearChip(); });
         }
         else
         {
+            audio.Play();
             SettingChips();
             moveModelRTrm.position = moveModelNewPos;
             moveModelRTrm.gameObject.SetActive(true);
