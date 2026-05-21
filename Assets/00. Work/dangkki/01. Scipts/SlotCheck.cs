@@ -43,8 +43,6 @@ public class SlotCheck : MonoBehaviour
         else if (Slot0 == Slot1 ||Slot0 == Slot2 || Slot1 == Slot2)
         {
             if (true)
-                
-                
                 TicketManager.instance.AddTicket(5);
             else 
                 TicketManager.instance.AddTicket(2);
