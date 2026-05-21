@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ab833fd37e42eb48b8fbb686d40d810, type: 3}
   m_Name: SaveDefenseChip
   m_EditorClassIdentifier: 
-  Name: "\uC624\uBC31\uC6D0"
+  Name: "\uC624\uC2ED\uC6D0"
   Description: "<color=#999999>[50% \uC55E\uBA74]</color>\n<color=#0D99FF>\uBC29\uC5B4\uB3C4
     +7</color>\n\uBC29\uC5B4\uB3C4\uAC00 \uB2E4\uC74C \uD134\uC5D0\uB3C4 \uC720\uC9C0
     \uB429\uB2C8\uB2E4!\n\n<color=#999999>[50% \uB4B7\uBA74]</color>\nX"

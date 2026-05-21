@@ -12,14 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ab833fd37e42eb48b8fbb686d40d810, type: 3}
   m_Name: ReturnDefenseChip
   m_EditorClassIdentifier: 
-  Name: "\uC624\uC2ED\uC6D0"
-  Description: "<color=#999999>[50% \uC55E\uBA74]</color>\n\uC774\uBC88 \uD134 \uB9C9\uC740
-    \uACF5\uACA9\uC744 \uC801\uC5D0\uAC8C \uBC18\uC0AC\uD569\uB2C8\uB2E4!\n\n<color=#999999>[50%
-    \uB4B7\uBA74]</color>\nX"
+  Name: "\uC624\uBC31\uC6D0"
+  Description: "<color=#999999>[50% \uC55E\uBA74]</color>\n<color=#0D99FF>\uBC29\uC5B4\uB3C4
+    +7</color>\n\uC774\uBC88 \uD134 \uB9C9\uC740 \uACF5\uACA9\uC744 \uC801\uC5D0\uAC8C
+    \uBC18\uC0AC\uD569\uB2C8\uB2E4!\n\n<color=#999999>[50% \uB4B7\uBA74]</color>\n\uC774\uBC88
+    \uD134, \uBC29\uC5B4\uB3C4\uB97C \uC5BB\uC744 \uB54C \uB9C8\uB2E4 \uADF8 \uC218\uCE58\uB9CC\uD07C
+    \uB370\uBBF8\uC9C0\uB97C \uAC00\uD569\uB2C8\uB2E4."
   Sprite: {fileID: 8984707007927260109, guid: 11c4d46ebc442c84dabff3a22e3c8e35, type: 3}
   SpriteOnInventory: {fileID: 7709855361172846178, guid: 11c4d46ebc442c84dabff3a22e3c8e35, type: 3}
   SpriteOnStack: {fileID: -6947089432560455251, guid: 326edcef18837c64da0fa0d6a343fd3c, type: 3}
   SpriteOnBack: {fileID: 6166222820120680626, guid: 11c4d46ebc442c84dabff3a22e3c8e35, type: 3}
   ChipEncounter: {fileID: 11400000, guid: b863501ac46da47429a058e9d8b6420d, type: 2}
   spriteLibrary: {fileID: 7108339969198208228, guid: 310be69466b6bb24a89dc65cc7db3a4a, type: 3}
-  rarity: 0
+  rarity: 1
