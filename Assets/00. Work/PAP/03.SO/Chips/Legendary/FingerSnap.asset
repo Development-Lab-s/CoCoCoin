@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ab833fd37e42eb48b8fbb686d40d810, type: 3}
   m_Name: FingerSnap
   m_EditorClassIdentifier: 
-  Name: "\uBC14\uC774\uBE0C\uCF54\uB529"
+  Name: "\uD551\uAC70\uC2A4\uB0C5"
   Description: "<color=#999999>[50% \uC55E\uBA74]</color>\n\uC801\uC758 \uCCB4\uB825\uC744
     \uBC18\uC73C\uB85C \uB9CC\uB4ED\uB2C8\uB2E4.\n\n<color=#999999>[50% \uB4B7\uBA74]</color>\n\uC790\uC2E0\uC758
     \uCCB4\uB825\uC744 \uBC18\uC73C\uB85C \uB9CC\uB4ED\uB2C8\uB2E4."
