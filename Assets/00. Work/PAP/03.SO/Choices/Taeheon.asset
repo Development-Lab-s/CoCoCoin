@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33d612cebf034763b18aadfb8f699cfb, type: 3}
+  m_Name: Taeheon
+  m_EditorClassIdentifier: 
+  choiceText: "\uB2F9\uC2E0\uC740 \uD55C \uC0AC\uC9C4\uC744 \uC8FC\uC6E0\uB2E4.\r\n\uACE7\uC774\uC5B4,
+    \uD55C \uB0A8\uC790\uAC00 \uB2E4\uAC00\uC640 \uB2F9\uC2E0\uC5D0\uAC8C \uB9D0\uC744
+    \uAC74\uB2E4.\r\n\"\uB0B4\uAC00 \uBB50\uB85C \uBCF4\uC774\uB2C8..?\""
+  choiceImage: {fileID: -4331156834911528034, guid: 5f580f95f3041714a8b2d53c23df4bbe, type: 3}
+  choiceButtons:
+  - "\uAC1C\uBC1C"
+  - "\uC544\uD2B8"
+  selects: {fileID: 11400000, guid: 84b0d9acaf718de40b45204c7807d428, type: 2}

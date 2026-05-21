@@ -23,7 +23,7 @@ public class BattleManager : MonoBehaviour
     
     public Enemy enemy;
 
-    [SerializeField] private InventorySO inventory;
+     public InventorySO inventory;
 
     [SerializeField] private GameObject chipModelPrefab;
 
@@ -86,7 +86,7 @@ public class BattleManager : MonoBehaviour
 
     public static BattleManager instance;
 
-    private void ChangeNowChips()
+    public void ChangeNowChips()
     {
         drawChipText.SetText(nowChips.Count.ToString());
     }
@@ -256,6 +256,13 @@ public class BattleManager : MonoBehaviour
     private void CheckBattleStatus()
     {
         StartCoroutine(EnemyTurnRoutine());
+    }
+
+    public void DestroyChip(InventoryItemSO chip)
+    {
+        drawChips.Remove(chip);
+        inventory.inventoryItemList.Remove(chip);
+        ChangeNowChips();
     }
 
     private IEnumerator EnemyTurnRoutine()

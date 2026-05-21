@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: "\uC601\uC5ED\uC804\uAC1C"
   Description: "<color=#999999>[50% \uC55E\uBA74]</color>\n\uD328\uC758 \uCE69\uC744
-    \uBAA8\uB450 \uBC84\uB9BD\uB2C8\uB2E4. \uBC84\uB9B0 \uCE69 \uB2F9 <color=#FF0000>\uD53C\uD574\uB97C
-    15</color> \uC90D\uB2C8\uB2E4.\n\n<color=#999999>[50% \uB4B7\uBA74]</color>\n\uD328\uC5D0
-    \uC788\uB294 \uCE69\uC744 \uBAA8\uB450 <color=#fb1fff>7\uC18C\uBA78</color> \uC2DC\uD0B5\uB2C8\uB2E4."
+    \uBAA8\uB450 \uBC84\uB9BD\uB2C8\uB2E4. <color=#FF0000>\uBC84\uB9B0 \uCE69 \uB2F9
+    \uD53C\uD574\uB97C 20</color> \uC90D\uB2C8\uB2E4.\n\n<color=#999999>[50% \uB4B7\uBA74]</color>\n\uD328\uC5D0
+    \uC788\uB294 \uCE69\uC744 \uBAA8\uB450 \uC18C\uBA78 \uC2DC\uD0B5\uB2C8\uB2E4."
   Sprite: {fileID: -4976079567497121232, guid: 11c4d46ebc442c84dabff3a22e3c8e35, type: 3}
   SpriteOnInventory: {fileID: -10227215436912617, guid: 11c4d46ebc442c84dabff3a22e3c8e35, type: 3}
   SpriteOnStack: {fileID: -3167540119932442848, guid: 326edcef18837c64da0fa0d6a343fd3c, type: 3}

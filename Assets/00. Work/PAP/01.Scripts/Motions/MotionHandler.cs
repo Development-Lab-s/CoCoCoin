@@ -181,9 +181,10 @@ public class MotionHandler : MonoBehaviour
         animator.SetTrigger("Bbang");
         yield return new WaitForSeconds(0.5f);
         yield return new WaitForSeconds(0.5f);
-        SetEnable(chip);
         yield return StartCoroutine(LeftHandTurnMotion(player, enemy, chip, isHead));
+        SetEnable(chip);
     }
+    
     
     private IEnumerator Fingersnap(Player player, Enemy enemy,ChipEncounter chip, bool isHead)
     {

@@ -14,6 +14,7 @@ public class Nya : ChipEncounter
     public override void HeadChip(Player player, Enemy enemy)
     {
         GameData.instance.playerCurrentHp = 100;
+        player.displayHP = 100;
         player.UpdateUI();
     }
 

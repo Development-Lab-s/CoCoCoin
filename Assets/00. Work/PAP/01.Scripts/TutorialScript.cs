@@ -41,7 +41,7 @@ namespace _00._Work.PAP._01.Scripts
 
         private void sss()
         {
-            if (currentTuto > 9)
+            if (currentTuto > transform.childCount)
             {
                 _ = SceneManageHandler.instance.MoveScene(1);
             }

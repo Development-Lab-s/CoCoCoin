@@ -1,10 +1,10 @@
 using System;
 using UnityEngine;
+using Random = System.Random;
 
 [CreateAssetMenu(fileName = "BbangHuman", menuName = "ChipEncounterSO/BbangHuman")]
 public class BbangHuman : ChipEncounter
 {
-
     public override void HeadChip(Player player, Enemy enemy)
     {
         BattleManager.instance.isLocked = true;
@@ -18,6 +18,15 @@ public class BbangHuman : ChipEncounter
 
     public override void TailChip(Player player, Enemy enemy)
     {
-        
+        for (int i = 0; i < 2; i++)
+        {
+            if (BattleManager.instance.drawChips.Count > 0)
+            {
+                InventoryItemSO item =
+                    BattleManager.instance.drawChips[UnityEngine.Random.Range(0, BattleManager.instance.drawChips.Count)];
+                BattleManager.instance.drawChips.Remove(item);
+                BattleManager.instance.inventory.inventoryItemList.Remove(item);
+            }
+        }
     }
 }
