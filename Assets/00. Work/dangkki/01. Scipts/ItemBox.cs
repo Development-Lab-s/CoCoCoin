@@ -35,7 +35,7 @@ public class ItemBox : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragH
                 nameText.color = Color.white;
                 break;
             case "Rare":
-                nameText.color = Color.green;
+                nameText.color = Color.cyan;
                 break;
             case "Legendary":
                 nameText.color = Color.yellow;

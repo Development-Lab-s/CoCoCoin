@@ -11,7 +11,7 @@ public class Descripton : MonoBehaviour
     Image _descriptionPanel_Sprite;
 
     public Transform _descriptionPanel;
-    public Transform _mouseContainer;
+    public RectTransform _mouseContainer;
     public InventorySO _inventorySO;
     public ItemManager _itemManager;
 
@@ -29,7 +29,9 @@ public class Descripton : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        _mouseContainer.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector3 pos = Input.mousePosition;
+        pos.z = 0;
+        _mouseContainer.localPosition = pos;
     }
     public void OnHover()
     {
