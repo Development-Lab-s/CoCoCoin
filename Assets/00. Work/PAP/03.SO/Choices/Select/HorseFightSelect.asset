@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 574df567f67cca844a378a29bcccc0f2, type: 3}
-  m_Name: BrokenShopSelect
+  m_Script: {fileID: 11500000, guid: c9fd46bf106c4ef09a65194f0258bde0, type: 3}
+  m_Name: HorseFightSelect
   m_EditorClassIdentifier: 
   chips:
   - {fileID: 11400000, guid: 9fa3cbacd66a2f94cbfd2baaf239071e, type: 2}
@@ -39,4 +39,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 7f52bc142cdea614d934da2ccd636128, type: 2}
   - {fileID: 11400000, guid: 5da038495abbf9e4c82747248f69b7da, type: 2}
   - {fileID: 11400000, guid: c2d0f69995485394294cdbaa890e173a, type: 2}
+  itemLegend: {fileID: 11400000, guid: ca3f70233cde708419b56beb85f8c10f, type: 2}
   inventory: {fileID: 11400000, guid: 933deecb389f8064e849429e876daf84, type: 2}

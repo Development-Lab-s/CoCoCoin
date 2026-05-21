@@ -2078,6 +2078,17 @@ MonoBehaviour:
   - {fileID: 163294630}
   - {fileID: 1677333762}
   ExitButton: {fileID: 148303210}
+  choices:
+  - {fileID: 11400000, guid: 7a707bcc0f1d516439e4a26ce24a61d7, type: 2}
+  - {fileID: 11400000, guid: 0fb32fcacfb993a4dbafc25c9cfaf23c, type: 2}
+  - {fileID: 11400000, guid: d0fa2ad7f67bf0549b2fe510911f27e7, type: 2}
+  - {fileID: 11400000, guid: 265d8f5ada3bc004a99dbd725fa1a620, type: 2}
+  - {fileID: 11400000, guid: e8d21bdc2105c2c42898a20a12301cc2, type: 2}
+  - {fileID: 11400000, guid: 1454b35120d5cd94094155c1be7b92a3, type: 2}
+  - {fileID: 11400000, guid: feccd4ccc9eb639438aea4de3df45298, type: 2}
+  - {fileID: 11400000, guid: 14e6fb96baaaf72438fad18ef35e9537, type: 2}
+  - {fileID: 11400000, guid: 41f521034ef62e04e896d494cacc8561, type: 2}
+  - {fileID: 11400000, guid: cd5c363962997e143a6c185301e08c7c, type: 2}
 --- !u!1 &1315394373
 GameObject:
   m_ObjectHideFlags: 0
@@ -3115,7 +3126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:

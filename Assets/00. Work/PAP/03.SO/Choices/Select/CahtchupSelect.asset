@@ -9,7 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f399dc2f7ad4a97b4dd862e2a5cd740, type: 3}
-  m_Name: Current choice
+  m_Script: {fileID: 11500000, guid: eae745e2e2374bc081cf173373882b42, type: 3}
+  m_Name: CahtchupSelect
   m_EditorClassIdentifier: 
-  choiceData: {fileID: 11400000, guid: 14e6fb96baaaf72438fad18ef35e9537, type: 2}

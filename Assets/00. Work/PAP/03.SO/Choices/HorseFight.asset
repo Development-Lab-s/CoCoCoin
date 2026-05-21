@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33d612cebf034763b18aadfb8f699cfb, type: 3}
+  m_Name: HorseFight
+  m_EditorClassIdentifier: 
+  choiceText: "\uD568\uC131 \uC18C\uB9AC\uAC00 \uB4E4\uB9B0\uB2E4, \uACE7\uBC14\uB85C
+    \uC0AC\uD68C\uC790\uAC00 \uB9D0\uD55C\uB2E4.\n\"\uBE60\uC559\uC778 \uC120\uB450!!\"\n\"\uB4A4\uB530\uB77C
+    \uD4CC\uC774\uD53C\uC774\uAC00 \uCAD2\uC544\uC635\uB2C8\uB2E4!\"\n\uC606\uC5D0\uC11C
+    \uC18C\uB9AC\uAC00 \uB4E4\uB9B0\uB2E4.\n\"\uB2F9\uC2E0\uC740 \uC5B4\uB5A4 \uB9D0\uC744
+    \uC751\uC6D0\uD558\uB098\uC694?\""
+  choiceImage: {fileID: 8810924446309932524, guid: 53fe2de41c8e426499646f57e77f64ad, type: 3}
+  choiceButtons:
+  - "\uBE60\uC559\uC778"
+  - "\uD4CC\uC774\uD53C\uC774"
+  - "\uB370\uC5D0\uBE0C\uB7A9"
+  selects: {fileID: 11400000, guid: 70f65a3c1be454a4b9face5ce5a22e3d, type: 2}
