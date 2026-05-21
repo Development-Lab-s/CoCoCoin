@@ -31,6 +31,7 @@ public class ItemManager : MonoBehaviour
     private EventTrigger[] _itemList_EventTrigger;
     
     public InventoryItemSO _healthChip = null;
+    [SerializeField] private AudioSource sfx;
     
     string[] _sellList;
     bool[] _isSold;
@@ -169,6 +170,7 @@ public class ItemManager : MonoBehaviour
             }
                 
         }
+        sfx.Play();
         _inventory.inventoryItemList.Add(_sellitem[itemNumber - 1]);
         inventoryUI.ScrollView();
         Debug.Log(_sellitem[itemNumber - 1].Name + "구매완료");

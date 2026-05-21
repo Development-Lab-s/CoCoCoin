@@ -18,7 +18,7 @@ namespace _00._Work.PAP._01.Scripts.Select
         {
             InventoryItemSO item = chips[Random.Range(0, chips.Length)];
             inventory.inventoryItemList.Add(item);
-            targetText.SetText($"그 남자에게 답례로 <color=#FFFF00>{item.Name}을(를) 받았다!</color>\n그 후 당신이 말한 방향으로 뛰어갔다..");
+            targetText.SetText($"그 남자에게 답례로 <color=#FFFF00>{item.Name} 코인</color>을 받았다!\n그 후 당신이 말한 방향으로 뛰어갔다..");
         }
 
         public override void Select3(TextMeshProUGUI targetText)
