@@ -15,7 +15,8 @@ MonoBehaviour:
   Name: "\uBE75\uC778"
   Description: "<color=#999999>[50% \uC55E\uBA74]</color>\n\uCF54\uC778\uC744 \uD558\uB098
     \uC120\uD0DD\uD574 \uBC84\uB9AC\uACE0, \uD574\uB2F9 \uCF54\uC778\uC744 <color=#fb1fff>\uBCF5\uC81C</color>\uD569\uB2C8\uB2E4.\n\n<color=#999999>[50%
-    \uB4B7\uBA74]</color>\n\uC548\uB9CC\uB4EC"
+    \uB4B7\uBA74]</color>\n\uB371\uC5D0\uC11C \uB79C\uB364 \uCF54\uC778 2\uAC1C\uB97C
+    \uC18C\uBA78\uC2DC\uD0B5\uB2C8\uB2E4."
   Sprite: {fileID: -342805082, guid: 057edcc3ca4c38c4ba825c445affc912, type: 3}
   SpriteOnInventory: {fileID: -44468106, guid: 057edcc3ca4c38c4ba825c445affc912, type: 3}
   SpriteOnStack: {fileID: -870948860, guid: 595c6e10b5f2d044f846df04f1b67b7a, type: 3}

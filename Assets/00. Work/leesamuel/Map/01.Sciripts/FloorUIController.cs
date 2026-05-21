@@ -15,7 +15,7 @@ public class FloorUIController : MonoBehaviour
     public void ShowFloorUI(int floorNumber)
     {
         StopAllCoroutines();
-        floorText.text = "Floor " + floorNumber;
+        floorText.text = $"{floorNumber}층";
 
         // 초기화
         floorText.transform.localScale = Vector3.zero;

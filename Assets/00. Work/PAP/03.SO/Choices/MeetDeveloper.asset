@@ -15,7 +15,7 @@ MonoBehaviour:
   choiceText: "\uB2F9\uC2E0\uC740 \uD55C \uC0AC\uC9C4\uC744 \uC8FC\uC6E0\uB2E4.\r\n\uACE7\uC774\uC5B4,
     \uD55C \uB0A8\uC790\uAC00 \uB2E4\uAC00\uC640 \uB2F9\uC2E0\uC5D0\uAC8C \uB9D0\uC744
     \uAC74\uB2E4.\r\n\"\uB0B4\uAC00 \uBB50\uB85C \uBCF4\uC774\uB2C8..?\""
-  choiceImage: {fileID: -4331156834911528034, guid: 5f580f95f3041714a8b2d53c23df4bbe, type: 3}
+  choiceImage: {fileID: 8801859778474122506, guid: e77943d297f132c478130dfc47de491b, type: 3}
   choiceButtons:
   - "\uAC1C\uBC1C"
   - "\uC544\uD2B8"

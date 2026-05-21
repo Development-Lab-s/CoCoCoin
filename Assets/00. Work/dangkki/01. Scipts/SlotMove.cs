@@ -14,6 +14,7 @@ public class SlotMove : MonoBehaviour
     public WalkCam WalkCam;
     public Transform SlotEnter;
     [SerializeField] private GameObject disableObject;
+    [SerializeField] private AudioSource audioSource;
     private void Awake()
     {
         WalkCam = Camera.gameObject.GetComponent<WalkCam>();
@@ -34,6 +35,7 @@ public class SlotMove : MonoBehaviour
         WalkCam.target = SlotEnter.transform;
         WalkCam.moveDistance = 100;
         WalkCam.moveDuration = 1f;
+        audioSource.Play();
         WalkCam.Play(true);
         SlotEnter.gameObject.SetActive(false);
         disableObject.SetActive(false);
