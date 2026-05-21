@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33d612cebf034763b18aadfb8f699cfb, type: 3}
   m_Name: ArtHero
   m_EditorClassIdentifier: 
-  choiceText: "\uBC29\uC548\uC73C\uB85C \uB4E4\uC5B4\uAC00\uC790 \uC544\uC8FC \uBA4B\uB4DC\uB7EC\uC9C4
-    \uAC80\uACFC \uCD08\uB85D \uB9DD\uD1A0\uB97C \uB450\uB978 \uD55C \uC6A9\uC0AC\uAC00
-    \uC788\uC5C8\uB2E4.\r\n\"\uBC18\uAC11\uB2E4 \uB09C...\"\r\n\"\uC544\uD2B8\uC6A9\uC0AC?\"\r\n\"\uAC1C\uBC1C\uC774\uB2E4.\"\r\n\"\uC544\uD2B8
+  choiceText: "\uBA4B\uB4DC\uB7EC\uC9C4 \uAC80\uACFC \uCD08\uB85D \uB9DD\uD1A0\uB97C
+    \uB450\uB978 \uD55C \uC6A9\uC0AC\uB97C \uB9CC\uB0AC\uB2E4.\r\n\"\uBC18\uAC11\uB2E4
+    \uB09C...\"\r\n\"\uC544\uD2B8\uC6A9\uC0AC?\"\r\n\"\uAC1C\uBC1C\uC774\uB2E4.\"\r\n\"\uC544\uD2B8
     \uC544\uB2C8\uC5D0\uC694?\"\r\n\"\uAC1C\uBC1C\uC774\uB77C\uACE0.\""
   choiceImage: {fileID: -2722705582674131296, guid: ee21a049331fcc04ab7934b6a7d94e2e, type: 3}
   choiceButtons:
