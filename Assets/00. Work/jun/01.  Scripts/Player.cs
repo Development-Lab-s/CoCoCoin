@@ -15,7 +15,7 @@ public class Player : MonoBehaviour
     [SerializeField] private Image clawImage;
     [SerializeField] private Animator animator;
     public StatusEffectHandler statusEffectHandler;
-    private int displayHP;
+    public int displayHP;
     public int displayShield;
     public int shieldHP = 0;
     public ComboSystem combo;
@@ -109,7 +109,6 @@ public class Player : MonoBehaviour
         if (hpText != null)
         {
             hpText.SetText(displayHP.ToString());
-
         }
     }
 
