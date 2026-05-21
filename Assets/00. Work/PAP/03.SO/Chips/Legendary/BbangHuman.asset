@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: "\uBE75\uC778"
   Description: "<color=#999999>[50% \uC55E\uBA74]</color>\n\uCF54\uC778\uC744 \uD558\uB098
-    \uC120\uD0DD\uD574 \uBC84\uB9AC\uACE0 \uD574\uB2F9 \uCF54\uC778\uC744 \uBCF5\uC81C\uD569\uB2C8\uB2E4.\n\n<color=#999999>[50%
+    \uC120\uD0DD\uD574 \uBC84\uB9AC\uACE0, \uD574\uB2F9 \uCF54\uC778\uC744 <color=#fb1fff>\uBCF5\uC81C</color>\uD569\uB2C8\uB2E4.\n\n<color=#999999>[50%
     \uB4B7\uBA74]</color>\n\uC548\uB9CC\uB4EC"
   Sprite: {fileID: -4976079567497121232, guid: 11c4d46ebc442c84dabff3a22e3c8e35, type: 3}
   SpriteOnInventory: {fileID: -10227215436912617, guid: 11c4d46ebc442c84dabff3a22e3c8e35, type: 3}
