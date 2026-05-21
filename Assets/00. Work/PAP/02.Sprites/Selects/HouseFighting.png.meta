@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ac486572378d61e41adf6eb48f3465cc
+guid: 53fe2de41c8e426499646f57e77f64ad
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6264790857306206484
-    second: Taeheon_0
+      213: 8810924446309932524
+    second: HouseFighting_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Taeheon_0
+      name: HouseFighting_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1920
-        height: 1080
+        width: 1536
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 411f9d9a71201f650800000000000000
-      internalID: 6264790857306206484
+      spriteID: ceddb150a11b64a70800000000000000
+      internalID: 8810924446309932524
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Taeheon_0: 6264790857306206484
+      HouseFighting_0: 8810924446309932524
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

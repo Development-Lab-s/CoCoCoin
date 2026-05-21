@@ -9,7 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f399dc2f7ad4a97b4dd862e2a5cd740, type: 3}
-  m_Name: Current choice
+  m_Script: {fileID: 11500000, guid: 7788a2940a5044d8b028636218fc3de2, type: 3}
+  m_Name: CoCoCoinSelect
   m_EditorClassIdentifier: 
-  choiceData: {fileID: 11400000, guid: 14e6fb96baaaf72438fad18ef35e9537, type: 2}
+  chips: []
+  inventory: {fileID: 11400000, guid: 933deecb389f8064e849429e876daf84, type: 2}
