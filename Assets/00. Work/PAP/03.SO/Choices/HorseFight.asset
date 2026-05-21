@@ -16,7 +16,7 @@ MonoBehaviour:
     \uC0AC\uD68C\uC790\uAC00 \uC678\uCE5C\uB2E4.\n\"\uBE60\uC559\uC778 \uC120\uB450!!\"\n\"\uB4A4\uB530\uB77C
     \uD4CC\uC774\uD53C\uC774\uAC00 \uCAD2\uC544\uC635\uB2C8\uB2E4!\"\n\uB204\uAD70\uAC00
     \uC606\uC5D0\uC11C \uBB3B\uB294\uB2E4.\n\"\uC790\uB124\uB294 \uC5B4\uB290 \uB9D0\uC5D0
-    \uBCA0\uD305\uD558\uACA0\uB098..??\""
+    \uBCA0\uD305 \uD558\uACA0\uB098..??\""
   choiceImage: {fileID: 8810924446309932524, guid: 53fe2de41c8e426499646f57e77f64ad, type: 3}
   choiceButtons:
   - "\uBE60\uC559\uC778"
