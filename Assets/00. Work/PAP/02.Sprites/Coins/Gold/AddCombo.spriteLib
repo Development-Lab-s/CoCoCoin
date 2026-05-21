@@ -85,9 +85,9 @@ MonoBehaviour:
       m_SpriteOverride: {fileID: -426217793503525940, guid: 8b18449ed72274741823c545fa16422b, type: 3}
     - m_Name: SPIN_11
       m_Hash: 496263056
-      m_Sprite: {fileID: 3084874092628519536, guid: 11c4d46ebc442c84dabff3a22e3c8e35, type: 3}
+      m_Sprite: {fileID: -1194607132802647243, guid: 326edcef18837c64da0fa0d6a343fd3c, type: 3}
       m_FromMain: 1
-      m_SpriteOverride: {fileID: -5988133931114290765, guid: 8b18449ed72274741823c545fa16422b, type: 3}
+      m_SpriteOverride: {fileID: -8421549097708596774, guid: 16ae373521144504aa5b0e9d8eca1702, type: 3}
     - m_Name: SPIN_12
       m_Hash: 77401642
       m_Sprite: {fileID: 8254995861285484303, guid: 326edcef18837c64da0fa0d6a343fd3c, type: 3}
@@ -122,5 +122,5 @@ MonoBehaviour:
     m_FromMain: 1
     m_EntryOverrideCount: 0
   m_PrimaryLibraryGUID: 224f2b660aecc2048b2dc23191f2854f
-  m_ModificationHash: 639149913664865208
+  m_ModificationHash: 639147429929924008
   m_Version: 1
