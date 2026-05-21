@@ -326,7 +326,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 778673843283459377, guid: b5627155f68e54a41a839885e9f364a1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2854,6 +2854,7 @@ MonoBehaviour:
   clawImage: {fileID: 776186387}
   animator: {fileID: 1569394126}
   statusEffectHandler: {fileID: 1194053239}
+  displayHP: 0
   displayShield: 0
   shieldHP: 0
   combo: {fileID: 185122089}
