@@ -30,7 +30,6 @@ public class CoinSpawner : MonoBehaviour
     {
         Rarity_probability = Random.Range(1, 101);
         GameObject Coin = Instantiate(_coinPrefab); //코인 생성
-        Debug.Log(Rarity_probability);
         if (Common_probability >= Rarity_probability)
         {
             Coin.GetComponent<CoinDrag>().Init(_commonCoinDatas[Random.Range(0, _commonCoinDatas.Count)]);
