@@ -16,6 +16,8 @@ public class SlotMachine : MonoBehaviour
     SlotMachine1 slotMachine;
     public Button button;
     public CinemachineCamera Camera;
+    [SerializeField] private AudioSource sfx;
+    [SerializeField] private AudioSource clickSfx;
     
     private SlotScreen SlotScreen;
 
@@ -31,6 +33,7 @@ public class SlotMachine : MonoBehaviour
             button.enabled = false;
             TicketManager.instance._spins -= 1;
             TicketManager.instance.SetSpinText(true);
+            sfx.Play();
             StartCoroutine(Delay());
         }
         else
@@ -57,6 +60,7 @@ public class SlotMachine : MonoBehaviour
     { 
         for (int i = 0; i < _contentRect.Length; i++)
         {
+            clickSfx.Play();
             StartCoroutine(SpinCoroutine(i));
             yield return new WaitForSecondsRealtime(0.5f);
         } 
@@ -73,6 +77,7 @@ public class SlotMachine : MonoBehaviour
                 _contentRect[x].anchoredPosition += new Vector2(0, -_spinSpeed * Time.deltaTime);
                 yield return null;
             }
+            clickSfx.Play();
             _contentRect[x].anchoredPosition = new Vector2(_contentRect[x].anchoredPosition.x, targetY);
             Transform bottomSymbol = _contentRect[x].GetChild(_contentRect[x].childCount - 1);
             bottomSymbol.SetAsFirstSibling();
@@ -81,10 +86,10 @@ public class SlotMachine : MonoBehaviour
         SlotScreen.Shake();
         if (x == _contentRect.Length - 1)
         {
-            button.enabled = true;
             yield return new WaitForSecondsRealtime(0.5f);
+            button.enabled = true;
             SlotCheck.instance.CheckSlot();
-            
+            sfx.Stop();
         }
 
     }

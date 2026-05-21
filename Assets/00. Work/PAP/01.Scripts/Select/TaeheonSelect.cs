@@ -17,7 +17,7 @@ namespace _00._Work.PAP._01.Scripts.Select
             {
                 InventoryItemSO item = chips[Random.Range(0, chips.Length)];
                 inventory.inventoryItemList.Add(item);
-                stringBuilder.Append($"{item.Name}, ");
+                stringBuilder.Append(i == 2 ? item.Name : $"{item.Name}, ");
             } 
             inventory.inventoryItemList.Add(itemLegend);
             targetText.SetText($"[좋아, 이건 널 위한거야]\n그가 사라졌다..\n<color=#FFFF00>{stringBuilder} 코인</color>들을 얻었다! </color>\n... 또한 특별한 <color=#FFFF00>{itemLegend.Name}</color> 코인을얻었다..!");

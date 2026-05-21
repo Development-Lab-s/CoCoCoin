@@ -11,7 +11,7 @@ namespace _00._Work.PAP._01.Scripts.Select
         [SerializeField] private InventorySO inventory;
         public override void Select1(TextMeshProUGUI targetText)
         {
-            targetText.SetText($"아트 용사는 곧바로 당신을 베어내었다!\n<color=#FFFF00>피해를 50</color> 입었다.\n당신은 쫓아오는 아트 용사를 피해 도망친다..");
+            targetText.SetText($"아트 용사는 곧바로 당신을 베어내었다!\n<color=#FF0000>피해를 50</color> 입었다.\n당신은 쫓아오는 아트 용사를 피해 도망친다..");
             GameData.instance.playerCurrentHp /= 2;
         }
 
