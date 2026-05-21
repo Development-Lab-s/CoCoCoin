@@ -53,6 +53,13 @@ public class Descripton : MonoBehaviour
         
     }
 
+    public void SetHealthDes()
+    {
+        _descriptionPanel_Name.text = _itemManager._healthChip.Name;
+        _descriptionPanel_Description.text = _itemManager._healthChip.Description;
+        _descriptionPanel_Sprite.sprite = _itemManager._healthChip.Sprite;
+    }
+
     public void SetSlotDes(InventoryItemSO item)
     {
         if (_descriptionPanel != null)

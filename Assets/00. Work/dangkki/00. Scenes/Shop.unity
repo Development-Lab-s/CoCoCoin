@@ -155,8 +155,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 842.34, y: 3.73}
-  m_SizeDelta: {x: 200.56, y: 1033.47}
+  m_AnchoredPosition: {x: 697.76, y: 3.73}
+  m_SizeDelta: {x: 489.71, y: 1033.47}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2164488
 MonoBehaviour:
@@ -227,7 +227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.5882353}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2125,7 +2125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9433962, g: 0.89243156, b: 0.53844786, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2580,6 +2580,7 @@ MonoBehaviour:
   _itemBox: {fileID: 1505099211276350283, guid: 5bd99e786b8c4cb4387cc6268759138d, type: 3}
   inventoryUI: {fileID: 1348424504}
   _chipList: {fileID: 11400000, guid: f6dd28bc1388f8347840678b2bf1c684, type: 2}
+  _healthList: {fileID: 11400000, guid: acbe390d8c0280c47b7341ddccd4ae74, type: 2}
   _inventory: {fileID: 11400000, guid: 933deecb389f8064e849429e876daf84, type: 2}
   _itemList:
   - {fileID: 942530770}
@@ -2587,9 +2588,10 @@ MonoBehaviour:
   - {fileID: 1648861225}
   - {fileID: 2140001559}
   - {fileID: 725558670}
-  - {fileID: 704079849}
+  _healthBox: {fileID: 704079849}
   _descripton: {fileID: 501943806}
   _sellitem: []
+  _healthChip: {fileID: 0}
 --- !u!4 &667416343
 Transform:
   m_ObjectHideFlags: 0
@@ -2906,7 +2908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6db012cca9b2c194cb64c9c709a79541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkCam: {fileID: 0}
+  WalkCam: {fileID: 1957043512}
 --- !u!114 &685073463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3035,7 +3037,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5274297606728160376, guid: bbf4672d240f40f4b86756c8aa8ef5e4, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 3
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5274297606728160376, guid: bbf4672d240f40f4b86756c8aa8ef5e4, type: 3}
+      propertyPath: m_Delegates.Array.data[2].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5274297606728160376, guid: bbf4672d240f40f4b86756c8aa8ef5e4, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -3059,7 +3065,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5274297606728160376, guid: bbf4672d240f40f4b86756c8aa8ef5e4, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: SetDescription
+      value: SetHealthDes
       objectReference: {fileID: 0}
     - target: {fileID: 5274297606728160376, guid: bbf4672d240f40f4b86756c8aa8ef5e4, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -3067,11 +3073,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5274297606728160376, guid: bbf4672d240f40f4b86756c8aa8ef5e4, type: 3}
       propertyPath: m_Delegates.Array.data[2].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: BuyItem
+      value: BuyHealth
       objectReference: {fileID: 0}
     - target: {fileID: 5274297606728160376, guid: bbf4672d240f40f4b86756c8aa8ef5e4, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_IntArgument
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5274297606728160376, guid: bbf4672d240f40f4b86756c8aa8ef5e4, type: 3}
       propertyPath: m_Delegates.Array.data[2].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
@@ -4039,7 +4045,7 @@ RectTransform:
   m_GameObject: {fileID: 1021659327}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1, y: 1.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2043376036}
@@ -4552,7 +4558,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1951614078}
   m_HandleRect: {fileID: 1951614077}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -5298,6 +5304,7 @@ MonoBehaviour:
     \uC18C\uBB38\uC774 \uC788\uB354\uAD70\uC694.. \uC870\uC2EC\uD558\uC2DC\uAE38
     \uBC14\uB78D\uB2C8\uB2E4."
   Bubble: {fileID: 1164827552}
+  Waiter: {fileID: 1883053280}
 --- !u!114 &1171250510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5478,7 +5485,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8018868, g: 0.76813537, b: 0.69219476, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -6593,7 +6600,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!223 &1501338653
 Canvas:
   m_ObjectHideFlags: 0
@@ -7132,6 +7139,7 @@ GameObject:
   - component: {fileID: 1715164342}
   - component: {fileID: 1715164343}
   - component: {fileID: 1715164344}
+  - component: {fileID: 1715164347}
   - component: {fileID: 1715164345}
   - component: {fileID: 1715164346}
   m_Layer: 5
@@ -7404,6 +7412,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1715164347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715164336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b45e039912298946b8fc9f1f6bc9baa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Background: {fileID: 1021659329}
+  Camera: {fileID: 1957043509}
 --- !u!1 &1734336116
 GameObject:
   m_ObjectHideFlags: 0
@@ -7973,7 +7995,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8018868, g: 0.76813537, b: 0.69219476, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -8032,7 +8054,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1844861236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8182,8 +8204,9 @@ GameObject:
   - component: {fileID: 1883053277}
   - component: {fileID: 1883053279}
   - component: {fileID: 1883053278}
+  - component: {fileID: 1883053280}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Waiter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8246,6 +8269,62 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1883053276}
   m_CullTransparentMesh: 1
+--- !u!114 &1883053280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883053276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 0
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 0
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1883053278}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1171250509}
+        m_TargetAssemblyTypeName: ShopBubble, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1887392084
 GameObject:
   m_ObjectHideFlags: 0
@@ -8362,7 +8441,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8018868, g: 0.76813537, b: 0.69219476, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
