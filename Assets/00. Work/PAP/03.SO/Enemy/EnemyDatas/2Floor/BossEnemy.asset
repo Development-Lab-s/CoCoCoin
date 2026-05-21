@@ -20,3 +20,5 @@ MonoBehaviour:
   Title: "Mr. \uC544\uBE0C\uB77C\uCE74\uB2E4\uBE0C\uB0E5"
   patternName: []
   damage: 0100000043000000630000000f000000
+  isLast: 0
+  Theme: {fileID: 8300000, guid: af674bcc65568cf44b4ff777b9688d76, type: 3}

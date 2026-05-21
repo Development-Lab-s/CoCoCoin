@@ -715,9 +715,19 @@ MonoBehaviour:
   - {fileID: 11400000, guid: fc1a2cefa6871664ea06cdd6b68b3522, type: 2}
   - {fileID: 11400000, guid: 1a68b77028f3ca245aee0124395ba7c7, type: 2}
   enemyDataFloor2:
-  - {fileID: 11400000, guid: ae428e074b4285342914803ec87825aa, type: 2}
+  - {fileID: 11400000, guid: f7691671936c4764eac0991e246807de, type: 2}
+  - {fileID: 11400000, guid: 18ddba9fc12405541b0b313702e696f6, type: 2}
+  - {fileID: 11400000, guid: a0b1397394d6baf4d9dfa7397d52cd07, type: 2}
+  - {fileID: 11400000, guid: 3c1a99874c660c845a2b2cf4a7075212, type: 2}
+  - {fileID: 11400000, guid: 54cd1e189dc915b47b98282001815cb8, type: 2}
+  - {fileID: 11400000, guid: 583b913469acbe24f9302cba4b99ea98, type: 2}
   enemyDataFloor3:
-  - {fileID: 11400000, guid: fad70d2575fe560499be13d8b1b01ee4, type: 2}
+  - {fileID: 11400000, guid: ca1742058d646c64fb8ca673abde57e4, type: 2}
+  - {fileID: 11400000, guid: 822f8b250044cdd4f9473fea9f5c134c, type: 2}
+  - {fileID: 11400000, guid: 4f1baa8db60dbff48874440ddbcb5e03, type: 2}
+  - {fileID: 11400000, guid: 58759f584155e024491e8091bebff572, type: 2}
+  - {fileID: 11400000, guid: 7b691a1d527145948ba4c17dec616689, type: 2}
+  - {fileID: 11400000, guid: 48486f2b1bd74a144ba66930a38adf8c, type: 2}
   bossEnemyFloor1: {fileID: 11400000, guid: 7b9852a814c6ac740b7974c19ee0f06c, type: 2}
   bossEnemyFloor2: {fileID: 11400000, guid: a9639b5763a14ab4e83594fd6052d645, type: 2}
   bossEnemyFloor3: {fileID: 11400000, guid: 5e52ba75ce858ce4cb7815f847f75be4, type: 2}
