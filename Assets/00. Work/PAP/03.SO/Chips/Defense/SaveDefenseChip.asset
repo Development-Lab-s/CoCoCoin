@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ab833fd37e42eb48b8fbb686d40d810, type: 3}
   m_Name: SaveDefenseChip
   m_EditorClassIdentifier: 
-  Name: "\uC624\uBC31\uC6D0"
+  Name: "\uC624\uC2ED\uC6D0"
   Description: "<color=#999999>[50% \uC55E\uBA74]</color>\n<color=#0D99FF>\uBC29\uC5B4\uB3C4
     +7</color>\n\uBC29\uC5B4\uB3C4\uAC00 \uB2E4\uC74C \uD134\uC5D0\uB3C4 \uC720\uC9C0
     \uB429\uB2C8\uB2E4!\n\n<color=#999999>[50% \uB4B7\uBA74]</color>\nX"
-  Sprite: {fileID: 2126116894653100126, guid: 11c4d46ebc442c84dabff3a22e3c8e35, type: 3}
-  SpriteOnInventory: {fileID: -9012469996468257690, guid: 11c4d46ebc442c84dabff3a22e3c8e35, type: 3}
-  SpriteOnStack: {fileID: -2121140309979354532, guid: 326edcef18837c64da0fa0d6a343fd3c, type: 3}
-  SpriteOnBack: {fileID: -8492866457103159317, guid: 11c4d46ebc442c84dabff3a22e3c8e35, type: 3}
+  Sprite: {fileID: 8984707007927260109, guid: 11c4d46ebc442c84dabff3a22e3c8e35, type: 3}
+  SpriteOnInventory: {fileID: 7709855361172846178, guid: 11c4d46ebc442c84dabff3a22e3c8e35, type: 3}
+  SpriteOnStack: {fileID: -6947089432560455251, guid: 326edcef18837c64da0fa0d6a343fd3c, type: 3}
+  SpriteOnBack: {fileID: 6166222820120680626, guid: 11c4d46ebc442c84dabff3a22e3c8e35, type: 3}
   ChipEncounter: {fileID: 11400000, guid: e02644dbc687e38449c36d9db5b96a94, type: 2}
   spriteLibrary: {fileID: 7108339969198208228, guid: 647ae4be3098b5e4fa6bbebead57d4b5, type: 3}
   rarity: 0

@@ -12,5 +12,7 @@ public class ReturnDefenseChip : ChipEncounter
 
     public override void TailChip(Player player, Enemy enemy)
     {
+        StatusEffect status = new AttackPerDefense();
+        player.statusEffectHandler.AddStatusEffect(status, 1);
     }
 }

@@ -47,6 +47,30 @@ public class MotionHandler : MonoBehaviour
             case 1:
                 StartCoroutine(DefenseMotion(player, enemy, chip,isHead));
                 break;
+            case 100:
+                StartCoroutine(JackpotMotion(player, enemy, chip,isHead));
+                break;
+            case 101:
+                StartCoroutine(JackpotMotionFail(player, enemy, chip,isHead));
+                break;
+            case 102:
+                StartCoroutine(BbangReplicated(player, enemy, chip,isHead));
+                break;
+            case 103:
+                StartCoroutine(Fingersnap(player, enemy, chip,isHead));
+                break;
+            case 104:
+                StartCoroutine(FingersnapFail(player, enemy, chip,isHead));
+                break;
+            case 105:
+                StartCoroutine(HandamAI(player, enemy, chip,isHead));
+                break;
+            case 106:
+                StartCoroutine(HandamAIFail(player, enemy, chip,isHead));
+                break;
+            case 107:
+                StartCoroutine(Pat(player, enemy, chip,isHead));
+                break;
         }
     }
 
@@ -111,7 +135,6 @@ public class MotionHandler : MonoBehaviour
         ChipAbility(player, enemy, chip, isHead);
         yield return new WaitForSeconds(0.5f);
         SetEnable(chip);
-
     }
     
     private IEnumerator ShotGunMotion(Player player, Enemy enemy,ChipEncounter chip, bool isHead)
@@ -124,5 +147,89 @@ public class MotionHandler : MonoBehaviour
         yield return new WaitForSeconds(0.3f);
         SetEnable(chip);
 
+    }
+
+    private IEnumerator ShotgunMotionNone()
+    {
+        animator.SetTrigger("ShotGun");
+        yield return new WaitForSeconds(0.4f);
+        impulseSource.GenerateImpulseWithVelocity(new Vector3(0.2f, 0, 0));
+        _tableSFX.Play();
+        yield return new WaitForSeconds(0.3f);
+    }
+    private IEnumerator JackpotMotion(Player player, Enemy enemy,ChipEncounter chip, bool isHead)
+    {
+        animator.SetTrigger("67");
+        yield return new WaitForSeconds(0.5f);
+        ChipAbility(player, enemy, chip, isHead);
+        yield return new WaitForSeconds(0.5f);
+        SetEnable(chip);
+    }
+    
+    private IEnumerator JackpotMotionFail(Player player, Enemy enemy,ChipEncounter chip, bool isHead)
+    {
+        animator.SetTrigger("67");
+        yield return new WaitForSeconds(0.5f);
+        ChipAbility(player, enemy, chip, isHead);
+        yield return new WaitForSeconds(0.5f);
+        yield return StartCoroutine(ShotgunMotionNone());
+        SetEnable(chip);
+    }
+
+    private IEnumerator BbangReplicated(Player player, Enemy enemy,ChipEncounter chip, bool isHead)
+    {
+        animator.SetTrigger("Bbang");
+        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.5f);
+        yield return StartCoroutine(LeftHandTurnMotion(player, enemy, chip, isHead));
+        SetEnable(chip);
+    }
+    
+    
+    private IEnumerator Fingersnap(Player player, Enemy enemy,ChipEncounter chip, bool isHead)
+    {
+        animator.SetTrigger("Fingersnap");
+        yield return new WaitForSeconds(0.5f);
+        ChipAbility(player, enemy, chip, isHead);
+        yield return new WaitForSeconds(0.5f);
+        SetEnable(chip);
+    }
+    
+    private IEnumerator FingersnapFail(Player player, Enemy enemy,ChipEncounter chip, bool isHead)
+    {
+        animator.SetTrigger("Fingersnap");
+        yield return new WaitForSeconds(0.5f);
+        ChipAbility(player, enemy, chip, isHead);
+        yield return new WaitForSeconds(0.5f);
+        yield return StartCoroutine(ShotgunMotionNone());
+        SetEnable(chip);
+    }
+    
+    private IEnumerator HandamAI(Player player, Enemy enemy,ChipEncounter chip, bool isHead)
+    {
+        animator.SetTrigger("HandamAi");
+        yield return new WaitForSeconds(1f);
+        ChipAbility(player, enemy, chip, isHead);
+        yield return new WaitForSeconds(1f);
+        SetEnable(chip);
+    }
+    
+    private IEnumerator HandamAIFail(Player player, Enemy enemy,ChipEncounter chip, bool isHead)
+    {
+        animator.SetTrigger("HandamAi");
+        yield return new WaitForSeconds(1f);
+        ChipAbility(player, enemy, chip, isHead);
+        yield return new WaitForSeconds(1f);
+        yield return StartCoroutine(ShotgunMotionNone());
+        SetEnable(chip);
+    }
+    
+    private IEnumerator Pat(Player player, Enemy enemy,ChipEncounter chip, bool isHead)
+    {
+        animator.SetTrigger("Pat");
+        yield return new WaitForSeconds(0.5f);
+        ChipAbility(player, enemy, chip, isHead);
+        yield return new WaitForSeconds(0.5f);
+        SetEnable(chip);
     }
 }

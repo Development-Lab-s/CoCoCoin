@@ -23,7 +23,7 @@ public class BattleManager : MonoBehaviour
     
     public Enemy enemy;
 
-    [SerializeField] private InventorySO inventory;
+     public InventorySO inventory;
 
     [SerializeField] private GameObject chipModelPrefab;
 
@@ -69,13 +69,15 @@ public class BattleManager : MonoBehaviour
     public List<InventoryItemSO> nowChips =  new List<InventoryItemSO>();
     public List<InventoryItemSO> discardChips = new List<InventoryItemSO>();
 
-    private List<GameObject> chipModels = new List<GameObject>();
+    public List<GameObject> chipModels { get; private set; } = new List<GameObject>();
 
     private List<InventoryItemSO> chipsOrder = new List<InventoryItemSO>();
 
     public bool isActive = true;
 
     public bool isLocked = false;
+    
+    public bool isReplicated = false;
 
     public bool canUse = true;
 
@@ -84,7 +86,7 @@ public class BattleManager : MonoBehaviour
 
     public static BattleManager instance;
 
-    private void ChangeNowChips()
+    public void ChangeNowChips()
     {
         drawChipText.SetText(nowChips.Count.ToString());
     }
@@ -197,12 +199,30 @@ public class BattleManager : MonoBehaviour
 }
     public void UseChip(InventoryItemSO chip)
     {
+        StatusEffect sevenrepeat =
+            player.statusEffectHandler.nowStatusEffectList.Find(effect => effect.checkValue == "SevenMoreChip");
+        if (sevenrepeat != null)
+        {
+            player.statusEffectHandler.nowStatusEffectList.Remove(sevenrepeat);
+            sevenrepeat.statusEffectUI.Destroy();
+            for (int i = 0; i < 7; i++)
+            {
+                UseChipAct(chip);
+            }
+        }
+        UseChipAct(chip);
+    }
+
+    private void UseChipAct(InventoryItemSO chip)
+    {
         if (chip.ChipEncounter.type == ChipEncounter.Type.Stop)
         {
             canUse = false;
         }
+
         chipsOrder.Add(chip);
     }
+
     public List<InventoryItemSO>[] ReturnChipLists()
     {
         return new List<InventoryItemSO>[] { drawChips, nowChips, discardChips};
@@ -225,6 +245,10 @@ public class BattleManager : MonoBehaviour
             {
                 player.statusEffectHandler.AddCount(effect, -1);
             }
+
+            if (player.statusEffectHandler.nowStatusEffectList.Any(effect =>
+                    effect.leftTurns <= 0 && effect.checkValue == "Death"))
+                _ = SceneManageHandler.instance.MoveScene(5);
             player.statusEffectHandler.nowStatusEffectList.RemoveAll(effect => effect.leftTurns <= 0);
         }
     }
@@ -232,6 +256,13 @@ public class BattleManager : MonoBehaviour
     private void CheckBattleStatus()
     {
         StartCoroutine(EnemyTurnRoutine());
+    }
+
+    public void DestroyChip(InventoryItemSO chip)
+    {
+        drawChips.Remove(chip);
+        inventory.inventoryItemList.Remove(chip);
+        ChangeNowChips();
     }
 
     private IEnumerator EnemyTurnRoutine()
@@ -243,7 +274,6 @@ public class BattleManager : MonoBehaviour
 
         if (GameData.instance.playerCurrentHp <= 0)
         {
-            _ = SceneManageHandler.instance.MoveScene(5);
             currentState = State.End;
         }
         else
