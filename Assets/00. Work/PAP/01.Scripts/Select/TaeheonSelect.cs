@@ -20,7 +20,7 @@ namespace _00._Work.PAP._01.Scripts.Select
                 stringBuilder.Append($"{item.Name}, ");
             } 
             inventory.inventoryItemList.Add(itemLegend);
-            targetText.SetText($"[좋아, 이건 널 위한거야]\n그가 사라졌다..\n<color=#FFFF00>{stringBuilder}들을 얻었다!</color>\n...<color=#FFFF00>특별한 {itemLegend.Name}을(를) 얻었다..!</color>");
+            targetText.SetText($"[좋아, 이건 널 위한거야]\n그가 사라졌다..\n<color=#FFFF00>{stringBuilder} 코인</color>들을 얻었다! </color>\n... 또한 특별한 <color=#FFFF00>{itemLegend.Name}</color> 코인을얻었다..!");
         }
 
         public override void Select2(TextMeshProUGUI targetText)
