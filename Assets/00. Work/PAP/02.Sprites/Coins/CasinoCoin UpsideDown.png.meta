@@ -1,0 +1,1755 @@
+fileFormatVersion: 2
+guid: eb4bd030821ef9a4aaf1c692c41b3892
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -499461878862582394
+    second: CasinoCoin UpsideDown_0
+  - first:
+      213: 277599761417840081
+    second: CasinoCoin UpsideDown_1
+  - first:
+      213: 6994134812006080743
+    second: CasinoCoin UpsideDown_2
+  - first:
+      213: 7067918433806046565
+    second: CasinoCoin UpsideDown_3
+  - first:
+      213: -2931380471635096713
+    second: CasinoCoin UpsideDown_4
+  - first:
+      213: 846279425083265517
+    second: CasinoCoin UpsideDown_5
+  - first:
+      213: 6101597768004938346
+    second: CasinoCoin UpsideDown_6
+  - first:
+      213: 3343843836688529732
+    second: CasinoCoin UpsideDown_7
+  - first:
+      213: -1634139665744243115
+    second: CasinoCoin UpsideDown_8
+  - first:
+      213: -5645692592494046548
+    second: CasinoCoin UpsideDown_9
+  - first:
+      213: -8499236471236483192
+    second: CasinoCoin UpsideDown_10
+  - first:
+      213: 8602008389397903338
+    second: CasinoCoin UpsideDown_11
+  - first:
+      213: -825417854624646641
+    second: CasinoCoin UpsideDown_12
+  - first:
+      213: 4501871392202317008
+    second: CasinoCoin UpsideDown_13
+  - first:
+      213: 8066597022073967575
+    second: CasinoCoin UpsideDown_14
+  - first:
+      213: -5813870434758268073
+    second: CasinoCoin UpsideDown_15
+  - first:
+      213: 2823777040058468195
+    second: CasinoCoin UpsideDown_16
+  - first:
+      213: -1729870843653255722
+    second: CasinoCoin UpsideDown_17
+  - first:
+      213: -5914982989602331581
+    second: CasinoCoin UpsideDown_18
+  - first:
+      213: 928775887052997094
+    second: CasinoCoin UpsideDown_19
+  - first:
+      213: 6167466658321646953
+    second: CasinoCoin UpsideDown_20
+  - first:
+      213: 5026159472128661558
+    second: CasinoCoin UpsideDown_21
+  - first:
+      213: -8758989498738404145
+    second: CasinoCoin UpsideDown_22
+  - first:
+      213: 3677907303982047131
+    second: CasinoCoin UpsideDown_23
+  - first:
+      213: -3611408459592993165
+    second: CasinoCoin UpsideDown_24
+  - first:
+      213: 4294486484597345138
+    second: CasinoCoin UpsideDown_25
+  - first:
+      213: -6766428181685860218
+    second: CasinoCoin UpsideDown_26
+  - first:
+      213: -1344110176906500191
+    second: CasinoCoin UpsideDown_27
+  - first:
+      213: -390063298650046866
+    second: CasinoCoin UpsideDown_28
+  - first:
+      213: 3658348660504199498
+    second: CasinoCoin UpsideDown_29
+  - first:
+      213: -3395957620792288445
+    second: CasinoCoin UpsideDown_30
+  - first:
+      213: 7103900177338967574
+    second: CasinoCoin UpsideDown_31
+  - first:
+      213: -780916492780897906
+    second: CasinoCoin UpsideDown_32
+  - first:
+      213: 2788894014567526719
+    second: CasinoCoin UpsideDown_33
+  - first:
+      213: -187022936170240801
+    second: CasinoCoin UpsideDown_34
+  - first:
+      213: -1288528146245683602
+    second: CasinoCoin UpsideDown_35
+  - first:
+      213: 2663519863825853601
+    second: CasinoCoin UpsideDown_36
+  - first:
+      213: 2581348160697693861
+    second: CasinoCoin UpsideDown_37
+  - first:
+      213: 4445659251488377195
+    second: CasinoCoin UpsideDown_38
+  - first:
+      213: 1308518038317520013
+    second: CasinoCoin UpsideDown_39
+  - first:
+      213: -1131245258287213976
+    second: CasinoCoin UpsideDown_40
+  - first:
+      213: -6072835269619705247
+    second: CasinoCoin UpsideDown_41
+  - first:
+      213: -353589885797165781
+    second: CasinoCoin UpsideDown_42
+  - first:
+      213: -5396547426568157873
+    second: CasinoCoin UpsideDown_43
+  - first:
+      213: -4045866715231910793
+    second: CasinoCoin UpsideDown_44
+  - first:
+      213: 7581951160104769129
+    second: CasinoCoin UpsideDown_45
+  - first:
+      213: 8127191584202968088
+    second: CasinoCoin UpsideDown_46
+  - first:
+      213: -7464375180192942159
+    second: CasinoCoin UpsideDown_47
+  - first:
+      213: 7032823401921089625
+    second: CasinoCoin UpsideDown_48
+  - first:
+      213: -6722866395899552042
+    second: CasinoCoin UpsideDown_49
+  - first:
+      213: 6110169009393771430
+    second: CasinoCoin UpsideDown_50
+  - first:
+      213: -2146026278121728409
+    second: CasinoCoin UpsideDown_51
+  - first:
+      213: -6630679791461067175
+    second: CasinoCoin UpsideDown_52
+  - first:
+      213: -148434251081184411
+    second: CasinoCoin UpsideDown_53
+  - first:
+      213: 8658631646808526564
+    second: CasinoCoin UpsideDown_54
+  - first:
+      213: 2966850668215777443
+    second: CasinoCoin UpsideDown_55
+  - first:
+      213: -4009501776899226292
+    second: CasinoCoin UpsideDown_56
+  - first:
+      213: 4553538075541100542
+    second: CasinoCoin UpsideDown_57
+  - first:
+      213: 7079251173635854020
+    second: CasinoCoin UpsideDown_58
+  - first:
+      213: -9007925175536042470
+    second: CasinoCoin UpsideDown_59
+  - first:
+      213: -737028293114455809
+    second: CasinoCoin UpsideDown_60
+  - first:
+      213: -3347208902279925956
+    second: CasinoCoin UpsideDown_61
+  - first:
+      213: -2818968958919214189
+    second: CasinoCoin UpsideDown_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68deb83411e8119f0800000000000000
+      internalID: -499461878862582394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_1
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d52b01238b3ad300800000000000000
+      internalID: 277599761417840081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_2
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e0e0d41e88201160800000000000000
+      internalID: 6994134812006080743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_3
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565d17c3e5a461260800000000000000
+      internalID: 7067918433806046565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_4
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77b4caefdf4a157d0800000000000000
+      internalID: -2931380471635096713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_5
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de15fc047a69ebb00800000000000000
+      internalID: 846279425083265517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_6
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6a2044a7da3da450800000000000000
+      internalID: 6101597768004938346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_7
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449f236c048b76e20800000000000000
+      internalID: 3343843836688529732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_8
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55650fdc1ae5259e0800000000000000
+      internalID: -1634139665744243115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca29651df7876a1b0800000000000000
+      internalID: -5645692592494046548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_10
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887a7e5d575ac0a80800000000000000
+      internalID: -8499236471236483192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_11
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7fdf40e09706770800000000000000
+      internalID: 8602008389397903338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_12
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a35df95d68b84f0800000000000000
+      internalID: -825417854624646641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_13
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc56b4ed2cd97e30800000000000000
+      internalID: 4501871392202317008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_14
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d351feb04f42ff60800000000000000
+      internalID: 8066597022073967575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_15
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b661e84abf05fa0800000000000000
+      internalID: -5813870434758268073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_16
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367c695c142103720800000000000000
+      internalID: 2823777040058468195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_17
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd0eb802a34ef7e0800000000000000
+      internalID: -1729870843653255722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34466445f42c9eda0800000000000000
+      internalID: -5914982989602331581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_19
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e10eb79fbca3ec00800000000000000
+      internalID: 928775887052997094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_20
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 965c355cf3e379550800000000000000
+      internalID: 6167466658321646953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_21
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63891b0096180c540800000000000000
+      internalID: 5026159472128661558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_22
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc412504571d17680800000000000000
+      internalID: -8758989498738404145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_23
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f1aa2e43d8a0330800000000000000
+      internalID: 3677907303982047131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_24
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3767e1bd323b1edc0800000000000000
+      internalID: -3611408459592993165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_25
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b042f54b4199b30800000000000000
+      internalID: 4294486484597345138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_26
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6880c683b61d812a0800000000000000
+      internalID: -6766428181685860218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a7208e5ae2c85de0800000000000000
+      internalID: -1344110176906500191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_28
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6efb0c1f77369af0800000000000000
+      internalID: -390063298650046866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_29
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4101e559b015c230800000000000000
+      internalID: 3658348660504199498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_30
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b156459822fd0d0800000000000000
+      internalID: -3395957620792288445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_31
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616af1eb29f169260800000000000000
+      internalID: 7103900177338967574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_32
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89fc885690a925f0800000000000000
+      internalID: -780916492780897906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_33
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31b28e745424b620800000000000000
+      internalID: 2788894014567526719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_34
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd4e8b461af876df0800000000000000
+      internalID: -187022936170240801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_35
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e66fee75a7a3e1ee0800000000000000
+      internalID: -1288528146245683602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac69874439b6f420800000000000000
+      internalID: 2663519863825853601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_37
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a67effb97ac2d320800000000000000
+      internalID: 2581348160697693861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_38
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b69c46df88722bd30800000000000000
+      internalID: 4445659251488377195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_39
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d845b18193ac82210800000000000000
+      internalID: 1308518038317520013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_40
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86212f16e620d40f0800000000000000
+      internalID: -1131245258287213976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_41
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a9ade5f74f8bba0800000000000000
+      internalID: -6072835269619705247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_42
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2593ec4fdbc71bf0800000000000000
+      internalID: -353589885797165781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_43
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f454bd925bc9b15b0800000000000000
+      internalID: -5396547426568157873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_44
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 774860e88a13ad7c0800000000000000
+      internalID: -4045866715231910793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 966d762c860883960800000000000000
+      internalID: 7581951160104769129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_46
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c46f5afa599c070800000000000000
+      internalID: 8127191584202968088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_47
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b77b525256396890800000000000000
+      internalID: -7464375180192942159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_48
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9509f8f5f9b999160800000000000000
+      internalID: 7032823401921089625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_49
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de1ff7d1a493b2a0800000000000000
+      internalID: -6722866395899552042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_50
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3248a475eabc450800000000000000
+      internalID: 6110169009393771430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_51
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76696ed5878c732e0800000000000000
+      internalID: -2146026278121728409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_52
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9561a9a4cd71bf3a0800000000000000
+      internalID: -6630679791461067175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_53
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b0ec7c5d7a0fdf0800000000000000
+      internalID: -148434251081184411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ee4afc7b93a92870800000000000000
+      internalID: 8658631646808526564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_55
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8b1a4b6fe5c2920800000000000000
+      internalID: 2966850668215777443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_56
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45cf9d80636b58c0800000000000000
+      internalID: -4009501776899226292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_57
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef7d7d701ca613f30800000000000000
+      internalID: 4553538075541100542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_58
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce05585f6d8e3260800000000000000
+      internalID: 7079251173635854020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_59
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e30e467cb6df280800000000000000
+      internalID: -9007925175536042470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_60
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff8108f1cac85c5f0800000000000000
+      internalID: -737028293114455809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_61
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f6496dc335c81d0800000000000000
+      internalID: -3347208902279925956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CasinoCoin UpsideDown_62
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b74cadaa201e8d0800000000000000
+      internalID: -2818968958919214189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 340af17501b415a44bba63a16aab59e5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CasinoCoin UpsideDown_0: -499461878862582394
+      CasinoCoin UpsideDown_1: 277599761417840081
+      CasinoCoin UpsideDown_10: -8499236471236483192
+      CasinoCoin UpsideDown_11: 8602008389397903338
+      CasinoCoin UpsideDown_12: -825417854624646641
+      CasinoCoin UpsideDown_13: 4501871392202317008
+      CasinoCoin UpsideDown_14: 8066597022073967575
+      CasinoCoin UpsideDown_15: -5813870434758268073
+      CasinoCoin UpsideDown_16: 2823777040058468195
+      CasinoCoin UpsideDown_17: -1729870843653255722
+      CasinoCoin UpsideDown_18: -5914982989602331581
+      CasinoCoin UpsideDown_19: 928775887052997094
+      CasinoCoin UpsideDown_2: 6994134812006080743
+      CasinoCoin UpsideDown_20: 6167466658321646953
+      CasinoCoin UpsideDown_21: 5026159472128661558
+      CasinoCoin UpsideDown_22: -8758989498738404145
+      CasinoCoin UpsideDown_23: 3677907303982047131
+      CasinoCoin UpsideDown_24: -3611408459592993165
+      CasinoCoin UpsideDown_25: 4294486484597345138
+      CasinoCoin UpsideDown_26: -6766428181685860218
+      CasinoCoin UpsideDown_27: -1344110176906500191
+      CasinoCoin UpsideDown_28: -390063298650046866
+      CasinoCoin UpsideDown_29: 3658348660504199498
+      CasinoCoin UpsideDown_3: 7067918433806046565
+      CasinoCoin UpsideDown_30: -3395957620792288445
+      CasinoCoin UpsideDown_31: 7103900177338967574
+      CasinoCoin UpsideDown_32: -780916492780897906
+      CasinoCoin UpsideDown_33: 2788894014567526719
+      CasinoCoin UpsideDown_34: -187022936170240801
+      CasinoCoin UpsideDown_35: -1288528146245683602
+      CasinoCoin UpsideDown_36: 2663519863825853601
+      CasinoCoin UpsideDown_37: 2581348160697693861
+      CasinoCoin UpsideDown_38: 4445659251488377195
+      CasinoCoin UpsideDown_39: 1308518038317520013
+      CasinoCoin UpsideDown_4: -2931380471635096713
+      CasinoCoin UpsideDown_40: -1131245258287213976
+      CasinoCoin UpsideDown_41: -6072835269619705247
+      CasinoCoin UpsideDown_42: -353589885797165781
+      CasinoCoin UpsideDown_43: -5396547426568157873
+      CasinoCoin UpsideDown_44: -4045866715231910793
+      CasinoCoin UpsideDown_45: 7581951160104769129
+      CasinoCoin UpsideDown_46: 8127191584202968088
+      CasinoCoin UpsideDown_47: -7464375180192942159
+      CasinoCoin UpsideDown_48: 7032823401921089625
+      CasinoCoin UpsideDown_49: -6722866395899552042
+      CasinoCoin UpsideDown_5: 846279425083265517
+      CasinoCoin UpsideDown_50: 6110169009393771430
+      CasinoCoin UpsideDown_51: -2146026278121728409
+      CasinoCoin UpsideDown_52: -6630679791461067175
+      CasinoCoin UpsideDown_53: -148434251081184411
+      CasinoCoin UpsideDown_54: 8658631646808526564
+      CasinoCoin UpsideDown_55: 2966850668215777443
+      CasinoCoin UpsideDown_56: -4009501776899226292
+      CasinoCoin UpsideDown_57: 4553538075541100542
+      CasinoCoin UpsideDown_58: 7079251173635854020
+      CasinoCoin UpsideDown_59: -9007925175536042470
+      CasinoCoin UpsideDown_6: 6101597768004938346
+      CasinoCoin UpsideDown_60: -737028293114455809
+      CasinoCoin UpsideDown_61: -3347208902279925956
+      CasinoCoin UpsideDown_62: -2818968958919214189
+      CasinoCoin UpsideDown_7: 3343843836688529732
+      CasinoCoin UpsideDown_8: -1634139665744243115
+      CasinoCoin UpsideDown_9: -5645692592494046548
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

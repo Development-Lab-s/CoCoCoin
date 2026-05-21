@@ -10,7 +10,7 @@ namespace _00._Work.PAP._01.Scripts
         [SerializeField] private TextMeshProUGUI choiceText;
         [SerializeField] private CurrentChoiceData choiceData;
         [SerializeField] private GameObject[] choiceButtons;
-        [SerializeField] private ChoiceSelect[] selectChoice;
+        [SerializeField] private GameObject ExitButton;
         private bool enable = true;
         
 
@@ -27,35 +27,54 @@ namespace _00._Work.PAP._01.Scripts
 
         public void Button1()
         {
-            if (enable)
-            {
-                enable = false;
-                selectChoice[0].Select();
-            }
+            CallChoice(0);
         }
         public void Button2()
         {
-            if (enable)
-            {
-                enable = false;
-                selectChoice[1].Select();
-            }
+            CallChoice(1);
+
         }
         public void Button3()
         {
-            if (enable)
-            {
-                enable = false;
-                selectChoice[2].Select();
-            }
+            CallChoice(2);
+
         }
         public void Button4()
+        {
+            CallChoice(3);
+        }
+
+        private void CallChoice(int index)
         {
             if (enable)
             {
                 enable = false;
-                selectChoice[3].Select();
+                switch (index) 
+                {
+                    case 0 :
+                        choiceData.choiceData.selects.Select1(choiceText);
+                        break;
+                    case 1 :
+                        choiceData.choiceData.selects.Select2(choiceText);
+                        break;
+                    case 2 :
+                        choiceData.choiceData.selects.Select3(choiceText);
+                        break;
+                    case 3 :
+                        choiceData.choiceData.selects.Select4(choiceText);
+                        break;
+                }
+                for (int i = 0; i < choiceData.choiceData.choiceButtons.Length; i++)
+                {
+                    choiceButtons[i].SetActive(false);
+                }
+                ExitButton.SetActive(true);
             }
+        }
+
+        public void Exit()
+        {
+            _ = SceneManageHandler.instance.MoveScene(1);
         }
     }
 }

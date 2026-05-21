@@ -10,6 +10,7 @@ public class CheckChipList : MonoBehaviour
     [SerializeField] GameObject itemChipPrefab;
     [SerializeField] InventoryToolTip toolTip;
     [SerializeField] RectTransform moveModelRTrm;
+    [SerializeField] private InventorySO inventoryData;
 
     private Vector3 moveModelOriginPos;
     private Vector3 moveModelNewPos;
@@ -19,6 +20,8 @@ public class CheckChipList : MonoBehaviour
     private bool openActive = true;
 
     private bool nowOpened = false;
+
+    [SerializeField] private bool isBattle = true;
 
 
     private void Start()
@@ -87,6 +90,18 @@ public class CheckChipList : MonoBehaviour
         }
         else
         {
+            SettingChips();
+            moveModelRTrm.position = moveModelNewPos;
+            moveModelRTrm.gameObject.SetActive(true);
+            nowOpened = true;
+            moveModelRTrm.DOMove(moveModelOriginPos, 0.5f).OnComplete(() => openActive = true);
+        }
+     }
+
+    private void SettingChips()
+    {
+        if (isBattle)
+        {
             foreach (InventoryItemSO item in BattleManager.instance.drawChips)
             {
                 AddChip(item, false);
@@ -94,17 +109,21 @@ public class CheckChipList : MonoBehaviour
 
             foreach (InventoryItemSO item in BattleManager.instance.discardChips)
             {
-                AddChip(item, transform);
+                AddChip(item, true);
             }
 
             foreach (InventoryItemSO item in BattleManager.instance.nowChips)
             {
-                AddChip(item, transform);
+                AddChip(item, true);
             }
-            moveModelRTrm.position = moveModelNewPos;
-            moveModelRTrm.gameObject.SetActive(true);
-            nowOpened = true;
-            moveModelRTrm.DOMove(moveModelOriginPos, 0.5f).OnComplete(() => openActive = true);
         }
-     }
+        else
+        {
+            foreach (InventoryItemSO item in inventoryData.inventoryItemList) 
+            {
+                AddChip(item, false);
+            }
+        }
+
+    }
 }

@@ -54,15 +54,19 @@ public class Room : MonoBehaviour
 
             case RoomType.Interaction:
                 Debug.Log("신비한 비석을 발견했습니다.");
+                _=SceneManageHandler.instance.MoveScene(8);
                 SetCleared();
-                MapPlayer.Instance.isMoving = false;
                 break;
 
             case RoomType.Boss:
-                Debug.Log("보스 전투 시작!");
-                // 실제로는 보스 전투 씬으로 보낸 뒤, 승리하고 돌아와서 이 함수가 실행되어야 함
-                StartCoroutine(BossClearRoutine());
-                break;
+                enemySetting.Data = myData.enemyData;
+                _ = SceneManageHandler.instance.MoveScene(3);
+                MapManager mapMgr = FindObjectOfType<MapManager>();
+                if (mapMgr != null)
+                {
+                    mapMgr.OnBossCleared();
+                }
+                break;;
 
             case RoomType.Huge:
                 Debug.Log("넓은 방에 들어왔습니다.");
@@ -95,20 +99,5 @@ public class Room : MonoBehaviour
             }
         }
     }
-
-    [Obsolete("Obsolete")]
-    private IEnumerator BossClearRoutine()
-    {
-        // 전투 연출이나 승리 대기 시간 (임시)
-        yield return new WaitForSeconds(1.5f);
-
-        SetCleared(); // 현재 방 클리어 처리
-
-        // 맵 매니저를 찾아서 다음 층 로직 실행
-        MapManager mapMgr = FindObjectOfType<MapManager>();
-        if (mapMgr != null)
-        {
-            mapMgr.OnBossCleared();
-        }
-    }
+    
 }

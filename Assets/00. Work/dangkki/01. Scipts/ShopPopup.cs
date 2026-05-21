@@ -1,8 +1,10 @@
 using System.Collections;
 using UnityEngine;
 using DG.Tweening;
+using Unity.VisualScripting;
 using UnityEngine.UI;
 using UnityEngine.Video;
+using Sequence = DG.Tweening.Sequence;
 
 public class ShopPopup : MonoBehaviour
 {
@@ -10,12 +12,8 @@ public class ShopPopup : MonoBehaviour
     public Image BlackBack;
     public GameObject Shop;
     public Button ExitButton;
-    public VideoPlayer VideoPlayer;
-    public RawImage Background;
-    public Texture2D backgroundImage;
-    public RenderTexture BackAnim;
-    public VideoClip[] Vid;
     public Button slotButton;
+    public WalkCam walkCam;
     void Start()
     {
         DOTween.Init();
@@ -33,12 +31,15 @@ public class ShopPopup : MonoBehaviour
     }
     public void Show()
     {
-        VideoPlayer.clip = Vid[0];
-        Background.texture = BackAnim;
-        VideoPlayer.Play();
         BlackBack.gameObject.SetActive(true);
+        
+        walkCam.moveDistance = 100;
+        walkCam.moveDuration = 1f;
+        walkCam.target = transform.parent.GetChild(0).transform;
+        walkCam.Play(true);
+        
+        
         Sequence seq = DOTween.Sequence();
-        //seq.Append(transform.DOScale(1.1f, 0.1f));
         seq.SetAutoKill(false);
         //seq.OnRewind(() => BlackBack.enabled = true);
         seq.Append(BlackBack.DOFade(0, 0.5f));
@@ -50,17 +51,15 @@ public class ShopPopup : MonoBehaviour
             slotButton.gameObject.SetActive(false);
         })));;
         seq.Append(BlackBack.DOFade(1, 0.2f));
-        seq.Append(BlackBack.DOFade(0, 1f));
+        seq.Append(BlackBack.DOFade(0, 1f).OnComplete(() => BlackBack.gameObject.SetActive(false)));
         //seq.Append(transform.DOScale(0, 0.1f));
         seq.Play();
-        StartCoroutine(Delay(false));
+        StartCoroutine(Delay(true));
         
     }
 
     public void Hide()
     {
-        VideoPlayer.clip = Vid[1];
-        VideoPlayer.Play();
         BlackBack.gameObject.SetActive(true);
         Sequence seq = DOTween.Sequence();
         //transform.localScale = Vector3.one * 0.2f;
@@ -75,14 +74,16 @@ public class ShopPopup : MonoBehaviour
             ExitButton.gameObject.SetActive(false);
             slotButton.gameObject.SetActive(true);
             
+            walkCam.target = null;
+            walkCam.moveDistance = 08;
+            walkCam.moveDuration = 0.9f;
+            walkCam.Play(false);
+            
         })));
         seq.Append(BlackBack.DOFade(1, 0.2f));
-        //VideoPlayer.clip = Vid[1];
-       // VideoPlayer.Play();
         seq.Append(BlackBack.DOFade(0, 1f).OnComplete(() => BlackBack.gameObject.SetActive(false)));
         StartCoroutine(Delay(true));
         //seq.Play().OnComplete(() => gameObject.SetActive(false));
-        Background.texture = backgroundImage;
     }
 
     public IEnumerator Delay(bool flag)

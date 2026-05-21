@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class Exit : MonoBehaviour
 {
+    public WalkCam walkCam;
     public void ShopExit()
     {
         SceneManageHandler.instance.MoveScene(1);
