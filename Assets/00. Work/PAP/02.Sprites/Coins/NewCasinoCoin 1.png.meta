@@ -1,0 +1,1755 @@
+fileFormatVersion: 2
+guid: 7c1a07050f742e046bb22168a34f1011
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7349903197645237773
+    second: NewCasinoCoin 1_0
+  - first:
+      213: -5101933095932337366
+    second: NewCasinoCoin 1_1
+  - first:
+      213: -3685522907370735476
+    second: NewCasinoCoin 1_2
+  - first:
+      213: 1769858115622985035
+    second: NewCasinoCoin 1_3
+  - first:
+      213: -7414988830894133614
+    second: NewCasinoCoin 1_4
+  - first:
+      213: 3118348160306798990
+    second: NewCasinoCoin 1_5
+  - first:
+      213: -277517184635626718
+    second: NewCasinoCoin 1_6
+  - first:
+      213: 6603168695075106994
+    second: NewCasinoCoin 1_7
+  - first:
+      213: -7355410042218998230
+    second: NewCasinoCoin 1_8
+  - first:
+      213: 6260218679020591061
+    second: NewCasinoCoin 1_9
+  - first:
+      213: -3792978286835345677
+    second: NewCasinoCoin 1_10
+  - first:
+      213: 168914448733085499
+    second: NewCasinoCoin 1_11
+  - first:
+      213: 7061469619497673971
+    second: NewCasinoCoin 1_12
+  - first:
+      213: 2262401551555850002
+    second: NewCasinoCoin 1_13
+  - first:
+      213: -7961760137944125003
+    second: NewCasinoCoin 1_14
+  - first:
+      213: 7436294039361045683
+    second: NewCasinoCoin 1_15
+  - first:
+      213: 4002749633419667200
+    second: NewCasinoCoin 1_16
+  - first:
+      213: -3168728111979224363
+    second: NewCasinoCoin 1_17
+  - first:
+      213: -1016571113678489366
+    second: NewCasinoCoin 1_18
+  - first:
+      213: 6143599003740769626
+    second: NewCasinoCoin 1_19
+  - first:
+      213: -2908194108866597187
+    second: NewCasinoCoin 1_20
+  - first:
+      213: -4317014455027080632
+    second: NewCasinoCoin 1_21
+  - first:
+      213: -7559861153285109106
+    second: NewCasinoCoin 1_22
+  - first:
+      213: 521404113549271327
+    second: NewCasinoCoin 1_23
+  - first:
+      213: -8503158356344653511
+    second: NewCasinoCoin 1_24
+  - first:
+      213: -615096067685602935
+    second: NewCasinoCoin 1_25
+  - first:
+      213: -3307316653975436200
+    second: NewCasinoCoin 1_26
+  - first:
+      213: -5433297927606034013
+    second: NewCasinoCoin 1_27
+  - first:
+      213: -7121366336751150826
+    second: NewCasinoCoin 1_28
+  - first:
+      213: 6024760029962317017
+    second: NewCasinoCoin 1_29
+  - first:
+      213: 9105593199989274819
+    second: NewCasinoCoin 1_30
+  - first:
+      213: 2618765402659225172
+    second: NewCasinoCoin 1_31
+  - first:
+      213: 1830678319473702357
+    second: NewCasinoCoin 1_32
+  - first:
+      213: -6820978785618969930
+    second: NewCasinoCoin 1_33
+  - first:
+      213: 1132459342389071493
+    second: NewCasinoCoin 1_34
+  - first:
+      213: 2430821414285512007
+    second: NewCasinoCoin 1_35
+  - first:
+      213: 7957784384801805667
+    second: NewCasinoCoin 1_36
+  - first:
+      213: -330078878128194608
+    second: NewCasinoCoin 1_37
+  - first:
+      213: -6257637144481086982
+    second: NewCasinoCoin 1_38
+  - first:
+      213: -1143221386893827822
+    second: NewCasinoCoin 1_39
+  - first:
+      213: 25832233078423713
+    second: NewCasinoCoin 1_40
+  - first:
+      213: 5729207664583372387
+    second: NewCasinoCoin 1_41
+  - first:
+      213: -8760943390929325532
+    second: NewCasinoCoin 1_42
+  - first:
+      213: 7639008121486927168
+    second: NewCasinoCoin 1_43
+  - first:
+      213: -351533388465435467
+    second: NewCasinoCoin 1_44
+  - first:
+      213: -1603903970590356783
+    second: NewCasinoCoin 1_45
+  - first:
+      213: -3888814851225673980
+    second: NewCasinoCoin 1_46
+  - first:
+      213: -2999409379566731604
+    second: NewCasinoCoin 1_47
+  - first:
+      213: 1668858612359200545
+    second: NewCasinoCoin 1_48
+  - first:
+      213: 4155790797420919405
+    second: NewCasinoCoin 1_49
+  - first:
+      213: 8667271222370110804
+    second: NewCasinoCoin 1_50
+  - first:
+      213: 2582879982983490373
+    second: NewCasinoCoin 1_51
+  - first:
+      213: 3265099597464423056
+    second: NewCasinoCoin 1_52
+  - first:
+      213: 8492040881392796169
+    second: NewCasinoCoin 1_53
+  - first:
+      213: 7349550324094813103
+    second: NewCasinoCoin 1_54
+  - first:
+      213: 1193808789310018806
+    second: NewCasinoCoin 1_55
+  - first:
+      213: -8729974144651772814
+    second: NewCasinoCoin 1_56
+  - first:
+      213: -4570502513448036207
+    second: NewCasinoCoin 1_57
+  - first:
+      213: -2302798693844882486
+    second: NewCasinoCoin 1_58
+  - first:
+      213: -2839962901508366070
+    second: NewCasinoCoin 1_59
+  - first:
+      213: 7159544514142033343
+    second: NewCasinoCoin 1_60
+  - first:
+      213: -8115759679569724423
+    second: NewCasinoCoin 1_61
+  - first:
+      213: 7635371692557938426
+    second: NewCasinoCoin 1_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f119d2bbf5eff990800000000000000
+      internalID: -7349903197645237773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_1
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a23e42561ea4239b0800000000000000
+      internalID: -5101933095932337366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_2
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c883a9641746adcc0800000000000000
+      internalID: -3685522907370735476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_3
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ddc8c349ccf8810800000000000000
+      internalID: 1769858115622985035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_4
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ee011d1faa81990800000000000000
+      internalID: -7414988830894133614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_5
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81641d4129964b20800000000000000
+      internalID: 3118348160306798990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_6
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b1ab6479f062cf0800000000000000
+      internalID: -277517184635626718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_7
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b07eed61fa23ab50800000000000000
+      internalID: 6603168695075106994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_8
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a26123889855ce990800000000000000
+      internalID: -7355410042218998230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d7994378b3c0e650800000000000000
+      internalID: 6260218679020591061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_10
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6d86c1852ac5bc0800000000000000
+      internalID: -3792978286835345677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_11
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3f9a22dbca185200800000000000000
+      internalID: 168914448733085499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_12
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f42f56a4316ff160800000000000000
+      internalID: 7061469619497673971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_13
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f67c3793aa56f10800000000000000
+      internalID: 2262401551555850002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_14
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b1b9f67655228190800000000000000
+      internalID: -7961760137944125003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_15
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b448759706033760800000000000000
+      internalID: 7436294039361045683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_16
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007edc8859f9c8730800000000000000
+      internalID: 4002749633419667200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_17
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d22faf129a6604d0800000000000000
+      internalID: -3168728111979224363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae8354845f964e1f0800000000000000
+      internalID: -1016571113678489366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_19
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d89646eb2724550800000000000000
+      internalID: 6143599003740769626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_20
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe6f13cdd404a7d0800000000000000
+      internalID: -2908194108866597187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_21
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84262e5c932e614c0800000000000000
+      internalID: -4317014455027080632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_22
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a8a2fb55af51790800000000000000
+      internalID: -7559861153285109106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_23
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f11288c57466c3700800000000000000
+      internalID: 521404113549271327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_24
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 939be2dc686bef980800000000000000
+      internalID: -8503158356344653511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_25
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9892cd6a26db677f0800000000000000
+      internalID: -615096067685602935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_26
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8548f00b60d0a12d0800000000000000
+      internalID: -3307316653975436200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a12d2a525c0994b0800000000000000
+      internalID: -5433297927606034013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_28
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 619d58e1c03db2d90800000000000000
+      internalID: -7121366336751150826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_29
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc20e2a35f3c9350800000000000000
+      internalID: 6024760029962317017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_30
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8b29a95c09d5e70800000000000000
+      internalID: 9105593199989274819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_31
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ef5974249b75420800000000000000
+      internalID: 2618765402659225172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_32
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d53d327b30e76910800000000000000
+      internalID: 1830678319473702357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_33
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bab4befee30751a0800000000000000
+      internalID: -6820978785618969930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_34
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58e4ca995cd47bf00800000000000000
+      internalID: 1132459342389071493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_35
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d86ee72330cb120800000000000000
+      internalID: 2430821414285512007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 365134f5cbabf6e60800000000000000
+      internalID: 7957784384801805667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_37
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db3f4952035b6bf0800000000000000
+      internalID: -330078878128194608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_38
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af14ae5eb286829a0800000000000000
+      internalID: -6257637144481086982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_39
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2116096a4367220f0800000000000000
+      internalID: -1143221386893827822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_40
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a005647746cb5000800000000000000
+      internalID: 25832233078423713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_41
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36eefeb240c328f40800000000000000
+      internalID: 5729207664583372387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_42
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422f9564760ea6680800000000000000
+      internalID: -8760943390929325532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_43
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0456d8dc965330a60800000000000000
+      internalID: 7639008121486927168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_44
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc04d5ee3a1f1bf0800000000000000
+      internalID: -351533388465435467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da8f1b26d9cdb9e0800000000000000
+      internalID: -1603903970590356783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_46
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f1e632f77280ac0800000000000000
+      internalID: -3888814851225673980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_47
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae33f29f05ff56d0800000000000000
+      internalID: -2999409379566731604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_48
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f7502e01af82710800000000000000
+      internalID: 1668858612359200545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_49
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a7c1146b55ca930800000000000000
+      internalID: 4155790797420919405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_50
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d065d6145584870800000000000000
+      internalID: 8667271222370110804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_51
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ba23be8ab38d320800000000000000
+      internalID: 2582879982983490373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_52
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a432fd8c6ff4d20800000000000000
+      internalID: 3265099597464423056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_53
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9024389503ac9d570800000000000000
+      internalID: 8492040881392796169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa347868419def560800000000000000
+      internalID: 7349550324094813103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_55
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f41090d4c2419010800000000000000
+      internalID: 1193808789310018806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_56
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27cbfa1d4c6e8d680800000000000000
+      internalID: -8729974144651772814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_57
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19856e8fd205290c0800000000000000
+      internalID: -4570502513448036207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_58
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb6428e9c0da00e0800000000000000
+      internalID: -2302798693844882486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_59
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a016e40b9cc6698d0800000000000000
+      internalID: -2839962901508366070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_60
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb5580f7dcfcb5360800000000000000
+      internalID: 7159544514142033343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_61
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fbfec012970f5f80800000000000000
+      internalID: -8115759679569724423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewCasinoCoin 1_62
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe2df6b91a46f960800000000000000
+      internalID: 7635371692557938426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5de13c1b11f6c60408d307c3cd9c82f8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NewCasinoCoin 1_0: -7349903197645237773
+      NewCasinoCoin 1_1: -5101933095932337366
+      NewCasinoCoin 1_10: -3792978286835345677
+      NewCasinoCoin 1_11: 168914448733085499
+      NewCasinoCoin 1_12: 7061469619497673971
+      NewCasinoCoin 1_13: 2262401551555850002
+      NewCasinoCoin 1_14: -7961760137944125003
+      NewCasinoCoin 1_15: 7436294039361045683
+      NewCasinoCoin 1_16: 4002749633419667200
+      NewCasinoCoin 1_17: -3168728111979224363
+      NewCasinoCoin 1_18: -1016571113678489366
+      NewCasinoCoin 1_19: 6143599003740769626
+      NewCasinoCoin 1_2: -3685522907370735476
+      NewCasinoCoin 1_20: -2908194108866597187
+      NewCasinoCoin 1_21: -4317014455027080632
+      NewCasinoCoin 1_22: -7559861153285109106
+      NewCasinoCoin 1_23: 521404113549271327
+      NewCasinoCoin 1_24: -8503158356344653511
+      NewCasinoCoin 1_25: -615096067685602935
+      NewCasinoCoin 1_26: -3307316653975436200
+      NewCasinoCoin 1_27: -5433297927606034013
+      NewCasinoCoin 1_28: -7121366336751150826
+      NewCasinoCoin 1_29: 6024760029962317017
+      NewCasinoCoin 1_3: 1769858115622985035
+      NewCasinoCoin 1_30: 9105593199989274819
+      NewCasinoCoin 1_31: 2618765402659225172
+      NewCasinoCoin 1_32: 1830678319473702357
+      NewCasinoCoin 1_33: -6820978785618969930
+      NewCasinoCoin 1_34: 1132459342389071493
+      NewCasinoCoin 1_35: 2430821414285512007
+      NewCasinoCoin 1_36: 7957784384801805667
+      NewCasinoCoin 1_37: -330078878128194608
+      NewCasinoCoin 1_38: -6257637144481086982
+      NewCasinoCoin 1_39: -1143221386893827822
+      NewCasinoCoin 1_4: -7414988830894133614
+      NewCasinoCoin 1_40: 25832233078423713
+      NewCasinoCoin 1_41: 5729207664583372387
+      NewCasinoCoin 1_42: -8760943390929325532
+      NewCasinoCoin 1_43: 7639008121486927168
+      NewCasinoCoin 1_44: -351533388465435467
+      NewCasinoCoin 1_45: -1603903970590356783
+      NewCasinoCoin 1_46: -3888814851225673980
+      NewCasinoCoin 1_47: -2999409379566731604
+      NewCasinoCoin 1_48: 1668858612359200545
+      NewCasinoCoin 1_49: 4155790797420919405
+      NewCasinoCoin 1_5: 3118348160306798990
+      NewCasinoCoin 1_50: 8667271222370110804
+      NewCasinoCoin 1_51: 2582879982983490373
+      NewCasinoCoin 1_52: 3265099597464423056
+      NewCasinoCoin 1_53: 8492040881392796169
+      NewCasinoCoin 1_54: 7349550324094813103
+      NewCasinoCoin 1_55: 1193808789310018806
+      NewCasinoCoin 1_56: -8729974144651772814
+      NewCasinoCoin 1_57: -4570502513448036207
+      NewCasinoCoin 1_58: -2302798693844882486
+      NewCasinoCoin 1_59: -2839962901508366070
+      NewCasinoCoin 1_6: -277517184635626718
+      NewCasinoCoin 1_60: 7159544514142033343
+      NewCasinoCoin 1_61: -8115759679569724423
+      NewCasinoCoin 1_62: 7635371692557938426
+      NewCasinoCoin 1_7: 6603168695075106994
+      NewCasinoCoin 1_8: -7355410042218998230
+      NewCasinoCoin 1_9: 6260218679020591061
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

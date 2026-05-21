@@ -17,7 +17,7 @@ MonoBehaviour:
     \uC800\uD76C \uD300 \uC544\uD2B8 \uBCF4\uC168\uB098\uC694?!\"\r\n\uBA87 \uBD84
     \uC804 \uB2F9\uC2E0\uC740 \uD654\uC7A5\uC2E4\uB85C \uAE09\uD788 \uC228\uB358
     \uD55C \uB0A8\uC790\uB97C \uBD24\uC5C8\uB2E4."
-  choiceImage: {fileID: -4331156834911528034, guid: 5f580f95f3041714a8b2d53c23df4bbe, type: 3}
+  choiceImage: {fileID: -6168306341699905969, guid: 41edf8c79be6e514fb05d1b3bbe3cca9, type: 3}
   choiceButtons:
   - "\uC0AC\uC2E4\uB300\uB85C \uB9D0\uD55C\uB2E4"
   - "\uB2E4\uB978 \uBC29\uD5A5\uC744 \uAC00\uB974\uD0A8\uB2E4"

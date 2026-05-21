@@ -71,6 +71,9 @@ public class MotionHandler : MonoBehaviour
             case 107:
                 StartCoroutine(Pat(player, enemy, chip,isHead));
                 break;
+            case 108:
+                StartCoroutine(DomainExpansion(player, enemy, chip,isHead));
+                break;
         }
     }
 
@@ -107,6 +110,15 @@ public class MotionHandler : MonoBehaviour
         }
         yield return null;
         SetEnable(chip);
+    }
+
+    private IEnumerator LeftHandTurnMotionNone()
+    {
+        if (BattleManager.instance.needDiscard > 0)
+        {
+            leftMotionHandler.PlayMotion(0);
+        }
+        yield return null;
     }
     private IEnumerator NormalPunchMotion(Player player, Enemy enemy,ChipEncounter chip,bool isHead)
     {
@@ -179,9 +191,9 @@ public class MotionHandler : MonoBehaviour
     private IEnumerator BbangReplicated(Player player, Enemy enemy,ChipEncounter chip, bool isHead)
     {
         animator.SetTrigger("Bbang");
-        yield return new WaitForSeconds(0.5f);
-        yield return new WaitForSeconds(0.5f);
-        yield return StartCoroutine(LeftHandTurnMotion(player, enemy, chip, isHead));
+        ChipAbility(player, enemy, chip, isHead);
+        yield return new WaitForSeconds(1f);
+        yield return StartCoroutine(LeftHandTurnMotionNone());
         SetEnable(chip);
     }
     
@@ -230,6 +242,14 @@ public class MotionHandler : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         ChipAbility(player, enemy, chip, isHead);
         yield return new WaitForSeconds(0.5f);
+        SetEnable(chip);
+    }
+    
+    private IEnumerator DomainExpansion(Player player, Enemy enemy,ChipEncounter chip, bool isHead)
+    {
+        animator.SetTrigger("DomainExpansion");
+        ChipAbility(player, enemy, chip, isHead);
+        yield return new WaitForSeconds(2f);
         SetEnable(chip);
     }
 }

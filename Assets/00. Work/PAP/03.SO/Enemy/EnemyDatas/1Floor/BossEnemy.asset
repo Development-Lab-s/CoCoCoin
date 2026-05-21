@@ -23,3 +23,5 @@ MonoBehaviour:
   - Normal
   - Normal
   damage: 19000000230000001b000000
+  isLast: 0
+  Theme: {fileID: 8300000, guid: 435a6b59378fb9443864e1b3b050d5d0, type: 3}

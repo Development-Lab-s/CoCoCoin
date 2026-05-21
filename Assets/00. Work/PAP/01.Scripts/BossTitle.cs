@@ -9,11 +9,13 @@ namespace _00._Work.PAP._01.Scripts
     {
         [SerializeField] private CurrentEnemySetting currentEnemy;
         [SerializeField] private TextMeshProUGUI titleText;
+        [SerializeField] private AudioSource audio;
 
         private void Start()
         {
-            if (currentEnemy.Data.Title != "")
+            if (!string.IsNullOrEmpty(currentEnemy.Data.Title))
             {
+                audio.Play();
                 titleText.SetText(currentEnemy.Data.Title);
                 titleText.transform.localScale = Vector3.zero;
                 Sequence _seq = DOTween.Sequence();

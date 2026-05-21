@@ -8,6 +8,8 @@ public class SlotCheck : MonoBehaviour
     [SerializeField] Transform _slot0;
     [SerializeField] Transform _slot1;
     [SerializeField] Transform _slot2;
+    [SerializeField] private InventorySO inventory;
+    [SerializeField] private InventoryItemSO jackpotItem;
     TicketManager _ticketManager;
 
 
@@ -36,7 +38,8 @@ public class SlotCheck : MonoBehaviour
                     TicketManager.instance.AddTicket(35);
                     break;
                 case "JackPot":
-                    TicketManager.instance.AddTicket(49);
+                    TicketManager.instance.AddTicket(999);
+                    inventory.inventoryItemList.Add(jackpotItem);
                     break;
             }
         }
