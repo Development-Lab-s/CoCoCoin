@@ -28,21 +28,19 @@ public class CoinSpawner : MonoBehaviour
 
     public void CoinSpawn()//랜덤 희귀도의 랜덤코인을 "생성"까지 해줌
     {
-        Rare_probability += Common_probability;
-        Legendery_probability += Rare_probability;
         Rarity_probability = Random.Range(1, 101);
         GameObject Coin = Instantiate(_coinPrefab); //코인 생성
-        if (0 < Rarity_probability && Common_probability >= Rarity_probability)
+        if (Common_probability >= Rarity_probability)
+        {
+            Coin.GetComponent<CoinDrag>().Init(_commonCoinDatas[Random.Range(0, _commonCoinDatas.Count)]);
+        }
+        else if (Rare_probability + Common_probability >= Rarity_probability)//Rare등급 코인 
         {
             Coin.GetComponent<CoinDrag>().Init(_rareCoinDatas[Random.Range(0, _rareCoinDatas.Count)]);
         }
-        else if (Common_probability <= Rarity_probability && Rare_probability >= Rarity_probability)//Rare등급 코인 
+        else if (Legendery_probability + Rare_probability + Common_probability >= Rarity_probability)//Legendary등급 코인 
         {
-            Coin.GetComponent<CoinDrag>().Init(_rareCoinDatas[Random.Range(0, _rareCoinDatas.Count)]);
-        }
-        else if (Rare_probability <= Rarity_probability && Legendery_probability >= Rarity_probability)//Legendary등급 코인 
-        {
-
+            Coin.GetComponent<CoinDrag>().Init(_legendaryCoinDatas[Random.Range(0, _legendaryCoinDatas.Count)]);
         }
         Coin.transform.position = Coin_Spown_point.transform.position;
     }

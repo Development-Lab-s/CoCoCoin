@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f399dc2f7ad4a97b4dd862e2a5cd740, type: 3}
   m_Name: Current choice
   m_EditorClassIdentifier: 
-  choiceData: {fileID: 11400000, guid: 265d8f5ada3bc004a99dbd725fa1a620, type: 2}
+  choiceData: {fileID: 11400000, guid: 14e6fb96baaaf72438fad18ef35e9537, type: 2}

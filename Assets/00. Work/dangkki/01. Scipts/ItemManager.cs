@@ -108,7 +108,7 @@ public class ItemManager : MonoBehaviour
             }
             else if(ChosenChip.rarity == InventoryItemSO.Rarity.Rare) {
                 _itemList_Price[i].text = "5$";
-                _itemList_Price[i].color = Color.green;
+                _itemList_Price[i].color = Color.cyan;
             }
             else if(ChosenChip.rarity == InventoryItemSO.Rarity.Legendary) {
                 _itemList_Price[i].text = "10$";

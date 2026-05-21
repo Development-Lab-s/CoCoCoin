@@ -100,12 +100,12 @@ public class TicketManager : MonoBehaviour
         Color color;
         if (Use == false)
         {
-            Value = 30f;
+            Value = 10f;
             color = Color.yellow;
         }
         else
         {
-            Value = -30f;
+            Value = -10f;
             color = Color.red;
             ReRemember = 0;
         }
