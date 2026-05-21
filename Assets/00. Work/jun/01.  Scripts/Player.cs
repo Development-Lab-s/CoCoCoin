@@ -40,16 +40,14 @@ public class Player : MonoBehaviour
     public void TakeDamage(int damage)
     {
         int dealDamage = damage;
+        if (statusEffectHandler.nowStatusEffectList.Exists(effect => effect.checkValue == "DamageSeven"))
+            dealDamage *= 7;
         dealDamage -= shieldHP;
         shieldHP = Mathf.Clamp(-dealDamage, 0,int.MaxValue);
         dealDamage = Mathf.Clamp(dealDamage, 0, int.MaxValue);
         if (statusEffectHandler.nowStatusEffectList.Exists(effect => effect.checkValue == "ReturnDefense"))
             BattleManager.instance.enemy.TakeDamage(damage - dealDamage);
-        GameData.instance.playerCurrentHp -= dealDamage;
-        if (GameData.instance.playerCurrentHp < 0)
-        {
-            GameData.instance.playerCurrentHp = 0;
-        }
+        GameData.instance.playerCurrentHp = Mathf.Max(GameData.instance.playerCurrentHp-dealDamage,0);
 
         if (shieldHP > 0)
         {
@@ -69,8 +67,12 @@ public class Player : MonoBehaviour
         bloodImage.DOKill();
         bloodImage.color = new Color(1,1,1, Mathf.Clamp(damage/100f,0,1));
         bloodImage.DOFade(0f,1f).SetEase(Ease.OutQuad);
-        StartCoroutine(DecreaseHPAnimation(damage));
-        StartCoroutine(ShieldAnimation(damage));
+        StartCoroutine(DecreaseHPAnimation(dealDamage));
+        StartCoroutine(ShieldAnimation(dealDamage));
+        if (GameData.instance.playerCurrentHp == 0)
+        {
+            _ = SceneManageHandler.instance.MoveScene(5);
+        }
     }
 
     private Coroutine shieldTextAnimation;
@@ -102,7 +104,7 @@ public class Player : MonoBehaviour
         UpdateShieldUI();
     }
 
-    private void UpdateUI()
+    public void UpdateUI()
     {
         if (hpText != null)
         {
