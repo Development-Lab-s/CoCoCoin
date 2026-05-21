@@ -259,6 +259,7 @@ MonoBehaviour:
   iconImage: {fileID: 4375049587187867908}
   nameText: {fileID: 3134416128751241994}
   dragGhost: {fileID: 0}
+  shopCanvas: {fileID: 0}
 --- !u!61 &2251601452058618124
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -340,7 +341,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 50, y: 50}
+  m_SizeDelta: {x: 100, y: 65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7882248138759215647
 CanvasRenderer:
@@ -370,7 +371,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6630341104690361922, guid: 0f5bb122f0348ee4ca040ea9a0578449, type: 3}
+  m_Sprite: {fileID: -3988769855312385993, guid: 0de1df47d6df8bc45b3ad9081069991c, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1

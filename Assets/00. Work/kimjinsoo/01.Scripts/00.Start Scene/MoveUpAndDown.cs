@@ -11,7 +11,7 @@ public class MoveUpAndDown : MonoBehaviour
     {
         rectTrans = GetComponent<RectTransform>();
         originPos = rectTrans.anchoredPosition;
-        rectTrans.DOAnchorPosY(originPos.y + 20, 2f).SetLoops(-1, LoopType.Yoyo);//.SetEase(Ease.Linear);
+        rectTrans.DOAnchorPosY(originPos.y + 20, 1f).SetLoops(-1, LoopType.Yoyo).SetEase(Ease.Linear);
     }
 
     private void OnDestroy()

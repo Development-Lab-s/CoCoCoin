@@ -15,12 +15,12 @@ MonoBehaviour:
   Name: "\uD558\uC580\uC0C9 \uCE69"
   Description: "<color=#999999>[50% \uC55E\uBA74]</color>\n\uD328\uB97C \uAC00\uB4DD
     \uCC44\uC6C1\uB2C8\uB2E4.\n\n<color=#999999>[50% \uB4B7\uBA74]</color>\n\uD328\uC5D0
-    \uC788\uB294 \uCF54\uC778\uC744 \uBAA8\uB450 \uD30C\uAD34\uD569\uB2C8\uB2E4.
-    \uADF8 \uC218 \uB9CC\uD07C \uD328 \uC6A9\uB7C9\uC774 \uC99D\uAC00\uD569\uB2C8\uB2E4."
-  Sprite: {fileID: -4197401083365637610, guid: 56db09fc515fafb4091a57dbd22bf2ed, type: 3}
-  SpriteOnInventory: {fileID: 109641078735515450, guid: 56db09fc515fafb4091a57dbd22bf2ed, type: 3}
-  SpriteOnStack: {fileID: 5488722258617810835, guid: 268b23955f342cb4d8d53bd624bcb431, type: 3}
-  SpriteOnBack: {fileID: -5190524646223770113, guid: 56db09fc515fafb4091a57dbd22bf2ed, type: 3}
+    \uC788\uB294 \uCF54\uC778\uC744 \uBAA8\uB450 \uBC84\uB9BD\uB2C8\uB2E4. \uADF8
+    \uC218 \uB9CC\uD07C \uD328 \uC6A9\uB7C9\uC774 \uC99D\uAC00\uD569\uB2C8\uB2E4."
+  Sprite: {fileID: 8841108663156381668, guid: a4fc7ebc8bc7a1040b99ef9b05bf0239, type: 3}
+  SpriteOnInventory: {fileID: 1075322071185029412, guid: a4fc7ebc8bc7a1040b99ef9b05bf0239, type: 3}
+  SpriteOnStack: {fileID: -9007925175536042470, guid: eb4bd030821ef9a4aaf1c692c41b3892, type: 3}
+  SpriteOnBack: {fileID: -1955090002519032438, guid: a4fc7ebc8bc7a1040b99ef9b05bf0239, type: 3}
   ChipEncounter: {fileID: 11400000, guid: 2ebdc412a1e106b429691b78fc2b828b, type: 2}
   spriteLibrary: {fileID: 7108339969198208228, guid: 2bdffd47a52919f4b8fe4d4918195e59, type: 3}
   rarity: 1

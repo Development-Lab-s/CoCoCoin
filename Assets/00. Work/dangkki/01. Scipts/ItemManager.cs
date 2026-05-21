@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -57,19 +58,49 @@ public class ItemManager : MonoBehaviour
     {
         SetItem();
     }
+    
     public void SetItem()
     {
+        
+        List<InventoryItemSO> Common = new List<InventoryItemSO>();
+        List<InventoryItemSO> Rare = new List<InventoryItemSO>();
+        List<InventoryItemSO> Legendary = new List<InventoryItemSO>();
+        foreach (InventoryItemSO item in _chipList.inventoryItemList )
+        {
+            if (item.rarity == InventoryItemSO.Rarity.Common)
+                 Common.Add(item);
+            else if (item.rarity == InventoryItemSO.Rarity.Rare)
+                Rare.Add(item);
+            else if (item.rarity == InventoryItemSO.Rarity.Legendary)
+                Legendary.Add(item);
+        }
         for (int i = 0; i < _itemList.Length; i++)
         {
-            int randomNum = Random.Range(0, _chipList.inventoryItemList.Count - 1);
-            _itemList_Sprite[i].sprite = _chipList.inventoryItemList[randomNum].Sprite;
-            _itemList_Spin[i].spriteLibraryAsset = _chipList.inventoryItemList[randomNum].spriteLibrary;
+            int randomNum = Random.Range(0, 10);
+            InventoryItemSO ChosenChip = null;
+            if (randomNum <= 5) {
+                int Rand = Random.RandomRange(0, Common.Count);
+                ChosenChip = Common[Rand];
+                Common.RemoveAt(Rand);
+            }
+            else if (randomNum > 5 && randomNum <= 9) {
+                int Rand = Random.RandomRange(0, Rare.Count);
+                ChosenChip = Rare[Rand];
+                Rare.RemoveAt(Rand);
+            }
+            else {
+                int Rand = Random.RandomRange(0, Legendary.Count);
+                ChosenChip = Legendary[Rand];
+                Legendary.RemoveAt(Rand);
+            }
+            _itemList_Sprite[i].sprite = ChosenChip.Sprite;
+            _itemList_Spin[i].spriteLibraryAsset = ChosenChip.spriteLibrary;
             //_itemList_Animation[i].runtimeAnimatorController = _chipList.inventoryItemList[randomNum].SelectSprite;
-            if(_chipList.inventoryItemList[randomNum].rarity == InventoryItemSO.Rarity.Common) _itemList_Price[i].text = "3$";
-            else if(_chipList.inventoryItemList[randomNum].rarity == InventoryItemSO.Rarity.Rare) _itemList_Price[i].text = "5$";
-            else if(_chipList.inventoryItemList[randomNum].rarity == InventoryItemSO.Rarity.Legendary) _itemList_Price[i].text = "10$";
+            if(ChosenChip.rarity == InventoryItemSO.Rarity.Common) _itemList_Price[i].text = "3$";
+            else if(ChosenChip.rarity == InventoryItemSO.Rarity.Rare) _itemList_Price[i].text = "5$";
+            else if(ChosenChip.rarity == InventoryItemSO.Rarity.Legendary) _itemList_Price[i].text = "10$";
             //_itemList_Price[i].text = _chipList.ShopItemList[randomNum].Description;
-            _sellitem[i] = _chipList.inventoryItemList[randomNum];
+            _sellitem[i] = ChosenChip;
             //_descripton.SetDescription(i);
             //}
         }
@@ -86,6 +117,7 @@ public class ItemManager : MonoBehaviour
             if (_ticketManager._ticket >= 3)
             {
                 _ticketManager._ticket -= 3;
+                
                // _inventory.inventoryItemList.Add(_sellitem[itemNumber - 1]);
             }
             else
@@ -122,6 +154,7 @@ public class ItemManager : MonoBehaviour
             }
                 
         }
+        _ticketManager.SetTicketText();
         _inventory.inventoryItemList.Add(_sellitem[itemNumber - 1]);
         inventoryUI.ScrollView();
         Debug.Log(_sellitem[itemNumber - 1].Name + "구매완료");

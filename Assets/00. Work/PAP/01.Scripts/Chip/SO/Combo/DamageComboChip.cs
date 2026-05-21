@@ -12,5 +12,6 @@ public class DamageComboChip : ChipEncounter
 
     public override void TailChip(Player player, Enemy enemy)
     {
+        player.GetShield(7*2);
     }
 }
