@@ -9,10 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5878a7ef4e614438a8a4ebe981fcfc37, type: 3}
-  m_Name: Vibecoding
+  m_Script: {fileID: 11500000, guid: 776a0706820140649806b69ead0799ca, type: 3}
+  m_Name: Nya
   m_EditorClassIdentifier: 
   headChance: 51
   headChipMotion: 0
-  tailChipMotion: 0
+  tailChipMotion: -10
   type: 0
+  NaviEffect: {fileID: 2550031651879788907, guid: 8ba0841a74957d44fb22ff65fcda2b0d, type: 3}
+  impulseSource: {fileID: 4645142144144777889, guid: 8ba0841a74957d44fb22ff65fcda2b0d, type: 3}
