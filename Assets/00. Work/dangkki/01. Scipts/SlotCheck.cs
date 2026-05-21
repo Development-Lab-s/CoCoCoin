@@ -30,19 +30,21 @@ public class SlotCheck : MonoBehaviour
             switch(Slot0)
             {
                 case "Bell":
-                    TicketManager.instance.AddTicket(20);
+                    TicketManager.instance.AddTicket(25);
                     break;
                 case "Cherry":
-                    TicketManager.instance.AddTicket(30);
+                    TicketManager.instance.AddTicket(35);
                     break;
                 case "JackPot":
-                    TicketManager.instance.AddTicket(50);
+                    TicketManager.instance.AddTicket(49);
                     break;
             }
         }
         else if (Slot0 == Slot1 ||Slot0 == Slot2 || Slot1 == Slot2)
         {
-            if (Slot0 == "JackPot")
+            if (true)
+                
+                
                 TicketManager.instance.AddTicket(5);
             else 
                 TicketManager.instance.AddTicket(2);

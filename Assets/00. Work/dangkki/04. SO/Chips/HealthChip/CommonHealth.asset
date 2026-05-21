@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: CommonHealth
   m_EditorClassIdentifier: 
   Name: "\uCCB4\uB825 \uD68C\uBCF5"
-  Description: " \uCCB4\uB825\uC744 25 \uD68C\uBCF5\uD569\uB2C8\uB2E4."
-  Sprite: {fileID: 2002412036112832078, guid: 0a9afe48c4f2bc149943189ca0bb3cf6, type: 3}
+  Description: " \uCCB4\uB825\uC744 <color=#0D99FF>25</color> \uD68C\uBCF5\uD569\uB2C8\uB2E4."
+  Sprite: {fileID: 8554618387907012239, guid: 01d679340328f254e976709d3a3b6013, type: 3}
   SpriteOnInventory: {fileID: 0}
   SpriteOnStack: {fileID: 0}
   SpriteOnBack: {fileID: 0}

@@ -16,10 +16,12 @@ public class SlotMachine : MonoBehaviour
     SlotMachine1 slotMachine;
     public Button button;
     public CinemachineCamera Camera;
+    
+    private SlotScreen SlotScreen;
 
     private void Awake()
     {
-
+        SlotScreen = GetComponent<SlotScreen>();
     }
     public void StartSpin()
     {
@@ -28,7 +30,7 @@ public class SlotMachine : MonoBehaviour
         {
             button.enabled = false;
             TicketManager.instance._spins -= 1;
-            TicketManager.instance.SetSpinText();
+            TicketManager.instance.SetSpinText(true);
             StartCoroutine(Delay());
         }
         else
@@ -76,7 +78,7 @@ public class SlotMachine : MonoBehaviour
             bottomSymbol.SetAsFirstSibling();
             _contentRect[x].anchoredPosition += new Vector2(0, _symbolHeight);
         }
-        
+        SlotScreen.Shake();
         if (x == _contentRect.Length - 1)
         {
             button.enabled = true;

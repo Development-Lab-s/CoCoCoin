@@ -131,7 +131,7 @@ public class ItemManager : MonoBehaviour
         {
             if (_ticketManager._ticket >= 3)
             {
-                _ticketManager._ticket -= 3;
+                _ticketManager.UseTicket(3);
                 
                // _inventory.inventoryItemList.Add(_sellitem[itemNumber - 1]);
             }
@@ -146,7 +146,7 @@ public class ItemManager : MonoBehaviour
         {
             if (_ticketManager._ticket >= 5)
             {
-                _ticketManager._ticket -= 5;
+                _ticketManager.UseTicket(5);
              //   _inventory.inventoryItemList.Add(_sellitem[itemNumber - 1]);
             }
             else
@@ -159,7 +159,7 @@ public class ItemManager : MonoBehaviour
         {
             if (_ticketManager._ticket >= 10)
             {
-                _ticketManager._ticket -= 10;
+                _ticketManager.UseTicket(10);
                // _inventory.inventoryItemList.Add(_sellitem[itemNumber - 1]);
             }
             else
@@ -169,7 +169,6 @@ public class ItemManager : MonoBehaviour
             }
                 
         }
-        _ticketManager.SetTicketText();
         _inventory.inventoryItemList.Add(_sellitem[itemNumber - 1]);
         inventoryUI.ScrollView();
         Debug.Log(_sellitem[itemNumber - 1].Name + "구매완료");
@@ -217,7 +216,7 @@ public class ItemManager : MonoBehaviour
         {
             if (_ticketManager._ticket >= 5)
             {
-                _ticketManager._ticket -= 5;
+                _ticketManager.UseTicket(5);
                 GameData.instance.playerCurrentHp += 25;
             }
             else
@@ -231,7 +230,7 @@ public class ItemManager : MonoBehaviour
         {
             if (_ticketManager._ticket >= 10)
             {
-                _ticketManager._ticket -= 10;
+                _ticketManager.UseTicket(10);
                 GameData.instance.playerCurrentHp += 50;
             }
             else
@@ -244,7 +243,7 @@ public class ItemManager : MonoBehaviour
         {
             if (_ticketManager._ticket >= 25)
             {
-                _ticketManager._ticket -= 25;
+                _ticketManager.UseTicket(25);
                 GameData.instance.playerCurrentHp += 100;
             }
             else
@@ -254,7 +253,6 @@ public class ItemManager : MonoBehaviour
             }
                 
         }
-        _ticketManager.SetTicketText();
         inventoryUI.ScrollView();
         GameData.instance.playerCurrentHp = Mathf.Clamp(GameData.instance.playerCurrentHp, 0, 100);
         Debug.Log("체력 구매완료");
