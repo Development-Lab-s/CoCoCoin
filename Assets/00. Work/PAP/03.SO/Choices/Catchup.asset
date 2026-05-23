@@ -16,7 +16,7 @@ MonoBehaviour:
     \uCE74\uC9C0\uB178\uB97C \uAC70\uB2CC\uB2E4.\r\n\uADF8\uB7EC\uB2E4 \uB2F9\uC2E0\uC5D0\uAC8C
     \uB9D0\uC744 \uAC74\uB2E4.\r\n\"\uD5E4\uD5E4.. \uCE5C\uAD6C \uAC70\uAE30 'Catchup'\uC870\uAE08
     \uC788\uB098?\""
-  choiceImage: {fileID: 6264790857306206484, guid: ac486572378d61e41adf6eb48f3465cc, type: 3}
+  choiceImage: {fileID: -8268960112361761939, guid: a7498e63ca6370042b07b5ed45c6afec, type: 3}
   choiceButtons:
   - "\uCF00\uCC39\uC744 \uAC74\uB0B8\uB2E4"
   - "\uCE90\uCC42\uC744 \uAC74\uB0B8\uB2E4"
