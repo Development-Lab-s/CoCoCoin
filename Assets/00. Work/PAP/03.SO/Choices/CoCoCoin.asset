@@ -21,4 +21,4 @@ MonoBehaviour:
   choiceButtons:
   - "\uADF8\uB4E4\uC5D0\uAC8C \uBC15\uC218\uB97C \uBCF4\uB0B8\uB2E4."
   - "\uB098\uB3C4 \uD568\uAED8\uD55C\uB2E4."
-  selects: {fileID: 11400000, guid: fde4d20ac8d5590459d523bb172da397, type: 2}
+  selects: {fileID: 11400000, guid: d5f7a9b23c1787f45a6c91bdef00b48a, type: 2}

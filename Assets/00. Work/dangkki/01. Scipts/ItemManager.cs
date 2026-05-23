@@ -83,7 +83,7 @@ public class ItemManager : MonoBehaviour
         }
         for (int i = 0; i < _itemList.Length; i++)
         {
-            int randomNum = Random.Range(0, 10);
+            int randomNum = Random.Range(1, 11);
             InventoryItemSO ChosenChip = null;
             if (randomNum <= 5) {
                 int Rand = Random.RandomRange(0, Common.Count);

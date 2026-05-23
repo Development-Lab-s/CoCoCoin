@@ -1,6 +1,5 @@
 using DG.Tweening;
 using TMPro;
-using UnityEditor.Rendering.LookDev;
 using UnityEngine;
 
 public class StatusEffectUI : MonoBehaviour

@@ -2,10 +2,7 @@ using System;
 using System.Collections;
 using _00._Work.jun.Star;
 using Unity.Cinemachine;
-using UnityEditor.Animations;
 using UnityEngine;
-using UnityEngine.Audio;
-using static UnityEngine.EventSystems.EventTrigger;
 using Random = UnityEngine.Random;
 
 public class MotionHandler : MonoBehaviour

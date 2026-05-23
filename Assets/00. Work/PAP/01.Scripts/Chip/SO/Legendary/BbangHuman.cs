@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using _00._Work.PAP._01.Scripts;
 using UnityEngine;
-using Random = System.Random;
 
 [CreateAssetMenu(fileName = "BbangHuman", menuName = "ChipEncounterSO/BbangHuman")]
 public class BbangHuman : ChipEncounter
