@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: RareHealth
   m_EditorClassIdentifier: 
   Name: "\uCCB4\uB825 \uD68C\uBCF5 Lv.3"
-  Description: " \uCCB4\uB825\uC744 <color=#0D99FF>50</color> \uD68C\uBCF5\uD569\uB2C8\uB2E4."
+  Description: "<color=#33ff00>\uCCB4\uB825\uC744 100 \uD68C\uBCF5</color>\uD569\uB2C8\uB2E4."
   Sprite: {fileID: 8554618387907012239, guid: 01d679340328f254e976709d3a3b6013, type: 3}
   SpriteOnInventory: {fileID: 0}
   SpriteOnStack: {fileID: 0}
   SpriteOnBack: {fileID: 0}
   ChipEncounter: {fileID: 0}
   spriteLibrary: {fileID: 0}
-  rarity: 1
+  rarity: 2
