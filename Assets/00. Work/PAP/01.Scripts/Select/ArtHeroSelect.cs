@@ -22,7 +22,7 @@ namespace _00._Work.PAP._01.Scripts.Select
             {
                 InventoryItemSO item = chips[Random.Range(0, chips.Length)];
                 inventory.inventoryItemList.Add(item);
-                stringBuilder.Append($"{item.Name}, ");
+                stringBuilder.Append(i == 2 ? item.Name : $"{item.Name}, ");
             } 
             targetText.SetText($"\"음, 그래야지~\"\n아ㅌ 아니 개발 용사는 만족한듯 미소짓는다.\n\"맞아 난 개발 용사야!\"\n<color=#FFFF00>{stringBuilder} 코인</color>을 받았다!");
         }
