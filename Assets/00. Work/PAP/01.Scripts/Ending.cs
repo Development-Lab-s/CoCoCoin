@@ -7,11 +7,12 @@ using UnityEngine.UI;
 public class Ending : MonoBehaviour
 {
     [SerializeField] private AudioSource _openCloseSound;
+    [SerializeField] private AudioSource _endingSound;
     [SerializeField] private RectTransform _transform;
     [SerializeField] private TextMeshProUGUI _Text;
     [SerializeField] private Image illust;
 
-    private Vector3 _endPos = new Vector3(-506, 5219, 0);
+    private Vector3 _endPos = new Vector3(-506, 13091, 0);
     void Start()
     {
         StartCoroutine(Cutscene());
@@ -24,9 +25,10 @@ public class Ending : MonoBehaviour
         _openCloseSound.Play();
         yield return new WaitForSeconds(3f);
         illust.DOFade(1f, 0.5f);
+        _endingSound.Play();
         yield return new WaitForSeconds(1f);
         _Text.DOFade(1f, 0.5f);
         yield return new WaitForSeconds(2f);
-        _transform.DOAnchorPos(_endPos,30f);
+        _transform.DOAnchorPos(_endPos,80f);
     }
 }

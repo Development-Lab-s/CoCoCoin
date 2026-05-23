@@ -4,9 +4,11 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Jackpot", menuName = "ChipEncounterSO/Jackpot")]
 public class Jackpot : ChipEncounter
 {
+    [SerializeField] private GameObject effect;
 
     public override void HeadChip(Player player, Enemy enemy)
     {
+        Instantiate(effect, Vector3.zero, Quaternion.identity);
         SevenMoreChip status = new SevenMoreChip();
         player.statusEffectHandler.AddStatusEffect(status,1);
     }
