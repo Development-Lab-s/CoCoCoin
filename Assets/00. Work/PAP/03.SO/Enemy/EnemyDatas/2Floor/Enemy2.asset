@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Enemy2
   m_EditorClassIdentifier: 
   enemySprite: {fileID: -8052814417564806925, guid: d952f3d29cc608740804e7dbcff1ced3, type: 3}
-  Health: 60
+  Health: 50
   hitSprite: {fileID: 5370269292670585805, guid: d952f3d29cc608740804e7dbcff1ced3, type: 3}
   readyToAttack: {fileID: 0}
   Attack: {fileID: 0}
