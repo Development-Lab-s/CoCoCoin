@@ -22,6 +22,6 @@ MonoBehaviour:
   - Normal
   - Normal
   - Normal
-  damage: 080000000c000000100000001200000018000000
+  damage: 080000000c00000010000000120000001600000004000000
   isLast: 0
   Theme: {fileID: 0}
