@@ -533,8 +533,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: fdf4952953be04742b44ad52028cce8a, type: 2}
   - {fileID: 11400000, guid: 97abc9cda58693c439f7abf3ae4f2192, type: 2}
   Common_probability: 60
-  Rare_probability: 35
-  Legendery_probability: 5
+  Rare_probability: 36
+  Legendery_probability: 4
 --- !u!4 &756834158
 Transform:
   m_ObjectHideFlags: 0
