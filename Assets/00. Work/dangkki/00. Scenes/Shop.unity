@@ -630,8 +630,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 32.74, y: -433}
-  m_SizeDelta: {x: 92.68, y: 91.85}
+  m_AnchoredPosition: {x: 24.84, y: -440.46}
+  m_SizeDelta: {x: 123.75, y: 172.12}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &98776653
 MonoBehaviour:
@@ -1728,7 +1728,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -281, y: -279}
-  m_SizeDelta: {x: 100, y: 180}
+  m_SizeDelta: {x: 100, y: 185}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &233067340
 MonoBehaviour:
@@ -5583,7 +5583,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1289584613
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7185,8 +7185,8 @@ MonoBehaviour:
   _slot0: {fileID: 1147585548}
   _slot1: {fileID: 1101292487}
   _slot2: {fileID: 1471058567}
-  inventory: {fileID: 0}
-  jackpotItem: {fileID: 0}
+  inventory: {fileID: 11400000, guid: 933deecb389f8064e849429e876daf84, type: 2}
+  jackpotItem: {fileID: 11400000, guid: 1b958b3064a72ff408a568abc44960bd, type: 2}
 --- !u!95 &1715164342
 Animator:
   serializedVersion: 7
