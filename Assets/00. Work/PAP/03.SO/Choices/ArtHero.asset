@@ -18,6 +18,6 @@ MonoBehaviour:
     \uC544\uB2C8\uC5D0\uC694?\"\r\n\"\uAC1C\uBC1C\uC774\uB77C\uACE0.\""
   choiceImage: {fileID: -2722705582674131296, guid: ee21a049331fcc04ab7934b6a7d94e2e, type: 3}
   choiceButtons:
-  - "\uC544\uD2B8 \uC796\uC544\uC694"
+  - "\uC544\uD2B8\uC796\uC544\uC694"
   - "\uC544 \uB124 \uAC1C\uBC1C \uC6A9\uC0AC\uB2D8"
   selects: {fileID: 11400000, guid: c595100974f81c441a264bd87854224b, type: 2}
