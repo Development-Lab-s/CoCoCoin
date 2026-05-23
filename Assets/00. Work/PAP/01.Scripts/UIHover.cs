@@ -22,7 +22,7 @@ namespace _00._Work.PAP._01.Scripts
         {
             if (tool == Tool.Machine)
             {
-                shopBubble.Play("슬롯 머신! 티켓을 뽑기에 좋은 수단이죠.");
+                shopBubble.Play("슬롯 머신! 티켓을 뽑기 좋은 수단이죠.");
             }
             else if (tool == Tool.Shop)
             {
@@ -30,7 +30,7 @@ namespace _00._Work.PAP._01.Scripts
             }
             else if (tool == Tool.Exit)
             {
-                shopBubble.Play("잠깐! 나가시려고요? 소상공인도 먹고 살아야한다고요!");
+                shopBubble.Play("잠깐! 나가시려고요? 소상공인도 먹고 살아야죠!");
             }
             targetImage.material = materialChange;
         }

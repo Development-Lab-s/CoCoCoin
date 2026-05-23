@@ -20,7 +20,7 @@ namespace _00._Work.PAP._01.Scripts.Select
         {
             InventoryItemSO item = chips[Random.Range(0, chips.Length)];
             inventory.inventoryItemList.Add(item);
-            targetText.SetText($"책임자를 믿고 상점을 지나쳤다.\n지나치던 도중, 누군가가 상점으로 들어간 것이 보였다.\n상점안이 굉장히 시끄러워졌다.\n그것에 대한 여파였나, 공사중인 상점에서 <color=#FFFF00>{item.Name} 코인</color>이 튕겨 나왔다.</color>");
+            targetText.SetText($"책임자를 믿고 상점을 지나쳤다.\n지나치던 도중, 누군가가 상점으로 들어간 것이 보였다.\n상점 안이 굉장히 시끄러워졌다.\n그것에 대한 여파였나, 공사중인 상점에서 <color=#FFFF00>{item.Name} 코인</color>이 튕겨 나왔다.</color>");
         }
 
         public override void Select3(TextMeshProUGUI targetText)
