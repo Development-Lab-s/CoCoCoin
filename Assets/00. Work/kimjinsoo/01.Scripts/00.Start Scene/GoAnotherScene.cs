@@ -21,6 +21,7 @@ public class GoAnotherScene : MonoBehaviour
     private void Set()
     {
         GameData.instance.playerCurrentHp = 100;
+        MapManager.currentFloor = 1;
         inventory.inventoryItemList.Clear();
         foreach (InventoryItemSO item in itemSettings)
         {
