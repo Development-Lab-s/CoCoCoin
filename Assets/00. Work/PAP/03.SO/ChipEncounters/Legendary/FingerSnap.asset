@@ -16,3 +16,4 @@ MonoBehaviour:
   headChipMotion: 103
   tailChipMotion: 104
   type: 1
+  effect: {fileID: 7207707783277047667, guid: 6ff64c3af6d2cd8479df4eaf948a6897, type: 3}
