@@ -1,0 +1,339 @@
+fileFormatVersion: 2
+guid: a3fea65e1f03a55438ba95f23f1d4068
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8370137623102830560
+    second: Ef_11_SpriteSheet_normal_p_0
+  - first:
+      213: -5492571953585337852
+    second: Ef_11_SpriteSheet_normal_p_1
+  - first:
+      213: 3913467426874474443
+    second: Ef_11_SpriteSheet_normal_p_2
+  - first:
+      213: 515525106036528880
+    second: Ef_11_SpriteSheet_normal_p_3
+  - first:
+      213: 6543568663402853160
+    second: Ef_11_SpriteSheet_normal_p_4
+  - first:
+      213: 5601473775815525211
+    second: Ef_11_SpriteSheet_normal_p_5
+  - first:
+      213: -1541728951107935094
+    second: Ef_11_SpriteSheet_normal_p_6
+  - first:
+      213: -7976470087827608806
+    second: Ef_11_SpriteSheet_normal_p_7
+  - first:
+      213: 8016640165264430524
+    second: Ef_11_SpriteSheet_normal_p_8
+  - first:
+      213: 2568416642646115692
+    second: Ef_11_SpriteSheet_normal_p_9
+  - first:
+      213: 8883889601757352718
+    second: Ef_11_SpriteSheet_normal_p_10
+  - first:
+      213: -2369531473329750583
+    second: Ef_11_SpriteSheet_normal_p_11
+  - first:
+      213: 7437747636770610957
+    second: Ef_11_SpriteSheet_normal_p_12
+  - first:
+      213: 6639936291788289579
+    second: Ef_11_SpriteSheet_normal_p_13
+  - first:
+      213: 7917313645373053310
+    second: Ef_11_SpriteSheet_normal_p_14
+  - first:
+      213: -2613649121066611651
+    second: Ef_11_SpriteSheet_normal_p_15
+  - first:
+      213: -388770438693445625
+    second: Ef_11_SpriteSheet_normal_p_16
+  - first:
+      213: -2621273418510702703
+    second: Ef_11_SpriteSheet_normal_p_17
+  - first:
+      213: 1226904165886537144
+    second: Ef_11_SpriteSheet_normal_p_18
+  - first:
+      213: 5520571543168954446
+    second: Ef_11_SpriteSheet_normal_p_19
+  - first:
+      213: -6446674635276322872
+    second: Ef_11_SpriteSheet_normal_p_20
+  - first:
+      213: 2906927176467910128
+    second: Ef_11_SpriteSheet_normal_p_21
+  - first:
+      213: -8408150489996426671
+    second: Ef_11_SpriteSheet_normal_p_22
+  - first:
+      213: -6605923643088708665
+    second: Ef_11_SpriteSheet_normal_p_23
+  - first:
+      213: 561905637881172942
+    second: Ef_11_SpriteSheet_normal_p_24
+  - first:
+      213: -1620453779184314893
+    second: Ef_11_SpriteSheet_normal_p_25
+  - first:
+      213: 2024038453895398626
+    second: Ef_11_SpriteSheet_normal_p_26
+  - first:
+      213: 2752022406923365135
+    second: Ef_11_SpriteSheet_normal_p_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ef_11_SpriteSheet_normal_p_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 028c2ddbd2c47db80800000000000000
+      internalID: -8370137623102830560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ef_11_SpriteSheet_normal_p_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ac54bb8e676c3b0800000000000000
+      internalID: -5492571953585337852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ef_11_SpriteSheet_normal_p_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf3aeae3ed6f4630800000000000000
+      internalID: 3913467426874474443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ef_11_SpriteSheet_normal_p_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f65a124a53872700800000000000000
+      internalID: 515525106036528880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ef_11_SpriteSheet_normal_p_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8233181b70d6fca50800000000000000
+      internalID: 6543568663402853160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ef_11_SpriteSheet_normal_p_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b538622a8be6cbd40800000000000000
+      internalID: 5601473775815525211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e3731ece6e8fc424faef82a4f220f54d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ef_11_SpriteSheet_normal_p_0: -8370137623102830560
+      Ef_11_SpriteSheet_normal_p_1: -5492571953585337852
+      Ef_11_SpriteSheet_normal_p_2: 3913467426874474443
+      Ef_11_SpriteSheet_normal_p_3: 515525106036528880
+      Ef_11_SpriteSheet_normal_p_4: 6543568663402853160
+      Ef_11_SpriteSheet_normal_p_5: 5601473775815525211
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
