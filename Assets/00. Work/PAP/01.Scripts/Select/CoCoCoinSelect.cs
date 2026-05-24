@@ -18,7 +18,7 @@ namespace _00._Work.PAP._01.Scripts.Select
                 inventory.inventoryItemList.Add(item);
                 stringBuilder.Append(i == 4 ? item.Name : $"{item.Name}, ");
             } 
-            targetText.SetText($"감사합니다. 별점 5점 남겨주세요!\n리뷰는 겜마고 포트폴리오 사이트에서~\n<color=#FFFF00>{stringBuilder} 코인</color> 획득~~!!");
+            targetText.SetText($"감사합니다. 별점 10점 남겨주세요!\n리뷰는 겜마고 포트폴리오 사이트에서~\n<color=#FFFF00>{stringBuilder} 코인</color> 획득~~!!");
         }
 
         public override void Select2(TextMeshProUGUI targetText)
