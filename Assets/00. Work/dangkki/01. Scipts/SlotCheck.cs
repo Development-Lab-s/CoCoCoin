@@ -48,11 +48,11 @@ public class SlotCheck : MonoBehaviour
         }
         else if (Slot0 == Slot1 ||Slot0 == Slot2 || Slot1 == Slot2)
         {
-            int Check = (Slot0 == "Jackpot" ? 1 : 0) + (Slot1 == "Jackpot" ? 1 : 0) + (Slot2 == "Jackpot" ? 1 : 0);
+            int Check = (Slot0 == "JackPot"? 1 : 0) + (Slot1 == "JackPot"? 1 : 0) + (Slot2 == "JackPot"? 1 : 0);
             if (Check >= 2)
                 TicketManager.instance.AddTicket(5);
             else 
-                TicketManager.instance.AddTicket(2);
+                TicketManager.instance.AddTicket(3);
         }
         else
         {
