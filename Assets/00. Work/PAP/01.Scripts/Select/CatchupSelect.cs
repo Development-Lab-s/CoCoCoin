@@ -11,7 +11,7 @@ namespace _00._Work.PAP._01.Scripts.Select
         {
             int decreaseHp = (int)(GameData.instance.playerCurrentHp * 0.1f);
             GameData.instance.playerCurrentHp -= decreaseHp;
-            targetText.SetText($"케찹이라... 재미있는 소리네?\n내가 원한건 'Catchup'이라고.\n<color=#FFFF00>피해를 {decreaseHp}</color> 입었다.");
+            targetText.SetText($"케찹이라... 재미있는 소리네?\n내가 원한건 'Catchup'이라고.\n<color=#FF0000>피해를 {decreaseHp}</color> 입었다.");
 
         }
 
@@ -19,7 +19,7 @@ namespace _00._Work.PAP._01.Scripts.Select
         {
             int decreaseHp = (int)(GameData.instance.playerCurrentHp * 0.1f);
             GameData.instance.playerCurrentHp -= decreaseHp;
-            targetText.SetText($"캐챂이라... 완전 '골' 때리는 소리네?\n내가 원한건 'Catchup'이라고..\n<color=#FFFF00>피해를 {decreaseHp}</color> 입었다.");
+            targetText.SetText($"캐챂이라... 완전 '골' 때리는 소리네?\n내가 원한건 'Catchup'이라고..\n<color=#FF0000>피해를 {decreaseHp}</color> 입었다.");
         }
 
         public override void Select3(TextMeshProUGUI targetText)
@@ -32,7 +32,7 @@ namespace _00._Work.PAP._01.Scripts.Select
         {
             int decreaseHp = (int)(GameData.instance.playerCurrentHp * 0.2f);
             GameData.instance.playerCurrentHp -= decreaseHp;
-            targetText.SetText($"더러운 고양이 학살자.\n<color=#FFFF00>피해를 {decreaseHp}</color> 입었다.");
+            targetText.SetText($"더러운 고양이 학살자.\n<color=#FF0000>피해를 {decreaseHp}</color> 입었다.");
         }
     }
 }
