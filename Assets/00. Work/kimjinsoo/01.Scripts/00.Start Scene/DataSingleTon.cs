@@ -38,7 +38,7 @@ public class DataSingleTon : MonoBehaviour
         fxSliderValue = fxSlider.value;
         musicSliderValue = musicSlider.value;
         audioMixer.SetFloat("SFX", Mathf.Log10(fxSliderValue) * 20);
-        audioMixer.SetFloat("BGM", Mathf.Log10(musicSliderValue) * 20 - 20);
+        audioMixer.SetFloat("BGM", Mathf.Log10(musicSliderValue) * 20);
     }
 }
 
