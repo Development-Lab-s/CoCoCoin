@@ -13,13 +13,6 @@ MonoBehaviour:
   m_Name: InventorySO
   m_EditorClassIdentifier: 
   inventoryItemList:
-  - {fileID: 11400000, guid: 1b958b3064a72ff408a568abc44960bd, type: 2}
-  - {fileID: 11400000, guid: 1b958b3064a72ff408a568abc44960bd, type: 2}
-  - {fileID: 11400000, guid: 1b958b3064a72ff408a568abc44960bd, type: 2}
-  - {fileID: 11400000, guid: 1b958b3064a72ff408a568abc44960bd, type: 2}
-  - {fileID: 11400000, guid: 1b958b3064a72ff408a568abc44960bd, type: 2}
-  - {fileID: 11400000, guid: 1b958b3064a72ff408a568abc44960bd, type: 2}
-  - {fileID: 11400000, guid: 1b958b3064a72ff408a568abc44960bd, type: 2}
-  - {fileID: 11400000, guid: 1b958b3064a72ff408a568abc44960bd, type: 2}
-  - {fileID: 11400000, guid: 1b958b3064a72ff408a568abc44960bd, type: 2}
+  - {fileID: 11400000, guid: be697d1a6d976b240a3ebf3cc203baed, type: 2}
+  - {fileID: 11400000, guid: be697d1a6d976b240a3ebf3cc203baed, type: 2}
   - {fileID: 11400000, guid: 1b958b3064a72ff408a568abc44960bd, type: 2}
