@@ -4416,7 +4416,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1505402026524168600, guid: c695f09848c85fa449050563ff1954f9, type: 3}
       propertyPath: m_SortingOrder
-      value: 4
+      value: 99
       objectReference: {fileID: 0}
     - target: {fileID: 1756099476910116836, guid: c695f09848c85fa449050563ff1954f9, type: 3}
       propertyPath: m_Name
@@ -4459,8 +4459,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2310228775736886000, guid: c695f09848c85fa449050563ff1954f9, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.a
+      value: 0.39215687
+      objectReference: {fileID: 0}
+    - target: {fileID: 2310228775736886000, guid: c695f09848c85fa449050563ff1954f9, type: 3}
       propertyPath: InitialModule.startColor.maxColor.b
-      value: 0.68867916
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2310228775736886000, guid: c695f09848c85fa449050563ff1954f9, type: 3}
       propertyPath: InitialModule.startColor.maxColor.g
@@ -4468,7 +4472,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2310228775736886000, guid: c695f09848c85fa449050563ff1954f9, type: 3}
       propertyPath: InitialModule.startColor.maxColor.r
-      value: 0.78659374
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2310228775736886000, guid: c695f09848c85fa449050563ff1954f9, type: 3}
       propertyPath: EmissionModule.m_Bursts.Array.data[0].cycleCount
@@ -4580,11 +4584,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3030952827234758768, guid: c695f09848c85fa449050563ff1954f9, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3030952827234758768, guid: c695f09848c85fa449050563ff1954f9, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3030952827234758768, guid: c695f09848c85fa449050563ff1954f9, type: 3}
       propertyPath: m_LocalScale.z
