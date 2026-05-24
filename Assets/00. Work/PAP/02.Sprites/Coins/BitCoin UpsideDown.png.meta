@@ -373,9 +373,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1060
-        y: 967
+        y: 962
         width: 212
-        height: 113
+        height: 115
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -571,7 +571,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1060
-        y: 850
+        y: 843
         width: 212
         height: 120
       alignment: 0
@@ -769,7 +769,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1060
-        y: 730
+        y: 723
         width: 212
         height: 120
       alignment: 0
@@ -966,8 +966,8 @@ TextureImporter:
       name: BitCoin UpsideDown_32
       rect:
         serializedVersion: 2
-        x: 1060
-        y: 610
+        x: 1059
+        y: 603
         width: 212
         height: 120
       alignment: 0
@@ -1165,7 +1165,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1060
-        y: 490
+        y: 483
         width: 212
         height: 120
       alignment: 0
@@ -1363,7 +1363,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1060
-        y: 375
+        y: 367
         width: 212
         height: 120
       alignment: 0
