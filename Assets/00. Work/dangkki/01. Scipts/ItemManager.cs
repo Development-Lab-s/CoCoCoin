@@ -31,6 +31,7 @@ public class ItemManager : MonoBehaviour
     private EventTrigger[] _itemList_EventTrigger;
     
     public InventoryItemSO _healthChip = null;
+    [SerializeField] private AudioSource sfx;
     
     string[] _sellList;
     bool[] _isSold;
@@ -82,7 +83,7 @@ public class ItemManager : MonoBehaviour
         }
         for (int i = 0; i < _itemList.Length; i++)
         {
-            int randomNum = Random.Range(0, 10);
+            int randomNum = Random.Range(1, 11);
             InventoryItemSO ChosenChip = null;
             if (randomNum <= 5) {
                 int Rand = Random.RandomRange(0, Common.Count);
@@ -103,15 +104,15 @@ public class ItemManager : MonoBehaviour
             _itemList_Spin[i].spriteLibraryAsset = ChosenChip.spriteLibrary;
             //_itemList_Animation[i].runtimeAnimatorController = _chipList.inventoryItemList[randomNum].SelectSprite;
             if(ChosenChip.rarity == InventoryItemSO.Rarity.Common) {
-                _itemList_Price[i].text = "3$";
+                _itemList_Price[i].text = "5$";
                 _itemList_Price[i].color = Color.white;
             }
             else if(ChosenChip.rarity == InventoryItemSO.Rarity.Rare) {
-                _itemList_Price[i].text = "5$";
-                _itemList_Price[i].color = Color.green;
+                _itemList_Price[i].text = "10$";
+                _itemList_Price[i].color = Color.cyan;
             }
             else if(ChosenChip.rarity == InventoryItemSO.Rarity.Legendary) {
-                _itemList_Price[i].text = "10$";
+                _itemList_Price[i].text = "50$";
                 _itemList_Price[i].color = Color.yellow;
             }
             //_itemList_Price[i].text = _chipList.ShopItemList[randomNum].Description;
@@ -129,9 +130,9 @@ public class ItemManager : MonoBehaviour
         }
         if (_sellitem[itemNumber - 1].rarity == InventoryItemSO.Rarity.Common)
         {
-            if (_ticketManager._ticket >= 3)
+            if (_ticketManager._ticket >= 5)
             {
-                _ticketManager.UseTicket(3);
+                _ticketManager.UseTicket(5);
                 
                // _inventory.inventoryItemList.Add(_sellitem[itemNumber - 1]);
             }
@@ -144,9 +145,9 @@ public class ItemManager : MonoBehaviour
         }
         else if (_sellitem[itemNumber - 1].rarity == InventoryItemSO.Rarity.Rare)
         {
-            if (_ticketManager._ticket >= 5)
+            if (_ticketManager._ticket >= 10)
             {
-                _ticketManager.UseTicket(5);
+                _ticketManager.UseTicket(10);
              //   _inventory.inventoryItemList.Add(_sellitem[itemNumber - 1]);
             }
             else
@@ -157,9 +158,9 @@ public class ItemManager : MonoBehaviour
         }
         else if (_sellitem[itemNumber - 1].rarity == InventoryItemSO.Rarity.Legendary)
         {
-            if (_ticketManager._ticket >= 10)
+            if (_ticketManager._ticket >= 50)
             {
-                _ticketManager.UseTicket(10);
+                _ticketManager.UseTicket(50);
                // _inventory.inventoryItemList.Add(_sellitem[itemNumber - 1]);
             }
             else
@@ -169,6 +170,7 @@ public class ItemManager : MonoBehaviour
             }
                 
         }
+        sfx.Play();
         _inventory.inventoryItemList.Add(_sellitem[itemNumber - 1]);
         inventoryUI.ScrollView();
         Debug.Log(_sellitem[itemNumber - 1].Name + "구매완료");
@@ -197,7 +199,7 @@ public class ItemManager : MonoBehaviour
             else
             {
                 _healthChip = _healthList.inventoryItemList[2];
-                _healthBox.GetChild(1).GetComponent<TextMeshProUGUI>().text = "25$";
+                _healthBox.GetChild(1).GetComponent<TextMeshProUGUI>().text = "50$";
                 _healthBox.GetChild(1).GetComponent<TextMeshProUGUI>().color = Color.yellow;
             }
             _healthBox.GetChild(0).GetComponent<Image>().sprite = _healthChip.Sprite;
@@ -241,9 +243,9 @@ public class ItemManager : MonoBehaviour
         }
         else if (_healthChip.rarity == InventoryItemSO.Rarity.Legendary)
         {
-            if (_ticketManager._ticket >= 25)
+            if (_ticketManager._ticket >= 50)
             {
-                _ticketManager.UseTicket(25);
+                _ticketManager.UseTicket(50);
                 GameData.instance.playerCurrentHp += 100;
             }
             else

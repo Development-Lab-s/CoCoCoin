@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33d612cebf034763b18aadfb8f699cfb, type: 3}
+  m_Name: ArtHero
+  m_EditorClassIdentifier: 
+  choiceText: "\uBA4B\uB4DC\uB7EC\uC9C4 \uAC80\uACFC \uCD08\uB85D \uB9DD\uD1A0\uB97C
+    \uB450\uB978 \uD55C \uC6A9\uC0AC\uB97C \uB9CC\uB0AC\uB2E4.\r\n\"\uBC18\uAC11\uB2E4
+    \uB09C...\"\r\n\"\uC544\uD2B8\uC6A9\uC0AC?\"\r\n\"\uAC1C\uBC1C\uC774\uB2E4.\"\r\n\"\uC544\uD2B8
+    \uC544\uB2C8\uC5D0\uC694?\"\r\n\"\uAC1C\uBC1C\uC774\uB77C\uACE0.\""
+  choiceImage: {fileID: -2722705582674131296, guid: ee21a049331fcc04ab7934b6a7d94e2e, type: 3}
+  choiceButtons:
+  - "\uC544\uD2B8\uC796\uC544\uC694"
+  - "\uC544 \uB124 \uAC1C\uBC1C \uC6A9\uC0AC\uB2D8"
+  selects: {fileID: 11400000, guid: c595100974f81c441a264bd87854224b, type: 2}

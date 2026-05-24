@@ -11,11 +11,13 @@ namespace _00._Work.PAP._01.Scripts
         [SerializeField] private CurrentChoiceData choiceData;
         [SerializeField] private GameObject[] choiceButtons;
         [SerializeField] private GameObject ExitButton;
+        [SerializeField] private ChoiceSO[] choices;
         private bool enable = true;
         
 
         public void Start()
         {
+            choiceData.choiceData = choices[Random.Range(0, choices.Length)];
             choiceImage.sprite = choiceData.choiceData.choiceImage;
             choiceText.SetText(choiceData.choiceData.choiceText);
             for (int i = 0; i < choiceData.choiceData.choiceButtons.Length; i++)

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: DomainExpansion
   m_EditorClassIdentifier: 
   headChance: 51
-  headChipMotion: 1
+  headChipMotion: 108
   tailChipMotion: -10
   type: 1
+  effect: {fileID: 3997629875096509811, guid: ead298033455c454880dd53f3386595f, type: 3}

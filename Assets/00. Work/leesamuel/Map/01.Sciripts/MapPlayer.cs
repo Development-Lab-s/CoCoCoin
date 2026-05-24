@@ -10,6 +10,7 @@ public class MapPlayer : MonoBehaviour
 
     public float moveSpeed = 8f;
     public bool isMoving = false;
+    [SerializeField] private AudioSource audio;
 
     void Awake()
     {
@@ -27,6 +28,7 @@ public class MapPlayer : MonoBehaviour
             if (path != null && path.Count > 0)
             {
                 StartCoroutine(FollowPathRoutine(path, targetRoomScript));
+                audio.Play();
             }
             else
             {

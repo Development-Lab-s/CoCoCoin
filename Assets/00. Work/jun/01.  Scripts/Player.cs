@@ -68,7 +68,7 @@ public class Player : MonoBehaviour
         bloodImage.color = new Color(1,1,1, Mathf.Clamp(damage/100f,0,1));
         bloodImage.DOFade(0f,1f).SetEase(Ease.OutQuad);
         StartCoroutine(DecreaseHPAnimation(dealDamage));
-        StartCoroutine(ShieldAnimation(dealDamage));
+        StartCoroutine(ShieldAnimation(damage));
         if (GameData.instance.playerCurrentHp == 0)
         {
             _ = SceneManageHandler.instance.MoveScene(5);

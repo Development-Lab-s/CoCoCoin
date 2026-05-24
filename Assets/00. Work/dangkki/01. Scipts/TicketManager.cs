@@ -26,15 +26,20 @@ public class TicketManager : MonoBehaviour
     public int _ticket = 0;
     public int _spins = 0;
     private int Remember;
+    private int test;
     private int ReRemember;
     
     public void AddTicket(int amount)
     {
+        _ticket = test;
+        _ticket += amount;
         Remember =  amount;
         SetTicketText(false);
     }
     public void UseTicket(int amount)
     {
+            _ticket = test;
+            _ticket -= amount;
             Remember =  amount;
             SetTicketText(true);
     }
@@ -64,19 +69,19 @@ public class TicketManager : MonoBehaviour
                     {
                         Loop--;
                         if (Use == false)
-                            _ticket += 10;
+                            test += 10;
                         else
-                            _ticket -= 10;
+                            test -= 10;
                     }
                     else
                     {
                         if (Use == false)
-                            _ticket++;
+                            test++;
                         else
-                            _ticket--;
+                            test--;
                     }
-                    Debug.Log(_ticket);
-                    TicketText.text = $"티켓 : {_ticket}$";
+                    Debug.Log(test);
+                    TicketText.text = $"티켓 : {test}$";
                 }).OnComplete(() =>
                 {
                     TicketText.rectTransform.DOAnchorPosY(TicketCurrentY, 0.1f);
@@ -100,12 +105,12 @@ public class TicketManager : MonoBehaviour
         Color color;
         if (Use == false)
         {
-            Value = 30f;
+            Value = 10f;
             color = Color.yellow;
         }
         else
         {
-            Value = -30f;
+            Value = -10f;
             color = Color.red;
             ReRemember = 0;
         }

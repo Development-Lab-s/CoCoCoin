@@ -109,6 +109,7 @@ public class BattleManager : MonoBehaviour
         {
             drawChips.Add(item);
         }
+        enemy.AttackPower = currentEnemySettiing.Data.damage[Random.Range(0,currentEnemySettiing.Data.damage.Count)];
         StartPlayerTurn();
     }
 

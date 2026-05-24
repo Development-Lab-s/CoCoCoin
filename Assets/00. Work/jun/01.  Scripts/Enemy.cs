@@ -13,21 +13,23 @@ public class Enemy : MonoBehaviour
     [SerializeField] private TextMeshProUGUI shieldText;
     [SerializeField] private TextMeshPro damageText;
     [SerializeField] private SpriteRenderer patternImage;
+    [SerializeField] private TextMeshPro miniDamageText;
     private int displayHP;
     public int displayShield;
     public int shieldHP = 0;
 
+    public int _currentPower;
     public int _attackPower;
     
     public int AttackPower
     {
         get
         {
-            return _attackPower;
+            return _currentPower;
         }
         set
         {
-            int before = _attackPower;
+            _currentPower = _attackPower;
             _attackPower = value; 
             DamageSetting();
         }
@@ -110,6 +112,7 @@ public class Enemy : MonoBehaviour
             _sr.sprite = _enemy.readyToAttack;
         }
         damageText.transform.DOScale(Vector3.zero, 0.2f);
+        miniDamageText.transform.DOScale(Vector3.zero, 0.2f);
         patternImage.transform.DOScale(Vector3.zero, 0.2f);
         transform.DOMoveY(transform.position.y + 1, 0.2f).OnComplete(() =>
         {
@@ -120,6 +123,7 @@ public class Enemy : MonoBehaviour
             }
         });
         damageText.DOColor(new Color(1, 0, 0, 0), 0.2f);
+        miniDamageText.DOColor(new Color(1, 0, 0, 0), 0.2f);
         switch (Random.Range(0, 3))
         {
             case 0:
@@ -162,6 +166,12 @@ public class Enemy : MonoBehaviour
         patternImage.transform.DOScale(Vector3.one, 0.2f);
         damageText.DOColor(Color.red, 0.2f);
         damageText.SetText(AttackPower.ToString());
+        
+        miniDamageText.color = new Color(1, 1, 1, 0);
+        miniDamageText.transform.localScale = Vector3.zero;
+        miniDamageText.transform.DOScale(Vector3.one, 0.2f);
+        miniDamageText.DOColor(new Color(0.8f,0.2f,0.2f), 0.2f);
+        miniDamageText.SetText(_attackPower.ToString());
     }
 
     public void GetShield(int shield)

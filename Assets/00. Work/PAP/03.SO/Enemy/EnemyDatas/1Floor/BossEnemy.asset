@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BossEnemy
   m_EditorClassIdentifier: 
   enemySprite: {fileID: 4247298235507607276, guid: 45b8827e20664184bafc0bc3dea9ec16, type: 3}
-  Health: 500
+  Health: 300
   hitSprite: {fileID: -2233359251571781325, guid: 0149fdce1de1de14cacd971dbd50bb64, type: 3}
   readyToAttack: {fileID: -1621392234237277385, guid: cb80277e29504b84e86247155e9f7c51, type: 3}
   Attack: {fileID: -7033904354808121579, guid: cb80277e29504b84e86247155e9f7c51, type: 3}
@@ -22,4 +22,6 @@ MonoBehaviour:
   - Normal
   - Normal
   - Normal
-  damage: 19000000230000001b000000
+  damage: 070000000e000000150000001c00000023000000070000000e0000000700000007000000
+  isLast: 0
+  Theme: {fileID: 8300000, guid: 435a6b59378fb9443864e1b3b050d5d0, type: 3}

@@ -983,8 +983,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 57.270004, y: -48.240005}
-  m_SizeDelta: {x: 135.95, y: 75.99}
+  m_AnchoredPosition: {x: 60, y: -60}
+  m_SizeDelta: {x: 180, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &447530930
 MonoBehaviour:
@@ -1195,8 +1195,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 250.78, y: -223}
-  m_SizeDelta: {x: 247.36, y: 307.95}
+  m_AnchoredPosition: {x: 250, y: -222}
+  m_SizeDelta: {x: 250, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &573822128
 MonoBehaviour:
@@ -1643,7 +1643,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.6
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -2078,6 +2078,17 @@ MonoBehaviour:
   - {fileID: 163294630}
   - {fileID: 1677333762}
   ExitButton: {fileID: 148303210}
+  choices:
+  - {fileID: 11400000, guid: 7a707bcc0f1d516439e4a26ce24a61d7, type: 2}
+  - {fileID: 11400000, guid: 0fb32fcacfb993a4dbafc25c9cfaf23c, type: 2}
+  - {fileID: 11400000, guid: d0fa2ad7f67bf0549b2fe510911f27e7, type: 2}
+  - {fileID: 11400000, guid: 265d8f5ada3bc004a99dbd725fa1a620, type: 2}
+  - {fileID: 11400000, guid: e8d21bdc2105c2c42898a20a12301cc2, type: 2}
+  - {fileID: 11400000, guid: 1454b35120d5cd94094155c1be7b92a3, type: 2}
+  - {fileID: 11400000, guid: feccd4ccc9eb639438aea4de3df45298, type: 2}
+  - {fileID: 11400000, guid: 14e6fb96baaaf72438fad18ef35e9537, type: 2}
+  - {fileID: 11400000, guid: 41f521034ef62e04e896d494cacc8561, type: 2}
+  - {fileID: 11400000, guid: cd5c363962997e143a6c185301e08c7c, type: 2}
 --- !u!1 &1315394373
 GameObject:
   m_ObjectHideFlags: 0
@@ -2521,6 +2532,7 @@ GameObject:
   - component: {fileID: 1424282311}
   - component: {fileID: 1424282310}
   - component: {fileID: 1424282309}
+  - component: {fileID: 1424282315}
   m_Layer: 5
   m_Name: ShowChipCanvas
   m_TagString: Untagged
@@ -2643,6 +2655,103 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!82 &1424282315
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424282308}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 1837772058307988523, guid: 2b6149b90afad9541a4ed78fc9ebfa5a, type: 2}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 6d5ef26089b6c2443b1d6ab4d5130c84, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1476876927
 GameObject:
   m_ObjectHideFlags: 0
@@ -2947,7 +3056,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 161, y: -28.699997}
+  m_AnchoredPosition: {x: 155, y: -40}
   m_SizeDelta: {x: 10.07, y: 40.34}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1858561744
@@ -2997,8 +3106,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3085,7 +3194,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 636.79, y: -487.79}
+  m_AnchoredPosition: {x: 630, y: -490}
   m_SizeDelta: {x: 328.42, y: 104.42}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1876730435
@@ -3115,7 +3224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -3125,8 +3234,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 70c68ae835da617428035ac767dd3966, type: 2}
-  m_sharedMaterial: {fileID: 6795064112359760801, guid: 70c68ae835da617428035ac767dd3966, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 839ec03cd5806374386edb5dac3d350c, type: 2}
+  m_sharedMaterial: {fileID: -7219554872508679293, guid: 839ec03cd5806374386edb5dac3d350c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

@@ -15,11 +15,11 @@ MonoBehaviour:
   Name: "\uD551\uD06C\uC0C9 \uCE69"
   Description: "<color=#999999>[50% \uC55E\uBA74]</color>\n\uCE74\uB4DC\uB97C 3\uC7A5
     \uBF51\uACE0, \uD55C\uC7A5 \uBC84\uB9BD\uB2C8\uB2E4.\n\n<color=#999999>[50% \uB4B7\uBA74]</color>\n\uC190
-    \uD328 \uC6A9\uB7C9 +3"
-  Sprite: {fileID: -8616738948137479390, guid: a4fc7ebc8bc7a1040b99ef9b05bf0239, type: 3}
-  SpriteOnInventory: {fileID: 8262587785253907670, guid: a4fc7ebc8bc7a1040b99ef9b05bf0239, type: 3}
-  SpriteOnStack: {fileID: -780916492780897906, guid: eb4bd030821ef9a4aaf1c692c41b3892, type: 3}
-  SpriteOnBack: {fileID: -1955959614987525970, guid: a4fc7ebc8bc7a1040b99ef9b05bf0239, type: 3}
+    \uD328 \uC6A9\uB7C9 +1"
+  Sprite: {fileID: -8616738948137479390, guid: 8be9371a0370af449af25067507aafc5, type: 3}
+  SpriteOnInventory: {fileID: 8262587785253907670, guid: 8be9371a0370af449af25067507aafc5, type: 3}
+  SpriteOnStack: {fileID: -780916492780897906, guid: 37e4f4dc04c850c498ed572bc3f07b1f, type: 3}
+  SpriteOnBack: {fileID: -1955959614987525970, guid: 8be9371a0370af449af25067507aafc5, type: 3}
   ChipEncounter: {fileID: 11400000, guid: 7deaa63af999c0949aeba92fae69acd5, type: 2}
   spriteLibrary: {fileID: 7108339969198208228, guid: 0ed361667a671e5409c0efe8de2d41a7, type: 3}
   rarity: 1

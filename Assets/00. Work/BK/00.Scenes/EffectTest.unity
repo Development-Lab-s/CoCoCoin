@@ -873,6 +873,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0d165b98e55bca47b812e074fccafd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  killthem: {fileID: 1148644013}
 --- !u!1 &1625182976
 GameObject:
   m_ObjectHideFlags: 0
@@ -1121,6 +1122,7 @@ GameObject:
   - component: {fileID: 2127031730}
   - component: {fileID: 2127031729}
   - component: {fileID: 2127031732}
+  - component: {fileID: 2127031733}
   m_Layer: 5
   m_Name: Slot
   m_TagString: Untagged
@@ -1227,6 +1229,19 @@ MonoBehaviour:
   fire2: {fileID: 893775430}
   fire3: {fileID: 1625182976}
   title: {fileID: 1198599527}
+--- !u!114 &2127031733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2127031727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0d165b98e55bca47b812e074fccafd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  killthem: {fileID: 1471905480}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

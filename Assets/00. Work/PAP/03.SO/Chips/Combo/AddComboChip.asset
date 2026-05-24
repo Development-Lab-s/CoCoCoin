@@ -17,8 +17,8 @@ MonoBehaviour:
     \uB4B7\uBA74]</color>\nX"
   Sprite: {fileID: -5988133931114290765, guid: 8b18449ed72274741823c545fa16422b, type: 3}
   SpriteOnInventory: {fileID: -1544025272900734116, guid: 8b18449ed72274741823c545fa16422b, type: 3}
-  SpriteOnStack: {fileID: -4036543711520957751, guid: 8b18449ed72274741823c545fa16422b, type: 3}
-  SpriteOnBack: {fileID: -9080982819073997229, guid: 16ae373521144504aa5b0e9d8eca1702, type: 3}
+  SpriteOnStack: {fileID: 7002259656049348504, guid: 16ae373521144504aa5b0e9d8eca1702, type: 3}
+  SpriteOnBack: {fileID: -4036543711520957751, guid: 8b18449ed72274741823c545fa16422b, type: 3}
   ChipEncounter: {fileID: 11400000, guid: cf64c096515847941a3774ad19e59775, type: 2}
   spriteLibrary: {fileID: 7108339969198208228, guid: 687e8422539550f4fb5cc0a6abd6cbf4, type: 3}
   rarity: 0

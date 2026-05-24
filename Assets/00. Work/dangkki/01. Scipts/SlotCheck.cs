@@ -3,13 +3,16 @@ using UnityEngine;
 public class SlotCheck : MonoBehaviour
 {
     public static SlotCheck instance;
+    public JackPotText jackpotText;
     SlotMachine1 _slotMachine;
 
     [SerializeField] Transform _slot0;
     [SerializeField] Transform _slot1;
     [SerializeField] Transform _slot2;
-    TicketManager _ticketManager;
-
+    [SerializeField] private InventorySO inventory;
+    [SerializeField] private InventoryItemSO jackpotItem;
+    
+    
 
 
     private void Awake()
@@ -21,6 +24,7 @@ public class SlotCheck : MonoBehaviour
     }
     public void CheckSlot()
     {
+        
         string Slot0 = _slot0.GetChild(_slot0.childCount - 2).name;
         string Slot1 = _slot1.GetChild(_slot0.childCount - 2).name;
         string Slot2 = _slot2.GetChild(_slot0.childCount - 2).name;
@@ -36,15 +40,16 @@ public class SlotCheck : MonoBehaviour
                     TicketManager.instance.AddTicket(35);
                     break;
                 case "JackPot":
-                    TicketManager.instance.AddTicket(49);
+                    TicketManager.instance.AddTicket(999);
+                    inventory.inventoryItemList.Add(jackpotItem);
+                    jackpotText.ShowText();
                     break;
             }
         }
         else if (Slot0 == Slot1 ||Slot0 == Slot2 || Slot1 == Slot2)
         {
-            if (true)
-                
-                
+            int Check = (Slot0 == "Jackpot" ? 1 : 0) + (Slot1 == "Jackpot" ? 1 : 0) + (Slot2 == "Jackpot" ? 1 : 0);
+            if (Check >= 2)
                 TicketManager.instance.AddTicket(5);
             else 
                 TicketManager.instance.AddTicket(2);
@@ -53,6 +58,7 @@ public class SlotCheck : MonoBehaviour
         {
             TicketManager.instance.AddTicket(1);
         }
+        
         }
 
 }

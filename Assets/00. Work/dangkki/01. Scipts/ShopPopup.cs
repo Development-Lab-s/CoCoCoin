@@ -14,6 +14,7 @@ public class ShopPopup : MonoBehaviour
     public Button ExitButton;
     public Button slotButton;
     public WalkCam walkCam;
+    [SerializeField] private AudioSource audioSource;
     void Start()
     {
         DOTween.Init();
@@ -32,6 +33,7 @@ public class ShopPopup : MonoBehaviour
     public void Show()
     {
         BlackBack.gameObject.SetActive(true);
+        audioSource.Play();
         
         walkCam.moveDistance = 100;
         walkCam.moveDuration = 1f;

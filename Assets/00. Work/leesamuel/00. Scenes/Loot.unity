@@ -497,35 +497,44 @@ MonoBehaviour:
   Coin_Spown_point: {fileID: 756834156}
   _coinPrefab: {fileID: 2001689316861808664, guid: cfc31c3ad07261d4ebd4ac3e6662b8db, type: 3}
   _commonCoinDatas:
-  - {fileID: 11400000, guid: 4422f1c4a44631f4a80e1781d8ef2e5f, type: 2}
-  - {fileID: 11400000, guid: 4d67fbbea1d02fb488c63d6260a7fe9f, type: 2}
+  - {fileID: 11400000, guid: 9fa3cbacd66a2f94cbfd2baaf239071e, type: 2}
+  - {fileID: 11400000, guid: 16524be4c43bfea43a809becf9f0cc5f, type: 2}
   - {fileID: 11400000, guid: c2fa227f74648dd46b54681d86701440, type: 2}
   - {fileID: 11400000, guid: f16f96c19ad07294eb0bad6f0010c481, type: 2}
-  - {fileID: 11400000, guid: cd550dcc671d4224991918876091a699, type: 2}
-  - {fileID: 11400000, guid: d7bf94687914a604d88d779a59eea97a, type: 2}
+  - {fileID: 11400000, guid: 39a0721d67496e348b64fecab35f1386, type: 2}
+  - {fileID: 11400000, guid: 4f31ae2b15d5e5842ba6437f4fe0eed3, type: 2}
+  - {fileID: 11400000, guid: e58c648cd2c8a3248ad155cc156f224c, type: 2}
+  - {fileID: 11400000, guid: 8562a525d8c25a84eab0b831afd18f4e, type: 2}
+  - {fileID: 11400000, guid: ed2e490aac8c3fc4b9586f8ec18c7759, type: 2}
+  - {fileID: 11400000, guid: b2301d679df256a419463029c839ee2c, type: 2}
   - {fileID: 11400000, guid: be697d1a6d976b240a3ebf3cc203baed, type: 2}
   - {fileID: 11400000, guid: 0e4e88c82ab6fb7488eaef7cc91c7c28, type: 2}
   - {fileID: 11400000, guid: 7f52bc142cdea614d934da2ccd636128, type: 2}
-  - {fileID: 11400000, guid: 39a0721d67496e348b64fecab35f1386, type: 2}
-  - {fileID: 11400000, guid: 4f31ae2b15d5e5842ba6437f4fe0eed3, type: 2}
-  - {fileID: 11400000, guid: 60e81fb578f55aa4e8f1ace1e2c1fc19, type: 2}
   _rareCoinDatas:
-  - {fileID: 11400000, guid: b923f7b2003d25c4fa8f339cd65b7223, type: 2}
-  - {fileID: 11400000, guid: c2541c4875bd462458c1d62695e806b7, type: 2}
-  - {fileID: 11400000, guid: 3565049bb1f198440921da00573e01a1, type: 2}
-  - {fileID: 11400000, guid: 3a7629f026d28b646b2f783252fd3379, type: 2}
-  - {fileID: 11400000, guid: 1c6ffdbf29b169b48b44c061a7580064, type: 2}
-  - {fileID: 11400000, guid: 5da038495abbf9e4c82747248f69b7da, type: 2}
-  - {fileID: 11400000, guid: c2d0f69995485394294cdbaa890e173a, type: 2}
-  - {fileID: 11400000, guid: b8a4aeddce3b56340b138ace4b2342c8, type: 2}
+  - {fileID: 11400000, guid: 449a4721ba212be4499839815dbac187, type: 2}
   - {fileID: 11400000, guid: ea013fb125294f34b901efcd1d437f84, type: 2}
   - {fileID: 11400000, guid: d7bf94687914a604d88d779a59eea97a, type: 2}
-  - {fileID: 11400000, guid: 449a4721ba212be4499839815dbac187, type: 2}
+  - {fileID: 11400000, guid: 3565049bb1f198440921da00573e01a1, type: 2}
+  - {fileID: 11400000, guid: b923f7b2003d25c4fa8f339cd65b7223, type: 2}
+  - {fileID: 11400000, guid: 60e81fb578f55aa4e8f1ace1e2c1fc19, type: 2}
+  - {fileID: 11400000, guid: c2541c4875bd462458c1d62695e806b7, type: 2}
+  - {fileID: 11400000, guid: 090bec74dea18a94ea33b63b524b3a18, type: 2}
+  - {fileID: 11400000, guid: 0e56ac82131b5fb42ab19f423978f799, type: 2}
+  - {fileID: 11400000, guid: 1c6ffdbf29b169b48b44c061a7580064, type: 2}
+  - {fileID: 11400000, guid: 3a7629f026d28b646b2f783252fd3379, type: 2}
+  - {fileID: 11400000, guid: 5da038495abbf9e4c82747248f69b7da, type: 2}
+  - {fileID: 11400000, guid: c2d0f69995485394294cdbaa890e173a, type: 2}
   _legendaryCoinDatas:
-  - {fileID: 11400000, guid: d7bf94687914a604d88d779a59eea97a, type: 2}
-  Common_probability: 100
-  Rare_probability: 0
-  Legendery_probability: 0
+  - {fileID: 11400000, guid: 99370bc6fab3aca4d93d8f7b5e665fbc, type: 2}
+  - {fileID: 11400000, guid: ca3f70233cde708419b56beb85f8c10f, type: 2}
+  - {fileID: 11400000, guid: f5955dcf631ff2748b062f5bd5f2aace, type: 2}
+  - {fileID: 11400000, guid: dca964507d4e8cc43ade63f0c3ec4abd, type: 2}
+  - {fileID: 11400000, guid: 1b958b3064a72ff408a568abc44960bd, type: 2}
+  - {fileID: 11400000, guid: fdf4952953be04742b44ad52028cce8a, type: 2}
+  - {fileID: 11400000, guid: 97abc9cda58693c439f7abf3ae4f2192, type: 2}
+  Common_probability: 61
+  Rare_probability: 36
+  Legendery_probability: 3
 --- !u!4 &756834158
 Transform:
   m_ObjectHideFlags: 0
@@ -575,8 +584,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 161, y: -28.7}
-  m_SizeDelta: {x: 10.07, y: 40.34}
+  m_AnchoredPosition: {x: 165, y: -40}
+  m_SizeDelta: {x: 10, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1245203602
 MonoBehaviour:
@@ -625,8 +634,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -974,8 +983,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 250.78, y: -223}
-  m_SizeDelta: {x: 247.36, y: 307.95}
+  m_AnchoredPosition: {x: 256, y: -222}
+  m_SizeDelta: {x: 250, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1417505293
 MonoBehaviour:
@@ -1091,6 +1100,7 @@ GameObject:
   - component: {fileID: 1458408393}
   - component: {fileID: 1458408392}
   - component: {fileID: 1458408391}
+  - component: {fileID: 1458408397}
   m_Layer: 5
   m_Name: ShowChipCanvas
   m_TagString: Untagged
@@ -1213,6 +1223,103 @@ RectTransform:
   m_AnchoredPosition: {x: 0.05, y: -0.05}
   m_SizeDelta: {x: 1920.0001, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!82 &1458408397
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458408390}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 1837772058307988523, guid: 2b6149b90afad9541a4ed78fc9ebfa5a, type: 2}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 6d5ef26089b6c2443b1d6ab4d5130c84, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1489306872
 GameObject:
   m_ObjectHideFlags: 0
@@ -1770,7 +1877,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1742953311
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1852,6 +1959,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1823158009}
   - component: {fileID: 1823158008}
+  - component: {fileID: 1823158010}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -1929,6 +2037,103 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1823158010
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1823158007}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 8738940247941587986, guid: 2b6149b90afad9541a4ed78fc9ebfa5a, type: 2}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 2051e5f78eac8a34da9a9f8b13a74d5f, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.6
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1848473660
 GameObject:
   m_ObjectHideFlags: 0
@@ -2031,7 +2236,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "3\uAC1C\uB9CC \uAC00\uC838\uAC00\uC138\uC694!"
+  m_text: "\uAC00\uC838\uAC08 \uCE69 3\uAC1C\uB97C \uC120\uD0DD\uD558\uC138\uC694!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 70c68ae835da617428035ac767dd3966, type: 2}
   m_sharedMaterial: {fileID: 6795064112359760801, guid: 70c68ae835da617428035ac767dd3966, type: 2}
@@ -2254,8 +2459,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 57.27, y: -48.24}
-  m_SizeDelta: {x: 135.95, y: 75.99}
+  m_AnchoredPosition: {x: 60, y: -60}
+  m_SizeDelta: {x: 180, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1859975259
 MonoBehaviour:

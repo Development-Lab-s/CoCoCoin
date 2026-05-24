@@ -1,21 +1,24 @@
+using System;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class EffectGOJO : MonoBehaviour
 {
     private Image image;
+    [SerializeField] private GameObject killthem;
     private void Awake()
     {
         image = GetComponent<Image>();
     }
 
-    private void Update()
+    private void Start()
     {
-        Color color = image.color;
-        if (color.a < 255)
-        {
-            color.a += Time.deltaTime;
-        }
-        image.color = color;
+        Sequence seq =  DOTween.Sequence();
+        
+        seq.Append(image.DOFade(1f, 0.5f));
+        seq.AppendInterval(1f);
+        seq.Append(image.DOFade(0f, 0.5f));
+        seq.AppendCallback(()=>Destroy(killthem));
     }
 }

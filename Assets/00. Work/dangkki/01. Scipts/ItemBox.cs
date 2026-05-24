@@ -1,7 +1,6 @@
 using System;
 using TMPro;
 using Unity.VisualScripting;
-using UnityEditor.Rendering;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -35,7 +34,7 @@ public class ItemBox : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragH
                 nameText.color = Color.white;
                 break;
             case "Rare":
-                nameText.color = Color.green;
+                nameText.color = Color.cyan;
                 break;
             case "Legendary":
                 nameText.color = Color.yellow;

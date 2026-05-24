@@ -1,0 +1,1755 @@
+fileFormatVersion: 2
+guid: d013fb0715c262e44abd6fbf6f41f79c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6748727141865887471
+    second: Legendery_Coins_0
+  - first:
+      213: 8461252319450162227
+    second: Legendery_Coins_1
+  - first:
+      213: -3396085078059822793
+    second: Legendery_Coins_2
+  - first:
+      213: 5238371965148354813
+    second: Legendery_Coins_3
+  - first:
+      213: -3509946681835740404
+    second: Legendery_Coins_4
+  - first:
+      213: -5012078101562413193
+    second: Legendery_Coins_5
+  - first:
+      213: 3840439188687189901
+    second: Legendery_Coins_6
+  - first:
+      213: 1138138826702464021
+    second: Legendery_Coins_7
+  - first:
+      213: 3846851385657178423
+    second: Legendery_Coins_8
+  - first:
+      213: 4190746473716331458
+    second: Legendery_Coins_9
+  - first:
+      213: -5643082950684323005
+    second: Legendery_Coins_10
+  - first:
+      213: 5279074880266799086
+    second: Legendery_Coins_11
+  - first:
+      213: -5919368043341734974
+    second: Legendery_Coins_12
+  - first:
+      213: -4262379000150607278
+    second: Legendery_Coins_13
+  - first:
+      213: 6835756141903201565
+    second: Legendery_Coins_14
+  - first:
+      213: 2347966965639494823
+    second: Legendery_Coins_15
+  - first:
+      213: 7050962355968513689
+    second: Legendery_Coins_16
+  - first:
+      213: -6314987532499508120
+    second: Legendery_Coins_17
+  - first:
+      213: -6845093525404290014
+    second: Legendery_Coins_18
+  - first:
+      213: 5852118210208369447
+    second: Legendery_Coins_19
+  - first:
+      213: 1079421857302343506
+    second: Legendery_Coins_20
+  - first:
+      213: -3661605495183424867
+    second: Legendery_Coins_21
+  - first:
+      213: -3977282906185489467
+    second: Legendery_Coins_22
+  - first:
+      213: 7271479514225872751
+    second: Legendery_Coins_23
+  - first:
+      213: -8943800878862275211
+    second: Legendery_Coins_24
+  - first:
+      213: 8034791575497815196
+    second: Legendery_Coins_25
+  - first:
+      213: 3143664856146923672
+    second: Legendery_Coins_26
+  - first:
+      213: -5022929574124572402
+    second: Legendery_Coins_27
+  - first:
+      213: 5868497073775950934
+    second: Legendery_Coins_28
+  - first:
+      213: 6571141043770181366
+    second: Legendery_Coins_29
+  - first:
+      213: -4556808663524808591
+    second: Legendery_Coins_30
+  - first:
+      213: 6273852228445404458
+    second: Legendery_Coins_31
+  - first:
+      213: -6773671175061294287
+    second: Legendery_Coins_32
+  - first:
+      213: -1865517912236279422
+    second: Legendery_Coins_33
+  - first:
+      213: 1168856331671993794
+    second: Legendery_Coins_34
+  - first:
+      213: -6384714965322027568
+    second: Legendery_Coins_35
+  - first:
+      213: 4157643067792712393
+    second: Legendery_Coins_36
+  - first:
+      213: 2445648683858048227
+    second: Legendery_Coins_37
+  - first:
+      213: -7469082936184836549
+    second: Legendery_Coins_38
+  - first:
+      213: 2244697351728522790
+    second: Legendery_Coins_39
+  - first:
+      213: 6643919722719185206
+    second: Legendery_Coins_40
+  - first:
+      213: -353556593030522456
+    second: Legendery_Coins_41
+  - first:
+      213: -5873786106501958160
+    second: Legendery_Coins_42
+  - first:
+      213: -6157709274093650557
+    second: Legendery_Coins_43
+  - first:
+      213: 8714114141738983787
+    second: Legendery_Coins_44
+  - first:
+      213: 4983320343376301141
+    second: Legendery_Coins_45
+  - first:
+      213: 7460336328075509356
+    second: Legendery_Coins_46
+  - first:
+      213: 2866101062245831785
+    second: Legendery_Coins_47
+  - first:
+      213: -4653212554547198049
+    second: Legendery_Coins_48
+  - first:
+      213: 2354455129426304885
+    second: Legendery_Coins_49
+  - first:
+      213: -5256752695583202041
+    second: Legendery_Coins_50
+  - first:
+      213: 6890868404071183929
+    second: Legendery_Coins_51
+  - first:
+      213: -429353240996890684
+    second: Legendery_Coins_52
+  - first:
+      213: -1945894161656997023
+    second: Legendery_Coins_53
+  - first:
+      213: -5848858980355299976
+    second: Legendery_Coins_54
+  - first:
+      213: -4419657158472782984
+    second: Legendery_Coins_55
+  - first:
+      213: -4419301805014489329
+    second: Legendery_Coins_56
+  - first:
+      213: 6903992388825692794
+    second: Legendery_Coins_57
+  - first:
+      213: -8823228704400043129
+    second: Legendery_Coins_58
+  - first:
+      213: -1120511289604857119
+    second: Legendery_Coins_59
+  - first:
+      213: -3477088722173757774
+    second: Legendery_Coins_60
+  - first:
+      213: 9138626509125944774
+    second: Legendery_Coins_61
+  - first:
+      213: 3393641588279919034
+    second: Legendery_Coins_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70e7b44d8ed5d644ab11ac533623ab2
+      internalID: -830429444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_1
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c40b5625fa3f474b962561b566f7b70
+      internalID: -725374900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_2
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8efe287f1772c174183e9a61461f332f
+      internalID: 1652047472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_3
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9209a98d1bb0a1d4c8a849d47952c6b6
+      internalID: 836096239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_4
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6725e8e9b6fbc4d9132f32ca088b77
+      internalID: -102400599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_5
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 975
+        width: 212
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13bac4701649bf548913683405397082
+      internalID: 1539170996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_6
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4c0a553e8315449b6e6f76f4ada65e
+      internalID: -102929380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_7
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff81ed81be3b1742a8e07362add3c2e
+      internalID: 2139666019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_8
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 960
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57005f43b54aca247b7021a60a25f616
+      internalID: 1305771697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49466ddcfd00c934f9f88b13974563d8
+      internalID: 1812466681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_10
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9baa9eee1cab074b9f7be6bc3d35e94
+      internalID: 664829863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_11
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2aecf98c4bb1848be4bc49d2611833
+      internalID: 567750662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_12
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29e0091b350e0045876b74e7fcb4835
+      internalID: 1800861428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_13
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e99199436f82f74791284679e0de8eb
+      internalID: 652734981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_14
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10142032489fed64e9735710900785c0
+      internalID: 502577382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_15
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3182d560dad2044a86c2f67d02f476
+      internalID: 2052385910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_16
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae06336df295454d82f75049fa33040
+      internalID: 207208907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_17
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 840
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0913ee424282094ab55dc0b4274c002
+      internalID: -610918378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6429143e182e641858500aa51ce8b6
+      internalID: 2118455271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_19
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a532c2dd7cd8c554c8d794e91111e152
+      internalID: -1556632024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_20
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30893e51468f474cbf16b1111a54176
+      internalID: 988525669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_21
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab915e70ba70393409c98a6fd88bf50e
+      internalID: -994261476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_22
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea6d5b5de5771e4bab29fd49e01ec61
+      internalID: -2003655063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_23
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 733
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e354a0b65f983b49aa8eec0b7bf13fb
+      internalID: -1377760232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_24
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da9d824b02e5584b92a107acd268ae9
+      internalID: 1333061928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_25
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8cb5fd03cb5034db7f183e3445ca2c
+      internalID: 1680014930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_26
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 720
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16b04b6f6cbdd046bb583d0dd244849
+      internalID: -16583211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52eaef47eadcd264180cf75ef4f73663
+      internalID: -2943019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_28
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c87893534c4344a94b4ff95143324e
+      internalID: -1195988070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_29
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7280503247170459be8d491f4abe9b
+      internalID: 196543989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_30
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6427be983dfac924d821966811af8cad
+      internalID: 785205301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_31
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8efacac8c7cbf454e88b6ee9d0d1497a
+      internalID: -538554961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_32
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 613
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90346b07bc1097b49b8bc214803051a6
+      internalID: -502576997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_33
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03b142512344a848a4e5041f0d1b972
+      internalID: -887698388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_34
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2456e8eef4185364bbe344f63b7e69b4
+      internalID: 1278293649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_35
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 600
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2216e3c1c4e45e64e875a807dcb1d7dd
+      internalID: 267248893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d915d02d8d4cf4f96bfeb32e79d13d
+      internalID: -2026153870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_37
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4709d41632c44429173b852575e9bd
+      internalID: 337866749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_38
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc055a1ef706dff429b7bc90ec35ac0e
+      internalID: -1283350732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_39
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1270af7965c6d4d945e164336dd145
+      internalID: 501819779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_40
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d98a1a616a67d4581ab5733b26cce6
+      internalID: 1831083943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_41
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 493
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec63b90a18aec0246970c6ff4b48f6e4
+      internalID: -679135027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_42
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99aa1eb86d582d43b2e96e0dc2d52a7
+      internalID: 1545843029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_43
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c7d9069b28e844b86b0f3671870236
+      internalID: -326648472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_44
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 480
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ca2e830df68544e833dd43b4089447
+      internalID: 1415661606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d602404c4d7e7041a55ada0e13c39c7
+      internalID: 561227871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_46
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32623b31765fff4aad8e0f252431b69
+      internalID: -1164651553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_47
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2b8d62a3026324a9a67ca402188b08
+      internalID: 1869585654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_48
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e4a5762925cd04baec951c04a02141
+      internalID: 1808851954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_49
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f09fa32ced82f408c2feb0d3598357
+      internalID: 1922595406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_50
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 362
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51413ef5c3e9b1459293e44f3d7d73d
+      internalID: 77796185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_51
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa16a6be3b9d9243952b239053ebb7a
+      internalID: -1434187380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_52
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16af17b4d1d0c0e42b2c938680338240
+      internalID: -459781102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_53
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 360
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7ecad82e5e25f4b8fa2b93812432ca
+      internalID: 1268231411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca5eb657ef7d244fa8ee00c3d48c0fe
+      internalID: 868686738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_55
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5116012b67cb644584a5dd5b6e6ffe6
+      internalID: 567861254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_56
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd5aca0b7e8a3f4689735b94d39f23f
+      internalID: 1448489357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_57
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065319e8e78d0e04589a678ebfe77283
+      internalID: 1490786524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_58
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4b753ba33d4754496f3bf578380ca8
+      internalID: -356091698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_59
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 242
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f11d31a9578cf429c03dc02e414a70
+      internalID: 1218126175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_60
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13aba211450776c479ae1c03254bbcb4
+      internalID: 352665288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_61
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c478edc9699ba3b40827ff7699e5663e
+      internalID: -1607480893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RegenderyCoins UpsideDown_62
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 240
+        width: 212
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc1fb2911f20634ca57858a4936936c
+      internalID: 904101582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7defc9f0a3ced8f4d9c71f8f7ce18a63
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RegenderyCoins UpsideDown_0: -830429444
+      RegenderyCoins UpsideDown_1: -725374900
+      RegenderyCoins UpsideDown_10: 664829863
+      RegenderyCoins UpsideDown_11: 567750662
+      RegenderyCoins UpsideDown_12: 1800861428
+      RegenderyCoins UpsideDown_13: 652734981
+      RegenderyCoins UpsideDown_14: 502577382
+      RegenderyCoins UpsideDown_15: 2052385910
+      RegenderyCoins UpsideDown_16: 207208907
+      RegenderyCoins UpsideDown_17: -610918378
+      RegenderyCoins UpsideDown_18: 2118455271
+      RegenderyCoins UpsideDown_19: -1556632024
+      RegenderyCoins UpsideDown_2: 1652047472
+      RegenderyCoins UpsideDown_20: 988525669
+      RegenderyCoins UpsideDown_21: -994261476
+      RegenderyCoins UpsideDown_22: -2003655063
+      RegenderyCoins UpsideDown_23: -1377760232
+      RegenderyCoins UpsideDown_24: 1333061928
+      RegenderyCoins UpsideDown_25: 1680014930
+      RegenderyCoins UpsideDown_26: -16583211
+      RegenderyCoins UpsideDown_27: -2943019
+      RegenderyCoins UpsideDown_28: -1195988070
+      RegenderyCoins UpsideDown_29: 196543989
+      RegenderyCoins UpsideDown_3: 836096239
+      RegenderyCoins UpsideDown_30: 785205301
+      RegenderyCoins UpsideDown_31: -538554961
+      RegenderyCoins UpsideDown_32: -502576997
+      RegenderyCoins UpsideDown_33: -887698388
+      RegenderyCoins UpsideDown_34: 1278293649
+      RegenderyCoins UpsideDown_35: 267248893
+      RegenderyCoins UpsideDown_36: -2026153870
+      RegenderyCoins UpsideDown_37: 337866749
+      RegenderyCoins UpsideDown_38: -1283350732
+      RegenderyCoins UpsideDown_39: 501819779
+      RegenderyCoins UpsideDown_4: -102400599
+      RegenderyCoins UpsideDown_40: 1831083943
+      RegenderyCoins UpsideDown_41: -679135027
+      RegenderyCoins UpsideDown_42: 1545843029
+      RegenderyCoins UpsideDown_43: -326648472
+      RegenderyCoins UpsideDown_44: 1415661606
+      RegenderyCoins UpsideDown_45: 561227871
+      RegenderyCoins UpsideDown_46: -1164651553
+      RegenderyCoins UpsideDown_47: 1869585654
+      RegenderyCoins UpsideDown_48: 1808851954
+      RegenderyCoins UpsideDown_49: 1922595406
+      RegenderyCoins UpsideDown_5: 1539170996
+      RegenderyCoins UpsideDown_50: 77796185
+      RegenderyCoins UpsideDown_51: -1434187380
+      RegenderyCoins UpsideDown_52: -459781102
+      RegenderyCoins UpsideDown_53: 1268231411
+      RegenderyCoins UpsideDown_54: 868686738
+      RegenderyCoins UpsideDown_55: 567861254
+      RegenderyCoins UpsideDown_56: 1448489357
+      RegenderyCoins UpsideDown_57: 1490786524
+      RegenderyCoins UpsideDown_58: -356091698
+      RegenderyCoins UpsideDown_59: 1218126175
+      RegenderyCoins UpsideDown_6: -102929380
+      RegenderyCoins UpsideDown_60: 352665288
+      RegenderyCoins UpsideDown_61: -1607480893
+      RegenderyCoins UpsideDown_62: 904101582
+      RegenderyCoins UpsideDown_7: 2139666019
+      RegenderyCoins UpsideDown_8: 1305771697
+      RegenderyCoins UpsideDown_9: 1812466681
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

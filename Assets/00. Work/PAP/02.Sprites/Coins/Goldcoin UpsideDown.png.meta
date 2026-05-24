@@ -453,10 +453,10 @@ TextureImporter:
       name: Goldcoin UpsideDown_5
       rect:
         serializedVersion: 2
-        x: 1060
-        y: 960
+        x: 1058
+        y: 970
         width: 212
-        height: 120
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -651,8 +651,8 @@ TextureImporter:
       name: Goldcoin UpsideDown_14
       rect:
         serializedVersion: 2
-        x: 1060
-        y: 840
+        x: 1058
+        y: 850
         width: 212
         height: 120
       alignment: 0
@@ -849,8 +849,8 @@ TextureImporter:
       name: Goldcoin UpsideDown_23
       rect:
         serializedVersion: 2
-        x: 1060
-        y: 720
+        x: 1058
+        y: 730
         width: 212
         height: 120
       alignment: 0
@@ -1047,8 +1047,8 @@ TextureImporter:
       name: Goldcoin UpsideDown_32
       rect:
         serializedVersion: 2
-        x: 1060
-        y: 600
+        x: 1058
+        y: 610
         width: 212
         height: 120
       alignment: 0
@@ -1245,8 +1245,8 @@ TextureImporter:
       name: Goldcoin UpsideDown_41
       rect:
         serializedVersion: 2
-        x: 1060
-        y: 480
+        x: 1058
+        y: 490
         width: 212
         height: 120
       alignment: 0
@@ -1443,8 +1443,8 @@ TextureImporter:
       name: Goldcoin UpsideDown_50
       rect:
         serializedVersion: 2
-        x: 1060
-        y: 360
+        x: 1058
+        y: 370
         width: 212
         height: 120
       alignment: 0
@@ -1641,8 +1641,8 @@ TextureImporter:
       name: Goldcoin UpsideDown_59
       rect:
         serializedVersion: 2
-        x: 1060
-        y: 240
+        x: 1058
+        y: 250
         width: 212
         height: 120
       alignment: 0
@@ -1839,8 +1839,8 @@ TextureImporter:
       name: Goldcoin UpsideDown_68
       rect:
         serializedVersion: 2
-        x: 1060
-        y: 120
+        x: 1058
+        y: 130
         width: 212
         height: 120
       alignment: 0
@@ -2037,8 +2037,8 @@ TextureImporter:
       name: Goldcoin UpsideDown_77
       rect:
         serializedVersion: 2
-        x: 1060
-        y: 0
+        x: 1058
+        y: 10
         width: 212
         height: 120
       alignment: 0

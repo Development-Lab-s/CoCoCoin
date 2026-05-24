@@ -16,7 +16,7 @@ public class ShopOwner : MonoBehaviour
         Sequence seq = DOTween.Sequence();
         seq.Append(transform.DOLocalMoveY(-50f, 1f).SetEase(Ease.OutBack, 0.5f, 1).OnComplete(() =>
         {
-            bubble.Play();
+            bubble.Play("안녕하세요!");
         }).SetDelay(0.3f));
         seq.Play();
     }

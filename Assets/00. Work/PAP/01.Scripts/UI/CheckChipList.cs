@@ -11,6 +11,7 @@ public class CheckChipList : MonoBehaviour
     [SerializeField] InventoryToolTip toolTip;
     [SerializeField] RectTransform moveModelRTrm;
     [SerializeField] private InventorySO inventoryData;
+    private AudioSource audio;
 
     private Vector3 moveModelOriginPos;
     private Vector3 moveModelNewPos;
@@ -23,7 +24,10 @@ public class CheckChipList : MonoBehaviour
 
     [SerializeField] private bool isBattle = true;
 
-
+    private void Awake()
+    {
+        audio = GetComponent<AudioSource>();
+    }
     private void Start()
     {
         
@@ -90,6 +94,7 @@ public class CheckChipList : MonoBehaviour
         }
         else
         {
+            audio.Play();
             SettingChips();
             moveModelRTrm.position = moveModelNewPos;
             moveModelRTrm.gameObject.SetActive(true);
