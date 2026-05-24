@@ -399,10 +399,15 @@ TextureImporter:
       name: CasinoCoin UpsideDown_5
       rect:
         serializedVersion: 2
+<<<<<<< Updated upstream
         x: 1060
         y: 960
+=======
+        x: 1064
+        y: 963
+>>>>>>> Stashed changes
         width: 212
-        height: 120
+        height: 117
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -598,7 +603,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1060
+<<<<<<< Updated upstream
         y: 840
+=======
+        y: 842
+>>>>>>> Stashed changes
         width: 212
         height: 120
       alignment: 0
@@ -1588,7 +1597,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1060
+<<<<<<< Updated upstream
         y: 240
+=======
+        y: 237
+>>>>>>> Stashed changes
         width: 212
         height: 120
       alignment: 0

@@ -454,9 +454,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1060
-        y: 967
+        y: 960
         width: 212
-        height: 113
+        height: 120
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -652,7 +652,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1060
-        y: 847
+        y: 840
         width: 212
         height: 120
       alignment: 0
@@ -850,7 +850,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1060
-        y: 727
+        y: 722
         width: 212
         height: 120
       alignment: 0
@@ -1048,7 +1048,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1060
-        y: 607
+        y: 602
         width: 212
         height: 120
       alignment: 0
@@ -1245,8 +1245,8 @@ TextureImporter:
       name: SilverCoin UpsideDown_41
       rect:
         serializedVersion: 2
-        x: 1061
-        y: 487
+        x: 1060
+        y: 482
         width: 212
         height: 120
       alignment: 0
@@ -1444,7 +1444,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1060
-        y: 367
+        y: 362
         width: 212
         height: 120
       alignment: 0
@@ -1642,7 +1642,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1060
-        y: 247
+        y: 242
         width: 212
         height: 120
       alignment: 0
@@ -1685,8 +1685,8 @@ TextureImporter:
       name: SilverCoin UpsideDown_61
       rect:
         serializedVersion: 2
-        x: 1484
-        y: 240
+        x: 1485
+        y: 239
         width: 212
         height: 120
       alignment: 0
@@ -1840,7 +1840,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1060
-        y: 127
+        y: 122
         width: 212
         height: 120
       alignment: 0
@@ -2038,7 +2038,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1060
-        y: 7
+        y: 2
         width: 212
         height: 120
       alignment: 0
