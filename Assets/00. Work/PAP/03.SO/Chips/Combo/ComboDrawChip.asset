@@ -17,8 +17,8 @@ MonoBehaviour:
     \uD55C\uC7A5 \uBF51\uC2B5\uB2C8\uB2E4.\n\n<color=#999999>[50% \uB4B7\uBA74]</color>\nX"
   Sprite: {fileID: -5006437576945231258, guid: 8b18449ed72274741823c545fa16422b, type: 3}
   SpriteOnInventory: {fileID: -5900379140426500668, guid: 8b18449ed72274741823c545fa16422b, type: 3}
-  SpriteOnStack: {fileID: 6943991743506428863, guid: 8b18449ed72274741823c545fa16422b, type: 3}
-  SpriteOnBack: {fileID: -9080982819073997229, guid: 16ae373521144504aa5b0e9d8eca1702, type: 3}
+  SpriteOnStack: {fileID: -9080982819073997229, guid: 16ae373521144504aa5b0e9d8eca1702, type: 3}
+  SpriteOnBack: {fileID: 6943991743506428863, guid: 8b18449ed72274741823c545fa16422b, type: 3}
   ChipEncounter: {fileID: 11400000, guid: bcc00a4fb5f5f244c86044596a106ae5, type: 2}
   spriteLibrary: {fileID: 7108339969198208228, guid: b9c881ce0a5c3924c97fcb9606ec572d, type: 3}
   rarity: 0

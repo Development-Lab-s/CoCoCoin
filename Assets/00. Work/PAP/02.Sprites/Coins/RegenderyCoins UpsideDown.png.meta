@@ -399,10 +399,10 @@ TextureImporter:
       name: RegenderyCoins UpsideDown_5
       rect:
         serializedVersion: 2
-        x: 1068
-        y: 963
+        x: 1069
+        y: 975
         width: 212
-        height: 117
+        height: 105
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -598,7 +598,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1060
-        y: 843
+        y: 840
         width: 212
         height: 120
       alignment: 0
@@ -796,7 +796,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1060
-        y: 720
+        y: 733
         width: 212
         height: 120
       alignment: 0
@@ -994,7 +994,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1060
-        y: 600
+        y: 613
         width: 212
         height: 120
       alignment: 0
@@ -1192,7 +1192,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1060
-        y: 480
+        y: 493
         width: 212
         height: 120
       alignment: 0
@@ -1390,7 +1390,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1060
-        y: 350
+        y: 362
         width: 212
         height: 120
       alignment: 0
@@ -1587,8 +1587,8 @@ TextureImporter:
       name: RegenderyCoins UpsideDown_59
       rect:
         serializedVersion: 2
-        x: 1060
-        y: 230
+        x: 1061
+        y: 242
         width: 212
         height: 120
       alignment: 0
