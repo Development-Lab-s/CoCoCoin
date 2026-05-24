@@ -126,7 +126,7 @@ public class BattleManager : MonoBehaviour
     public InventoryItemSO DrawChip()
     {
         InventoryItemSO targetChip = null;
-        if (GameData.instance.amountDrawMax > nowChips.Count)
+        if (AmountDrawMax > nowChips.Count)
         {
             if (drawChips.Count <= 0) ShuffleChips();
             if (drawChips.Count <= 0)
