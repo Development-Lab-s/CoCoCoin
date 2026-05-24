@@ -20,7 +20,7 @@ public abstract class ChipEncounter : ScriptableObject
     public virtual bool FlipCoin(Player player, Enemy enemy) 
     {
         int randomValue = UnityEngine.Random.Range(0, 100);
-        return randomValue < (headChance);
+        return randomValue < (headChance-1);
     }
 
     public abstract void HeadChip(Player player, Enemy enemy);
